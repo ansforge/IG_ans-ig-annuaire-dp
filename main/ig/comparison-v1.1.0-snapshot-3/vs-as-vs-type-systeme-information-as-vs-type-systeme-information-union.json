@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5d782e4b-f570-49d0-bf94-310d1e6fb286-185",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5d782e4b-f570-49d0-bf94-310d1e6fb286-185",
+  "name" : "UnionAsVsTypeSystemeInformationVSAndAsVsTypeSystemeInformationVS",
+  "title" : "Union of AS ValueSet type de système d'information And AS ValueSet type de système d'information",
+  "status" : "active",
+  "date" : "2024-10-10T16:21:37+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }]
+}

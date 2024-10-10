@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5d782e4b-f570-49d0-bf94-310d1e6fb286-176",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5d782e4b-f570-49d0-bf94-310d1e6fb286-176",
+  "name" : "UnionVS_TRE_R74_ModeFixationTarifaireAndVS_TRE_R74_ModeFixationTarifaire",
+  "title" : "Union of ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire And ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
+  "status" : "active",
+  "date" : "2024-10-10T16:21:37+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }]
+}

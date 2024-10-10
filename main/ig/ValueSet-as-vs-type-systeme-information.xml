@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="as-vs-type-systeme-information"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet as-vs-type-systeme-information</b></p><a name="as-vs-type-systeme-information"> </a><a name="hcas-vs-type-systeme-information"> </a><a name="as-vs-type-systeme-information-fr-FR"> </a><ul><li>Include all codes defined in <a href="CodeSystem-as-cs-type-systeme-information.html"><code>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information</code></a></li></ul></div>
+  </text>
+  <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-systeme-information"/>
+  <version value="1.1.0-snapshot-4"/>
+  <name value="AsVsTypeSystemeInformationVS"/>
+  <title value="AS ValueSet type de système d'information"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-10-10T16:21:11+00:00"/>
+  <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+  <contact>
+    <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="monserviceclient.annuaire@esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="ValueSet définissant les types de systèmes d'information pouvant alimenter l'annuaire santé."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="FRANCE"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information"/>
+    </include>
+  </compose>
+</ValueSet>
