@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "fcf87627-15e1-4442-9b37-5390f88818ac-173",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/fcf87627-15e1-4442-9b37-5390f88818ac-173",
+  "id" : "6ce2fd7f-2707-4a42-8bd7-bce68197cf73-173",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6ce2fd7f-2707-4a42-8bd7-bce68197cf73-173",
   "name" : "UnionVS_TRE_R301_SourceInformationInstallationAndVS_TRE_R301_SourceInformationInstallation",
   "title" : "Union of ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation And ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
   "status" : "active",
-  "date" : "2024-10-10T16:27:19+00:00",
+  "date" : "2024-10-10T16:41:01+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
