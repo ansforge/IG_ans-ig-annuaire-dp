@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "5d782e4b-f570-49d0-bf94-310d1e6fb286-68",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5d782e4b-f570-49d0-bf94-310d1e6fb286-68",
+  "id" : "fcf87627-15e1-4442-9b37-5390f88818ac-68",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fcf87627-15e1-4442-9b37-5390f88818ac-68",
   "name" : "UnionAsDrPersonProfileAndAsDrPersonProfile",
   "title" : "Union of AS Donnée Restreinte Person Profile And AS Donnée Restreinte Person Profile",
   "status" : "active",
-  "date" : "2024-10-10T16:21:37+00:00",
+  "date" : "2024-10-10T16:27:19+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
