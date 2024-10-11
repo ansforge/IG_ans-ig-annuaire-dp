@@ -1,0 +1,178 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/annuaire/Practitioner/3719500> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "3719500"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "0.1" ] ;
+     fhir:lastUpdated [ fhir:v "2019-08-31T01:00:00.000+01:00"^^xsd:dateTime ] ;
+     fhir:source [ fhir:v "https://annuaire.sante.fr"^^xsd:anyURI ] ;
+     fhir:profile ( [
+       fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner"^^xsd:anyURI ;
+       fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner>
+     ] [
+       fhir:v "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-practitioner"^^xsd:anyURI ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-practitioner>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "fr"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr\" lang=\"fr\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner 3719500</b></p><a name=\"3719500\"> </a><a name=\"hc3719500\"> </a><a name=\"3719500-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0.1; Last updated: 2019-08-31 01:00:00+0100; Language: fr; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://annuaire.sante.fr\">https://annuaire.sante.fr</a></p><p style=\"margin-bottom: 0px\">Profiles: <a href=\"https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-practitioner.html\">FR Core Practitioner Profile</a>, <a href=\"StructureDefinition-as-dr-practitioner.html\">AS Donnée Restreinte Practitioner Profile</a></p></div><blockquote><p><b>AS Registration Extension</b></p><ul><li>isFirst: false</li><li>registeringOrganization: <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement CNOP}\">Ordre des pharmaciens</span></li><li>period: 2019-01-15 --&gt; (ongoing)</li><li>status: <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_R33-StatutInscription/FHIR/TRE-R33-StatutInscription D}\">Définitif</span></li></ul></blockquote><p><b>identifier</b>: Identifiant National de Professionnel de Santé/810102727017 (use: official, ), N° RPPS/10102727017 (use: official, )</p><p><b>active</b>: true</p><p><b>name</b>: David CHATELIER </p><p><b>telecom</b>: <a href=\"mailto:davidchatelier@pro.mssante.fr\">davidchatelier@pro.mssante.fr</a>, <a href=\"mailto:davidchatelier@orange.fr\">davidchatelier@orange.fr</a></p><p><b>address</b>: null 58400 LA-CHARITE-SUR-LOIRE 58400 99100 </p><p><b>gender</b>: Male</p><p><b>birthDate</b>: 1976-07-17</p><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais DE01}, {https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome DE}\">DE Pharmacien</span></p><p><b>period</b>: 2019-01-08 --&gt; (ongoing)</p><p><b>issuer</b>: <a href=\"Organization/u63\">Organization/u63</a></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante 21}, {https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle C}\">Pharmacien</span></p></blockquote><p><b>communication</b>: <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_G00-Langue/FHIR/TRE-G00-Langue fr}\">français</span></p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "isFirst"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:url [ fhir:v "registeringOrganization"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "CNOP" ]
+         ] )
+       ]
+     ] [
+       fhir:url [ fhir:v "period"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Period ;
+         fhir:start [ fhir:v "2019-01-15"^^xsd:date ]
+       ]
+     ] [
+       fhir:url [ fhir:v "status"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R33-StatutInscription/FHIR/TRE-R33-StatutInscription"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "D" ]
+         ] )
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-registration"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "IDNPS" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "urn:oid:1.2.250.1.71.4.2.1"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "810102727017" ]
+  ] [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "RPPS" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "https://rpps.esante.gouv.fr"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "10102727017" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "usual" ] ;
+     fhir:family [ fhir:v "CHATELIER" ] ;
+     fhir:given ( [ fhir:v "David" ] ) ;
+     fhir:prefix ( [ fhir:v "M" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R256-TypeMessagerie/FHIR/TRE-R256-TypeMessagerie"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "MSSANTE" ]
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:CodeableConcept ;
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R257-TypeBAL/FHIR/TRE-R257-TypeBAL"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "PER" ]
+           ] )
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-mailbox-mss-metadata"^^xsd:anyURI ]
+     ] ) ;
+     fhir:system [ fhir:v "email" ] ;
+     fhir:value [ fhir:v "davidchatelier@pro.mssante.fr" ] ;
+     fhir:rank [ fhir:v "1"^^xsd:positiveInteger ]
+  ] [
+     fhir:system [ fhir:v "email" ] ;
+     fhir:value [ fhir:v "davidchatelier@orange.fr" ]
+  ] ) ; # 
+  fhir:address ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "58059" ]
+       ]
+     ] ) ;
+     fhir:line ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "10" ]
+       ] [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "PL" ]
+       ] [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "DES PECHEURS" ]
+       ] )
+     ] ) ;
+     fhir:city [ fhir:v "58400 LA-CHARITE-SUR-LOIRE" ] ;
+     fhir:postalCode [ fhir:v "58400" ] ;
+     fhir:country [ fhir:v "99100" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "1976-07-17"^^xsd:date] ; # 
+  fhir:qualification ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DE01" ]
+       ] [
+         fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DE" ]
+       ] )
+     ] ;
+     fhir:period [
+       fhir:start [ fhir:v "2019-01-08"^^xsd:date ]
+     ] ;
+     fhir:issuer [
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/annuaire/Organization/u63> ;
+       fhir:reference [ fhir:v "Organization/u63" ]
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "21" ]
+       ] [
+         fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "C" ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:communication ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G00-Langue/FHIR/TRE-G00-Langue"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "fr" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

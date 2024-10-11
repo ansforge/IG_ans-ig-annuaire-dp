@@ -1,0 +1,81 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R286-TypeFermeture",
+      "version" : "1.1.0-snapshot-4",
+      "status" : "active",
+      "name" : "VS_TRE_R286_TypeFermeture",
+      "title" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+      "description" : "JDV des NOS contenant l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
+      ]
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R301-SourceInformationInstallation",
+      "version" : "1.1.0-snapshot-4",
+      "status" : "active",
+      "name" : "VS_TRE_R301_SourceInformationInstallation",
+      "title" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
+      "description" : "JDV des NOS contenant l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation"
+      ]
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R74-ModeFixationTarifaire",
+      "version" : "1.1.0-snapshot-4",
+      "status" : "active",
+      "name" : "VS_TRE_R74_ModeFixationTarifaire",
+      "title" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
+      "description" : "JDV des NOS contenant l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire"
+      ]
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-intern-id-systems",
+      "version" : "1.1.0-snapshot-4",
+      "status" : "active",
+      "name" : "AsVSInterneIdSystems",
+      "title" : "AS ValueSet Internal Identifier Systems",
+      "description" : "ValueSet contenant les identifiants internes",
+      "systems" : [
+        "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems"
+      ]
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-organization-types",
+      "version" : "1.1.0-snapshot-4",
+      "status" : "active",
+      "name" : "AsVsOrganizationTypes",
+      "title" : "AS ValueSet OrganizationTypes",
+      "description" : "ValueSet définissant les types d'organisation",
+      "systems" : [
+        "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types"
+      ]
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-etablissement",
+      "version" : "1.1.0-snapshot-4",
+      "status" : "active",
+      "name" : "AsVsTypeEtablissement",
+      "title" : "AS ValueSet type Etablissement",
+      "description" : "ValueSet définissant les types d'établissement.",
+      "systems" : [
+        "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement"
+      ]
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-systeme-information",
+      "version" : "1.1.0-snapshot-4",
+      "status" : "active",
+      "name" : "AsVsTypeSystemeInformationVS",
+      "title" : "AS ValueSet type de système d'information",
+      "description" : "ValueSet définissant les types de systèmes d'information pouvant alimenter l'annuaire santé.",
+      "systems" : [
+        "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="as-sp-data-information-system"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: SearchParameter as-sp-data-information-system</b></p><a name="as-sp-data-information-system"> </a><a name="hcas-sp-data-information-system"> </a><a name="as-sp-data-information-system-fr-FR"> </a><h2>AsDataInformationSystemSearchParameter</h2><p>Parameter <code>data-information-system</code>:<code>token</code></p><div><p>Paramètre de recherche pour récupérer une ressource par système d'information de provenance des données.</p>
+</div><table class="grid"><tr><td>Resources</td><td><a href="http://hl7.org/fhir/R4/organization.html">Organization</a>, <a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a>, <a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a>, <a href="http://hl7.org/fhir/R4/device.html">Device</a>, <a href="http://hl7.org/fhir/R4/healthcareservice.html">HealthcareService</a></td></tr><tr><td>Expression</td><td><code>extension.where(url='https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-data-trace').extension.where(url='systeme-information').value</code></td></tr><tr><td>Multiples</td><td><ul><li>multipleAnd: It's up to the server whether the parameter may repeat in order to specify multiple values that must all be true</li><li>multipleOr: It's up to the server whether the parameter can have multiple values (separated by comma) where at least one must be true</li></ul></td></tr></table></div>
+  </text>
+  <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/SearchParameter/as-sp-data-information-system"/>
+  <version value="1.1.0-snapshot-4"/>
+  <name value="AsDataInformationSystemSearchParameter"/>
+  <status value="active"/>
+  <date value="2024-10-11T07:56:35+00:00"/>
+  <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+  <contact>
+    <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="monserviceclient.annuaire@esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Paramètre de recherche pour récupérer une ressource par système d'information de provenance des données."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="FRANCE"/>
+    </coding>
+  </jurisdiction>
+  <code value="data-information-system"/>
+  <base value="Organization"/>
+  <base value="Practitioner"/>
+  <base value="PractitionerRole"/>
+  <base value="Device"/>
+  <base value="HealthcareService"/>
+  <type value="token"/>
+  <expression value="extension.where(url='https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-data-trace').extension.where(url='systeme-information').value"/>
+</SearchParameter>

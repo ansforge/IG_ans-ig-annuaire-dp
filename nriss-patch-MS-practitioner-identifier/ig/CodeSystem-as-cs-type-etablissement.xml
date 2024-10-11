@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="as-cs-type-etablissement"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem as-cs-type-etablissement</b></p><a name="as-cs-type-etablissement"> </a><a name="hcas-cs-type-etablissement"> </a><a name="as-cs-type-etablissement-fr-FR"> </a><p>This  code system <code>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">P<a name="as-cs-type-etablissement-P"> </a></td><td>Principal</td><td>Etablissement principal</td></tr><tr><td style="white-space:nowrap">S<a name="as-cs-type-etablissement-S"> </a></td><td>Secondaire</td><td>Etablissement secondaire</td></tr></table></div>
+  </text>
+  <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement"/>
+  <version value="1.1.0-snapshot-4"/>
+  <name value="AsCsTypeEtablissement"/>
+  <title value="AS CodeSystem Type Etablissement"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-10-11T07:56:35+00:00"/>
+  <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+  <contact>
+    <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="monserviceclient.annuaire@esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="CodeSystem définissant les types d'établissement."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="FRANCE"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="P"/>
+    <display value="Principal"/>
+    <definition value="Etablissement principal"/>
+  </concept>
+  <concept>
+    <code value="S"/>
+    <display value="Secondaire"/>
+    <definition value="Etablissement secondaire"/>
+  </concept>
+</CodeSystem>

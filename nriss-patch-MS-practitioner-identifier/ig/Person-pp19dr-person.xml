@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Person xmlns="http://hl7.org/fhir">
+  <id value="pp19dr-person"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-person"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Person pp19dr-person</b></p><a name="pp19dr-person"> </a><a name="hcpp19dr-person"> </a><a name="pp19dr-person-fr-FR"> </a><blockquote><p><b>AS Person Nationality Extension</b></p><ul><li>code: <span title="Codes:{https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays 99100}">République française</span></li></ul></blockquote><p><b>AS Person Birth Place Extension</b>: NANTES</p><p><b>name</b>: Artus Saucier (Official)</p><h3>Links</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Target</b></td></tr><tr><td style="display: none">*</td><td><a href="Practitioner-334081DP.html">Practitioner Arthur Saucier </a></td></tr></table></div>
+  </text>
+  <extension url="https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-person-nationality">
+    <extension url="code">
+      <valueCodeableConcept>
+        <coding>
+          <system value="https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays"/>
+          <code value="99100"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+  </extension>
+  <extension url="https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-person-birth-place">
+    <valueAddress>
+      <extension url="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code">
+        <valueCoding>
+          <system value="https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune"/>
+          <code value="44109"/>
+        </valueCoding>
+      </extension>
+      <text value="NANTES"/>
+      <country value="99100"/>
+    </valueAddress>
+  </extension>
+  <name>
+    <use value="official"/>
+    <family value="Saucier"/>
+    <given value="Artus"/>
+    <prefix value="M"/>
+  </name>
+  <link>
+    <target>
+      <reference value="Practitioner/334081DP"/>
+    </target>
+  </link>
+</Person>

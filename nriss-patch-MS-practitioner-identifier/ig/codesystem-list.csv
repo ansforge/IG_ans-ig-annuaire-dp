@@ -1,0 +1,5 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Used
+https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems,1.1.0-snapshot-4,active,,AsCSInterneIdSystems,AS CodeSystem Internal Identifier Systems,"CodeSystem contenant les identifiants locaux",
+https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types,1.1.0-snapshot-4,active,,AsCsOrganizationTypes,AS CodeSystem OrganizationTypes,"CodeSystem définissant les types d'organisation",
+https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement,1.1.0-snapshot-4,active,,AsCsTypeEtablissement,AS CodeSystem Type Etablissement,"CodeSystem définissant les types d'établissement.",
+https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information,1.1.0-snapshot-4,active,,AsCsTypeSystemeInformation,AS CodeSystem type de système d'information,"CodeSystem définissant les types de systèmes d'information pouvant alimenter l'annuaire santé.",

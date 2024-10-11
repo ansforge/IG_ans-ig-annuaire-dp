@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/annuaire/Person/pp16dr-person> a fhir:Person ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "pp16dr-person"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-person"^^xsd:anyURI ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-person>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Person pp16dr-person</b></p><a name=\"pp16dr-person\"> </a><a name=\"hcpp16dr-person\"> </a><a name=\"pp16dr-person-fr-FR\"> </a><blockquote><p><b>AS Person Nationality Extension</b></p><ul><li>code: <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays 99100}\">République française</span></li></ul></blockquote><p><b>AS Person Birth Place Extension</b>: COSNE-COURS-SUR-LOIRE</p><p><b>name</b>: David CHATELIER (Official)</p><h3>Links</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Target</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-3719500DP.html\">Practitioner David CHATELIER </a></td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "99100" ]
+         ] )
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-person-nationality"^^xsd:anyURI ]
+  ] [
+     fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-person-birth-place"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Address ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding ;
+           fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "58086" ]
+         ]
+       ] ) ;
+       fhir:text [ fhir:v "COSNE-COURS-SUR-LOIRE" ] ;
+       fhir:country [ fhir:v "99100" ]
+     ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:family [ fhir:v "CHATELIER" ] ;
+     fhir:given ( [ fhir:v "David" ] ) ;
+     fhir:prefix ( [ fhir:v "M" ] )
+  ] ) ; # 
+  fhir:link ( [
+     fhir:target [
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/annuaire/Practitioner/3719500DP> ;
+       fhir:reference [ fhir:v "Practitioner/3719500DP" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
