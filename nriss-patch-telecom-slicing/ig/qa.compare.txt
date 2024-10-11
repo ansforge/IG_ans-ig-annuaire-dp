@@ -1,7 +1,7 @@
 AnnuaireSante : Validation Results
 =========================================
 
-err = 31, warn = 75, info = 69
+err = 34, warn = 76, info = 67
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
  Build Errors : 2 / 24 / 0
@@ -11,14 +11,14 @@ Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https:
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-type-etablissement : 0 / 1 / 2
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-type-systeme-information : 0 / 1 / 2
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.annuaire : 0 / 0 / 1
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-158480 : 3 / 2 / 10
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-158480DP : 3 / 2 / 10
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-481677 : 0 / 0 / 8
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-158480 : 3 / 2 / 9
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-158480DP : 3 / 2 / 9
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-481677 : 1 / 0 / 8
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-481677DP : 0 / 0 / 6
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-548812 : 0 / 0 / 6
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-548812DP : 0 / 0 / 6
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-fictive : 3 / 1 / 5
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-nancy : 3 / 1 / 5
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-fictive : 4 / 1 / 5
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-nancy : 4 / 1 / 5
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Person-pp16dr-person : 1 / 1 / 4
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Person-pp19dr-person : 1 / 1 / 4
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-334081 : 5 / 1 / 10
@@ -83,7 +83,7 @@ Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https:
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-healthcareservice-healthcare-activity : 0 / 1 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-healthcareservice-social-equipment : 0 / 1 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-location : 0 / 1 / 1
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-mailbox-mss : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-mailbox-mss : 0 / 1 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-organization : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-person : 0 / 1 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-practitioner : 0 / 1 / 1
@@ -140,11 +140,10 @@ INFORMATION: CodeSystem/as-cs-type-systeme-information: CodeSystem: CodeSystems 
 WARNING: CodeSystem/as-cs-type-systeme-information: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/ImplementationGuide-ans.fhir.fr.annuaire.json ==
 == fsh-generated/resources/Organization-158480.json ==
-INFORMATION: Organization/158480: Organization.type[2]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Organization/158480: Organization.telecom[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Organization.telecom:mailbox-mss - the discriminator https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-organization|1.1.0-snapshot-4 does not have fixed value, binding or existence assertions
+ERROR: Organization/158480: Organization.telecom[1]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Organization.telecom:mailbox-mss - the discriminator https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-organization|1.1.0-snapshot-4 does not have fixed value, binding or existence assertions
 INFORMATION: Organization/158480: Organization.type[0]: Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307|2.1.0
 WARNING: Organization/158480: Organization.type[2].coding[0]: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5/' could not be found, so the code cannot be validated
-ERROR: Organization/158480: Organization.telecom[0].system: Value is 'phone' but must be 'email'
-ERROR: Organization/158480: Organization.telecom[1].system: Value is 'fax' but must be 'email'
 WARNING: Organization/158480: Organization.address[0].extension[0].value.ofType(Coding).system: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
 ERROR: Organization/158480: Organization.address[0].extension[0].value.ofType(Coding): The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#75114) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated; The provided code 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#75114' was not found in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0'
 INFORMATION: Organization/158480: Organization.address[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
@@ -152,11 +151,10 @@ INFORMATION: Organization/158480: Organization.address[0].line[0].extension[1].v
 INFORMATION: Organization/158480: Organization.type[2]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Organization/158480: Organization.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated/resources/Organization-158480DP.json ==
-INFORMATION: Organization/158480DP: Organization.type[2]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Organization/158480DP: Organization.telecom[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Organization.telecom:mailbox-mss - the discriminator https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-organization|1.1.0-snapshot-4 does not have fixed value, binding or existence assertions
+ERROR: Organization/158480DP: Organization.telecom[1]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Organization.telecom:mailbox-mss - the discriminator https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-organization|1.1.0-snapshot-4 does not have fixed value, binding or existence assertions
 INFORMATION: Organization/158480DP: Organization.type[0]: Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307|2.1.0
 WARNING: Organization/158480DP: Organization.type[2].coding[0]: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5/' could not be found, so the code cannot be validated
-ERROR: Organization/158480DP: Organization.telecom[0].system: Value is 'phone' but must be 'email'
-ERROR: Organization/158480DP: Organization.telecom[1].system: Value is 'fax' but must be 'email'
 WARNING: Organization/158480DP: Organization.address[0].extension[0].value.ofType(Coding).system: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
 ERROR: Organization/158480DP: Organization.address[0].extension[0].value.ofType(Coding): The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#75114) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated; The provided code 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#75114' was not found in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0'
 INFORMATION: Organization/158480DP: Organization.address[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
@@ -164,6 +162,7 @@ INFORMATION: Organization/158480DP: Organization.address[0].line[0].extension[1]
 INFORMATION: Organization/158480DP: Organization.type[2]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Organization/158480DP: Organization.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated/resources/Organization-481677.json ==
+ERROR: Organization/481677: Organization.telecom[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Organization.telecom:mailbox-mss - the discriminator https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-organization|1.1.0-snapshot-4 does not have fixed value, binding or existence assertions
 INFORMATION: Organization/481677: Organization.type[0]: Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307|2.1.0
 INFORMATION: Organization/481677: Organization.telecom[0].extension[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Organization/481677: Organization.telecom[0].extension[1]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
@@ -178,18 +177,20 @@ INFORMATION: Organization/548812: Organization.meta.profile[1]: This element doe
 INFORMATION: Organization/548812DP: Organization.type[0]: Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307|2.1.0
 INFORMATION: Organization/548812DP: Organization.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated/resources/Organization-example-organization-fictive.json ==
+ERROR: Organization/example-organization-fictive: Organization.telecom[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Organization.telecom:mailbox-mss - the discriminator https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 does not have fixed value, binding or existence assertions
+ERROR: Organization/example-organization-fictive: Organization.telecom[1]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Organization.telecom:mailbox-mss - the discriminator https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 does not have fixed value, binding or existence assertions
+ERROR: Organization/example-organization-fictive: Organization.telecom[2]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Organization.telecom:mailbox-mss - the discriminator https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 does not have fixed value, binding or existence assertions
 INFORMATION: Organization/example-organization-fictive: Organization.meta.profile[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Organization/example-organization-fictive: Organization.telecom[0].system: Value is 'phone' but must be 'email'
-ERROR: Organization/example-organization-fictive: Organization.telecom[1].system: Value is 'fax' but must be 'email'
 WARNING: Organization/example-organization-fictive: Organization.address[0].extension[0].value.ofType(Coding).system: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
 ERROR: Organization/example-organization-fictive: Organization.address[0].extension[0].value.ofType(Coding): The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#18000) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated; The provided code 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#18000' was not found in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0'
 INFORMATION: Organization/example-organization-fictive: Organization.address[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
 INFORMATION: Organization/example-organization-fictive: Organization.address[0].line[0].extension[0].value.ofType(string): Reference to retired CodeSystem https://mos.esante.gouv.fr/NOS/TRE_R35-TypeVoie/FHIR/TRE-R35-TypeVoie|1.3.0
 INFORMATION: Organization/example-organization-fictive: Organization.address[0].district: Reference to retired ValueSet https://mos.esante.gouv.fr/NOS/JDV_J84-DepartementOM-RASS/FHIR/JDV-J84-DepartementOM-RASS|1.3.0
 == fsh-generated/resources/Organization-example-organization-nancy.json ==
+ERROR: Organization/example-organization-nancy: Organization.telecom[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Organization.telecom:mailbox-mss - the discriminator https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 does not have fixed value, binding or existence assertions
+ERROR: Organization/example-organization-nancy: Organization.telecom[1]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Organization.telecom:mailbox-mss - the discriminator https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 does not have fixed value, binding or existence assertions
+ERROR: Organization/example-organization-nancy: Organization.telecom[2]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Organization.telecom:mailbox-mss - the discriminator https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 does not have fixed value, binding or existence assertions
 INFORMATION: Organization/example-organization-nancy: Organization.meta.profile[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Organization/example-organization-nancy: Organization.telecom[0].system: Value is 'phone' but must be 'email'
-ERROR: Organization/example-organization-nancy: Organization.telecom[1].system: Value is 'fax' but must be 'email'
 WARNING: Organization/example-organization-nancy: Organization.address[0].extension[0].value.ofType(Coding).system: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
 ERROR: Organization/example-organization-nancy: Organization.address[0].extension[0].value.ofType(Coding): The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#54547) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated; The provided code 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#54547' was not found in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0'
 INFORMATION: Organization/example-organization-nancy: Organization.address[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
@@ -349,6 +350,7 @@ WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir
 == fsh-generated/resources/StructureDefinition-as-location.json ==
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-location'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-as-mailbox-mss.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-as-organization.json ==
 == fsh-generated/resources/StructureDefinition-as-person.json ==
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-person'): The Implementation Guide contains no examples for this profile

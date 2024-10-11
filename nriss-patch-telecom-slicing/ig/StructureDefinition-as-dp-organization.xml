@@ -61,7 +61,7 @@ Il s’agit généralement de structures enregistrées temporairement par les or
   <name value="AsDpOrganizationProfile"/>
   <title value="AS Donnée Publique Organization Profile"/>
   <status value="active"/>
-  <date value="2024-10-11T14:18:11+00:00"/>
+  <date value="2024-10-11T14:28:17+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -8220,8 +8220,8 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       <path value="Organization.telecom"/>
       <slicing>
         <discriminator>
-          <type value="profile"/>
-          <path value="$this.resolve()"/>
+          <type value="pattern"/>
+          <path value="$this"/>
         </discriminator>
         <rules value="open"/>
       </slicing>
