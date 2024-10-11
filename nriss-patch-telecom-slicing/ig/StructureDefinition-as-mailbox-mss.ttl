@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AsMailboxMSSProfile"] ; # 
   fhir:title [ fhir:v "AS Mailbox MSS Datatype Profile"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-10-11T14:28:17+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-10-11T14:48:45+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;

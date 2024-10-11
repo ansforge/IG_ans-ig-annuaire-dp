@@ -1,7 +1,7 @@
 AnnuaireSante : Validation Results
 =========================================
 
-err = 34, warn = 76, info = 67
+err = 35, warn = 76, info = 69
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
  Build Errors : 2 / 24 / 0
@@ -18,7 +18,7 @@ Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https:
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-548812 : 0 / 0 / 6
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-548812DP : 0 / 0 / 6
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-fictive : 4 / 1 / 5
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-nancy : 4 / 1 / 5
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-nancy : 5 / 1 / 7
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Person-pp16dr-person : 1 / 1 / 4
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Person-pp19dr-person : 1 / 1 / 4
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-334081 : 5 / 1 / 10
@@ -190,7 +190,10 @@ INFORMATION: Organization/example-organization-fictive: Organization.address[0].
 ERROR: Organization/example-organization-nancy: Organization.telecom[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Organization.telecom:mailbox-mss - the discriminator https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 does not have fixed value, binding or existence assertions
 ERROR: Organization/example-organization-nancy: Organization.telecom[1]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Organization.telecom:mailbox-mss - the discriminator https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 does not have fixed value, binding or existence assertions
 ERROR: Organization/example-organization-nancy: Organization.telecom[2]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Organization.telecom:mailbox-mss - the discriminator https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 does not have fixed value, binding or existence assertions
+ERROR: Organization/example-organization-nancy: Organization.telecom[3]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Organization.telecom:mailbox-mss - the discriminator https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 does not have fixed value, binding or existence assertions
 INFORMATION: Organization/example-organization-nancy: Organization.meta.profile[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Organization/example-organization-nancy: Organization.telecom[3].extension[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Organization/example-organization-nancy: Organization.telecom[3].extension[1]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Organization/example-organization-nancy: Organization.address[0].extension[0].value.ofType(Coding).system: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
 ERROR: Organization/example-organization-nancy: Organization.address[0].extension[0].value.ofType(Coding): The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#54547) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated; The provided code 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#54547' was not found in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0'
 INFORMATION: Organization/example-organization-nancy: Organization.address[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
