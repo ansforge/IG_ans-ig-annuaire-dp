@@ -1,0 +1,492 @@
+[
+  {
+    "id" : "as-ext-person-deceased-date-time",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.deceasedDateTime",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsPersonDeceasedDateTimeExtension"
+  },
+  {
+    "id" : "AsServerCapabilityStatement",
+    "type" : "CapabilityStatement",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/CapabilityStatement/AsServerCapabilityStatement",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsRestServer"
+  },
+  {
+    "id" : "as-cs-intern-id-systems",
+    "type" : "CodeSystem",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsCSInterneIdSystems"
+  },
+  {
+    "id" : "as-cs-organization-types",
+    "type" : "CodeSystem",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsCsOrganizationTypes"
+  },
+  {
+    "id" : "as-cs-type-etablissement",
+    "type" : "CodeSystem",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsCsTypeEtablissement"
+  },
+  {
+    "id" : "as-cs-type-systeme-information",
+    "type" : "CodeSystem",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsCsTypeSystemeInformation"
+  },
+  {
+    "id" : "ans.fhir.fr.annuaire",
+    "type" : "ImplementationGuide",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ImplementationGuide/ans.fhir.fr.annuaire",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AnnuaireSante"
+  },
+  {
+    "id" : "as-sp-data-information-system",
+    "type" : "SearchParameter",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/SearchParameter/as-sp-data-information-system",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDataInformationSystemSearchParameter"
+  },
+  {
+    "id" : "as-sp-data-registration-authority",
+    "type" : "SearchParameter",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/SearchParameter/as-sp-data-registration-authority",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDataRegistrationAuthoritySearchParameter"
+  },
+  {
+    "id" : "as-sp-insee-code",
+    "type" : "SearchParameter",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/SearchParameter/as-sp-insee-code",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsInseeCode"
+  },
+  {
+    "id" : "as-sp-mailbox-mss",
+    "type" : "SearchParameter",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/SearchParameter/as-sp-mailbox-mss",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsMailboxMssSearchParameter"
+  },
+  {
+    "id" : "as-sp-number-smartcard",
+    "type" : "SearchParameter",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/SearchParameter/as-sp-number-smartcard",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsNumberSmartCardSearchParameter"
+  },
+  {
+    "id" : "as-sp-pharmacy-licence",
+    "type" : "SearchParameter",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/SearchParameter/as-sp-pharmacy-licence",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsPharmacyLicenceSearchParameter"
+  },
+  {
+    "id" : "as-sp-qualification-code",
+    "type" : "SearchParameter",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/SearchParameter/as-sp-qualification-code",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsQualificationCodeSearchParameter"
+  },
+  {
+    "id" : "as-sp-type-smartcard",
+    "type" : "SearchParameter",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/SearchParameter/as-sp-type-smartcard",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsTypeSmartCardSearchParameter"
+  },
+  {
+    "id" : "as-address-extended",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-address-extended",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsAddressExtendedProfile"
+  },
+  {
+    "id" : "as-codeableconcept-timed",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-codeableconcept-timed",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsCodeableConceptTimedProfile"
+  },
+  {
+    "id" : "as-device",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-device",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDeviceProfile"
+  },
+  {
+    "id" : "as-dp-device",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-device",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDpDeviceProfile"
+  },
+  {
+    "id" : "as-dp-healthcareservice-healthcare-activity",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-healthcareservice-healthcare-activity",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDpHealthcareServiceHealthcareActivityProfile"
+  },
+  {
+    "id" : "as-dp-healthcareservice-social-equipment",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-healthcareservice-social-equipment",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDpHealthcareServiceSocialEquipmentProfile"
+  },
+  {
+    "id" : "as-dp-organization",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-organization",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDpOrganizationProfile"
+  },
+  {
+    "id" : "as-dp-practitioner",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-practitioner",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDpPractitionerProfile"
+  },
+  {
+    "id" : "as-dp-practitionerrole",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-practitionerrole",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDpPractitionerRoleProfile"
+  },
+  {
+    "id" : "as-dr-device",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-device",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDrDeviceProfile"
+  },
+  {
+    "id" : "as-dr-healthcareservice-healthcare-activity",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-healthcareservice-healthcare-activity",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDrHealthcareServiceHealthcareActivityProfile"
+  },
+  {
+    "id" : "as-dr-healthcareservice-social-equipment",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-healthcareservice-social-equipment",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDrHealthcareServiceSocialEquipmentProfile"
+  },
+  {
+    "id" : "as-dr-organization",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-organization",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDrOrganizationProfile"
+  },
+  {
+    "id" : "as-dr-person",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-person",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDrPersonProfile"
+  },
+  {
+    "id" : "as-dr-practitioner",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-practitioner",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDrPractitionerProfile"
+  },
+  {
+    "id" : "as-dr-practitionerrole",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-practitionerrole",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDrPractitionerRoleProfile"
+  },
+  {
+    "id" : "as-ext-authorization",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-authorization",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsAuthorizationExtension"
+  },
+  {
+    "id" : "as-ext-codeableconcept-timed-metadata",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-codeableconcept-timed-metadata",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsCodeableConceptPeriodMetadataExtension"
+  },
+  {
+    "id" : "as-ext-data-trace",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-data-trace",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDataTraceExtension"
+  },
+  {
+    "id" : "as-ext-digital-certificate",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-digital-certificate",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsDigitalCertificateExtension"
+  },
+  {
+    "id" : "as-ext-education-level",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-education-level",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsEducationLevelExtension"
+  },
+  {
+    "id" : "as-ext-installation",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-installation",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsInstallationExtension"
+  },
+  {
+    "id" : "as-ext-lieu-dit",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-lieu-dit",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsLieuDit"
+  },
+  {
+    "id" : "as-ext-mailbox-mss-metadata",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-mailbox-mss-metadata",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsMailboxMSSMetadataExtension"
+  },
+  {
+    "id" : "as-ext-organization-authorization-deadline",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-authorization-deadline",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsOrganizationAuthorizationDeadlineExtension"
+  },
+  {
+    "id" : "as-ext-organization-budget-type",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-budget-type",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsOrganizationBudgetTypeExtension"
+  },
+  {
+    "id" : "as-ext-organization-closing-type",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-closing-type",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsOrganizationClosingTypeExtension"
+  },
+  {
+    "id" : "as-ext-organization-pharmacy-licence",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-pharmacy-licence",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsOrganizationPharmacyLicenceExtension"
+  },
+  {
+    "id" : "as-ext-organization-pricing-model",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-pricing-model",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsOrganizationPricingModelExtension"
+  },
+  {
+    "id" : "as-ext-organization-types",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-types",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsOrganizationTypes"
+  },
+  {
+    "id" : "as-ext-patient-type",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-patient-type",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsPatientTypeExtension"
+  },
+  {
+    "id" : "as-ext-person-birth-place",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-person-birth-place",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsPersonBirthPlaceExtension"
+  },
+  {
+    "id" : "as-ext-person-nationality",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-person-nationality",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsPersonNationalityExtension"
+  },
+  {
+    "id" : "as-ext-practitioner-authorization",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-practitioner-authorization",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsPractitionerAuthorizationExtension"
+  },
+  {
+    "id" : "as-ext-practitionerrole-contracted",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-practitionerrole-contracted",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsPractitionerRoleContracted"
+  },
+  {
+    "id" : "as-ext-practitionerrole-hascas",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-practitionerrole-hascas",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsPractitionerRoleHasCas"
+  },
+  {
+    "id" : "as-ext-practitionerrole-vitale-accepted",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-practitionerrole-vitale-accepted",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsPractitionerRoleVitaleAccepted"
+  },
+  {
+    "id" : "as-ext-registration",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-registration",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsRegistrationExtension"
+  },
+  {
+    "id" : "as-ext-smartcard",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-smartcard",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsSmartCardExtension"
+  },
+  {
+    "id" : "as-ext-supported-capacity",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-supported-capacity",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsSupportedCapacityExtension"
+  },
+  {
+    "id" : "as-healthcareservice-healthcare-activity",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-healthcareservice-healthcare-activity",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsHealthcareServiceHealthcareActivityProfile"
+  },
+  {
+    "id" : "as-healthcareservice-social-equipment",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-healthcareservice-social-equipment",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsHealthcareServiceSocialEquipmentProfile"
+  },
+  {
+    "id" : "as-location",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-location",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsLocationProfile"
+  },
+  {
+    "id" : "as-mailbox-mss",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsMailboxMSSProfile"
+  },
+  {
+    "id" : "as-organization",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsOrganizationProfile"
+  },
+  {
+    "id" : "as-person",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-person",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsPersonProfile"
+  },
+  {
+    "id" : "as-practitioner",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-practitioner",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsPractitionerProfile"
+  },
+  {
+    "id" : "as-practitionerrole",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-practitionerrole",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsPractitionerRoleProfile"
+  },
+  {
+    "id" : "VS-TRE-R286-TypeFermeture",
+    "type" : "ValueSet",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R286-TypeFermeture",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "VS_TRE_R286_TypeFermeture"
+  },
+  {
+    "id" : "VS-TRE-R301-SourceInformationInstallation",
+    "type" : "ValueSet",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R301-SourceInformationInstallation",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "VS_TRE_R301_SourceInformationInstallation"
+  },
+  {
+    "id" : "VS-TRE-R74-ModeFixationTarifaire",
+    "type" : "ValueSet",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R74-ModeFixationTarifaire",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "VS_TRE_R74_ModeFixationTarifaire"
+  },
+  {
+    "id" : "as-vs-intern-id-systems",
+    "type" : "ValueSet",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-intern-id-systems",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsVSInterneIdSystems"
+  },
+  {
+    "id" : "as-vs-organization-types",
+    "type" : "ValueSet",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-organization-types",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsVsOrganizationTypes"
+  },
+  {
+    "id" : "as-vs-type-etablissement",
+    "type" : "ValueSet",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-etablissement",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsVsTypeEtablissement"
+  },
+  {
+    "id" : "as-vs-type-systeme-information",
+    "type" : "ValueSet",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-systeme-information",
+    "version" : "1.1.0-snapshot-4",
+    "name" : "AsVsTypeSystemeInformationVS"
+  }
+]

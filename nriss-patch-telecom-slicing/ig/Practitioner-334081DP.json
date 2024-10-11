@@ -1,0 +1,78 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "334081DP",
+  "meta" : {
+    "versionId" : "0.1",
+    "lastUpdated" : "2019-09-05T01:00:00.000+01:00",
+    "source" : "https://annuaire.sante.fr",
+    "profile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner",
+    "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-practitioner"]
+  },
+  "language" : "fr",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr\" lang=\"fr\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner 334081DP</b></p><a name=\"334081DP\"> </a><a name=\"hc334081DP\"> </a><a name=\"334081DP-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0.1; Last updated: 2019-09-05 01:00:00+0100; Language: fr; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://annuaire.sante.fr\">https://annuaire.sante.fr</a></p><p style=\"margin-bottom: 0px\">Profiles: <a href=\"https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-practitioner.html\">FR Core Practitioner Profile</a>, <a href=\"StructureDefinition-as-dp-practitioner.html\">AS Donnée Publique Practitioner Profile</a></p></div><p><b>identifier</b>: Identifiant National de Professionnel de Santé/810003461033\u00a0(use:\u00a0official,\u00a0), N° RPPS/10003461033\u00a0(use:\u00a0official,\u00a0)</p><p><b>active</b>: true</p><p><b>name</b>: Arthur Saucier </p><p><b>telecom</b>: ph: 0603590791, <a href=\"mailto:jeromebonnet@hotmail.fr\">jeromebonnet@hotmail.fr</a></p><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais DE05}, {https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome DE}\">DE Docteur en médecine</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante 10}, {https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle C}\">Médecin</span></p></blockquote></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203",
+        "code" : "IDNPS"
+      }]
+    },
+    "system" : "urn:oid:1.2.250.1.71.4.2.1",
+    "value" : "810003461033"
+  },
+  {
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203",
+        "code" : "RPPS"
+      }]
+    },
+    "system" : "https://rpps.esante.gouv.fr",
+    "value" : "10003461033"
+  }],
+  "active" : true,
+  "name" : [{
+    "use" : "usual",
+    "family" : "Saucier",
+    "given" : ["Arthur"],
+    "prefix" : ["M"]
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "0603590791",
+    "rank" : 1
+  },
+  {
+    "system" : "email",
+    "value" : "jeromebonnet@hotmail.fr"
+  }],
+  "qualification" : [{
+    "code" : {
+      "coding" : [{
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais",
+        "code" : "DE05"
+      },
+      {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome",
+        "code" : "DE"
+      }]
+    }
+  },
+  {
+    "code" : {
+      "coding" : [{
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+        "code" : "10"
+      },
+      {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle",
+        "code" : "C"
+      }]
+    }
+  }]
+}

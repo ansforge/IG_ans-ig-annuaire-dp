@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="158480"/>
+  <meta>
+    <versionId value="0.1"/>
+    <lastUpdated value="2019-09-01T01:00:00.000+01:00"/>
+    <source value="https://annuaire.sante.fr"/>
+    <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization"/>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-organization"/>
+  </meta>
+  <language value="fr"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"><p class="res-header-id"><b>Generated Narrative: Organization 158480</b></p><a name="158480"> </a><a name="hc158480"> </a><a name="158480-fr-FR"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 0.1; Last updated: 2019-09-01 01:00:00+0100; Language: fr; </p><p style="margin-bottom: 0px">Information Source: <a href="https://annuaire.sante.fr">https://annuaire.sante.fr</a></p><p style="margin-bottom: 0px">Profiles: <a href="https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-organization.html">FR Core Organization Profile</a>, <a href="StructureDefinition-as-dr-organization.html">AS Donnée Restreinte Organization Profile</a></p></div><p><b>Organization Period</b>: 2019-06-01 --&gt; (ongoing)</p><p><b>identifier</b>: Identification nationale de structure définie par l’ANS dans le CI_SIS/1754567860 (use: official, ), FINESS d'entité géographique/754567860 (use: official, ), Identifiant interne/F754567860 (use: official, )</p><p><b>active</b>: true</p><p><b>type</b>: <span title="Codes:{https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307 GEOGRAPHICAL-ENTITY}">Entité géographique</span>, <span title="Codes:{https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite SA01}">Etablissement public de santé</span>, <span title="Codes:{https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5/ 86.10Z}">86.10Z</span></p><p><b>name</b>: CH EURE-SEINE</p><p><b>telecom</b>: ph: 0450636363, fax: 0450455933</p><p><b>address</b>: null 75014 PARIS 75014 </p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
+    <valuePeriod>
+      <start value="2019-06-01"/>
+    </valuePeriod>
+  </extension>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"/>
+        <code value="IDNST"/>
+      </coding>
+    </type>
+    <system value="urn:oid:1.2.250.1.71.4.2.2"/>
+    <value value="1754567860"/>
+  </identifier>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"/>
+        <code value="FINEG"/>
+      </coding>
+    </type>
+    <system value="https://finess.esante.gouv.fr"/>
+    <value value="754567860"/>
+  </identifier>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"/>
+        <code value="INTRN"/>
+      </coding>
+    </type>
+    <system value="https://rppsrang.esante.gouv.fr"/>
+    <value value="F754567860"/>
+  </identifier>
+  <active value="true"/>
+  <type>
+    <extension url="https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-types">
+      <valueCode value="organizationType"/>
+    </extension>
+    <coding>
+      <system value="https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307"/>
+      <code value="GEOGRAPHICAL-ENTITY"/>
+    </coding>
+  </type>
+  <type>
+    <extension url="https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-types">
+      <valueCode value="secteurActiviteRASS"/>
+    </extension>
+    <coding>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"/>
+      <code value="SA01"/>
+    </coding>
+  </type>
+  <type>
+    <extension url="https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-types">
+      <valueCode value="activiteINSEE"/>
+    </extension>
+    <coding>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5/"/>
+      <code value="86.10Z"/>
+    </coding>
+  </type>
+  <name value="CH EURE-SEINE"/>
+  <telecom>
+    <system value="phone"/>
+    <value value="0450636363"/>
+    <rank value="1"/>
+  </telecom>
+  <telecom>
+    <system value="fax"/>
+    <value value="0450455933"/>
+  </telecom>
+  <address>
+    <extension url="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code">
+      <valueCoding>
+        <system value="https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune"/>
+        <code value="75114"/>
+      </valueCoding>
+    </extension>
+    <line>
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
+        <valueString value="96"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType">
+        <valueString value="R"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase">
+        <valueString value="DIDOT"/>
+      </extension>
+    </line>
+    <city value="75014 PARIS"/>
+    <postalCode value="75014"/>
+  </address>
+</Organization>

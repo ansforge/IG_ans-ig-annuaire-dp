@@ -1,0 +1,19 @@
+{
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ImplementationGuide/ans.fhir.fr.annuaire",
+  "name" : "AnnuaireSante",
+  "title" : "Annuaire Santé",
+  "description" : "Ressources de conformité basées sur le modèle d'exposition de l'Annuaire Santé.",
+  "status" : "active",
+  "package-id" : "ans.fhir.fr.annuaire",
+  "ig-ver" : "1.1.0-snapshot-4",
+  "date" : "Fri, 11 Oct, 2024 14:18:11 +0000",
+  "dateISO8601" : "2024-10-11T14:18:11+00:00",
+  "errs" : 31,
+  "warnings" : 75,
+  "hints" : 69,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 2856531872
+}

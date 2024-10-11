@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="as-sp-insee-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: SearchParameter as-sp-insee-code</b></p><a name="as-sp-insee-code"> </a><a name="hcas-sp-insee-code"> </a><a name="as-sp-insee-code-fr-FR"> </a><h2>AsInseeCode</h2><p>Parameter <code>address-insee</code>:<code>string</code></p><div><p>Paramètre de recherche pour récupérer une organisation, par code Insee. Cf http://www.sirius-upvm.net/doc/usuels/codes_postaux.html</p>
+</div><table class="grid"><tr><td>Resource</td><td><a href="http://hl7.org/fhir/R4/organization.html">Organization</a></td></tr><tr><td>Expression</td><td><code>address.extension.where(url='https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code').value</code></td></tr><tr><td>Multiples</td><td><ul><li>multipleAnd: It's up to the server whether the parameter may repeat in order to specify multiple values that must all be true</li><li>multipleOr: It's up to the server whether the parameter can have multiple values (separated by comma) where at least one must be true</li></ul></td></tr></table></div>
+  </text>
+  <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/SearchParameter/as-sp-insee-code"/>
+  <version value="1.1.0-snapshot-4"/>
+  <name value="AsInseeCode"/>
+  <status value="active"/>
+  <date value="2024-10-11T14:18:11+00:00"/>
+  <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+  <contact>
+    <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="monserviceclient.annuaire@esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Paramètre de recherche pour récupérer une organisation, par code Insee. Cf http://www.sirius-upvm.net/doc/usuels/codes_postaux.html"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="FRANCE"/>
+    </coding>
+  </jurisdiction>
+  <code value="address-insee"/>
+  <base value="Organization"/>
+  <type value="string"/>
+  <expression value="address.extension.where(url='https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code').value"/>
+</SearchParameter>
