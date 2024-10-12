@@ -10,7 +10,7 @@
   "name" : "AsDpOrganizationProfile",
   "title" : "AS Donnée Publique Organization Profile",
   "status" : "active",
-  "date" : "2024-10-11T14:48:45+00:00",
+  "date" : "2024-10-12T09:26:25+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -8453,7 +8453,11 @@
       "slicing" : {
         "discriminator" : [{
           "type" : "pattern",
-          "path" : "$this"
+          "path" : "system"
+        },
+        {
+          "type" : "pattern",
+          "path" : "extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type').value"
         }],
         "rules" : "open"
       },
