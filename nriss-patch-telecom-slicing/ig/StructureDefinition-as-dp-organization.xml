@@ -61,7 +61,7 @@ Il s’agit généralement de structures enregistrées temporairement par les or
   <name value="AsDpOrganizationProfile"/>
   <title value="AS Donnée Publique Organization Profile"/>
   <status value="active"/>
-  <date value="2024-10-12T09:26:25+00:00"/>
+  <date value="2024-10-29T10:53:15+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -8224,8 +8224,8 @@ Il s’agit généralement de structures enregistrées temporairement par les or
           <path value="system"/>
         </discriminator>
         <discriminator>
-          <type value="pattern"/>
-          <path value="extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type').value"/>
+          <type value="exists"/>
+          <path value="extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type')"/>
         </discriminator>
         <rules value="open"/>
       </slicing>
