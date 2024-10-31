@@ -1,0 +1,639 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R286-TypeFermeture",
+      "version" : "1.1.0-snapshot-4",
+      "status" : "active",
+      "name" : "VS_TRE_R286_TypeFermeture",
+      "title" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+      "description" : "JDV des NOS contenant l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-organization-closing-type.html" : "AS Organization Closing Type Extension"
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R301-SourceInformationInstallation",
+      "version" : "1.1.0-snapshot-4",
+      "status" : "active",
+      "name" : "VS_TRE_R301_SourceInformationInstallation",
+      "title" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
+      "description" : "JDV des NOS contenant l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-installation.html" : "AS Installation Extension"
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R74-ModeFixationTarifaire",
+      "version" : "1.1.0-snapshot-4",
+      "status" : "active",
+      "name" : "VS_TRE_R74_ModeFixationTarifaire",
+      "title" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
+      "description" : "JDV des NOS contenant l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-organization-pricing-model.html" : "AS Organization Pricing Model Extension"
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-intern-id-systems",
+      "version" : "1.1.0-snapshot-4",
+      "status" : "active",
+      "name" : "AsVSInterneIdSystems",
+      "title" : "AS ValueSet Internal Identifier Systems",
+      "description" : "ValueSet contenant les identifiants internes",
+      "systems" : [
+        "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile"
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-organization-types",
+      "version" : "1.1.0-snapshot-4",
+      "status" : "active",
+      "name" : "AsVsOrganizationTypes",
+      "title" : "AS ValueSet OrganizationTypes",
+      "description" : "ValueSet définissant les types d'organisation",
+      "systems" : [
+        "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-organization-types.html" : "AS Organization Types"
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-etablissement",
+      "version" : "1.1.0-snapshot-4",
+      "status" : "active",
+      "name" : "AsVsTypeEtablissement",
+      "title" : "AS ValueSet type Etablissement",
+      "description" : "ValueSet définissant les types d'établissement.",
+      "systems" : [
+        "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-as-organization.html" : "AS Organization Profile"
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-systeme-information",
+      "version" : "1.1.0-snapshot-4",
+      "status" : "active",
+      "name" : "AsVsTypeSystemeInformationVS",
+      "title" : "AS ValueSet type de système d'information",
+      "description" : "ValueSet définissant les types de systèmes d'information pouvant alimenter l'annuaire santé.",
+      "systems" : [
+        "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-data-trace.html" : "AS Data Trace Extension"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J100-FinessStatutJuridique-RASS",
+      "title" : null,
+      "description" : "Statut juridique FINESS dans le RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.168"],
+      "sources" : ["1.2.250.1.213.1.6.1.168"],
+      "uses" : {
+      },
+      "StructureDefinition-as-organization.html" : "AS Organization Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J103-TypeVoie-RASS/FHIR/JDV-J103-TypeVoie-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J103-TypeVoie-RASS",
+      "title" : null,
+      "description" : "Type de voie du professionnel du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R35-TypeVoie/FHIR/TRE-R35-TypeVoie"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.171"],
+      "sources" : ["1.2.250.1.213.1.6.1.171"],
+      "uses" : {
+      },
+      "StructureDefinition-as-address-extended.html" : "AS Address Extended Datatype Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J106-EnsembleProfession-RASS/FHIR/JDV-J106-EnsembleProfession-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J106-EnsembleProfession-RASS",
+      "title" : null,
+      "description" : "Ensemble des professions du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession",
+        "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
+        "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+        "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.174"],
+      "sources" : ["1.2.250.1.213.1.6.1.174"],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-practitioner-authorization.html" : "AS Practitioner Authorization Extension"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J108-EnsembleFonction-RASS",
+      "title" : null,
+      "description" : "Ensemble des fonctions et rôles du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+        "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction",
+        "https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.176"],
+      "sources" : ["1.2.250.1.213.1.6.1.176"],
+      "uses" : {
+      },
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J128-TypeCarte-RASS/FHIR/JDV-J128-TypeCarte-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J128-TypeCarte-RASS",
+      "title" : null,
+      "description" : "Type de carte dans le RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R87-TypeCarte/FHIR/TRE-R87-TypeCarte"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.214"],
+      "sources" : ["1.2.250.1.213.1.6.1.214"],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-smartcard.html" : "AS Smart Card Extension"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J130-CNAMAmeliSecteurConventionnement-RASS/FHIR/JDV-J130-CNAMAmeliSecteurConventionnement-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J130-CNAMAmeliSecteurConventionnement-RASS",
+      "title" : null,
+      "description" : "Secteur de conventionnement du professionnel libéral",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R282-CNAMAmeliSecteurConventionnement/FHIR/TRE-R282-CNAMAmeliSecteurConventionnement"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.216"],
+      "sources" : ["1.2.250.1.213.1.6.1.216"],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-practitionerrole-contracted.html" : "AS PractitionerRole Contracted"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J131-CategorieActiviteSanitaireRegulee-RASS/FHIR/JDV-J131-CategorieActiviteSanitaireRegulee-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J131-CategorieActiviteSanitaireRegulee-RASS",
+      "title" : null,
+      "description" : "Catégorie des activités sanitaires régulées dans le RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R277-CategorieActiviteSanitaireRegulee/FHIR/TRE-R277-CategorieActiviteSanitaireRegulee"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.217"],
+      "sources" : ["1.2.250.1.213.1.6.1.217"],
+      "uses" : {
+      },
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J132-ModaliteActivite-RASS/FHIR/JDV-J132-ModaliteActivite-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J132-ModaliteActivite-RASS",
+      "title" : null,
+      "description" : "Mode d'application ou type de soins encadrant une activité dans le RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.218"],
+      "sources" : ["1.2.250.1.213.1.6.1.218"],
+      "uses" : {
+      },
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J133-ActiviteSanitaireRegulee-RASS/FHIR/JDV-J133-ActiviteSanitaireRegulee-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J133-ActiviteSanitaireRegulee-RASS",
+      "title" : null,
+      "description" : "Activités sanitaires soumises à une régulation de la part de l'ARS dans le RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.219"],
+      "sources" : ["1.2.250.1.213.1.6.1.219"],
+      "uses" : {
+      },
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J134-FormeActivite-RASS/FHIR/JDV-J134-FormeActivite-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J134-FormeActivite-RASS",
+      "title" : null,
+      "description" : "Type d'organisation de prise en charge du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.220"],
+      "sources" : ["1.2.250.1.213.1.6.1.220"],
+      "uses" : {
+      },
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J135-EquipementMaterielLourd-RASS/FHIR/JDV-J135-EquipementMaterielLourd-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J135-EquipementMaterielLourd-RASS",
+      "title" : null,
+      "description" : "Equipements Matériels Lourds dans le RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.221"],
+      "sources" : ["1.2.250.1.213.1.6.1.221"],
+      "uses" : {
+      },
+      "StructureDefinition-as-device.html" : "AS Device Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J136-DisciplineEquipementSocial-RASS/FHIR/JDV-J136-DisciplineEquipementSocial-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J136-DisciplineEquipementSocial-RASS",
+      "title" : null,
+      "description" : "Disciplines d'équipement pour le social dans le RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.222"],
+      "sources" : ["1.2.250.1.213.1.6.1.222"],
+      "uses" : {
+      },
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J137-Clientele-RASS/FHIR/JDV-J137-Clientele-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J137-Clientele-RASS",
+      "title" : null,
+      "description" : "Population prise en charge par l'établissement dans le cadre",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.223"],
+      "sources" : ["1.2.250.1.213.1.6.1.223"],
+      "uses" : {
+      },
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J138-TypeActivite-RASS/FHIR/JDV-J138-TypeActivite-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J138-TypeActivite-RASS",
+      "title" : null,
+      "description" : "Type d'activité dans le RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.224"],
+      "sources" : ["1.2.250.1.213.1.6.1.224"],
+      "uses" : {
+      },
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J139-TypeBAL-RASS/FHIR/JDV-J139-TypeBAL-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J139-TypeBAL-RASS",
+      "title" : null,
+      "description" : "Type de boîte aux lettres dans le RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R257-TypeBAL/FHIR/TRE-R257-TypeBAL"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.225"],
+      "sources" : ["1.2.250.1.213.1.6.1.225"],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-mailbox-mss-metadata.html" : "AS Mailbox Metadata"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J162-ESPIC-RASS/FHIR/JDV-J162-ESPIC-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J162-ESPIC-RASS",
+      "title" : null,
+      "description" : "Etablissement de santé privée d'intérêt collectif dans le RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.226"],
+      "sources" : ["1.2.250.1.213.1.6.1.226"],
+      "uses" : {
+      },
+      "StructureDefinition-as-organization.html" : "AS Organization Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J73-MetierPharmacien-RASS/FHIR/JDV-J73-MetierPharmacien-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J73-MetierPharmacien-RASS",
+      "title" : null,
+      "description" : "Ensemble des sections et sous-sections du tableau du CNOP dans le RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP",
+        "https://mos.esante.gouv.fr/NOS/TRE_R06-SectionTableauCNOP/FHIR/TRE-R06-SectionTableauCNOP"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.141"],
+      "sources" : ["1.2.250.1.213.1.6.1.141"],
+      "uses" : {
+      },
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J74-Pays-RASS/FHIR/JDV-J74-Pays-RASS",
+      "version" : "1.3.0",
+      "status" : "retired",
+      "name" : "JDV_J74-Pays-RASS",
+      "title" : null,
+      "description" : "Pays (codes INSEE) du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.142"],
+      "sources" : ["1.2.250.1.213.1.6.1.142"],
+      "uses" : {
+      },
+      "StructureDefinition-as-address-extended.html" : "AS Address Extended Datatype Profile",
+      "StructureDefinition-as-ext-person-nationality.html" : "AS Person Nationality Extension"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J75-TypeAutorisation-RASS/FHIR/JDV-J75-TypeAutorisation-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J75-TypeAutorisation-RASS",
+      "title" : null,
+      "description" : "Type d'autorisation d'exercice pour accès à l'exercice de la profession du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.143"],
+      "sources" : ["1.2.250.1.213.1.6.1.143"],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-practitioner-authorization.html" : "AS Practitioner Authorization Extension"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J76-DisciplineAutorisation-RASS/FHIR/JDV-J76-DisciplineAutorisation-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J76-DisciplineAutorisation-RASS",
+      "title" : null,
+      "description" : "Discipline à laquelle l'autorisation d'exercice est restreinte dans le RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R18-DisciplineAutorisation/FHIR/TRE-R18-DisciplineAutorisation"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.144"],
+      "sources" : ["1.2.250.1.213.1.6.1.144"],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-practitioner-authorization.html" : "AS Practitioner Authorization Extension"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J82-Langue-RASS/FHIR/JDV-J82-Langue-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J82-Langue-RASS",
+      "title" : null,
+      "description" : "Langues (codes ISO-639) des professionnels du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_G00-Langue/FHIR/TRE-G00-Langue"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.150"],
+      "sources" : ["1.2.250.1.213.1.6.1.150"],
+      "uses" : {
+      },
+      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J83-AutoriteEnregistrement-RASS/FHIR/JDV-J83-AutoriteEnregistrement-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J83-AutoriteEnregistrement-RASS",
+      "title" : null,
+      "description" : "Autorités d'enregistrement des acteurs de santé du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.151"],
+      "sources" : ["1.2.250.1.213.1.6.1.151"],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-data-trace.html" : "AS Data Trace Extension",
+      "StructureDefinition-as-ext-registration.html" : "AS Registration Extension"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J84-DepartementOM-RASS/FHIR/JDV-J84-DepartementOM-RASS",
+      "version" : "1.3.0",
+      "status" : "retired",
+      "name" : "JDV_J84-DepartementOM-RASS",
+      "title" : null,
+      "description" : "Départements (outre-mer et Monaco inclus) pour le RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.152"],
+      "sources" : ["1.2.250.1.213.1.6.1.152"],
+      "uses" : {
+      },
+      "StructureDefinition-as-address-extended.html" : "AS Address Extended Datatype Profile",
+      "StructureDefinition-as-ext-registration.html" : "AS Registration Extension"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J85-StatutInscription-RASS/FHIR/JDV-J85-StatutInscription-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J85-StatutInscription-RASS",
+      "title" : null,
+      "description" : "Statut avancement dossier de référencement personne du RASS auprès d'un ordre",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R33-StatutInscription/FHIR/TRE-R33-StatutInscription"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.153"],
+      "sources" : ["1.2.250.1.213.1.6.1.153"],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-registration.html" : "AS Registration Extension"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J86-NatCycleForm-RASS/FHIR/JDV-J86-NatCycleForm-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J86-NatCycleForm-RASS",
+      "title" : null,
+      "description" : "Natures du cycle de formation des professionnels du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R223-NatCycleForm/FHIR/TRE-R223-NatCycleForm"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.154"],
+      "sources" : ["1.2.250.1.213.1.6.1.154"],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-education-level.html" : "AS Education Level Extension"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J87-NiveauFormAcquis-RASS/FHIR/JDV-J87-NiveauFormAcquis-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J87-NiveauFormAcquis-RASS",
+      "title" : null,
+      "description" : "Niveau de formation acquis dans le cycle de formation des professionnels du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R224-NiveauFormAcquis/FHIR/TRE-R224-NiveauFormAcquis"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.155"],
+      "sources" : ["1.2.250.1.213.1.6.1.155"],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-education-level.html" : "AS Education Level Extension"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J88-AnneeUniversitaire-RASS/FHIR/JDV-J88-AnneeUniversitaire-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J88-AnneeUniversitaire-RASS",
+      "title" : null,
+      "description" : "Années universitaires des professionnels du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R225-AnneeUniversitaire/FHIR/TRE-R225-AnneeUniversitaire"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.156"],
+      "sources" : ["1.2.250.1.213.1.6.1.156"],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-education-level.html" : "AS Education Level Extension"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J94-GenreActivite-RASS/FHIR/JDV-J94-GenreActivite-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J94-GenreActivite-RASS",
+      "title" : null,
+      "description" : "Activités des professionnels RASS nécessitant des règles de gestion spécifiques",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.162"],
+      "sources" : ["1.2.250.1.213.1.6.1.162"],
+      "uses" : {
+      },
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J95-ModeExercice-RASS/FHIR/JDV-J95-ModeExercice-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J95-ModeExercice-RASS",
+      "title" : null,
+      "description" : "Modes d'exercice du professionnel du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.163"],
+      "sources" : ["1.2.250.1.213.1.6.1.163"],
+      "uses" : {
+      },
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J96-TypeActiviteLiberale-RASS/FHIR/JDV-J96-TypeActiviteLiberale-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J96-TypeActiviteLiberale-RASS",
+      "title" : null,
+      "description" : "Types d'activité libérale des professionnels du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R24-TypeActiviteLiberale/FHIR/TRE-R24-TypeActiviteLiberale"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.164"],
+      "sources" : ["1.2.250.1.213.1.6.1.164"],
+      "uses" : {
+      },
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J97-StatutProfessionnelSSA-RASS/FHIR/JDV-J97-StatutProfessionnelSSA-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J97-StatutProfessionnelSSA-RASS",
+      "title" : null,
+      "description" : "Statuts des professionnels du Service de Santé des Armées dans le RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R34-StatutProfessionnelSSA/FHIR/TRE-R34-StatutProfessionnelSSA"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.165"],
+      "sources" : ["1.2.250.1.213.1.6.1.165"],
+      "uses" : {
+      },
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J98-StatutHospitalier-RASS/FHIR/JDV-J98-StatutHospitalier-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J98-StatutHospitalier-RASS",
+      "title" : null,
+      "description" : "Statut des professionnels intervenant dans un hôpital dans le RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R32-StatutHospitalier/FHIR/TRE-R32-StatutHospitalier"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.166"],
+      "sources" : ["1.2.250.1.213.1.6.1.166"],
+      "uses" : {
+      },
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J99-InseeNAFrav2Niveau5-RASS/FHIR/JDV-J99-InseeNAFrav2Niveau5-RASS",
+      "version" : "1.3.0",
+      "status" : "active",
+      "name" : "JDV_J99-InseeNAFrav2Niveau5-RASS",
+      "title" : null,
+      "description" : "Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.167"],
+      "sources" : ["1.2.250.1.213.1.6.1.167"],
+      "uses" : {
+      },
+      "StructureDefinition-as-organization.html" : "AS Organization Profile"
+    }
+  ]
+}

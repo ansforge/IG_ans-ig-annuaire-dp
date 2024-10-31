@@ -1,0 +1,26 @@
+{
+  "id": "87e1eefa4bef4ba9344be566ccdf09733a21a9f326e13ee936c2700d1f54cef5",
+  "url": "https://github.com/fhir-crucible/testscript-generator/87e1eefa4bef4ba9344be566ccdf09733a21a9f326e13ee936c2700d1f54cef5",
+  "version": "0.0",
+  "name": "PackageAsDrPractitionerProfileMustSupportElementPractitionerQualificationExerciceProCodeCodingProfession",
+  "title": "IG: package; Profile: AsDrPractitionerProfile; Case: Must Support Element; Element: Practitioner.qualification:exercicePro.code.coding:profession",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-10-31T16:14:38+00:00",
+  "publisher": "The MITRE Corporation",
+  "test": [
+    {
+      "name": "Generation Feature Not Implemented",
+      "action": [
+        {
+          "assert": {
+            "label": "Fail - not implemented in generator: unsupported discriminator element type Coding",
+            "expression": "1!=1",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

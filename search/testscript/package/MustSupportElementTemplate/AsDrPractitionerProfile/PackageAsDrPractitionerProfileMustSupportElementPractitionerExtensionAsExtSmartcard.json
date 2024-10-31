@@ -1,0 +1,70 @@
+{
+  "id": "8b6ca9eba3fb1b3a1a18e2567e46d9bc127b26697762ca58e0121c2d80ee6dbd",
+  "url": "https://github.com/fhir-crucible/testscript-generator/8b6ca9eba3fb1b3a1a18e2567e46d9bc127b26697762ca58e0121c2d80ee6dbd",
+  "version": "0.0",
+  "name": "PackageAsDrPractitionerProfileMustSupportElementPractitionerExtensionAsExtSmartcard",
+  "title": "IG: package; Profile: AsDrPractitionerProfile; Case: Must Support Element; Element: Practitioner.extension:as-ext-smartcard",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-10-31T16:14:38+00:00",
+  "publisher": "The MITRE Corporation",
+  "profile": [
+    {
+      "id": "targetProfileAsDrPractitionerProfile",
+      "reference": "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-practitioner"
+    }
+  ],
+  "variable": [
+    {
+      "name": "targetResourceIdAsDrPractitionerProfile",
+      "defaultValue": "example",
+      "description": "Enter a known instance id on the destination system. Will be checked for conformance against profile AsDrPractitionerProfile.",
+      "hint": "[resource.id]"
+    }
+  ],
+  "test": [
+    {
+      "name": "Validate the identified resource conforms to the AsDrPractitionerProfile profile",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "read"
+            },
+            "resource": "Practitioner",
+            "label": "Read_Practitioner_Instance",
+            "description": "Read Practitioner Instance",
+            "encodeRequestUrl": false,
+            "params": "/${targetResourceIdAsDrPractitionerProfile}",
+            "responseId": "targetInstance"
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Response_OK",
+            "response": "okay",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Practitioner_Returned",
+            "description": "Assert Practitioner Returned",
+            "resource": "Practitioner",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Instance_Conforms_to_AsDrPractitionerProfile_Profile",
+            "description": "Assert returned instance conforms to the AsDrPractitionerProfile Profile",
+            "validateProfileId": "targetProfileAsDrPractitionerProfile",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}
