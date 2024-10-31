@@ -1,7 +1,7 @@
 {
   "version" : "1.1.0-snapshot-4",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20241011141928",
+  "date" : "20241031125209",
   "name" : "ans.fhir.fr.annuaire",
   "jurisdiction" : "urn:iso:std:iso:3166#FR"
 }

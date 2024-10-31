@@ -1,0 +1,26 @@
+{
+  "id": "cc09f0f2d0f8edc990095e2fba10a044d436d8e76cc2256c58e29a76c61e18a1",
+  "url": "https://github.com/fhir-crucible/testscript-generator/cc09f0f2d0f8edc990095e2fba10a044d436d8e76cc2256c58e29a76c61e18a1",
+  "version": "0.0",
+  "name": "PackageAsHealthcareServiceHealthcareActivityProfileMustSupportElementHealthcareServiceMetaExtensionAsExtDataTraceExtensionDateMajAe",
+  "title": "IG: package; Profile: AsHealthcareServiceHealthcareActivityProfile; Case: Must Support Element; Element: HealthcareService.meta.extension:as-ext-data-trace.extension:date-maj-ae",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-10-31T12:55:59+00:00",
+  "publisher": "The MITRE Corporation",
+  "test": [
+    {
+      "name": "Generation Feature Not Implemented",
+      "action": [
+        {
+          "assert": {
+            "label": "Fail - not implemented in generator: nested slices",
+            "expression": "1!=1",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

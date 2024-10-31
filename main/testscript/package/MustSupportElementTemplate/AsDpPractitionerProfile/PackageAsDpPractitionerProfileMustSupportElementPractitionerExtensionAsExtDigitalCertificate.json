@@ -1,0 +1,70 @@
+{
+  "id": "994e84b810ca24e65ddaf8585c324c46ca4c68562e1d5bb75c18eadd07f0efe3",
+  "url": "https://github.com/fhir-crucible/testscript-generator/994e84b810ca24e65ddaf8585c324c46ca4c68562e1d5bb75c18eadd07f0efe3",
+  "version": "0.0",
+  "name": "PackageAsDpPractitionerProfileMustSupportElementPractitionerExtensionAsExtDigitalCertificate",
+  "title": "IG: package; Profile: AsDpPractitionerProfile; Case: Must Support Element; Element: Practitioner.extension:as-ext-digital-certificate",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-10-31T12:55:59+00:00",
+  "publisher": "The MITRE Corporation",
+  "profile": [
+    {
+      "id": "targetProfileAsDpPractitionerProfile",
+      "reference": "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-practitioner"
+    }
+  ],
+  "variable": [
+    {
+      "name": "targetResourceIdAsDpPractitionerProfile",
+      "defaultValue": "example",
+      "description": "Enter a known instance id on the destination system. Will be checked for conformance against profile AsDpPractitionerProfile.",
+      "hint": "[resource.id]"
+    }
+  ],
+  "test": [
+    {
+      "name": "Validate the identified resource conforms to the AsDpPractitionerProfile profile",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "read"
+            },
+            "resource": "Practitioner",
+            "label": "Read_Practitioner_Instance",
+            "description": "Read Practitioner Instance",
+            "encodeRequestUrl": false,
+            "params": "/${targetResourceIdAsDpPractitionerProfile}",
+            "responseId": "targetInstance"
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Response_OK",
+            "response": "okay",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Practitioner_Returned",
+            "description": "Assert Practitioner Returned",
+            "resource": "Practitioner",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Instance_Conforms_to_AsDpPractitionerProfile_Profile",
+            "description": "Assert returned instance conforms to the AsDpPractitionerProfile Profile",
+            "validateProfileId": "targetProfileAsDpPractitionerProfile",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

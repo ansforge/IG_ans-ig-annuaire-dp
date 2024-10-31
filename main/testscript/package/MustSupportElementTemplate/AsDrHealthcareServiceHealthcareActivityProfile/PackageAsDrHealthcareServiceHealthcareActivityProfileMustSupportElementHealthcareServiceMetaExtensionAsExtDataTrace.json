@@ -1,0 +1,26 @@
+{
+  "id": "5e325c9bcce071b0ff612e6a9761d0e2c0e7295553da169187399b08c8f873ed",
+  "url": "https://github.com/fhir-crucible/testscript-generator/5e325c9bcce071b0ff612e6a9761d0e2c0e7295553da169187399b08c8f873ed",
+  "version": "0.0",
+  "name": "PackageAsDrHealthcareServiceHealthcareActivityProfileMustSupportElementHealthcareServiceMetaExtensionAsExtDataTrace",
+  "title": "IG: package; Profile: AsDrHealthcareServiceHealthcareActivityProfile; Case: Must Support Element; Element: HealthcareService.meta.extension:as-ext-data-trace",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-10-31T12:55:59+00:00",
+  "publisher": "The MITRE Corporation",
+  "test": [
+    {
+      "name": "Generation Feature Not Implemented",
+      "action": [
+        {
+          "assert": {
+            "label": "Fail - not implemented in generator: no placeholder for key ancestor-checks",
+            "expression": "1!=1",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

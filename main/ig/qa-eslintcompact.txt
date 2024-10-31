@@ -175,4 +175,4 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-as-vs-organization-types.json: line 1, col 1423, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 
 err = 26, warn = 75, info = 69
-IG Publisher Version: 1.6.30
+IG Publisher Version: 1.7.1

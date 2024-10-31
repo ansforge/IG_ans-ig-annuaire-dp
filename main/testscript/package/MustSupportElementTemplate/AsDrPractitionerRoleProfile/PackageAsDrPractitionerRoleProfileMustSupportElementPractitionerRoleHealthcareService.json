@@ -1,0 +1,26 @@
+{
+  "id": "e81ec6f1abb094d1d2fdbb865401d535c976861c6dae3b92ec0508eb66c70968",
+  "url": "https://github.com/fhir-crucible/testscript-generator/e81ec6f1abb094d1d2fdbb865401d535c976861c6dae3b92ec0508eb66c70968",
+  "version": "0.0",
+  "name": "PackageAsDrPractitionerRoleProfileMustSupportElementPractitionerRoleHealthcareService",
+  "title": "IG: package; Profile: AsDrPractitionerRoleProfile; Case: Must Support Element; Element: PractitionerRole.healthcareService",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-10-31T12:55:59+00:00",
+  "publisher": "The MITRE Corporation",
+  "test": [
+    {
+      "name": "Generation Feature Not Implemented",
+      "action": [
+        {
+          "assert": {
+            "label": "Fail - not implemented in generator: Multiple Response Reference Elements",
+            "expression": "1!=1",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

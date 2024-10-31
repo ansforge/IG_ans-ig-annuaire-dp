@@ -1,0 +1,70 @@
+{
+  "id": "f6d100b25fb99d35edd48e612906758a4ff520a76dcb7fa0535d61551f170160",
+  "url": "https://github.com/fhir-crucible/testscript-generator/f6d100b25fb99d35edd48e612906758a4ff520a76dcb7fa0535d61551f170160",
+  "version": "0.0",
+  "name": "PackageAsDrDeviceProfileMustSupportElementDeviceManufacturer",
+  "title": "IG: package; Profile: AsDrDeviceProfile; Case: Must Support Element; Element: Device.manufacturer",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-10-31T12:55:59+00:00",
+  "publisher": "The MITRE Corporation",
+  "profile": [
+    {
+      "id": "targetProfileAsDrDeviceProfile",
+      "reference": "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-device"
+    }
+  ],
+  "variable": [
+    {
+      "name": "targetResourceIdAsDrDeviceProfile",
+      "defaultValue": "example",
+      "description": "Enter a known instance id on the destination system. Will be checked for conformance against profile AsDrDeviceProfile.",
+      "hint": "[resource.id]"
+    }
+  ],
+  "test": [
+    {
+      "name": "Validate the identified resource conforms to the AsDrDeviceProfile profile",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "read"
+            },
+            "resource": "Device",
+            "label": "Read_Device_Instance",
+            "description": "Read Device Instance",
+            "encodeRequestUrl": false,
+            "params": "/${targetResourceIdAsDrDeviceProfile}",
+            "responseId": "targetInstance"
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Response_OK",
+            "response": "okay",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Device_Returned",
+            "description": "Assert Device Returned",
+            "resource": "Device",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Instance_Conforms_to_AsDrDeviceProfile_Profile",
+            "description": "Assert returned instance conforms to the AsDrDeviceProfile Profile",
+            "validateProfileId": "targetProfileAsDrDeviceProfile",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "Package-Contactpoint-Search_by-Lastupdated",
+  "url": "https://github.com/fhir-crucible/testscript-generator",
+  "version": "0.0",
+  "name": "Package_Contactpoint_Search_by_Lastupdated",
+  "title": "package contactpoint search_by lastupdated",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-10-31T12:55:59+00:00",
+  "publisher": "The MITRE Corporation",
+  "fixture": [
+    {
+      "id": "example_contactpoint",
+      "autocreate": false,
+      "autodelete": false,
+      "resource": {
+        "reference": "fixtures/example_contactpoint.json"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "name": "zMLv7KKhMtyU0c6s",
+      "expression": "ContactPoint.meta.lastUpdated",
+      "sourceId": "yL7Yj8qAUeONJKX2"
+    }
+  ],
+  "setup": {
+    "action": [
+      {
+        "operation": {
+          "type": {
+            "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+            "code": "create"
+          },
+          "label": "Operation_1",
+          "encodeRequestUrl": false,
+          "responseId": "yL7Yj8qAUeONJKX2",
+          "sourceId": "example_contactpoint"
+        }
+      }
+    ]
+  },
+  "test": [
+    {
+      "name": "Test_1",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "search"
+            },
+            "resource": "ContactPoint",
+            "label": "Operation_2",
+            "encodeRequestUrl": false,
+            "params": "?_lastUpdated=${zMLv7KKhMtyU0c6s}"
+          }
+        }
+      ]
+    }
+  ],
+  "teardown": {
+    "action": [
+      {
+        "operation": {
+          "type": {
+            "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+            "code": "delete"
+          },
+          "resource": "ContactPoint",
+          "label": "Operation_3",
+          "encodeRequestUrl": false,
+          "params": "/${zMLv7KKhMtyU0c6s}"
+        }
+      }
+    ]
+  },
+  "resourceType": "TestScript"
+}
