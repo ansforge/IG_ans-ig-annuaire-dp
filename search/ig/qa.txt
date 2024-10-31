@@ -3,7 +3,7 @@ AnnuaireSante : Validation Results
 
 err = 26, warn = 75, info = 69
 IG Publisher Version: 1.7.1
-Generated Thu Oct 31 16:13:25 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.annuaire#1.1.0-snapshot-4 (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
+Generated Thu Oct 31 16:15:17 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.annuaire#1.1.0-snapshot-4 (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
  Build Errors : 2 / 24 / 0
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CapabilityStatement-AsServerCapabilityStatement : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-intern-id-systems : 0 / 2 / 2
@@ -118,8 +118,8 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/334081.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/1738459.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/1578230.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/Practitioner-334081.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 216, column 2257: The link 'Organization/u33' for "Organization/u33" cannot be resolved
-ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/Practitioner-3719500.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 216, column 2198: The link 'Organization/u63' for "Organization/u63" cannot be resolved
+ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/Practitioner-334081.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 221, column 2257: The link 'Organization/u33' for "Organization/u33" cannot be resolved
+ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/Practitioner-3719500.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 221, column 2198: The link 'Organization/u63' for "Organization/u63" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
