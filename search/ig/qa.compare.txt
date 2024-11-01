@@ -1,10 +1,10 @@
 AnnuaireSante : Validation Results
 =========================================
 
-err = 26, warn = 75, info = 69
+err = 26, warn = 76, info = 69
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
- Build Errors : 2 / 24 / 0
+ Build Errors : 2 / 25 / 0
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CapabilityStatement-AsServerCapabilityStatement : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-intern-id-systems : 0 / 2 / 2
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-organization-types : 0 / 2 / 2
@@ -120,6 +120,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/1578230.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/Practitioner-334081.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 221, column 2257: The link 'Organization/u33' for "Organization/u33" cannot be resolved
 ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/Practitioner-3719500.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 221, column 2198: The link 'Organization/u63' for "Organization/u63" cannot be resolved
+WARNING: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/searchform.html#/html/body/div/div/div/a/img/div/a/img/div/p/img/footer/div/div/div/div/div/div/a/img/div/a/img/script at Line 255, column 7: The <script> containing the javascript '$( document ).ready('... is illegal and not allowed on the HL7 cibuild - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 cibuild
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide

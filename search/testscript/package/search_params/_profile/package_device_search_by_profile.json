@@ -6,7 +6,7 @@
   "title": "package device search_by profile",
   "status": "draft",
   "experimental": true,
-  "date": "2024-10-31T16:16:33+00:00",
+  "date": "2024-11-01T18:21:12+00:00",
   "publisher": "The MITRE Corporation",
   "fixture": [
     {
@@ -20,9 +20,9 @@
   ],
   "variable": [
     {
-      "name": "XmXGoU6hQfczq0h9",
+      "name": "6OR6iKLjJZfaC106",
       "expression": "Device.meta.profile",
-      "sourceId": "DxaazEVPrdVnOmj2"
+      "sourceId": "p2FAylMOjJSSiuY5"
     }
   ],
   "setup": {
@@ -35,7 +35,7 @@
           },
           "label": "Operation_1",
           "encodeRequestUrl": false,
-          "responseId": "DxaazEVPrdVnOmj2",
+          "responseId": "p2FAylMOjJSSiuY5",
           "sourceId": "example_device"
         }
       }
@@ -54,7 +54,7 @@
             "resource": "Device",
             "label": "Operation_2",
             "encodeRequestUrl": false,
-            "params": "?_profile=${XmXGoU6hQfczq0h9}"
+            "params": "?_profile=${6OR6iKLjJZfaC106}"
           }
         }
       ]
@@ -71,7 +71,7 @@
           "resource": "Device",
           "label": "Operation_3",
           "encodeRequestUrl": false,
-          "params": "/${XmXGoU6hQfczq0h9}"
+          "params": "/${6OR6iKLjJZfaC106}"
         }
       }
     ]
