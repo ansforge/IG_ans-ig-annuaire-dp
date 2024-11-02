@@ -6,7 +6,7 @@
   "title": "package location search_by tag",
   "status": "draft",
   "experimental": true,
-  "date": "2024-11-01T18:21:12+00:00",
+  "date": "2024-11-02T11:37:48+00:00",
   "publisher": "The MITRE Corporation",
   "fixture": [
     {
@@ -20,9 +20,9 @@
   ],
   "variable": [
     {
-      "name": "RAxCY3OToZGktI6X",
+      "name": "OgCfhDzTguNpmTQp",
       "expression": "Location.meta.tag",
-      "sourceId": "8hAQHH9GI00OeGKG"
+      "sourceId": "p0bU2eZZg5kApPVB"
     }
   ],
   "setup": {
@@ -35,7 +35,7 @@
           },
           "label": "Operation_1",
           "encodeRequestUrl": false,
-          "responseId": "8hAQHH9GI00OeGKG",
+          "responseId": "p0bU2eZZg5kApPVB",
           "sourceId": "example_location"
         }
       }
@@ -54,7 +54,7 @@
             "resource": "Location",
             "label": "Operation_2",
             "encodeRequestUrl": false,
-            "params": "?_tag=${RAxCY3OToZGktI6X}"
+            "params": "?_tag=${OgCfhDzTguNpmTQp}"
           }
         }
       ]
@@ -71,7 +71,7 @@
           "resource": "Location",
           "label": "Operation_3",
           "encodeRequestUrl": false,
-          "params": "/${RAxCY3OToZGktI6X}"
+          "params": "/${OgCfhDzTguNpmTQp}"
         }
       }
     ]

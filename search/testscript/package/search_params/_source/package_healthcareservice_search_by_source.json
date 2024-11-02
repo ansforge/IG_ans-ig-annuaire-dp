@@ -6,7 +6,7 @@
   "title": "package healthcareservice search_by source",
   "status": "draft",
   "experimental": true,
-  "date": "2024-11-01T18:21:12+00:00",
+  "date": "2024-11-02T11:37:48+00:00",
   "publisher": "The MITRE Corporation",
   "fixture": [
     {
@@ -20,9 +20,9 @@
   ],
   "variable": [
     {
-      "name": "HotUn3Xl0dq0FNsZ",
+      "name": "MbSGXz7KhRurok1u",
       "expression": "HealthcareService.meta.source",
-      "sourceId": "vgChPihdjQ7zBvcE"
+      "sourceId": "cfBsu8XZEqL1Cxtp"
     }
   ],
   "setup": {
@@ -35,7 +35,7 @@
           },
           "label": "Operation_1",
           "encodeRequestUrl": false,
-          "responseId": "vgChPihdjQ7zBvcE",
+          "responseId": "cfBsu8XZEqL1Cxtp",
           "sourceId": "example_healthcareservice"
         }
       }
@@ -54,7 +54,7 @@
             "resource": "HealthcareService",
             "label": "Operation_2",
             "encodeRequestUrl": false,
-            "params": "?_source=${HotUn3Xl0dq0FNsZ}"
+            "params": "?_source=${MbSGXz7KhRurok1u}"
           }
         }
       ]
@@ -71,7 +71,7 @@
           "resource": "HealthcareService",
           "label": "Operation_3",
           "encodeRequestUrl": false,
-          "params": "/${HotUn3Xl0dq0FNsZ}"
+          "params": "/${MbSGXz7KhRurok1u}"
         }
       }
     ]
