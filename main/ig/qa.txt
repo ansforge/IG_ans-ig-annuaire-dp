@@ -1,9 +1,9 @@
 AnnuaireSante : Validation Results
 =========================================
 
-err = 26, warn = 75, info = 69
+err = 26, warn = 73, info = 67
 IG Publisher Version: 1.7.1
-Generated Thu Oct 31 12:54:48 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.annuaire#1.1.0-snapshot-4 (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
+Generated Tue Nov 05 10:03:37 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.annuaire#1.1.0-snapshot-4 (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
  Build Errors : 2 / 24 / 0
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CapabilityStatement-AsServerCapabilityStatement : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-intern-id-systems : 0 / 2 / 2
@@ -11,8 +11,8 @@ Generated Thu Oct 31 12:54:48 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.annua
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-type-etablissement : 0 / 1 / 2
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-type-systeme-information : 0 / 1 / 2
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.annuaire : 0 / 0 / 1
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-158480 : 3 / 2 / 10
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-158480DP : 3 / 2 / 10
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-158480 : 3 / 1 / 9
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-158480DP : 3 / 1 / 9
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-481677 : 0 / 0 / 8
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-481677DP : 0 / 0 / 6
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-548812 : 0 / 0 / 6
@@ -140,9 +140,7 @@ INFORMATION: CodeSystem/as-cs-type-systeme-information: CodeSystem: CodeSystems 
 WARNING: CodeSystem/as-cs-type-systeme-information: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/ImplementationGuide-ans.fhir.fr.annuaire.json ==
 == fsh-generated/resources/Organization-158480.json ==
-INFORMATION: Organization/158480: Organization.type[2]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Organization/158480: Organization.type[0]: Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307|2.1.0
-WARNING: Organization/158480: Organization.type[2].coding[0]: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5/' could not be found, so the code cannot be validated
 ERROR: Organization/158480: Organization.telecom[0].system: Value is 'phone' but must be 'email'
 ERROR: Organization/158480: Organization.telecom[1].system: Value is 'fax' but must be 'email'
 WARNING: Organization/158480: Organization.address[0].extension[0].value.ofType(Coding).system: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
@@ -152,9 +150,7 @@ INFORMATION: Organization/158480: Organization.address[0].line[0].extension[1].v
 INFORMATION: Organization/158480: Organization.type[2]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Organization/158480: Organization.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated/resources/Organization-158480DP.json ==
-INFORMATION: Organization/158480DP: Organization.type[2]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Organization/158480DP: Organization.type[0]: Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307|2.1.0
-WARNING: Organization/158480DP: Organization.type[2].coding[0]: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5/' could not be found, so the code cannot be validated
 ERROR: Organization/158480DP: Organization.telecom[0].system: Value is 'phone' but must be 'email'
 ERROR: Organization/158480DP: Organization.telecom[1].system: Value is 'fax' but must be 'email'
 WARNING: Organization/158480DP: Organization.address[0].extension[0].value.ofType(Coding).system: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
