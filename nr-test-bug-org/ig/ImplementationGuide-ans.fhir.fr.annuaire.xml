@@ -11,7 +11,7 @@
   <name value="AnnuaireSante"/>
   <title value="Annuaire Santé"/>
   <status value="active"/>
-  <date value="2024-11-07T09:02:06+00:00"/>
+  <date value="2024-11-07T09:06:45+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -497,17 +497,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/as-ext-mailbox-mss-metadata"/>
-      </reference>
-      <name value="AS Mailbox Metadata"/>
-      <description value="Extension contenant les métadonnées de la mailbox mss."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:complex-type"/>
       </extension>
       <reference>
@@ -555,9 +544,9 @@
         <valueString value="Organization"/>
       </extension>
       <reference>
-        <reference value="Organization/example-organization-fictive"/>
+        <reference value="Organization/example-organization-fictive-without-emailtype"/>
       </reference>
-      <name value="example-organization-fictive"/>
+      <name value="example-organization-fictive-without-emailtype"/>
       <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization"/>
     </resource>
     <resource>
@@ -565,9 +554,9 @@
         <valueString value="Organization"/>
       </extension>
       <reference>
-        <reference value="Organization/example-organization-nancy"/>
+        <reference value="Organization/example-organization-nancy-with-emailtype"/>
       </reference>
-      <name value="example-organization-nancy"/>
+      <name value="example-organization-nancy-with-emailtype"/>
       <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization"/>
     </resource>
     <resource>

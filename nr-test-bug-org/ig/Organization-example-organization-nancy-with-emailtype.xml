@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="example-organization-nancy-with-emailtype"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Organization example-organization-nancy-with-emailtype</b></p><a name="example-organization-nancy-with-emailtype"> </a><a name="hcexample-organization-nancy-with-emailtype"> </a><a name="example-organization-nancy-with-emailtype-fr-FR"> </a><p><b>telecom</b>: <a href="mailto:exemple.address@address.mssante.fr">exemple.address@address.mssante.fr</a></p></div>
+  </text>
+  <telecom>
+    <extension url="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type">
+      <valueCoding>
+        <system value="https://mos.esante.gouv.fr/NOS/TRE_R256-TypeMessagerie/FHIR/TRE-R256-TypeMessagerie"/>
+        <code value="MSSANTE"/>
+      </valueCoding>
+    </extension>
+    <system value="email"/>
+    <value value="exemple.address@address.mssante.fr"/>
+  </telecom>
+</Organization>

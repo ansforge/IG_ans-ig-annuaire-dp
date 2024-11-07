@@ -27,9 +27,6 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
   <code value=""MSSANTE""/>
 </valueCoding>","","","",,"extensible","","https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-email-type","",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"ContactPoint.extension:as-mailbox-mss-metadata","ContactPoint.extension","as-mailbox-mss-metadata","","",0,1,"","","","Extension {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-mailbox-mss-metadata]]} {[]}
-","Les attributs 'responsible' et 'phone' ne sont pas disponibles en accès libre.","Extension contenant les métadonnées de la mailbox mss.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ContactPoint.system","ContactPoint.system","","","",1,1,"","","Y","code {[]} {[]}
 ","phone | fax | email | pager | url | sms | other","Telecommunications form for contact point - what communications system is required to make use of the contact.","","","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""email""/>","","","",,"required","Telecommunications form for contact point.","http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1","",,,,"ContactPoint.system",0,1,"cpt-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

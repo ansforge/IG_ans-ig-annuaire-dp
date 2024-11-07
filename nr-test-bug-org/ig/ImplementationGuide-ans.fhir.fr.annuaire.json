@@ -10,7 +10,7 @@
   "name" : "AnnuaireSante",
   "title" : "Annuaire Santé",
   "status" : "active",
-  "date" : "2024-11-07T09:02:06+00:00",
+  "date" : "2024-11-07T09:06:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -660,18 +660,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/as-ext-mailbox-mss-metadata"
-      },
-      "name" : "AS Mailbox Metadata",
-      "description" : "Extension contenant les métadonnées de la mailbox mss.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:complex-type"
       }],
       "reference" : {
@@ -723,9 +711,9 @@
         "valueString" : "Organization"
       }],
       "reference" : {
-        "reference" : "Organization/example-organization-fictive"
+        "reference" : "Organization/example-organization-fictive-without-emailtype"
       },
-      "name" : "example-organization-fictive",
+      "name" : "example-organization-fictive-without-emailtype",
       "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization"
     },
     {
@@ -734,9 +722,9 @@
         "valueString" : "Organization"
       }],
       "reference" : {
-        "reference" : "Organization/example-organization-nancy"
+        "reference" : "Organization/example-organization-nancy-with-emailtype"
       },
-      "name" : "example-organization-nancy",
+      "name" : "example-organization-nancy-with-emailtype",
       "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization"
     },
     {

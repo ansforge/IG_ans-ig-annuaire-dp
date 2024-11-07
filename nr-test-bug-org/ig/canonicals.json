@@ -21,13 +21,6 @@
     "name" : "AnnuaireSante"
   },
   {
-    "id" : "as-ext-mailbox-mss-metadata",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-mailbox-mss-metadata",
-    "version" : "1.1.0-snapshot-4",
-    "name" : "AsMailboxMSSMetadataExtension"
-  },
-  {
     "id" : "as-mailbox-mss",
     "type" : "StructureDefinition",
     "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss",
