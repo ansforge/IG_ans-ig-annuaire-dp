@@ -3,8 +3,8 @@ AnnuaireSante : Validation Results
 
 err = 6, warn = 6, info = 2
 IG Publisher Version: 1.7.1
-Generated Thu Nov 07 09:34:31 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.annuaire#1.1.0-snapshot-4 (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
- Build Errors : 6 / 5 / 0
+Generated Thu Nov 07 09:37:39 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.annuaire#1.1.0-snapshot-4 (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
+ Build Errors : 0 / 5 / 0
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.annuaire : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-fictive-without-emailtype : 4 / 0 / 2
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-nancy-with-emailtype : 2 / 0 / 2
@@ -14,12 +14,6 @@ Generated Thu Nov 07 09:34:31 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.annua
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/example-organization-fictive-without-emailtype.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/example-organization-nancy-with-emailtype.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/index.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 267, column 397: The link 'StructureDefinition-as-device.html' for "AS Device Profile" cannot be resolved
-ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/index.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 267, column 1296: The link 'StructureDefinition-as-healthcareservice-healthcare-activity.html' for "AS HealthcareService activity" cannot be resolved
-ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/index.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 267, column 2360: The link 'StructureDefinition-as-healthcareservice-social-equipment.html' for "AS HealthcareService equipment" cannot be resolved
-ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/index.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 267, column 4260: The link 'StructureDefinition-as-person.html' for "AS Person" cannot be resolved
-ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/index.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 267, column 5137: The link 'StructureDefinition-as-practitioner.html' for "AS Practitioner" cannot be resolved
-ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/index.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 267, column 6080: The link 'StructureDefinition-as-practitionerrole.html' for "AS PractitionerRole" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide

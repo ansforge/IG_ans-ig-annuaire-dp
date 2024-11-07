@@ -11,7 +11,7 @@
   <name value="AnnuaireSante"/>
   <title value="Annuaire Santé"/>
   <status value="active"/>
-  <date value="2024-11-07T09:34:03+00:00"/>
+  <date value="2024-11-07T09:37:15+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -528,22 +528,6 @@
         </extension>
         <nameUrl value="index.html"/>
         <title value="Accueil"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="liste_profils.html"/>
-        </extension>
-        <nameUrl value="liste_profils.html"/>
-        <title value="Liste des profils par permission"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="downloads.html"/>
-        </extension>
-        <nameUrl value="downloads.html"/>
-        <title value="Téléchargement du guide"/>
         <generation value="markdown"/>
       </page>
     </page>

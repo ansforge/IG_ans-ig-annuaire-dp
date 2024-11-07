@@ -3,12 +3,6 @@ AnnuaireSante
 
 Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Organization/example-organization-fictive-without-emailtype.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
 Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Organization/example-organization-nancy-with-emailtype.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
-Generic: line 0, col 0, Error - The link 'StructureDefinition-as-device.html' for "AS Device Profile" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'StructureDefinition-as-healthcareservice-healthcare-activity.html' for "AS HealthcareService activity" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'StructureDefinition-as-healthcareservice-social-equipment.html' for "AS HealthcareService equipment" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'StructureDefinition-as-person.html' for "AS Person" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'StructureDefinition-as-practitioner.html' for "AS Practitioner" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'StructureDefinition-as-practitionerrole.html' for "AS PractitionerRole" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
