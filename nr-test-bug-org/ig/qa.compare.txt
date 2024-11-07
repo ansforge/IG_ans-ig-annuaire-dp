@@ -1,7 +1,7 @@
 AnnuaireSante : Validation Results
 =========================================
 
-err = 9, warn = 8, info = 4
+err = 6, warn = 8, info = 4
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
  Build Errors : 6 / 5 / 0
@@ -9,7 +9,7 @@ Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https:
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-type-systeme-information : 0 / 1 / 2
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.annuaire : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-fictive-without-emailtype : 4 / 0 / 2
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-nancy-with-emailtype : 5 / 0 / 2
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-nancy-with-emailtype : 2 / 0 / 2
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-mailbox-mss : 0 / 1 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-organization : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-VS-TRE-R286-TypeFermeture : 0 / 0 / 1
@@ -44,9 +44,6 @@ ERROR: Organization/example-organization-fictive-without-emailtype: Organization
 INFORMATION: Organization/example-organization-fictive-without-emailtype: Organization.meta.profile[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
 ERROR: Organization/example-organization-fictive-without-emailtype: Organization: Constraint failed: org-1: 'The organization SHALL at least have a name or an identifier, and possibly more than one' (defined in http://hl7.org/fhir/StructureDefinition/Organization)
 == fsh-generated/resources/Organization-example-organization-nancy-with-emailtype.json ==
-ERROR: Organization.telecom[0]: The property telecom must be an Array, not a Null (at Organization.telecom[0])
-ERROR: Organization.telecom[1]: The property telecom must be an Array, not a Null (at Organization.telecom[1])
-ERROR: Organization.telecom[2]: The property telecom must be an Array, not a Null (at Organization.telecom[2])
 ERROR: Organization/example-organization-nancy-with-emailtype: Organization.telecom[0]: Slicing cannot be evaluated: Unable to resolve discriminator extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type') on Organization.telecom:mailbox-mss found in the definitions because the extension https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type wasn't found in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization (@char 1)
 INFORMATION: Organization/example-organization-nancy-with-emailtype: Organization.meta.profile[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
 ERROR: Organization/example-organization-nancy-with-emailtype: Organization: Constraint failed: org-1: 'The organization SHALL at least have a name or an identifier, and possibly more than one' (defined in http://hl7.org/fhir/StructureDefinition/Organization)
