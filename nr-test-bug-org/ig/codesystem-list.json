@@ -1,0 +1,20 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement",
+      "version" : "1.1.0-snapshot-4",
+      "status" : "active",
+      "name" : "AsCsTypeEtablissement",
+      "title" : "AS CodeSystem Type Etablissement",
+      "description" : "CodeSystem définissant les types d'établissement."
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information",
+      "version" : "1.1.0-snapshot-4",
+      "status" : "active",
+      "name" : "AsCsTypeSystemeInformation",
+      "title" : "AS CodeSystem type de système d'information",
+      "description" : "CodeSystem définissant les types de systèmes d'information pouvant alimenter l'annuaire santé."
+    }
+  ]
+}

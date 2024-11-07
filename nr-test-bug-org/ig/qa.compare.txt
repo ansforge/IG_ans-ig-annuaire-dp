@@ -1,0 +1,63 @@
+AnnuaireSante : Validation Results
+=========================================
+
+err = 9, warn = 8, info = 5
+$--
+Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
+ Build Errors : 6 / 5 / 0
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-type-etablissement : 0 / 1 / 2
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-type-systeme-information : 0 / 1 / 2
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.annuaire : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-fictive : 4 / 0 / 2
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-nancy : 5 / 0 / 3
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-mailbox-mss-metadata : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-mailbox-mss : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-organization : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-VS-TRE-R286-TypeFermeture : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-VS-TRE-R301-SourceInformationInstallation : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-VS-TRE-R74-ModeFixationTarifaire : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-as-vs-type-etablissement : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-as-vs-type-systeme-information : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/example-organization-fictive.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/example-organization-nancy.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/index.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 267, column 397: The link 'StructureDefinition-as-device.html' for "AS Device Profile" cannot be resolved
+ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/index.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 267, column 1296: The link 'StructureDefinition-as-healthcareservice-healthcare-activity.html' for "AS HealthcareService activity" cannot be resolved
+ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/index.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 267, column 2360: The link 'StructureDefinition-as-healthcareservice-social-equipment.html' for "AS HealthcareService equipment" cannot be resolved
+ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/index.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 267, column 4260: The link 'StructureDefinition-as-person.html' for "AS Person" cannot be resolved
+ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/index.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 267, column 5137: The link 'StructureDefinition-as-practitioner.html' for "AS Practitioner" cannot be resolved
+ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/index.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 267, column 6080: The link 'StructureDefinition-as-practitionerrole.html' for "AS PractitionerRole" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-as-cs-type-etablissement.json ==
+INFORMATION: CodeSystem/as-cs-type-etablissement: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/as-cs-type-etablissement: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-as-cs-type-systeme-information.json ==
+INFORMATION: CodeSystem/as-cs-type-systeme-information: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/as-cs-type-systeme-information: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-ans.fhir.fr.annuaire.json ==
+== fsh-generated/resources/Organization-example-organization-fictive.json ==
+ERROR: Organization/example-organization-fictive: Organization.telecom[0]: Slicing cannot be evaluated: Unable to resolve discriminator extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type') on Organization.telecom:mailbox-mss found in the definitions because the extension https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type wasn't found in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization (@char 1)
+ERROR: Organization/example-organization-fictive: Organization.telecom[1]: Slicing cannot be evaluated: Unable to resolve discriminator extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type') on Organization.telecom:mailbox-mss found in the definitions because the extension https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type wasn't found in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization (@char 1)
+ERROR: Organization/example-organization-fictive: Organization.telecom[2]: Slicing cannot be evaluated: Unable to resolve discriminator extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type') on Organization.telecom:mailbox-mss found in the definitions because the extension https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type wasn't found in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization (@char 1)
+INFORMATION: Organization/example-organization-fictive: Organization.meta.profile[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Organization/example-organization-fictive: Organization: Constraint failed: org-1: 'The organization SHALL at least have a name or an identifier, and possibly more than one' (defined in http://hl7.org/fhir/StructureDefinition/Organization)
+== fsh-generated/resources/Organization-example-organization-nancy.json ==
+ERROR: Organization.telecom[0]: The property telecom must be an Array, not a Null (at Organization.telecom[0])
+ERROR: Organization.telecom[1]: The property telecom must be an Array, not a Null (at Organization.telecom[1])
+ERROR: Organization.telecom[2]: The property telecom must be an Array, not a Null (at Organization.telecom[2])
+ERROR: Organization/example-organization-nancy: Organization.telecom[0]: Slicing cannot be evaluated: Unable to resolve discriminator extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type') on Organization.telecom:mailbox-mss found in the definitions because the extension https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type wasn't found in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization (@char 1)
+INFORMATION: Organization/example-organization-nancy: Organization.meta.profile[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Organization/example-organization-nancy: Organization.telecom[0].extension[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Organization/example-organization-nancy: Organization: Constraint failed: org-1: 'The organization SHALL at least have a name or an identifier, and possibly more than one' (defined in http://hl7.org/fhir/StructureDefinition/Organization)
+== fsh-generated/resources/StructureDefinition-as-ext-mailbox-mss-metadata.json ==
+== fsh-generated/resources/StructureDefinition-as-mailbox-mss.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-as-organization.json ==
+== fsh-generated/resources/ValueSet-VS-TRE-R286-TypeFermeture.json ==
+== fsh-generated/resources/ValueSet-VS-TRE-R301-SourceInformationInstallation.json ==
+== fsh-generated/resources/ValueSet-VS-TRE-R74-ModeFixationTarifaire.json ==
+== fsh-generated/resources/ValueSet-as-vs-type-etablissement.json ==
+== fsh-generated/resources/ValueSet-as-vs-type-systeme-information.json ==

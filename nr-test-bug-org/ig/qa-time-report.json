@@ -1,0 +1,584 @@
+{
+  "date" : "Thu, 07 Nov, 2024 09:02:06 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.annuaire.json",
+      "size" : 7098,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 12
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 28,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 81
+        },
+        {
+          "activity" : "validate",
+          "start" : 31,
+          "length" : 816
+        },
+        {
+          "activity" : "generate1",
+          "start" : 32,
+          "length" : 102
+        },
+        {
+          "activity" : "generate2",
+          "start" : 36,
+          "length" : 102
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 54,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 59,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-as-cs-type-etablissement.json",
+      "size" : 783,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 17
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 8
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 16
+        },
+        {
+          "activity" : "validate",
+          "start" : 29,
+          "length" : 640
+        },
+        {
+          "activity" : "generate1",
+          "start" : 32,
+          "length" : 16
+        },
+        {
+          "activity" : "generate2",
+          "start" : 36,
+          "length" : 2527
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-as-cs-type-systeme-information.json",
+      "size" : 1301,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 29,
+          "length" : 23
+        },
+        {
+          "activity" : "generate1",
+          "start" : 32,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 39,
+          "length" : 75
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 54,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Organization-example-organization-fictive.json",
+      "size" : 458,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 13
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 32,
+          "length" : 7
+        },
+        {
+          "activity" : "generate1",
+          "start" : 32,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 39,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Organization-example-organization-nancy.json",
+      "size" : 1498,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 32,
+          "length" : 24
+        },
+        {
+          "activity" : "generate1",
+          "start" : 32,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 39,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-as-ext-mailbox-mss-metadata.json",
+      "size" : 7174,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 16
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 11
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 28,
+          "length" : 37
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 104
+        },
+        {
+          "activity" : "validate",
+          "start" : 29,
+          "length" : 721
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 32,
+          "length" : 394
+        },
+        {
+          "activity" : "generate2",
+          "start" : 39,
+          "length" : 1135
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 48,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 54,
+          "length" : 12
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 59,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-as-mailbox-mss.json",
+      "size" : 2061,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 14
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 3
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 28,
+          "length" : 19
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 39
+        },
+        {
+          "activity" : "validate",
+          "start" : 30,
+          "length" : 118
+        },
+        {
+          "activity" : "generate1",
+          "start" : 33,
+          "length" : 140
+        },
+        {
+          "activity" : "generate2",
+          "start" : 40,
+          "length" : 426
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 54,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 59,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-as-organization.json",
+      "size" : 2010,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 13
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 4
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 28,
+          "length" : 147
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 70
+        },
+        {
+          "activity" : "validate",
+          "start" : 30,
+          "length" : 886
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 33,
+          "length" : 733
+        },
+        {
+          "activity" : "generate2",
+          "start" : 40,
+          "length" : 1669
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 54,
+          "length" : 24
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 59,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-VS-TRE-R286-TypeFermeture.json",
+      "size" : 889,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 29,
+          "length" : 66
+        },
+        {
+          "activity" : "validate",
+          "start" : 29,
+          "length" : 34
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 34,
+          "length" : 14
+        },
+        {
+          "activity" : "generate2",
+          "start" : 42,
+          "length" : 4558
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-VS-TRE-R301-SourceInformationInstallation.json",
+      "size" : 1033,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 4
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 29,
+          "length" : 13
+        },
+        {
+          "activity" : "validate",
+          "start" : 29,
+          "length" : 29
+        },
+        {
+          "activity" : "generate1",
+          "start" : 34,
+          "length" : 14
+        },
+        {
+          "activity" : "generate2",
+          "start" : 46,
+          "length" : 131
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 54,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-VS-TRE-R74-ModeFixationTarifaire.json",
+      "size" : 952,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 9
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 29,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 29,
+          "length" : 29
+        },
+        {
+          "activity" : "generate1",
+          "start" : 34,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 47,
+          "length" : 141
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-as-vs-type-etablissement.json",
+      "size" : 660,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 29,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 29,
+          "length" : 23
+        },
+        {
+          "activity" : "generate1",
+          "start" : 34,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 47,
+          "length" : 132
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-as-vs-type-systeme-information.json",
+      "size" : 743,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 29,
+          "length" : 16
+        },
+        {
+          "activity" : "validate",
+          "start" : 29,
+          "length" : 22
+        },
+        {
+          "activity" : "generate1",
+          "start" : 34,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 47,
+          "length" : 82
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 54,
+          "length" : 1
+        }
+      ]
+    }
+  ]
+}

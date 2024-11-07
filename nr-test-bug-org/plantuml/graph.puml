@@ -1,0 +1,79 @@
+@startuml
+set namespaceSeparator ?
+hide circle
+hide class fields
+
+package IG #DDDDDD{
+
+     package Profiles #DDDDDD{
+
+        class AsMailboxMSSProfile{
+
+             ContactPoint => [None..None]
+             ContactPoint.extension:emailType => <&plus>[None..None]
+             ContactPoint.extension:emailType.value[x] => <&plus>[None..None]
+             ContactPoint.extension:as-mailbox-mss-metadata => <&plus>[0..1]
+             ContactPoint.system => [None..None]
+             ContactPoint.value => [None..None]
+        } 
+
+        class AsOrganizationProfile{
+
+             Organization => [None..None]
+             Organization.telecom => [None..None]
+             Organization.telecom:mailbox-mss => [0..*]
+         }
+
+     }
+     package extension #paleturquoise {
+
+     AsMailboxMSSProfile -[#black,dashed,thickness=2]-> AsMailboxMSSMetadataExtension
+
+        class AsMailboxMSSMetadataExtension{
+
+          Extension.extension:type => [0..1]
+          Extension.extension:type.extension => [None..0]
+          Extension.extension:type.url => [None..None]
+          Extension.extension:type.value[x] => [None..None]
+          Extension.extension:description => [0..1]
+          Extension.extension:description.extension => [None..0]
+          Extension.extension:description.url => [None..None]
+          Extension.extension:description.value[x] => [None..None]
+          Extension.extension:responsible => [0..1]
+          Extension.extension:responsible.extension => [None..0]
+          Extension.extension:responsible.url => [None..None]
+          Extension.extension:responsible.value[x] => [None..None]
+          Extension.extension:service => [0..1]
+          Extension.extension:service.extension => [None..0]
+          Extension.extension:service.url => [None..None]
+          Extension.extension:service.value[x] => [None..None]
+          Extension.extension:phone => [0..1]
+          Extension.extension:phone.extension => [None..0]
+          Extension.extension:phone.url => [None..None]
+          Extension.extension:phone.value[x] => [None..None]
+          Extension.extension:digitization => [0..1]
+          Extension.extension:digitization.extension => [None..0]
+          Extension.extension:digitization.url => [None..None]
+          Extension.extension:digitization.value[x] => [None..None]
+          Extension.extension:listeRouge => [0..1]
+          Extension.extension:listeRouge.extension => [None..0]
+          Extension.extension:listeRouge.url => [None..None]
+          Extension.extension:listeRouge.value[x] => [None..None]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..0]
+         }
+     }
+     package valueset #PaleVioletRed{
+       }
+
+package "Ressources de base" #palegreen {
+
+ class "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point" as  classf60483b0623e1893e0fa6d23ce4ea871 
+
+    classf60483b0623e1893e0fa6d23ce4ea871 --> AsMailboxMSSProfile
+
+ class "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization" as  class7273115ddeceb35c4c7044f07f832f67 
+
+    class7273115ddeceb35c4c7044f07f832f67 --> AsOrganizationProfile
+}
+@enduml

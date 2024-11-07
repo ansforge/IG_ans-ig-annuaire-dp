@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="as-cs-type-systeme-information"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem as-cs-type-systeme-information</b></p><a name="as-cs-type-systeme-information"> </a><a name="hcas-cs-type-systeme-information"> </a><a name="as-cs-type-systeme-information-fr-FR"> </a><p>This  code system <code>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">RPPS<a name="as-cs-type-systeme-information-RPPS"> </a></td><td>Répertoire partagé des professionnels de santé</td><td>Répertoire partagé des professionnels de santé</td></tr><tr><td style="white-space:nowrap">FINESS<a name="as-cs-type-systeme-information-FINESS"> </a></td><td>Fichier national des établissements sanitaires et sociaux</td><td>FINESS (Fichier National des Etablissements Sanitaires et Sociaux) est le répertoire national de référence des personnes morales intervenant dans les domaines sanitaire, médico-social et social et de l’enseignement des professions sanitaires et sociales.</td></tr><tr><td style="white-space:nowrap">CG<a name="as-cs-type-systeme-information-CG"> </a></td><td>CG</td><td>SI CPS</td></tr></table></div>
+  </text>
+  <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information"/>
+  <version value="1.1.0-snapshot-4"/>
+  <name value="AsCsTypeSystemeInformation"/>
+  <title value="AS CodeSystem type de système d'information"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-11-07T09:02:06+00:00"/>
+  <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+  <contact>
+    <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="monserviceclient.annuaire@esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="CodeSystem définissant les types de systèmes d'information pouvant alimenter l'annuaire santé."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="FRANCE"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="RPPS"/>
+    <display value="Répertoire partagé des professionnels de santé"/>
+    <definition value="Répertoire partagé des professionnels de santé"/>
+  </concept>
+  <concept>
+    <code value="FINESS"/>
+    <display value="Fichier national des établissements sanitaires et sociaux"/>
+    <definition value="FINESS (Fichier National des Etablissements Sanitaires et Sociaux) est le répertoire national de référence des personnes morales intervenant dans les domaines sanitaire, médico-social et social et de l’enseignement des professions sanitaires et sociales."/>
+  </concept>
+  <concept>
+    <code value="CG"/>
+    <display value="CG"/>
+    <definition value="SI CPS"/>
+  </concept>
+</CodeSystem>

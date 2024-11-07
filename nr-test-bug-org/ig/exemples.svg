@@ -1,0 +1,51 @@
+@startuml 
+
+/'PP15 - Medecin'/
+package PP19 <<frame>>{
+    object "Professionnel" as P19 #f6927c
+    object "Exercice Professionnel - Médecin \n + \n Situation Exercice - Libéral" as Liberal #f1dbd6
+    object "Exercice Professionnel - Médecin \n + \n Situation Exercice - Salarié" as Salarie #f1dbd6
+}
+
+P19 <|--- Liberal
+P19 <|--- Salarie
+
+/'Organisation - Hopital'/
+package PM1 <<frame>>{
+    object "Entité Géographique - \n Centre Hospitalier" as Hopital #9fd8ec
+}
+    
+Salarie --|> Hopital
+
+/'Organisation - Cabinet Libéral'/
+package PM7 <<frame>>{
+    object "Entité Juridique -\n Cabinet Libéral" as Cabinet #9fd8ec
+}
+
+   
+Liberal --|> Cabinet
+
+
+/'PP16 - Pharmacien'/
+package PP16 <<frame>>{
+    object "Professionnel" as P16 #f6927c
+    object "Exercice Professionnel - Pharmacien \n + \n Situation Exercice - Officine" as Pharmacien #f1dbd6
+}
+
+P16 <|-- Pharmacien
+
+/'Organisation - Officine'/
+package PM2 <<frame>>{
+    object "Entite Juridique - Officine" as Officine #9fd8ec
+}
+    
+Pharmacien --|> Officine
+
+
+package "Légende" <<frame>>{
+    object Practitioner #f6927c
+    object PractitionerRole #f1dbd6
+    object Organization #9fd8ec
+}
+
+ @enduml 

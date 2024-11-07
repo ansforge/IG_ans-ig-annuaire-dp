@@ -1,0 +1,24 @@
+{
+  "resourceType" : "Organization",
+  "id" : "example-organization-fictive",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization example-organization-fictive</b></p><a name=\"example-organization-fictive\"> </a><a name=\"hcexample-organization-fictive\"> </a><a name=\"example-organization-fictive-fr-FR\"> </a><p><b>telecom</b>: ph: 0248391028, fax: 0248391029, <a href=\"mailto:direction@hopital-fictif.fr\">direction@hopital-fictif.fr</a></p></div>"
+  },
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "0248391028",
+    "rank" : 1
+  },
+  {
+    "system" : "fax",
+    "value" : "0248391029"
+  },
+  {
+    "system" : "email",
+    "value" : "direction@hopital-fictif.fr"
+  }]
+}
