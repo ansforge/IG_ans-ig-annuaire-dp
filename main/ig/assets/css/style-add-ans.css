@@ -1,3 +1,7 @@
+p, li, td {
+    color: black;
+}
+
 #segment-header {
     background-color: white;
 }

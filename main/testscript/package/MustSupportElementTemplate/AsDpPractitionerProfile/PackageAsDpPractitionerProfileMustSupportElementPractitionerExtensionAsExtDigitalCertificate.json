@@ -6,7 +6,7 @@
   "title": "IG: package; Profile: AsDpPractitionerProfile; Case: Must Support Element; Element: Practitioner.extension:as-ext-digital-certificate",
   "status": "draft",
   "experimental": true,
-  "date": "2024-11-05T10:04:49+00:00",
+  "date": "2024-11-08T16:56:31+00:00",
   "publisher": "The MITRE Corporation",
   "profile": [
     {

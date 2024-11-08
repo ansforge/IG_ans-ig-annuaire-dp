@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AsDeviceProfile"] ; # 
   fhir:title [ fhir:v "AS Device Profile"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-11-05T10:01:35+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-08T16:53:16+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
