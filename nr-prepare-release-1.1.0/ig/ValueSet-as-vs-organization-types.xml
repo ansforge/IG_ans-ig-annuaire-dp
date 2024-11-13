@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet as-vs-organization-types</b></p><a name="as-vs-organization-types"> </a><a name="hcas-vs-organization-types"> </a><a name="as-vs-organization-types-fr-FR"> </a><ul><li>Include all codes defined in <a href="CodeSystem-as-cs-organization-types.html"><code>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types</code></a></li></ul></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-organization-types"/>
-  <version value="1.1.0-snapshot-4"/>
+  <version value="1.1.0"/>
   <name value="AsVsOrganizationTypes"/>
   <title value="AS ValueSet OrganizationTypes"/>
   <status value="active"/>
-  <date value="2024-11-13T09:58:26+00:00"/>
+  <date value="2024-11-13T10:02:18+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>

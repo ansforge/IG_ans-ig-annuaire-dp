@@ -321,8 +321,8 @@
       "oids" : ["2.16.840.1.113883.18.108"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-identifier-type.html" : "IdentifierType",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-identifier-type.html" : "FR Core ValueSet Practitioner identifier type"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-identifier-type.html" : "FR Core ValueSet Practitioner identifier type",
+      "http://hl7.org/fhir/R4/valueset-identifier-type.html" : "IdentifierType"
     },
     {
       "url" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-location-identifier-type",
@@ -381,7 +381,7 @@
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems",
-      "version" : "1.1.0-snapshot-4",
+      "version" : "1.1.0",
       "status" : "active",
       "name" : "AsCSInterneIdSystems",
       "title" : "AS CodeSystem Internal Identifier Systems",
@@ -392,7 +392,7 @@
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types",
-      "version" : "1.1.0-snapshot-4",
+      "version" : "1.1.0",
       "status" : "active",
       "name" : "AsCsOrganizationTypes",
       "title" : "AS CodeSystem OrganizationTypes",
@@ -403,7 +403,7 @@
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement",
-      "version" : "1.1.0-snapshot-4",
+      "version" : "1.1.0",
       "status" : "active",
       "name" : "AsCsTypeEtablissement",
       "title" : "AS CodeSystem Type Etablissement",
@@ -414,7 +414,7 @@
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information",
-      "version" : "1.1.0-snapshot-4",
+      "version" : "1.1.0",
       "status" : "active",
       "name" : "AsCsTypeSystemeInformation",
       "title" : "AS CodeSystem type de système d'information",
@@ -445,8 +445,8 @@
       "oids" : ["1.2.250.1.71.4.2.6"],
       "uses" : {
       },
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J73-MetierPharmacien-RASS.html" : "JDV_J73-MetierPharmacien-RASS"
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J73-MetierPharmacien-RASS.html" : "JDV_J73-MetierPharmacien-RASS",
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne",
@@ -530,8 +530,8 @@
       "oids" : ["1.2.250.1.213.2.37"],
       "uses" : {
       },
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J73-MetierPharmacien-RASS.html" : "JDV_J73-MetierPharmacien-RASS"
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J73-MetierPharmacien-RASS.html" : "JDV_J73-MetierPharmacien-RASS",
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle",

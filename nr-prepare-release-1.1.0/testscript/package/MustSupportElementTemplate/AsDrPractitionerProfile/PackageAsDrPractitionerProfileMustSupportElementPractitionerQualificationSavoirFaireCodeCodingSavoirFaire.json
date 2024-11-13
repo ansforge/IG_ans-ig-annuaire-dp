@@ -6,7 +6,7 @@
   "title": "IG: package; Profile: AsDrPractitionerProfile; Case: Must Support Element; Element: Practitioner.qualification:savoirFaire.code.coding:savoirFaire",
   "status": "draft",
   "experimental": true,
-  "date": "2024-11-13T10:01:41+00:00",
+  "date": "2024-11-13T10:05:51+00:00",
   "publisher": "The MITRE Corporation",
   "test": [
     {

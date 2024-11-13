@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="383c1974-ec5e-40eb-b412-aba7d26f7926"/>
+  <id value="d4a3bc1c-f16b-4a46-953e-a774d1c14d39"/>
   <meta>
-    <lastUpdated value="2024-11-13T09:58:26.261+00:00"/>
+    <lastUpdated value="2024-11-13T10:02:18.238+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -87,12 +87,12 @@
           </div>
         </text>
         <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R286-TypeFermeture"/>
-        <version value="1.1.0-snapshot-4"/>
+        <version value="1.1.0"/>
         <name value="VS_TRE_R286_TypeFermeture"/>
         <title value="ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-13T09:58:26+00:00"/>
+        <date value="2024-11-13T10:02:18+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -101,8 +101,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b678a4ec-e070-452c-b1be-7d03d288c161"/>
-          <timestamp value="2024-11-13T09:59:35+00:00"/>
+          <identifier value="urn:uuid:908c83ed-c579-491e-961a-cdeeb6973985"/>
+          <timestamp value="2024-11-13T10:03:42+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -268,12 +268,12 @@
           </div>
         </text>
         <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R301-SourceInformationInstallation"/>
-        <version value="1.1.0-snapshot-4"/>
+        <version value="1.1.0"/>
         <name value="VS_TRE_R301_SourceInformationInstallation"/>
         <title value="ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-13T09:58:26+00:00"/>
+        <date value="2024-11-13T10:02:18+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -282,8 +282,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8b9969ca-6aaa-4a9e-9651-d62615b80f8a"/>
-          <timestamp value="2024-11-13T09:59:35+00:00"/>
+          <identifier value="urn:uuid:262d4f15-24e0-413d-b2ba-83aae984386a"/>
+          <timestamp value="2024-11-13T10:03:42+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -805,12 +805,12 @@
           </div>
         </text>
         <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R74-ModeFixationTarifaire"/>
-        <version value="1.1.0-snapshot-4"/>
+        <version value="1.1.0"/>
         <name value="VS_TRE_R74_ModeFixationTarifaire"/>
         <title value="ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-13T09:58:26+00:00"/>
+        <date value="2024-11-13T10:02:18+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -819,8 +819,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:dea8e4f5-d21d-43a5-abfc-79edb5c19365"/>
-          <timestamp value="2024-11-13T09:59:35+00:00"/>
+          <identifier value="urn:uuid:99d47c23-6356-44eb-9438-cdaacbafa5b8"/>
+          <timestamp value="2024-11-13T10:03:42+00:00"/>
           <total value="52"/>
           <offset value="0"/>
           <parameter>
@@ -1117,7 +1117,7 @@
               <b>Generated Narrative: ValueSet </b>
             </p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-as-cs-intern-id-systems.html">codesystem AS CodeSystem Internal Identifier Systems v1.1.0-snapshot-4 (CodeSystem)</a>
+              <a href="CodeSystem-as-cs-intern-id-systems.html">codesystem AS CodeSystem Internal Identifier Systems v1.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 4 concepts</p>
             <table class="codes">
@@ -1168,12 +1168,12 @@
           </div>
         </text>
         <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-intern-id-systems"/>
-        <version value="1.1.0-snapshot-4"/>
+        <version value="1.1.0"/>
         <name value="AsVSInterneIdSystems"/>
         <title value="AS ValueSet Internal Identifier Systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-13T09:58:26+00:00"/>
+        <date value="2024-11-13T10:02:18+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1182,8 +1182,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:af7304cd-ed71-4989-ab76-b1bae31ed764"/>
-          <timestamp value="2024-11-13T09:59:36+00:00"/>
+          <identifier value="urn:uuid:49d0e120-776f-4a40-8555-f688120f0638"/>
+          <timestamp value="2024-11-13T10:03:42+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -1200,7 +1200,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems|1.1.0-snapshot-4"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems|1.1.0"/>
           </parameter>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems"/>
@@ -1237,7 +1237,7 @@
               <b>Generated Narrative: ValueSet </b>
             </p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-as-cs-organization-types.html">codesystem AS CodeSystem OrganizationTypes v1.1.0-snapshot-4 (CodeSystem)</a>
+              <a href="CodeSystem-as-cs-organization-types.html">codesystem AS CodeSystem OrganizationTypes v1.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 6 concepts</p>
             <table class="codes">
@@ -1343,11 +1343,11 @@
           </div>
         </text>
         <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-organization-types"/>
-        <version value="1.1.0-snapshot-4"/>
+        <version value="1.1.0"/>
         <name value="AsVsOrganizationTypes"/>
         <title value="AS ValueSet OrganizationTypes"/>
         <status value="active"/>
-        <date value="2024-11-13T09:58:26+00:00"/>
+        <date value="2024-11-13T10:02:18+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1356,8 +1356,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5c407edc-8850-43bc-b548-ad40b7077999"/>
-          <timestamp value="2024-11-13T09:59:36+00:00"/>
+          <identifier value="urn:uuid:ad92c6df-ed75-4572-9c5f-a83161f0eed0"/>
+          <timestamp value="2024-11-13T10:03:42+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -1374,7 +1374,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types|1.1.0-snapshot-4"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types|1.1.0"/>
           </parameter>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types"/>
@@ -1424,7 +1424,7 @@
               <b>Generated Narrative: ValueSet </b>
             </p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-as-cs-type-etablissement.html">codesystem AS CodeSystem Type Etablissement v1.1.0-snapshot-4 (CodeSystem)</a>
+              <a href="CodeSystem-as-cs-type-etablissement.html">codesystem AS CodeSystem Type Etablissement v1.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 2 concepts</p>
             <table class="codes">
@@ -1474,12 +1474,12 @@
           </div>
         </text>
         <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-etablissement"/>
-        <version value="1.1.0-snapshot-4"/>
+        <version value="1.1.0"/>
         <name value="AsVsTypeEtablissement"/>
         <title value="AS ValueSet type Etablissement"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-13T09:58:26+00:00"/>
+        <date value="2024-11-13T10:02:18+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1488,8 +1488,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9deeaaf9-dc07-4b3f-bce9-b6d325b7099b"/>
-          <timestamp value="2024-11-13T09:59:36+00:00"/>
+          <identifier value="urn:uuid:2556f77b-0529-4487-ba17-430df9210f06"/>
+          <timestamp value="2024-11-13T10:03:42+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1506,7 +1506,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement|1.1.0-snapshot-4"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement|1.1.0"/>
           </parameter>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement"/>
@@ -1536,7 +1536,7 @@
               <b>Generated Narrative: ValueSet </b>
             </p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-as-cs-type-systeme-information.html">codesystem AS CodeSystem type de système d'information v1.1.0-snapshot-4 (CodeSystem)</a>
+              <a href="CodeSystem-as-cs-type-systeme-information.html">codesystem AS CodeSystem type de système d'information v1.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 3 concepts</p>
             <table class="codes">
@@ -1600,12 +1600,12 @@
           </div>
         </text>
         <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-systeme-information"/>
-        <version value="1.1.0-snapshot-4"/>
+        <version value="1.1.0"/>
         <name value="AsVsTypeSystemeInformationVS"/>
         <title value="AS ValueSet type de système d'information"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-13T09:58:26+00:00"/>
+        <date value="2024-11-13T10:02:18+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1614,8 +1614,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f495c760-928c-473d-b97a-3d3420876927"/>
-          <timestamp value="2024-11-13T09:59:36+00:00"/>
+          <identifier value="urn:uuid:4c7fef36-0cc6-4cb7-9a85-39db4f25805e"/>
+          <timestamp value="2024-11-13T10:03:42+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1632,7 +1632,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information|1.1.0-snapshot-4"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information|1.1.0"/>
           </parameter>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information"/>

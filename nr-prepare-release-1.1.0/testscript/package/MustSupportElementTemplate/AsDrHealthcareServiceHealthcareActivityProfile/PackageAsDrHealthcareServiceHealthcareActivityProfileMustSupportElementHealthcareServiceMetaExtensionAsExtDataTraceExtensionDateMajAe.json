@@ -6,7 +6,7 @@
   "title": "IG: package; Profile: AsDrHealthcareServiceHealthcareActivityProfile; Case: Must Support Element; Element: HealthcareService.meta.extension:as-ext-data-trace.extension:date-maj-ae",
   "status": "draft",
   "experimental": true,
-  "date": "2024-11-13T10:01:41+00:00",
+  "date": "2024-11-13T10:05:50+00:00",
   "publisher": "The MITRE Corporation",
   "test": [
     {

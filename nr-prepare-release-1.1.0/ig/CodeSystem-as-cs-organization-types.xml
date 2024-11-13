@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem as-cs-organization-types</b></p><a name="as-cs-organization-types"> </a><a name="hcas-cs-organization-types"> </a><a name="as-cs-organization-types-fr-FR"> </a><p>This  code system <code>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">organizationType<a name="as-cs-organization-types-organizationType"> </a></td><td>Type d'organisation</td><td>Type d'organisation</td></tr><tr><td style="white-space:nowrap">activiteINSEE<a name="as-cs-organization-types-activiteINSEE"> </a></td><td>Activité INSEE</td><td>Activité INSEE</td></tr><tr><td style="white-space:nowrap">statutJuridiqueINSEE<a name="as-cs-organization-types-statutJuridiqueINSEE"> </a></td><td>Statut Juridique INSEE</td><td>Statut Juridique INSEE</td></tr><tr><td style="white-space:nowrap">sphParticipation<a name="as-cs-organization-types-sphParticipation"> </a></td><td>sph Participation</td><td>Participation au service public hospitalier</td></tr><tr><td style="white-space:nowrap">typeEtablissement<a name="as-cs-organization-types-typeEtablissement"> </a></td><td>Type d'établissement</td><td>Type d'établissement</td></tr><tr><td style="white-space:nowrap">secteurActiviteRASS<a name="as-cs-organization-types-secteurActiviteRASS"> </a></td><td>Secteur d'activité RASS</td><td>Secteur d'activité RASS</td></tr></table></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types"/>
-  <version value="1.1.0-snapshot-4"/>
+  <version value="1.1.0"/>
   <name value="AsCsOrganizationTypes"/>
   <title value="AS CodeSystem OrganizationTypes"/>
   <status value="active"/>
-  <date value="2024-11-13T09:58:26+00:00"/>
+  <date value="2024-11-13T10:02:18+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>

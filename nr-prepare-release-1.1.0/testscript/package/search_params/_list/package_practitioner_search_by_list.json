@@ -6,7 +6,7 @@
   "title": "package practitioner search_by list",
   "status": "draft",
   "experimental": true,
-  "date": "2024-11-13T10:01:41+00:00",
+  "date": "2024-11-13T10:05:50+00:00",
   "publisher": "The MITRE Corporation",
   "fixture": [
     {
@@ -20,9 +20,9 @@
   ],
   "variable": [
     {
-      "name": "U65VnPI0m7UsFaAO",
+      "name": "Yjb2BQk6HsdYur2j",
       "expression": "Practitioner.id",
-      "sourceId": "UzvB3Nj9yjL6Tnum"
+      "sourceId": "UXUeRiAUgma0MNMC"
     }
   ],
   "setup": {
@@ -35,7 +35,7 @@
           },
           "label": "Operation_1",
           "encodeRequestUrl": false,
-          "responseId": "UzvB3Nj9yjL6Tnum",
+          "responseId": "UXUeRiAUgma0MNMC",
           "sourceId": "example_practitioner"
         }
       }
@@ -71,7 +71,7 @@
           "resource": "Practitioner",
           "label": "Operation_3",
           "encodeRequestUrl": false,
-          "params": "/${U65VnPI0m7UsFaAO}"
+          "params": "/${Yjb2BQk6HsdYur2j}"
         }
       }
     ]

@@ -13,10 +13,10 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: SearchParameter as-sp-number-smartcard</b></p><a name=\"as-sp-number-smartcard\"> </a><a name=\"hcas-sp-number-smartcard\"> </a><a name=\"as-sp-number-smartcard-fr-FR\"> </a><h2>AsNumberSmartCardSearchParameter</h2><p>Parameter <code>number-smartcard</code>:<code>string</code></p><div><p>Paramètre de recherche pour récupérer les situations d'exercice d'un professionnel par son numéro de carte CPx.</p>\n</div><table class=\"grid\"><tr><td>Resource</td><td><a href=\"http://hl7.org/fhir/R4/practitionerrole.html\">PractitionerRole</a></td></tr><tr><td>Expression</td><td><code>extension.where(url='https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-practitionerrole-smartcard').extension.where(url='number').value</code></td></tr><tr><td>Multiples</td><td><ul><li>multipleAnd: It's up to the server whether the parameter may repeat in order to specify multiple values that must all be true</li><li>multipleOr: It's up to the server whether the parameter can have multiple values (separated by comma) where at least one must be true</li></ul></td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/annuaire/SearchParameter/as-sp-number-smartcard"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.1.0-snapshot-4"] ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
   fhir:name [ fhir:v "AsNumberSmartCardSearchParameter"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-11-13T09:58:26+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-13T10:02:18+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;

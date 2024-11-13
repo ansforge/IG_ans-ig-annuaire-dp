@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0ddff36a-4f56-4844-90db-19ad9caccd91-173",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0ddff36a-4f56-4844-90db-19ad9caccd91-173",
+  "name" : "UnionVS_TRE_R301_SourceInformationInstallationAndVS_TRE_R301_SourceInformationInstallation",
+  "title" : "Union of ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation And ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
+  "status" : "active",
+  "date" : "2024-11-13T10:02:44+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }]
+}
