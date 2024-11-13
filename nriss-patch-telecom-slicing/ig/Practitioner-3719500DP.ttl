@@ -54,6 +54,9 @@
      fhir:prefix ( [ fhir:v "M" ] )
   ] ) ; # 
   fhir:telecom ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type"^^xsd:anyURI ]
+     ] ) ;
      fhir:system [ fhir:v "phone" ] ;
      fhir:value [ fhir:v "0612122216" ] ;
      fhir:rank [ fhir:v "1"^^xsd:positiveInteger ]

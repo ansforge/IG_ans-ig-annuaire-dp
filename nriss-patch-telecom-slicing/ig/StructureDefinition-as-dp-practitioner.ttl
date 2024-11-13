@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AsDpPractitionerProfile"] ; # 
   fhir:title [ fhir:v "AS Donnée Publique Practitioner Profile"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-11-13T08:49:07+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-13T08:59:38+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -6782,11 +6782,9 @@
          fhir:description [ fhir:v "Extensions are always sliced by (at least) url" ] ;
          fhir:rules [ fhir:v "open" ]
        ] ;
-       fhir:short [ fhir:v "Additional content defined by implementations" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
-       fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
-       fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
-       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:short [ fhir:v "Extension" ] ;
+       fhir:definition [ fhir:v "An Extension" ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
          fhir:path [ fhir:v "Element.extension" ] ;
@@ -6818,18 +6816,14 @@
          ]
        ] ) ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:mapping ( [
-         fhir:identity [ fhir:v "rim" ] ;
-         fhir:map [ fhir:v "n/a" ]
-       ] )
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:id [ fhir:v "Practitioner.telecom:mailbox-mss.extension:emailType" ] ;
        fhir:path [ fhir:v "Practitioner.telecom.extension" ] ;
        fhir:sliceName [ fhir:v "emailType" ] ;
        fhir:short [ fhir:v "Type of email | type de messagerie électronique" ] ;
        fhir:definition [ fhir:v "Extension on the ContactPoint datatype. This extension allows to specify the type of mail used to contact the person (MSSsanté|Apicrypt|OSM|Autre)." ] ;
-       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Element.extension" ] ;

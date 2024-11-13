@@ -43,6 +43,9 @@
     "prefix" : ["M"]
   }],
   "telecom" : [{
+    "extension" : [{
+      "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type"
+    }],
     "system" : "phone",
     "value" : "0612122216",
     "rank" : 1
