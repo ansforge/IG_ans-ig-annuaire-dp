@@ -6,7 +6,7 @@
   "title": "IG: package; Profile: AsDpOrganizationProfile; Case: Must Support Element; Element: Organization.telecom:mailbox-mss.value",
   "status": "draft",
   "experimental": true,
-  "date": "2024-11-08T17:36:38+00:00",
+  "date": "2024-11-13T21:38:39+00:00",
   "publisher": "The MITRE Corporation",
   "test": [
     {
@@ -14,7 +14,7 @@
       "action": [
         {
           "assert": {
-            "label": "Fail - not implemented in generator: profile discriminator type needs looping in TestScript",
+            "label": "Fail - not implemented in generator: multiple discriminators",
             "expression": "1!=1",
             "warningOnly": false
           }

@@ -6,7 +6,7 @@
   "title": "package device search_by security",
   "status": "draft",
   "experimental": true,
-  "date": "2024-11-08T17:36:38+00:00",
+  "date": "2024-11-13T21:38:39+00:00",
   "publisher": "The MITRE Corporation",
   "fixture": [
     {
@@ -20,9 +20,9 @@
   ],
   "variable": [
     {
-      "name": "X3mI2b5RA965rd6x",
+      "name": "UxK358dJ9D4eUu2A",
       "expression": "Device.meta.security",
-      "sourceId": "GG6Yb5xrR4AlXtvZ"
+      "sourceId": "fhaY49doPYMPFEeL"
     }
   ],
   "setup": {
@@ -35,7 +35,7 @@
           },
           "label": "Operation_1",
           "encodeRequestUrl": false,
-          "responseId": "GG6Yb5xrR4AlXtvZ",
+          "responseId": "fhaY49doPYMPFEeL",
           "sourceId": "example_device"
         }
       }
@@ -54,7 +54,7 @@
             "resource": "Device",
             "label": "Operation_2",
             "encodeRequestUrl": false,
-            "params": "?_security=${X3mI2b5RA965rd6x}"
+            "params": "?_security=${UxK358dJ9D4eUu2A}"
           }
         }
       ]
@@ -71,7 +71,7 @@
           "resource": "Device",
           "label": "Operation_3",
           "encodeRequestUrl": false,
-          "params": "/${X3mI2b5RA965rd6x}"
+          "params": "/${UxK358dJ9D4eUu2A}"
         }
       }
     ]

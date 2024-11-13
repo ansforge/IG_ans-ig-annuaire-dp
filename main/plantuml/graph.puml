@@ -437,7 +437,8 @@ package IG #DDDDDD{
 
         class AsMailboxMSSProfile{
 
-             ContactPoint.extension:emailType => <&plus>[None..None]
+             ContactPoint.extension => [1..None]
+             ContactPoint.extension:emailType => <&plus>[1..None]
              ContactPoint.extension:emailType.value[x] => <&plus>[None..None]
              ContactPoint.extension:as-mailbox-mss-metadata => <&plus>[0..1]
              ContactPoint.system => [None..None]
