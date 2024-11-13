@@ -40,11 +40,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-as-person.html" : "AS Person Profile",
       "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
-      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
       "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile"
+      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
+      "StructureDefinition-as-person.html" : "AS Person Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/c80-practice-codes",
@@ -58,9 +58,9 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.72"],
       "uses" : {
       },
-      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
       "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile"
+      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/common-tags",
@@ -74,27 +74,27 @@
       "sources" : ["2.16.840.1.113883.4.642.3.79"],
       "uses" : {
       },
-      "StructureDefinition-as-location.html" : "AS Location Profile",
-      "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
-      "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
-      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
-      "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
-      "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile",
-      "StructureDefinition-as-dr-device.html" : "AS Donnée Restreinte Device Profile",
       "StructureDefinition-as-dr-organization.html" : "AS Donnée Restreinte Organization Profile",
-      "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
-      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
-      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
-      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
-      "StructureDefinition-as-person.html" : "AS Person Profile",
+      "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile",
+      "StructureDefinition-as-location.html" : "AS Location Profile",
       "StructureDefinition-as-dp-device.html" : "AS Donnée Publique Device Profile",
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
+      "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
+      "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
+      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
+      "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
+      "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-dr-device.html" : "AS Donnée Restreinte Device Profile",
+      "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-organization.html" : "AS Organization Profile",
       "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile",
       "StructureDefinition-as-device.html" : "AS Device Profile",
-      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
-      "StructureDefinition-as-organization.html" : "AS Organization Profile"
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
+      "StructureDefinition-as-person.html" : "AS Person Profile",
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contact-point-system",
@@ -108,16 +108,16 @@
       "sources" : ["2.16.840.1.113883.4.642.3.71"],
       "uses" : {
       },
-      "StructureDefinition-as-dr-organization.html" : "AS Donnée Restreinte Organization Profile",
-      "StructureDefinition-as-person.html" : "AS Person Profile",
-      "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
-      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
-      "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
       "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
-      "StructureDefinition-as-mailbox-mss.html" : "AS Mailbox MSS Datatype Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
+      "StructureDefinition-as-dr-organization.html" : "AS Donnée Restreinte Organization Profile",
       "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile",
-      "StructureDefinition-as-organization.html" : "AS Organization Profile"
+      "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
+      "StructureDefinition-as-organization.html" : "AS Organization Profile",
+      "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
+      "StructureDefinition-as-mailbox-mss.html" : "AS Mailbox MSS Datatype Profile",
+      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
+      "StructureDefinition-as-person.html" : "AS Person Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
@@ -131,16 +131,16 @@
       "sources" : ["2.16.840.1.113883.4.642.3.73"],
       "uses" : {
       },
-      "StructureDefinition-as-dr-organization.html" : "AS Donnée Restreinte Organization Profile",
-      "StructureDefinition-as-person.html" : "AS Person Profile",
-      "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
-      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
-      "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
       "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
-      "StructureDefinition-as-mailbox-mss.html" : "AS Mailbox MSS Datatype Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
+      "StructureDefinition-as-dr-organization.html" : "AS Donnée Restreinte Organization Profile",
       "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile",
-      "StructureDefinition-as-organization.html" : "AS Organization Profile"
+      "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
+      "StructureDefinition-as-organization.html" : "AS Organization Profile",
+      "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
+      "StructureDefinition-as-mailbox-mss.html" : "AS Mailbox MSS Datatype Profile",
+      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
+      "StructureDefinition-as-person.html" : "AS Person Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
@@ -170,16 +170,16 @@
       "sources" : ["2.16.840.1.113883.4.642.3.512"],
       "uses" : {
       },
-      "StructureDefinition-as-location.html" : "AS Location Profile",
-      "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
-      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
-      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
-      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
       "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-location.html" : "AS Location Profile",
       "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
       "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile"
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
+      "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/device-nametype",
@@ -241,24 +241,24 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
-      "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
-      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
-      "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile",
-      "StructureDefinition-as-dr-device.html" : "AS Donnée Restreinte Device Profile",
       "StructureDefinition-as-dr-organization.html" : "AS Donnée Restreinte Organization Profile",
-      "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
-      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
-      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
-      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile",
       "StructureDefinition-as-dp-device.html" : "AS Donnée Publique Device Profile",
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
+      "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
+      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
+      "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
+      "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-dr-device.html" : "AS Donnée Restreinte Device Profile",
+      "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-organization.html" : "AS Organization Profile",
       "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile",
       "StructureDefinition-as-device.html" : "AS Device Profile",
-      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
-      "StructureDefinition-as-organization.html" : "AS Organization Profile"
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -272,25 +272,25 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-as-location.html" : "AS Location Profile",
-      "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
-      "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
-      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
-      "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile",
-      "StructureDefinition-as-dr-device.html" : "AS Donnée Restreinte Device Profile",
       "StructureDefinition-as-dr-organization.html" : "AS Donnée Restreinte Organization Profile",
-      "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
-      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
-      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
-      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile",
+      "StructureDefinition-as-location.html" : "AS Location Profile",
       "StructureDefinition-as-dp-device.html" : "AS Donnée Publique Device Profile",
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
+      "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
+      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
+      "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
+      "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-dr-device.html" : "AS Donnée Restreinte Device Profile",
+      "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-organization.html" : "AS Organization Profile",
       "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile",
       "StructureDefinition-as-device.html" : "AS Device Profile",
-      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
-      "StructureDefinition-as-organization.html" : "AS Organization Profile"
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identity-assuranceLevel",
@@ -304,8 +304,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.656"],
       "uses" : {
       },
-      "StructureDefinition-as-person.html" : "AS Person Profile",
-      "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile"
+      "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
+      "StructureDefinition-as-person.html" : "AS Person Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -319,27 +319,27 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-as-location.html" : "AS Location Profile",
-      "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
-      "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
-      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
-      "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
-      "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile",
-      "StructureDefinition-as-dr-device.html" : "AS Donnée Restreinte Device Profile",
       "StructureDefinition-as-dr-organization.html" : "AS Donnée Restreinte Organization Profile",
-      "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
-      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
-      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
-      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
-      "StructureDefinition-as-person.html" : "AS Person Profile",
+      "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile",
+      "StructureDefinition-as-location.html" : "AS Location Profile",
       "StructureDefinition-as-dp-device.html" : "AS Donnée Publique Device Profile",
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
+      "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
+      "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
+      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
+      "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
+      "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-dr-device.html" : "AS Donnée Restreinte Device Profile",
+      "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-organization.html" : "AS Organization Profile",
       "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile",
       "StructureDefinition-as-device.html" : "AS Device Profile",
-      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
-      "StructureDefinition-as-organization.html" : "AS Organization Profile"
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
+      "StructureDefinition-as-person.html" : "AS Person Profile",
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-mode",
@@ -381,11 +381,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.65"],
       "uses" : {
       },
-      "StructureDefinition-as-person.html" : "AS Person Profile",
       "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
-      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
       "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile"
+      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
+      "StructureDefinition-as-person.html" : "AS Person Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/organization-type",
@@ -415,12 +415,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1383"],
       "uses" : {
       },
-      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
-      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
       "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
       "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
       "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
-      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile"
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/resource-types",
@@ -454,27 +454,27 @@
       "sources" : ["2.16.840.1.113883.4.642.3.47"],
       "uses" : {
       },
-      "StructureDefinition-as-location.html" : "AS Location Profile",
-      "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
-      "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
-      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
-      "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
-      "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile",
-      "StructureDefinition-as-dr-device.html" : "AS Donnée Restreinte Device Profile",
       "StructureDefinition-as-dr-organization.html" : "AS Donnée Restreinte Organization Profile",
-      "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
-      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
-      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
-      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
-      "StructureDefinition-as-person.html" : "AS Person Profile",
+      "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile",
+      "StructureDefinition-as-location.html" : "AS Location Profile",
       "StructureDefinition-as-dp-device.html" : "AS Donnée Publique Device Profile",
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
+      "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
+      "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
+      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
+      "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
+      "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-dr-device.html" : "AS Donnée Restreinte Device Profile",
+      "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-organization.html" : "AS Organization Profile",
       "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile",
       "StructureDefinition-as-device.html" : "AS Device Profile",
-      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
-      "StructureDefinition-as-organization.html" : "AS Organization Profile"
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
+      "StructureDefinition-as-person.html" : "AS Person Profile",
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/service-category",
@@ -488,9 +488,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.516"],
       "uses" : {
       },
-      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
       "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile"
+      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/service-provision-conditions",
@@ -506,12 +506,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.514"],
       "uses" : {
       },
-      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
-      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
       "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
       "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
       "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
-      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile"
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/service-referral-method",
@@ -527,12 +527,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.510"],
       "uses" : {
       },
-      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
-      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
       "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
       "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
       "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
-      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile"
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/service-type",
@@ -546,12 +546,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.518"],
       "uses" : {
       },
-      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
-      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
       "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
       "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
       "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
-      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile"
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/udi-entry-type",
@@ -610,9 +610,9 @@
       "uses" : {
       },
       "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
+      "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile",
       "StructureDefinition-as-mailbox-mss.html" : "AS Mailbox MSS Datatype Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
-      "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile"
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile"
     },
     {
       "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-location-identifier-type",
@@ -707,9 +707,9 @@
       ],
       "uses" : {
       },
+      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
       "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
-      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
-      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile"
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
     },
     {
       "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-specialty",
@@ -723,9 +723,9 @@
       ],
       "uses" : {
       },
+      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
       "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
-      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
-      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile"
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R286-TypeFermeture",
@@ -753,10 +753,10 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
       "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-ext-installation.html" : "AS Installation Extension",
-      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile"
+      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-ext-installation.html" : "AS Installation Extension"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R74-ModeFixationTarifaire",
@@ -831,10 +831,10 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
       "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
-      "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
-      "StructureDefinition-as-ext-data-trace.html" : "AS Data Trace Extension"
+      "StructureDefinition-as-ext-data-trace.html" : "AS Data Trace Extension",
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
+      "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS",
@@ -937,9 +937,9 @@
       "uses" : {
       },
       "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
+      "StructureDefinition-as-ext-practitioner-authorization.html" : "AS Practitioner Authorization Extension",
       "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
-      "StructureDefinition-as-ext-practitioner-authorization.html" : "AS Practitioner Authorization Extension"
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS",
@@ -984,9 +984,9 @@
       "sources" : ["1.2.250.1.213.1.6.1.176"],
       "uses" : {
       },
-      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
+      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
       "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
-      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile"
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J128-TypeCarte-RASS/FHIR/JDV-J128-TypeCarte-RASS",
@@ -1052,8 +1052,8 @@
       "sources" : ["1.2.250.1.213.1.6.1.217"],
       "uses" : {
       },
-      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
       "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
       "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile"
     },
     {
@@ -1070,8 +1070,8 @@
       "sources" : ["1.2.250.1.213.1.6.1.218"],
       "uses" : {
       },
-      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
       "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
       "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile"
     },
     {
@@ -1088,8 +1088,8 @@
       "sources" : ["1.2.250.1.213.1.6.1.219"],
       "uses" : {
       },
-      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
       "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
       "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile"
     },
     {
@@ -1106,8 +1106,8 @@
       "sources" : ["1.2.250.1.213.1.6.1.220"],
       "uses" : {
       },
-      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
       "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
       "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile"
     },
     {
@@ -1142,9 +1142,9 @@
       "sources" : ["1.2.250.1.213.1.6.1.222"],
       "uses" : {
       },
-      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
       "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile"
+      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J137-Clientele-RASS/FHIR/JDV-J137-Clientele-RASS",
@@ -1160,9 +1160,9 @@
       "sources" : ["1.2.250.1.213.1.6.1.223"],
       "uses" : {
       },
-      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
       "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile"
+      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J138-TypeActivite-RASS/FHIR/JDV-J138-TypeActivite-RASS",
@@ -1178,9 +1178,9 @@
       "sources" : ["1.2.250.1.213.1.6.1.224"],
       "uses" : {
       },
-      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile",
       "StructureDefinition-as-dr-healthcareservice-social-equipment.html" : "AS Donnée Restreinte HealthcareService Social Equipment Profile",
-      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile"
+      "StructureDefinition-as-dp-healthcareservice-social-equipment.html" : "AS Donnée Publique HealthcareService Social Equipment Profile",
+      "StructureDefinition-as-healthcareservice-social-equipment.html" : "AS HealthcareService Social Equipment Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J139-TypeBAL-RASS/FHIR/JDV-J139-TypeBAL-RASS",
@@ -1196,10 +1196,10 @@
       "sources" : ["1.2.250.1.213.1.6.1.225"],
       "uses" : {
       },
-      "StructureDefinition-as-ext-mailbox-mss-metadata.html" : "AS Mailbox Metadata",
       "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
-      "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile"
+      "StructureDefinition-as-ext-mailbox-mss-metadata.html" : "AS Mailbox Metadata",
+      "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile",
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J162-ESPIC-RASS/FHIR/JDV-J162-ESPIC-RASS",
@@ -1234,9 +1234,9 @@
       "sources" : ["1.2.250.1.213.1.6.1.141"],
       "uses" : {
       },
-      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
+      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
       "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
-      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile"
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J74-Pays-RASS/FHIR/JDV-J74-Pays-RASS",
@@ -1270,9 +1270,9 @@
       "uses" : {
       },
       "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
+      "StructureDefinition-as-ext-practitioner-authorization.html" : "AS Practitioner Authorization Extension",
       "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
-      "StructureDefinition-as-ext-practitioner-authorization.html" : "AS Practitioner Authorization Extension"
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J76-DisciplineAutorisation-RASS/FHIR/JDV-J76-DisciplineAutorisation-RASS",
@@ -1289,9 +1289,9 @@
       "uses" : {
       },
       "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
+      "StructureDefinition-as-ext-practitioner-authorization.html" : "AS Practitioner Authorization Extension",
       "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
-      "StructureDefinition-as-ext-practitioner-authorization.html" : "AS Practitioner Authorization Extension"
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J78-Civilite-RASS/FHIR/JDV-J78-Civilite-RASS",
@@ -1307,11 +1307,11 @@
       "sources" : ["1.2.250.1.213.1.6.1.146"],
       "uses" : {
       },
-      "StructureDefinition-as-person.html" : "AS Person Profile",
       "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
-      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
       "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile"
+      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
+      "StructureDefinition-as-person.html" : "AS Person Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J79-CiviliteExercice-RASS/FHIR/JDV-J79-CiviliteExercice-RASS",
@@ -1327,11 +1327,11 @@
       "sources" : ["1.2.250.1.213.1.6.1.147"],
       "uses" : {
       },
-      "StructureDefinition-as-person.html" : "AS Person Profile",
       "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
-      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
       "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile"
+      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
+      "StructureDefinition-as-person.html" : "AS Person Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J81-TypeDiplome-RASS/FHIR/JDV-J81-TypeDiplome-RASS",
@@ -1383,13 +1383,13 @@
       "sources" : ["1.2.250.1.213.1.6.1.151"],
       "uses" : {
       },
-      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
-      "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
-      "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
       "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
-      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
-      "StructureDefinition-as-ext-data-trace.html" : "AS Data Trace Extension",
+      "StructureDefinition-as-dr-healthcareservice-healthcare-activity.html" : "AS Donnée Restreinte HealthcareService Healthcare Activity Profile",
       "StructureDefinition-as-ext-registration.html" : "AS Registration Extension",
+      "StructureDefinition-as-ext-data-trace.html" : "AS Data Trace Extension",
+      "StructureDefinition-as-healthcareservice-healthcare-activity.html" : "AS HealthcareService HealthCare Activity Profile",
+      "StructureDefinition-as-dp-healthcareservice-healthcare-activity.html" : "AS Donnée Publique HealthcareService Healthcare Activity Profile",
+      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
       "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile"
     },
     {
@@ -1406,10 +1406,10 @@
       "sources" : ["1.2.250.1.213.1.6.1.152"],
       "uses" : {
       },
-      "StructureDefinition-as-address-extended.html" : "AS Address Extended Datatype Profile",
       "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
-      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
       "StructureDefinition-as-ext-registration.html" : "AS Registration Extension",
+      "StructureDefinition-as-address-extended.html" : "AS Address Extended Datatype Profile",
+      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
       "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile"
     },
     {
@@ -1427,8 +1427,8 @@
       "uses" : {
       },
       "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
-      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
       "StructureDefinition-as-ext-registration.html" : "AS Registration Extension",
+      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
       "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile"
     },
     {
@@ -1445,10 +1445,10 @@
       "sources" : ["1.2.250.1.213.1.6.1.154"],
       "uses" : {
       },
-      "StructureDefinition-as-ext-education-level.html" : "AS Education Level Extension",
       "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
       "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile"
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
+      "StructureDefinition-as-ext-education-level.html" : "AS Education Level Extension"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J87-NiveauFormAcquis-RASS/FHIR/JDV-J87-NiveauFormAcquis-RASS",
@@ -1464,10 +1464,10 @@
       "sources" : ["1.2.250.1.213.1.6.1.155"],
       "uses" : {
       },
-      "StructureDefinition-as-ext-education-level.html" : "AS Education Level Extension",
       "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
       "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile"
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
+      "StructureDefinition-as-ext-education-level.html" : "AS Education Level Extension"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J88-AnneeUniversitaire-RASS/FHIR/JDV-J88-AnneeUniversitaire-RASS",
@@ -1483,10 +1483,10 @@
       "sources" : ["1.2.250.1.213.1.6.1.156"],
       "uses" : {
       },
-      "StructureDefinition-as-ext-education-level.html" : "AS Education Level Extension",
       "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
       "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
-      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile"
+      "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
+      "StructureDefinition-as-ext-education-level.html" : "AS Education Level Extension"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J89-CategorieProfessionnelle-RASS/FHIR/JDV-J89-CategorieProfessionnelle-RASS",
@@ -1538,9 +1538,9 @@
       "sources" : ["1.2.250.1.213.1.6.1.162"],
       "uses" : {
       },
-      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
+      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
       "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
-      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile"
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J95-ModeExercice-RASS/FHIR/JDV-J95-ModeExercice-RASS",
@@ -1556,9 +1556,9 @@
       "sources" : ["1.2.250.1.213.1.6.1.163"],
       "uses" : {
       },
-      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
+      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
       "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
-      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile"
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J96-TypeActiviteLiberale-RASS/FHIR/JDV-J96-TypeActiviteLiberale-RASS",
@@ -1574,9 +1574,9 @@
       "sources" : ["1.2.250.1.213.1.6.1.164"],
       "uses" : {
       },
-      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
+      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
       "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
-      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile"
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J97-StatutProfessionnelSSA-RASS/FHIR/JDV-J97-StatutProfessionnelSSA-RASS",
@@ -1592,9 +1592,9 @@
       "sources" : ["1.2.250.1.213.1.6.1.165"],
       "uses" : {
       },
-      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
+      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
       "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
-      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile"
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J98-StatutHospitalier-RASS/FHIR/JDV-J98-StatutHospitalier-RASS",
@@ -1610,9 +1610,9 @@
       "sources" : ["1.2.250.1.213.1.6.1.166"],
       "uses" : {
       },
-      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
+      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
       "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile",
-      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile"
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J99-InseeNAFrav2Niveau5-RASS/FHIR/JDV-J99-InseeNAFrav2Niveau5-RASS",

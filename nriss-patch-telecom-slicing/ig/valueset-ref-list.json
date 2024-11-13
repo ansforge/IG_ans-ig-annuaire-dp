@@ -455,8 +455,8 @@
       "sources" : ["1.2.250.1.213.1.6.1.151"],
       "uses" : {
       },
-      "StructureDefinition-as-ext-data-trace.html" : "AS Data Trace Extension",
-      "StructureDefinition-as-ext-registration.html" : "AS Registration Extension"
+      "StructureDefinition-as-ext-registration.html" : "AS Registration Extension",
+      "StructureDefinition-as-ext-data-trace.html" : "AS Data Trace Extension"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J84-DepartementOM-RASS/FHIR/JDV-J84-DepartementOM-RASS",
@@ -472,8 +472,8 @@
       "sources" : ["1.2.250.1.213.1.6.1.152"],
       "uses" : {
       },
-      "StructureDefinition-as-address-extended.html" : "AS Address Extended Datatype Profile",
-      "StructureDefinition-as-ext-registration.html" : "AS Registration Extension"
+      "StructureDefinition-as-ext-registration.html" : "AS Registration Extension",
+      "StructureDefinition-as-address-extended.html" : "AS Address Extended Datatype Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J85-StatutInscription-RASS/FHIR/JDV-J85-StatutInscription-RASS",
