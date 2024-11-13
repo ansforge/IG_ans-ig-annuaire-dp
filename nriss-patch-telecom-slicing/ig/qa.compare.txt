@@ -1,10 +1,10 @@
 AnnuaireSante : Validation Results
 =========================================
 
-err = 24, warn = 121, info = 84
+err = 20, warn = 121, info = 84
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
- Build Errors : 2 / 24 / 0
+ Build Errors : 0 / 24 / 0
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CapabilityStatement-AsServerCapabilityStatement : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-intern-id-systems : 0 / 2 / 2
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-organization-types : 0 / 2 / 2
@@ -21,9 +21,9 @@ Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https:
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-nancy : 1 / 1 / 10
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Person-pp16dr-person : 1 / 1 / 4
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Person-pp19dr-person : 1 / 1 / 4
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-334081 : 3 / 1 / 12
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-334081 : 1 / 1 / 12
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-334081DP : 2 / 0 / 5
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-3719500 : 3 / 1 / 12
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-3719500 : 1 / 1 / 12
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-3719500DP : 4 / 0 / 5
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/PractitionerRole-1578230 : 0 / 0 / 6
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/PractitionerRole-1578230DP : 0 / 0 / 6
@@ -118,8 +118,6 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/334081.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/1738459.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/1578230.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/Practitioner-334081.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 216, column 2257: The link 'Organization/u33' for "Organization/u33" cannot be resolved
-ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/Practitioner-3719500.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 216, column 2198: The link 'Organization/u63' for "Organization/u63" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
@@ -219,11 +217,9 @@ ERROR: Practitioner/334081: Practitioner.address[0].extension[0].value.ofType(Co
 INFORMATION: Practitioner/334081: Practitioner.address[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
 INFORMATION: Practitioner/334081: Practitioner.address[0].line[0].extension[1].value.ofType(string): Reference to retired CodeSystem https://mos.esante.gouv.fr/NOS/TRE_R35-TypeVoie/FHIR/TRE-R35-TypeVoie|1.4.0
 INFORMATION: Practitioner/334081: Practitioner.address[0].country: Reference to retired ValueSet https://mos.esante.gouv.fr/NOS/JDV_J74-Pays-RASS/FHIR/JDV-J74-Pays-RASS|1.4.0
-ERROR: Practitioner/334081: Practitioner.qualification[0].issuer: Unable to resolve resource with reference 'Organization/u33'
 INFORMATION: Practitioner/334081: Practitioner.extension[0]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Practitioner/334081: Practitioner.extension[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Practitioner/334081: Practitioner.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Practitioner.text.div: Hyperlink 'Organization/u33' at 'div/blockquote/p/a' for 'Organization/u33' does not resolve
 == fsh-generated/resources/Practitioner-334081DP.json ==
 ERROR: Practitioner/334081DP: Practitioner.telecom[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-practitioner|1.1.0-snapshot-4 and slicing is CLOSED: Practitioner.telecom[0]: Does not match slice 'mailbox-mss' (discriminator: system.where(value = 'email').exists() and (extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type').exists()))
 ERROR: Practitioner/334081DP: Practitioner.telecom[1]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-practitioner|1.1.0-snapshot-4 and slicing is CLOSED: Practitioner.telecom[1]: Does not match slice 'mailbox-mss' (discriminator: system.where(value = 'email').exists() and (extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type').exists()))
@@ -237,10 +233,8 @@ ERROR: Practitioner/3719500: Practitioner.address[0].extension[0].value.ofType(C
 INFORMATION: Practitioner/3719500: Practitioner.address[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
 INFORMATION: Practitioner/3719500: Practitioner.address[0].line[0].extension[1].value.ofType(string): Reference to retired CodeSystem https://mos.esante.gouv.fr/NOS/TRE_R35-TypeVoie/FHIR/TRE-R35-TypeVoie|1.4.0
 INFORMATION: Practitioner/3719500: Practitioner.address[0].country: Reference to retired ValueSet https://mos.esante.gouv.fr/NOS/JDV_J74-Pays-RASS/FHIR/JDV-J74-Pays-RASS|1.4.0
-ERROR: Practitioner/3719500: Practitioner.qualification[0].issuer: Unable to resolve resource with reference 'Organization/u63'
 INFORMATION: Practitioner/3719500: Practitioner.extension[0]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Practitioner/3719500: Practitioner.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Practitioner.text.div: Hyperlink 'Organization/u63' at 'div/blockquote/p/a' for 'Organization/u63' does not resolve
 == fsh-generated/resources/Practitioner-3719500DP.json ==
 ERROR: Practitioner/3719500DP: Practitioner.telecom[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-practitioner|1.1.0-snapshot-4 and slicing is CLOSED: Practitioner.telecom[0]: Does not match slice 'mailbox-mss' (discriminator: system.where(value = 'email').exists() and (extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type').exists()))
 ERROR: Practitioner/3719500DP: Practitioner.telecom[1]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-practitioner|1.1.0-snapshot-4 and slicing is CLOSED: Practitioner.telecom[1]: Does not match slice 'mailbox-mss' (discriminator: system.where(value = 'email').exists() and (extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type').exists()))
