@@ -100,7 +100,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J100-FinessStatutJuridique-RASS",
       "title" : null,
@@ -116,7 +116,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J103-TypeVoie-RASS/FHIR/JDV-J103-TypeVoie-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J103-TypeVoie-RASS",
       "title" : null,
@@ -132,7 +132,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J106-EnsembleProfession-RASS/FHIR/JDV-J106-EnsembleProfession-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J106-EnsembleProfession-RASS",
       "title" : null,
@@ -151,7 +151,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J108-EnsembleFonction-RASS",
       "title" : null,
@@ -169,7 +169,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J128-TypeCarte-RASS/FHIR/JDV-J128-TypeCarte-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J128-TypeCarte-RASS",
       "title" : null,
@@ -185,7 +185,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J130-CNAMAmeliSecteurConventionnement-RASS/FHIR/JDV-J130-CNAMAmeliSecteurConventionnement-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J130-CNAMAmeliSecteurConventionnement-RASS",
       "title" : null,
@@ -201,7 +201,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J131-CategorieActiviteSanitaireRegulee-RASS/FHIR/JDV-J131-CategorieActiviteSanitaireRegulee-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J131-CategorieActiviteSanitaireRegulee-RASS",
       "title" : null,
@@ -217,7 +217,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J132-ModaliteActivite-RASS/FHIR/JDV-J132-ModaliteActivite-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J132-ModaliteActivite-RASS",
       "title" : null,
@@ -233,7 +233,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J133-ActiviteSanitaireRegulee-RASS/FHIR/JDV-J133-ActiviteSanitaireRegulee-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J133-ActiviteSanitaireRegulee-RASS",
       "title" : null,
@@ -249,7 +249,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J134-FormeActivite-RASS/FHIR/JDV-J134-FormeActivite-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J134-FormeActivite-RASS",
       "title" : null,
@@ -265,7 +265,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J135-EquipementMaterielLourd-RASS/FHIR/JDV-J135-EquipementMaterielLourd-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J135-EquipementMaterielLourd-RASS",
       "title" : null,
@@ -281,7 +281,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J136-DisciplineEquipementSocial-RASS/FHIR/JDV-J136-DisciplineEquipementSocial-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J136-DisciplineEquipementSocial-RASS",
       "title" : null,
@@ -297,7 +297,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J137-Clientele-RASS/FHIR/JDV-J137-Clientele-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J137-Clientele-RASS",
       "title" : null,
@@ -313,7 +313,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J138-TypeActivite-RASS/FHIR/JDV-J138-TypeActivite-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J138-TypeActivite-RASS",
       "title" : null,
@@ -329,7 +329,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J139-TypeBAL-RASS/FHIR/JDV-J139-TypeBAL-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J139-TypeBAL-RASS",
       "title" : null,
@@ -345,7 +345,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J162-ESPIC-RASS/FHIR/JDV-J162-ESPIC-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J162-ESPIC-RASS",
       "title" : null,
@@ -361,7 +361,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J73-MetierPharmacien-RASS/FHIR/JDV-J73-MetierPharmacien-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J73-MetierPharmacien-RASS",
       "title" : null,
@@ -378,7 +378,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J74-Pays-RASS/FHIR/JDV-J74-Pays-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "retired",
       "name" : "JDV_J74-Pays-RASS",
       "title" : null,
@@ -390,12 +390,12 @@
       "sources" : ["1.2.250.1.213.1.6.1.142"],
       "uses" : {
       },
-      "StructureDefinition-as-address-extended.html" : "AS Address Extended Datatype Profile",
-      "StructureDefinition-as-ext-person-nationality.html" : "AS Person Nationality Extension"
+      "StructureDefinition-as-ext-person-nationality.html" : "AS Person Nationality Extension",
+      "StructureDefinition-as-address-extended.html" : "AS Address Extended Datatype Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J75-TypeAutorisation-RASS/FHIR/JDV-J75-TypeAutorisation-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J75-TypeAutorisation-RASS",
       "title" : null,
@@ -411,7 +411,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J76-DisciplineAutorisation-RASS/FHIR/JDV-J76-DisciplineAutorisation-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J76-DisciplineAutorisation-RASS",
       "title" : null,
@@ -427,7 +427,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J82-Langue-RASS/FHIR/JDV-J82-Langue-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J82-Langue-RASS",
       "title" : null,
@@ -443,7 +443,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J83-AutoriteEnregistrement-RASS/FHIR/JDV-J83-AutoriteEnregistrement-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J83-AutoriteEnregistrement-RASS",
       "title" : null,
@@ -460,7 +460,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J84-DepartementOM-RASS/FHIR/JDV-J84-DepartementOM-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "retired",
       "name" : "JDV_J84-DepartementOM-RASS",
       "title" : null,
@@ -472,12 +472,12 @@
       "sources" : ["1.2.250.1.213.1.6.1.152"],
       "uses" : {
       },
-      "StructureDefinition-as-address-extended.html" : "AS Address Extended Datatype Profile",
-      "StructureDefinition-as-ext-registration.html" : "AS Registration Extension"
+      "StructureDefinition-as-ext-registration.html" : "AS Registration Extension",
+      "StructureDefinition-as-address-extended.html" : "AS Address Extended Datatype Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J85-StatutInscription-RASS/FHIR/JDV-J85-StatutInscription-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J85-StatutInscription-RASS",
       "title" : null,
@@ -493,7 +493,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J86-NatCycleForm-RASS/FHIR/JDV-J86-NatCycleForm-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J86-NatCycleForm-RASS",
       "title" : null,
@@ -509,7 +509,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J87-NiveauFormAcquis-RASS/FHIR/JDV-J87-NiveauFormAcquis-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J87-NiveauFormAcquis-RASS",
       "title" : null,
@@ -525,7 +525,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J88-AnneeUniversitaire-RASS/FHIR/JDV-J88-AnneeUniversitaire-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J88-AnneeUniversitaire-RASS",
       "title" : null,
@@ -541,7 +541,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J94-GenreActivite-RASS/FHIR/JDV-J94-GenreActivite-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J94-GenreActivite-RASS",
       "title" : null,
@@ -557,7 +557,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J95-ModeExercice-RASS/FHIR/JDV-J95-ModeExercice-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J95-ModeExercice-RASS",
       "title" : null,
@@ -573,7 +573,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J96-TypeActiviteLiberale-RASS/FHIR/JDV-J96-TypeActiviteLiberale-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J96-TypeActiviteLiberale-RASS",
       "title" : null,
@@ -589,7 +589,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J97-StatutProfessionnelSSA-RASS/FHIR/JDV-J97-StatutProfessionnelSSA-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J97-StatutProfessionnelSSA-RASS",
       "title" : null,
@@ -605,7 +605,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J98-StatutHospitalier-RASS/FHIR/JDV-J98-StatutHospitalier-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J98-StatutHospitalier-RASS",
       "title" : null,
@@ -621,7 +621,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J99-InseeNAFrav2Niveau5-RASS/FHIR/JDV-J99-InseeNAFrav2Niveau5-RASS",
-      "version" : "1.3.0",
+      "version" : "1.4.0",
       "status" : "active",
       "name" : "JDV_J99-InseeNAFrav2Niveau5-RASS",
       "title" : null,

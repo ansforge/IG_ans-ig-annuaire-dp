@@ -770,12 +770,11 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}org-3:The telecom of an organization can never be of use 'home' {where(use = 'home').empty()}","XTN","n/a","TEL","ContactPoint"
 "Organization.telecom:mailbox-mss.id","Organization.telecom.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Organization.telecom:mailbox-mss.extension","Organization.telecom.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+"Organization.telecom:mailbox-mss.extension","Organization.telecom.extension","","","",1,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
-"Organization.telecom:mailbox-mss.extension:emailType","Organization.telecom.extension","emailType","","",0,1,"","","","Extension {[CanonicalType[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type]]} {[]}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Organization.telecom:mailbox-mss.extension:emailType","Organization.telecom.extension","emailType","","",1,1,"","","","Extension {[CanonicalType[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type]]} {[]}
 ","Type of email | type de messagerie électronique","Extension on the ContactPoint datatype. This extension allows to specify the type of mail used to contact the person (MSSsanté|Apicrypt|OSM|Autre).","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Organization.telecom:mailbox-mss.extension:emailType.id","Organization.telecom.extension.id","","","",0,1,"","","","string {[]} {[]}
