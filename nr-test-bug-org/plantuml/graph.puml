@@ -21,6 +21,8 @@ package IG #DDDDDD{
              Organization => [None..None]
              Organization.telecom => [None..None]
              Organization.telecom:mailbox-mss => [0..*]
+             Organization.telecom:mailbox-mss.extension => [1..None]
+             Organization.telecom:mailbox-mss.extension:emailType => <&plus>[1..None]
          }
 
      }

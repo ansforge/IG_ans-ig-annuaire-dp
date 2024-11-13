@@ -26,6 +26,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.71"],
       "uses" : {
       },
+      "StructureDefinition-as-organization.html" : "AS Organization Profile",
       "StructureDefinition-as-mailbox-mss.html" : "AS Mailbox MSS Datatype Profile"
     },
     {
@@ -40,6 +41,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.73"],
       "uses" : {
       },
+      "StructureDefinition-as-organization.html" : "AS Organization Profile",
       "StructureDefinition-as-mailbox-mss.html" : "AS Mailbox MSS Datatype Profile"
     },
     {
@@ -144,6 +146,7 @@
       ],
       "uses" : {
       },
+      "StructureDefinition-as-organization.html" : "AS Organization Profile",
       "StructureDefinition-as-mailbox-mss.html" : "AS Mailbox MSS Datatype Profile"
     },
     {
