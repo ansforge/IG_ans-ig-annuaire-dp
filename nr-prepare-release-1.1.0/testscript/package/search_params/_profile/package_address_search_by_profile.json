@@ -6,7 +6,7 @@
   "title": "package address search_by profile",
   "status": "draft",
   "experimental": true,
-  "date": "2024-11-13T10:05:50+00:00",
+  "date": "2024-11-13T13:25:43+00:00",
   "publisher": "The MITRE Corporation",
   "fixture": [
     {
@@ -20,9 +20,9 @@
   ],
   "variable": [
     {
-      "name": "z7cB2Dj6LRug0u8O",
+      "name": "eDGR3H7v270ACjS8",
       "expression": "Address.meta.profile",
-      "sourceId": "B0Z1JMDy7yYXYSML"
+      "sourceId": "MkI0iCzWjmIcVSAz"
     }
   ],
   "setup": {
@@ -35,7 +35,7 @@
           },
           "label": "Operation_1",
           "encodeRequestUrl": false,
-          "responseId": "B0Z1JMDy7yYXYSML",
+          "responseId": "MkI0iCzWjmIcVSAz",
           "sourceId": "example_address"
         }
       }
@@ -54,7 +54,7 @@
             "resource": "Address",
             "label": "Operation_2",
             "encodeRequestUrl": false,
-            "params": "?_profile=${z7cB2Dj6LRug0u8O}"
+            "params": "?_profile=${eDGR3H7v270ACjS8}"
           }
         }
       ]
@@ -71,7 +71,7 @@
           "resource": "Address",
           "label": "Operation_3",
           "encodeRequestUrl": false,
-          "params": "/${z7cB2Dj6LRug0u8O}"
+          "params": "/${eDGR3H7v270ACjS8}"
         }
       }
     ]

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "0ddff36a-4f56-4844-90db-19ad9caccd91-105",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/0ddff36a-4f56-4844-90db-19ad9caccd91-105",
+  "id" : "8710e906-cdba-47ad-ac70-dda4d57bd11c-105",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/8710e906-cdba-47ad-ac70-dda4d57bd11c-105",
   "name" : "IntersectionAsOrganizationBudgetTypeExtensionAndAsOrganizationBudgetTypeExtension",
   "title" : "Intersection of AS Organization Budget Type Extension And AS Organization Budget Type Extension",
   "status" : "active",
-  "date" : "2024-11-13T10:02:44+00:00",
+  "date" : "2024-11-13T13:22:48+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

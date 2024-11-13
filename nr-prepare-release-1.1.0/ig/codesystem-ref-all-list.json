@@ -445,8 +445,8 @@
       "oids" : ["1.2.250.1.71.4.2.6"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J73-MetierPharmacien-RASS.html" : "JDV_J73-MetierPharmacien-RASS",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J73-MetierPharmacien-RASS.html" : "JDV_J73-MetierPharmacien-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne",
@@ -530,8 +530,8 @@
       "oids" : ["1.2.250.1.213.2.37"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J73-MetierPharmacien-RASS.html" : "JDV_J73-MetierPharmacien-RASS",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J73-MetierPharmacien-RASS.html" : "JDV_J73-MetierPharmacien-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle",
@@ -701,8 +701,8 @@
       "oids" : ["1.2.250.1.213.1.6.1.18"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J95-ModeExercice-RASS.html" : "JDV_J95-ModeExercice-RASS",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J95-ModeExercice-RASS.html" : "JDV_J95-ModeExercice-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R24-TypeActiviteLiberale/FHIR/TRE-R24-TypeActiviteLiberale",
@@ -714,8 +714,8 @@
       "oids" : ["1.2.250.1.213.1.6.1.22"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J96-TypeActiviteLiberale-RASS.html" : "JDV_J96-TypeActiviteLiberale-RASS",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J96-TypeActiviteLiberale-RASS.html" : "JDV_J96-TypeActiviteLiberale-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R256-TypeMessagerie/FHIR/TRE-R256-TypeMessagerie",
@@ -883,8 +883,8 @@
       "oids" : ["1.2.250.1.213.1.6.1.21"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J98-StatutHospitalier-RASS.html" : "JDV_J98-StatutHospitalier-RASS",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J98-StatutHospitalier-RASS.html" : "JDV_J98-StatutHospitalier-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R33-StatutInscription/FHIR/TRE-R33-StatutInscription",

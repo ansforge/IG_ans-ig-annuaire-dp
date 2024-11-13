@@ -422,8 +422,8 @@ user content","",0,*,"","Y","","Extension {[]} {[]}
 Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"DomainResource.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
 "HealthcareService.identifier","HealthcareService.identifier","","","",0,0,"Y","","Y","Identifier {[]} {[]}
-","External identifiers for this item","External identifiers for this item.","","","","","","","","","",,,,,"","pattern:system}
-","Slice based on the identifier.system pattern",,"open","HealthcareService.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","External identifiers for this item","External identifiers for this item.","","","","","","","","","",,,,,"","value:system}
+","Slice based on the identifier.system value",,"open","HealthcareService.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".id","FiveWs.identifier"
 "HealthcareService.identifier:numAutorisationArhgos","HealthcareService.identifier","numAutorisationArhgos","","",0,0,"","","Y","Identifier {[]} {[]}
 ","Identifiant fonctionnel, numéro d'autorisation ARHGOS (numeroAutorisationARHGOS).","External identifiers for this item.","","","","","","","","","",,,,,"",,,,"HealthcareService.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -465,7 +465,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ",".code","FiveWs.class"
 "HealthcareService.type","HealthcareService.type","","service type
 ","",0,*,"Y","","Y","CodeableConcept {[]} {[]}
-","Type of service that may be delivered or performed","The specific type of service that may be delivered or performed.","","","","","","","","","",,"example","Additional details about where the content was created (e.g. clinical specialty).","http://hl7.org/fhir/ValueSet/service-type","","pattern:$this}
+","Type of service that may be delivered or performed","The specific type of service that may be delivered or performed.","","","","","","","","","",,"example","Additional details about where the content was created (e.g. clinical specialty).","http://hl7.org/fhir/ValueSet/service-type","","value:$this}
 ","",,"open","HealthcareService.type",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","ActiviteSociale.discipineEquipementSociale",".actrelationship[typeCode=COMP.act[classCode=ACT][moodCode=DEF].code"
 "HealthcareService.type:category","HealthcareService.type","category","service type

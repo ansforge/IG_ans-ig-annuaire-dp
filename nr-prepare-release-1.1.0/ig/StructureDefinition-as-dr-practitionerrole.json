@@ -10,7 +10,7 @@
   "name" : "AsDrPractitionerRoleProfile",
   "title" : "AS Donnée Restreinte PractitionerRole Profile",
   "status" : "active",
-  "date" : "2024-11-13T10:02:18+00:00",
+  "date" : "2024-11-13T13:22:24+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -923,10 +923,10 @@
       "path" : "PractitionerRole.identifier",
       "slicing" : {
         "discriminator" : [{
-          "type" : "pattern",
+          "type" : "value",
           "path" : "system"
         }],
-        "description" : "Slice based on the identifier.system pattern",
+        "description" : "Slice based on the identifier.system value",
         "rules" : "open"
       },
       "short" : "Business Identifiers that are specific to a role/location",
@@ -2040,7 +2040,7 @@
       "path" : "PractitionerRole.code",
       "slicing" : {
         "discriminator" : [{
-          "type" : "pattern",
+          "type" : "value",
           "path" : "$this"
         }],
         "rules" : "open"

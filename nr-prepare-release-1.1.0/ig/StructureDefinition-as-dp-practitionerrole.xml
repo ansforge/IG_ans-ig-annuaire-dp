@@ -41,7 +41,7 @@ true par défaut; false pour les situations d’exercices supprimées</span></td
   <name value="AsDpPractitionerRoleProfile"/>
   <title value="AS Donnée Publique PractitionerRole Profile"/>
   <status value="active"/>
-  <date value="2024-11-13T10:02:18+00:00"/>
+  <date value="2024-11-13T13:22:24+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -921,10 +921,10 @@ true par défaut; false pour les situations d’exercices supprimées</span></td
       <path value="PractitionerRole.identifier"/>
       <slicing>
         <discriminator>
-          <type value="pattern"/>
+          <type value="value"/>
           <path value="system"/>
         </discriminator>
-        <description value="Slice based on the identifier.system pattern"/>
+        <description value="Slice based on the identifier.system value"/>
         <rules value="open"/>
       </slicing>
       <short value="Business Identifiers that are specific to a role/location"/>
@@ -2004,7 +2004,7 @@ true par défaut; false pour les situations d’exercices supprimées</span></td
       <path value="PractitionerRole.code"/>
       <slicing>
         <discriminator>
-          <type value="pattern"/>
+          <type value="value"/>
           <path value="$this"/>
         </discriminator>
         <rules value="open"/>

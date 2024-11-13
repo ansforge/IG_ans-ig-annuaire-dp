@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AsDpDeviceProfile"] ; # 
   fhir:title [ fhir:v "AS Donnée Publique Device Profile"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-11-13T10:02:18+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-13T13:22:24+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -833,10 +833,10 @@
        fhir:path [ fhir:v "Device.identifier" ] ;
        fhir:slicing [
          fhir:discriminator ( [
-           fhir:type [ fhir:v "pattern" ] ;
+           fhir:type [ fhir:v "value" ] ;
            fhir:path [ fhir:v "system" ]
          ] ) ;
-         fhir:description [ fhir:v "Slice based on the identifier.system pattern" ] ;
+         fhir:description [ fhir:v "Slice based on the identifier.system value" ] ;
          fhir:rules [ fhir:v "open" ]
        ] ;
        fhir:short [ fhir:v "Instance identifier" ] ;

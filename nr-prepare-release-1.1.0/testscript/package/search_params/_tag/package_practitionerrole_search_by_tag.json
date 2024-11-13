@@ -6,7 +6,7 @@
   "title": "package practitionerrole search_by tag",
   "status": "draft",
   "experimental": true,
-  "date": "2024-11-13T10:05:50+00:00",
+  "date": "2024-11-13T13:25:43+00:00",
   "publisher": "The MITRE Corporation",
   "fixture": [
     {
@@ -20,9 +20,9 @@
   ],
   "variable": [
     {
-      "name": "8FKjT1I824XsSwg6",
+      "name": "o1KjFTj3FrHXxYnB",
       "expression": "PractitionerRole.meta.tag",
-      "sourceId": "xwUHX8USN69leaKm"
+      "sourceId": "rPFbG02SB1O3JgwR"
     }
   ],
   "setup": {
@@ -35,7 +35,7 @@
           },
           "label": "Operation_1",
           "encodeRequestUrl": false,
-          "responseId": "xwUHX8USN69leaKm",
+          "responseId": "rPFbG02SB1O3JgwR",
           "sourceId": "example_practitionerrole"
         }
       }
@@ -54,7 +54,7 @@
             "resource": "PractitionerRole",
             "label": "Operation_2",
             "encodeRequestUrl": false,
-            "params": "?_tag=${8FKjT1I824XsSwg6}"
+            "params": "?_tag=${o1KjFTj3FrHXxYnB}"
           }
         }
       ]
@@ -71,7 +71,7 @@
           "resource": "PractitionerRole",
           "label": "Operation_3",
           "encodeRequestUrl": false,
-          "params": "/${8FKjT1I824XsSwg6}"
+          "params": "/${o1KjFTj3FrHXxYnB}"
         }
       }
     ]
