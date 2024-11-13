@@ -1,7 +1,7 @@
 AnnuaireSante : Validation Results
 =========================================
 
-err = 6, warn = 6, info = 2
+err = 6, warn = 10, info = 2
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
  Build Errors : 0 / 5 / 0
@@ -9,7 +9,7 @@ Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https:
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-fictive-without-emailtype : 4 / 0 / 2
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-nancy-with-emailtype : 2 / 0 / 2
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-mailbox-mss : 0 / 1 / 1
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-organization : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-organization : 0 / 4 / 1
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/example-organization-fictive-without-emailtype.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -19,15 +19,19 @@ WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-v
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/ImplementationGuide-ans.fhir.fr.annuaire.json ==
 == fsh-generated/resources/Organization-example-organization-fictive-without-emailtype.json ==
-ERROR: Organization/example-organization-fictive-without-emailtype: Organization.telecom[0]: Slicing cannot be evaluated: Unable to resolve discriminator extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type') on Organization.telecom:mailbox-mss found in the definitions because the extension https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type wasn't found in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization (@char 1)
-ERROR: Organization/example-organization-fictive-without-emailtype: Organization.telecom[1]: Slicing cannot be evaluated: Unable to resolve discriminator extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type') on Organization.telecom:mailbox-mss found in the definitions because the extension https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type wasn't found in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization (@char 1)
-ERROR: Organization/example-organization-fictive-without-emailtype: Organization.telecom[2]: Slicing cannot be evaluated: Unable to resolve discriminator extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type') on Organization.telecom:mailbox-mss found in the definitions because the extension https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type wasn't found in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization (@char 1)
+ERROR: Organization/example-organization-fictive-without-emailtype: Organization.telecom[0]: Slicing cannot be evaluated: Discriminator (extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type')) is based on element existence, but slice Organization.telecom:mailbox-mss neither sets min>=1 or max=0
+ERROR: Organization/example-organization-fictive-without-emailtype: Organization.telecom[1]: Slicing cannot be evaluated: Discriminator (extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type')) is based on element existence, but slice Organization.telecom:mailbox-mss neither sets min>=1 or max=0
+ERROR: Organization/example-organization-fictive-without-emailtype: Organization.telecom[2]: Slicing cannot be evaluated: Discriminator (extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type')) is based on element existence, but slice Organization.telecom:mailbox-mss neither sets min>=1 or max=0
 INFORMATION: Organization/example-organization-fictive-without-emailtype: Organization.meta.profile[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
 ERROR: Organization/example-organization-fictive-without-emailtype: Organization: Constraint failed: org-1: 'The organization SHALL at least have a name or an identifier, and possibly more than one' (defined in http://hl7.org/fhir/StructureDefinition/Organization)
 == fsh-generated/resources/Organization-example-organization-nancy-with-emailtype.json ==
-ERROR: Organization/example-organization-nancy-with-emailtype: Organization.telecom[0]: Slicing cannot be evaluated: Unable to resolve discriminator extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type') on Organization.telecom:mailbox-mss found in the definitions because the extension https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type wasn't found in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization (@char 1)
+ERROR: Organization/example-organization-nancy-with-emailtype: Organization.telecom[0]: Slicing cannot be evaluated: Discriminator (extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type')) is based on element existence, but slice Organization.telecom:mailbox-mss neither sets min>=1 or max=0
 INFORMATION: Organization/example-organization-nancy-with-emailtype: Organization.meta.profile[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
 ERROR: Organization/example-organization-nancy-with-emailtype: Organization: Constraint failed: org-1: 'The organization SHALL at least have a name or an identifier, and possibly more than one' (defined in http://hl7.org/fhir/StructureDefinition/Organization)
 == fsh-generated/resources/StructureDefinition-as-mailbox-mss.json ==
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-as-organization.json ==
+WARNING: StructureDefinition/as-organization: StructureDefinition.differential.element[1].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-organization: StructureDefinition.snapshot.element[21].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-organization: StructureDefinition.snapshot.element[96].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-organization: StructureDefinition.snapshot.element[135].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
