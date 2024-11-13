@@ -1,9 +1,9 @@
 AnnuaireSante : Validation Results
 =========================================
 
-err = 20, warn = 121, info = 84
+err = 18, warn = 121, info = 84
 IG Publisher Version: 1.7.2
-Generated Wed Nov 13 09:11:03 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.annuaire#1.1.0-snapshot-4 (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
+Generated Wed Nov 13 09:13:42 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.annuaire#1.1.0-snapshot-4 (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
  Build Errors : 0 / 24 / 0
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CapabilityStatement-AsServerCapabilityStatement : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-intern-id-systems : 0 / 2 / 2
@@ -24,7 +24,7 @@ Generated Wed Nov 13 09:11:03 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.annua
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-334081 : 1 / 1 / 12
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-334081DP : 2 / 0 / 5
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-3719500 : 1 / 1 / 12
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-3719500DP : 4 / 0 / 5
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-3719500DP : 2 / 0 / 5
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/PractitionerRole-1578230 : 0 / 0 / 6
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/PractitionerRole-1578230DP : 0 / 0 / 6
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/PractitionerRole-1738459 : 0 / 0 / 6
@@ -238,8 +238,6 @@ INFORMATION: Practitioner/3719500: Practitioner.meta.profile[1]: This element do
 == fsh-generated/resources/Practitioner-3719500DP.json ==
 ERROR: Practitioner/3719500DP: Practitioner.telecom[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-practitioner|1.1.0-snapshot-4 and slicing is CLOSED: Practitioner.telecom[0]: Does not match slice 'mailbox-mss' (discriminator: system.where(value = 'email').exists() and (extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type').exists()))
 ERROR: Practitioner/3719500DP: Practitioner.telecom[1]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-practitioner|1.1.0-snapshot-4 and slicing is CLOSED: Practitioner.telecom[1]: Does not match slice 'mailbox-mss' (discriminator: system.where(value = 'email').exists() and (extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type').exists()))
-ERROR: Practitioner/3719500DP: Practitioner.telecom[0].extension[0]: Constraint failed: ext-1: 'Must have either extensions or value[x], not both' (defined in http://hl7.org/fhir/StructureDefinition/Extension)
-ERROR: Practitioner/3719500DP: Practitioner.telecom[0].extension[0]: The Extension 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type' definition is for a simple extension, so it must contain a value
 INFORMATION: Practitioner/3719500DP: Practitioner.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated/resources/PractitionerRole-1578230.json ==
 INFORMATION: PractitionerRole/1578230: PractitionerRole.identifier[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-practitionerrole|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)

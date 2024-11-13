@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AsDpHealthcareServiceSocialEquipmentProfile"] ; # 
   fhir:title [ fhir:v "AS Donnée Publique HealthcareService Social Equipment Profile"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-11-13T09:09:03+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-13T09:11:42+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;

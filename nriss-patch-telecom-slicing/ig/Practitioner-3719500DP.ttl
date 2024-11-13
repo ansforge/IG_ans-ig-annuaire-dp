@@ -55,7 +55,12 @@
   ] ) ; # 
   fhir:telecom ( [
      fhir:extension ( [
-       fhir:url [ fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type"^^xsd:anyURI ]
+       fhir:url [ fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R256-TypeMessagerie/FHIR/TRE-R256-TypeMessagerie"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "MSSANTE" ]
+       ]
      ] ) ;
      fhir:system [ fhir:v "phone" ] ;
      fhir:value [ fhir:v "0612122216" ] ;

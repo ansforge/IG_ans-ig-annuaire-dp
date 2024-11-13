@@ -43,7 +43,12 @@
     <prefix value="M"/>
   </name>
   <telecom>
-    <extension url="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type"/>
+    <extension url="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type">
+      <valueCoding>
+        <system value="https://mos.esante.gouv.fr/NOS/TRE_R256-TypeMessagerie/FHIR/TRE-R256-TypeMessagerie"/>
+        <code value="MSSANTE"/>
+      </valueCoding>
+    </extension>
     <system value="phone"/>
     <value value="0612122216"/>
     <rank value="1"/>
