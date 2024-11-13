@@ -321,8 +321,8 @@
       "oids" : ["2.16.840.1.113883.18.108"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-identifier-type.html" : "IdentifierType",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-identifier-type.html" : "FR Core ValueSet Practitioner identifier type"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-identifier-type.html" : "FR Core ValueSet Practitioner identifier type",
+      "http://hl7.org/fhir/R4/valueset-identifier-type.html" : "IdentifierType"
     },
     {
       "url" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-location-identifier-type",
@@ -640,8 +640,8 @@
       "oids" : ["1.2.250.1.213.1.6.1.19"],
       "uses" : {
       },
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J94-GenreActivite-RASS.html" : "JDV_J94-GenreActivite-RASS"
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J94-GenreActivite-RASS.html" : "JDV_J94-GenreActivite-RASS",
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R223-NatCycleForm/FHIR/TRE-R223-NatCycleForm",
@@ -701,8 +701,8 @@
       "oids" : ["1.2.250.1.213.1.6.1.18"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J95-ModeExercice-RASS.html" : "JDV_J95-ModeExercice-RASS",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J95-ModeExercice-RASS.html" : "JDV_J95-ModeExercice-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R24-TypeActiviteLiberale/FHIR/TRE-R24-TypeActiviteLiberale",
@@ -883,8 +883,8 @@
       "oids" : ["1.2.250.1.213.1.6.1.21"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J98-StatutHospitalier-RASS.html" : "JDV_J98-StatutHospitalier-RASS",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J98-StatutHospitalier-RASS.html" : "JDV_J98-StatutHospitalier-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R33-StatutInscription/FHIR/TRE-R33-StatutInscription",

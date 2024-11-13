@@ -23,7 +23,7 @@
   fhir:language [ fhir:v "fr"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr\" lang=\"fr\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner 3719500DP</b></p><a name=\"3719500DP\"> </a><a name=\"hc3719500DP\"> </a><a name=\"3719500DP-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0.1; Last updated: 2019-08-31 01:00:00+0100; Language: fr; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://annuaire.sante.fr\">https://annuaire.sante.fr</a></p><p style=\"margin-bottom: 0px\">Profiles: <a href=\"https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-practitioner.html\">FR Core Practitioner Profile</a>, <a href=\"StructureDefinition-as-dp-practitioner.html\">AS Donnée Publique Practitioner Profile</a></p></div><p><b>identifier</b>: Identifiant National de Professionnel de Santé/810102727017 (use: official, ), N° RPPS/10102727017 (use: official, )</p><p><b>active</b>: true</p><p><b>name</b>: David CHATELIER </p><p><b>telecom</b>: ph: 0612122216, <a href=\"mailto:davidchatelier@orange.fr\">davidchatelier@orange.fr</a></p><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais DE01}, {https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome DE}\">DE Pharmacien</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante 21}, {https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle C}\">Pharmacien</span></p></blockquote></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr\" lang=\"fr\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner 3719500DP</b></p><a name=\"3719500DP\"> </a><a name=\"hc3719500DP\"> </a><a name=\"3719500DP-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0.1; Last updated: 2019-08-31 01:00:00+0100; Language: fr; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://annuaire.sante.fr\">https://annuaire.sante.fr</a></p><p style=\"margin-bottom: 0px\">Profiles: <a href=\"https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-practitioner.html\">FR Core Practitioner Profile</a>, <a href=\"StructureDefinition-as-dp-practitioner.html\">AS Donnée Publique Practitioner Profile</a></p></div><p><b>identifier</b>: Identifiant National de Professionnel de Santé/810102727017 (use: official, ), N° RPPS/10102727017 (use: official, )</p><p><b>active</b>: true</p><p><b>name</b>: David CHATELIER </p><p><b>telecom</b>: <a href=\"mailto:davidchatelier@xxx.mssante.fr\">davidchatelier@xxx.mssante.fr</a></p><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais DE01}, {https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome DE}\">DE Pharmacien</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante 21}, {https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle C}\">Pharmacien</span></p></blockquote></div>"
   ] ; # 
   fhir:identifier ( [
      fhir:use [ fhir:v "official" ] ;
@@ -62,12 +62,9 @@
          fhir:code [ fhir:v "MSSANTE" ]
        ]
      ] ) ;
-     fhir:system [ fhir:v "phone" ] ;
-     fhir:value [ fhir:v "0612122216" ] ;
-     fhir:rank [ fhir:v "1"^^xsd:positiveInteger ]
-  ] [
      fhir:system [ fhir:v "email" ] ;
-     fhir:value [ fhir:v "davidchatelier@orange.fr" ]
+     fhir:value [ fhir:v "davidchatelier@xxx.mssante.fr" ] ;
+     fhir:rank [ fhir:v "1"^^xsd:positiveInteger ]
   ] ) ; # 
   fhir:qualification ( [
      fhir:code [
