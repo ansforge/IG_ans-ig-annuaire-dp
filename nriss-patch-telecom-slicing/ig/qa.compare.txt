@@ -1,7 +1,7 @@
 AnnuaireSante : Validation Results
 =========================================
 
-err = 14, warn = 121, info = 84
+err = 11, warn = 126, info = 84
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
  Build Errors : 0 / 24 / 0
@@ -47,14 +47,14 @@ Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https:
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dp-healthcareservice-social-equipment : 0 / 3 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dp-organization : 0 / 3 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dp-practitioner : 0 / 3 / 1
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dp-practitionerrole : 1 / 2 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dp-practitionerrole : 0 / 4 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dr-device : 0 / 2 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dr-healthcareservice-healthcare-activity : 0 / 3 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dr-healthcareservice-social-equipment : 0 / 3 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dr-organization : 0 / 3 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dr-person : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dr-practitioner : 0 / 2 / 1
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dr-practitionerrole : 1 / 2 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dr-practitionerrole : 0 / 3 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-authorization : 0 / 1 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-codeableconcept-timed-metadata : 0 / 1 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-data-trace : 0 / 2 / 1
@@ -87,7 +87,7 @@ Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https:
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-organization : 0 / 4 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-person : 0 / 1 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-practitioner : 0 / 4 / 1
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-practitionerrole : 1 / 5 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-practitionerrole : 0 / 7 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-VS-TRE-R286-TypeFermeture : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-VS-TRE-R301-SourceInformationInstallation : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-VS-TRE-R74-ModeFixationTarifaire : 0 / 0 / 1
@@ -287,9 +287,10 @@ WARNING: StructureDefinition/as-dp-practitioner: StructureDefinition.differentia
 WARNING: StructureDefinition/as-dp-practitioner: StructureDefinition.snapshot.element[91].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 WARNING: StructureDefinition/as-dp-practitioner: StructureDefinition.snapshot.element[159].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 == fsh-generated/resources/StructureDefinition-as-dp-practitionerrole.json ==
+WARNING: StructureDefinition/as-dp-practitionerrole: StructureDefinition.differential.element[15].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 WARNING: StructureDefinition/as-dp-practitionerrole: StructureDefinition.snapshot.element[24].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 WARNING: StructureDefinition/as-dp-practitionerrole: StructureDefinition.snapshot.element[51].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
-ERROR: StructureDefinition/as-dp-practitionerrole: StructureDefinition.snapshot.element[62].slicing.discriminator[0]: The discriminator path '$this.resolve()' does not appear to be valid for the element that is being sliced 'PractitionerRole.telecom': Error evaluating FHIRPath expression: The function resolve can only be used on ordered string, uri, canonical or Reference but found [http://hl7.org/fhir/StructureDefinition/ContactPoint] (@char 1)
+WARNING: StructureDefinition/as-dp-practitionerrole: StructureDefinition.snapshot.element[62].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 == fsh-generated/resources/StructureDefinition-as-dr-device.json ==
 WARNING: StructureDefinition/as-dr-device: StructureDefinition.snapshot.element[20].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-device'): The Implementation Guide contains no examples for this profile
@@ -312,7 +313,7 @@ WARNING: StructureDefinition/as-dr-practitioner: StructureDefinition.snapshot.el
 == fsh-generated/resources/StructureDefinition-as-dr-practitionerrole.json ==
 WARNING: StructureDefinition/as-dr-practitionerrole: StructureDefinition.snapshot.element[24].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 WARNING: StructureDefinition/as-dr-practitionerrole: StructureDefinition.snapshot.element[51].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
-ERROR: StructureDefinition/as-dr-practitionerrole: StructureDefinition.snapshot.element[62].slicing.discriminator[0]: The discriminator path '$this.resolve()' does not appear to be valid for the element that is being sliced 'PractitionerRole.telecom': Error evaluating FHIRPath expression: The function resolve can only be used on ordered string, uri, canonical or Reference but found [http://hl7.org/fhir/StructureDefinition/ContactPoint] (@char 1)
+WARNING: StructureDefinition/as-dr-practitionerrole: StructureDefinition.snapshot.element[62].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 == fsh-generated/resources/StructureDefinition-as-ext-authorization.json ==
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-authorization'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-as-ext-codeableconcept-timed-metadata.json ==
@@ -394,9 +395,10 @@ WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir
 == fsh-generated/resources/StructureDefinition-as-practitionerrole.json ==
 WARNING: StructureDefinition/as-practitionerrole: StructureDefinition.differential.element[5].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 WARNING: StructureDefinition/as-practitionerrole: StructureDefinition.differential.element[16].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-practitionerrole: StructureDefinition.differential.element[26].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 WARNING: StructureDefinition/as-practitionerrole: StructureDefinition.snapshot.element[23].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 WARNING: StructureDefinition/as-practitionerrole: StructureDefinition.snapshot.element[50].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
-ERROR: StructureDefinition/as-practitionerrole: StructureDefinition.snapshot.element[61].slicing.discriminator[0]: The discriminator path '$this.resolve()' does not appear to be valid for the element that is being sliced 'PractitionerRole.telecom': Error evaluating FHIRPath expression: The function resolve can only be used on ordered string, uri, canonical or Reference but found [http://hl7.org/fhir/StructureDefinition/ContactPoint] (@char 1)
+WARNING: StructureDefinition/as-practitionerrole: StructureDefinition.snapshot.element[61].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-practitionerrole'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/ValueSet-VS-TRE-R286-TypeFermeture.json ==
 == fsh-generated/resources/ValueSet-VS-TRE-R301-SourceInformationInstallation.json ==
