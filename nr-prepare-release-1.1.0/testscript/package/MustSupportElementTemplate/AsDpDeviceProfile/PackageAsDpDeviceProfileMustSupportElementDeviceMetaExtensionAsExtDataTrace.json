@@ -1,0 +1,26 @@
+{
+  "id": "03f38890e0957337d6b73e8b8eafe0d7ccce83834ff04924831851b480a3bcd3",
+  "url": "https://github.com/fhir-crucible/testscript-generator/03f38890e0957337d6b73e8b8eafe0d7ccce83834ff04924831851b480a3bcd3",
+  "version": "0.0",
+  "name": "PackageAsDpDeviceProfileMustSupportElementDeviceMetaExtensionAsExtDataTrace",
+  "title": "IG: package; Profile: AsDpDeviceProfile; Case: Must Support Element; Element: Device.meta.extension:as-ext-data-trace",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-11-13T10:01:41+00:00",
+  "publisher": "The MITRE Corporation",
+  "test": [
+    {
+      "name": "Generation Feature Not Implemented",
+      "action": [
+        {
+          "assert": {
+            "label": "Fail - not implemented in generator: no placeholder for key ancestor-checks",
+            "expression": "1!=1",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

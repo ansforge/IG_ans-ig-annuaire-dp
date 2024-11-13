@@ -1,0 +1,70 @@
+{
+  "id": "9408254c1e364b8fb93fb9e5f8b6ffbaca9dce661f384ffa5e1961fe0190b7a2",
+  "url": "https://github.com/fhir-crucible/testscript-generator/9408254c1e364b8fb93fb9e5f8b6ffbaca9dce661f384ffa5e1961fe0190b7a2",
+  "version": "0.0",
+  "name": "PackageAsDpHealthcareServiceSocialEquipmentProfileMustSupportElementHealthcareServiceExtensionAsExtPatientType",
+  "title": "IG: package; Profile: AsDpHealthcareServiceSocialEquipmentProfile; Case: Must Support Element; Element: HealthcareService.extension:as-ext-patient-type",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-11-13T10:01:41+00:00",
+  "publisher": "The MITRE Corporation",
+  "profile": [
+    {
+      "id": "targetProfileAsDpHealthcareServiceSocialEquipmentProfile",
+      "reference": "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-healthcareservice-social-equipment"
+    }
+  ],
+  "variable": [
+    {
+      "name": "targetResourceIdAsDpHealthcareServiceSocialEquipmentProfile",
+      "defaultValue": "example",
+      "description": "Enter a known instance id on the destination system. Will be checked for conformance against profile AsDpHealthcareServiceSocialEquipmentProfile.",
+      "hint": "[resource.id]"
+    }
+  ],
+  "test": [
+    {
+      "name": "Validate the identified resource conforms to the AsDpHealthcareServiceSocialEquipmentProfile profile",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "read"
+            },
+            "resource": "HealthcareService",
+            "label": "Read_HealthcareService_Instance",
+            "description": "Read HealthcareService Instance",
+            "encodeRequestUrl": false,
+            "params": "/${targetResourceIdAsDpHealthcareServiceSocialEquipmentProfile}",
+            "responseId": "targetInstance"
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Response_OK",
+            "response": "okay",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_HealthcareService_Returned",
+            "description": "Assert HealthcareService Returned",
+            "resource": "HealthcareService",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Instance_Conforms_to_AsDpHealthcareServiceSocialEquipmentProfile_Profile",
+            "description": "Assert returned instance conforms to the AsDpHealthcareServiceSocialEquipmentProfile Profile",
+            "validateProfileId": "targetProfileAsDpHealthcareServiceSocialEquipmentProfile",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="VS-TRE-R301-SourceInformationInstallation"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet VS-TRE-R301-SourceInformationInstallation</b></p><a name="VS-TRE-R301-SourceInformationInstallation"> </a><a name="hcVS-TRE-R301-SourceInformationInstallation"> </a><a name="VS-TRE-R301-SourceInformationInstallation-fr-FR"> </a><ul><li>Include all codes defined in <a href="https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R301-SourceInformationInstallation.html"><code>https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation</code></a></li></ul></div>
+  </text>
+  <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R301-SourceInformationInstallation"/>
+  <version value="1.1.0-snapshot-4"/>
+  <name value="VS_TRE_R301_SourceInformationInstallation"/>
+  <title value="ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-11-13T09:58:26+00:00"/>
+  <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+  <contact>
+    <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="monserviceclient.annuaire@esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="JDV des NOS contenant l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="FRANCE"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation"/>
+    </include>
+  </compose>
+</ValueSet>

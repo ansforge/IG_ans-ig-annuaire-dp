@@ -1,0 +1,80 @@
+{
+  "id": "Package-Contactpoint-Search_by-Has",
+  "url": "https://github.com/fhir-crucible/testscript-generator",
+  "version": "0.0",
+  "name": "Package_Contactpoint_Search_by_Has",
+  "title": "package contactpoint search_by has",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-11-13T10:01:41+00:00",
+  "publisher": "The MITRE Corporation",
+  "fixture": [
+    {
+      "id": "example_contactpoint",
+      "autocreate": false,
+      "autodelete": false,
+      "resource": {
+        "reference": "fixtures/example_contactpoint.json"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "name": "hw9haFhfnfqRNy3V",
+      "expression": "ContactPoint.id",
+      "sourceId": "2U477KqabVDSsizt"
+    }
+  ],
+  "setup": {
+    "action": [
+      {
+        "operation": {
+          "type": {
+            "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+            "code": "create"
+          },
+          "label": "Operation_1",
+          "encodeRequestUrl": false,
+          "responseId": "2U477KqabVDSsizt",
+          "sourceId": "example_contactpoint"
+        }
+      }
+    ]
+  },
+  "test": [
+    {
+      "name": "Test_1",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "search"
+            },
+            "resource": "ContactPoint",
+            "label": "Operation_2",
+            "encodeRequestUrl": false,
+            "params": "?_has"
+          }
+        }
+      ]
+    }
+  ],
+  "teardown": {
+    "action": [
+      {
+        "operation": {
+          "type": {
+            "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+            "code": "delete"
+          },
+          "resource": "ContactPoint",
+          "label": "Operation_3",
+          "encodeRequestUrl": false,
+          "params": "/${hw9haFhfnfqRNy3V}"
+        }
+      }
+    ]
+  },
+  "resourceType": "TestScript"
+}

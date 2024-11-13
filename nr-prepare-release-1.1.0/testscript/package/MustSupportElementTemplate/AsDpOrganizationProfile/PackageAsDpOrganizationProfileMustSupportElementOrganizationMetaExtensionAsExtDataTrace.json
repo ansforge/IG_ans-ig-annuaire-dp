@@ -1,0 +1,26 @@
+{
+  "id": "2223da770ef001cf0a86d5436ca23fd4a0ad6c4be95f4c7abddd2bd4df99d453",
+  "url": "https://github.com/fhir-crucible/testscript-generator/2223da770ef001cf0a86d5436ca23fd4a0ad6c4be95f4c7abddd2bd4df99d453",
+  "version": "0.0",
+  "name": "PackageAsDpOrganizationProfileMustSupportElementOrganizationMetaExtensionAsExtDataTrace",
+  "title": "IG: package; Profile: AsDpOrganizationProfile; Case: Must Support Element; Element: Organization.meta.extension:as-ext-data-trace",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-11-13T10:01:41+00:00",
+  "publisher": "The MITRE Corporation",
+  "test": [
+    {
+      "name": "Generation Feature Not Implemented",
+      "action": [
+        {
+          "assert": {
+            "label": "Fail - not implemented in generator: no placeholder for key ancestor-checks",
+            "expression": "1!=1",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

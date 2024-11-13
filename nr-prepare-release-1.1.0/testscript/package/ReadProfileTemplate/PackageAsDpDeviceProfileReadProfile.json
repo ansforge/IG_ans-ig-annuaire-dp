@@ -1,0 +1,70 @@
+{
+  "id": "e0c43e85efd77777f7ace73a053bd180cf1288a6d73acdd384e73932a4a0ff9c",
+  "url": "https://github.com/fhir-crucible/testscript-generator/e0c43e85efd77777f7ace73a053bd180cf1288a6d73acdd384e73932a4a0ff9c",
+  "version": "0.0",
+  "name": "PackageAsDpDeviceProfileReadProfile",
+  "title": "IG: package; Profile: AsDpDeviceProfile; Case: Read Profile",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-11-13T10:01:41+00:00",
+  "publisher": "The MITRE Corporation",
+  "profile": [
+    {
+      "id": "targetProfileAsDpDeviceProfile",
+      "reference": "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-device"
+    }
+  ],
+  "variable": [
+    {
+      "name": "targetResourceIdAsDpDeviceProfile",
+      "defaultValue": "example",
+      "description": "Enter a known instance id on the destination system. Will be checked for conformance against profile AsDpDeviceProfile.",
+      "hint": "[resource.id]"
+    }
+  ],
+  "test": [
+    {
+      "name": "Validate the identified resource conforms to the AsDpDeviceProfile profile",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "read"
+            },
+            "resource": "Device",
+            "label": "Read_Device_Instance",
+            "description": "Read Device Instance",
+            "encodeRequestUrl": false,
+            "params": "/${targetResourceIdAsDpDeviceProfile}",
+            "responseId": "targetInstance"
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Response_OK",
+            "response": "okay",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Device_Returned",
+            "description": "Assert Device Returned",
+            "resource": "Device",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Instance_Conforms_to_AsDpDeviceProfile_Profile",
+            "description": "Assert returned instance conforms to the AsDpDeviceProfile Profile",
+            "validateProfileId": "targetProfileAsDpDeviceProfile",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

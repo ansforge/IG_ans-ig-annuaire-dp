@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="example-organization-fictive"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Organization example-organization-fictive</b></p><a name="example-organization-fictive"> </a><a name="hcexample-organization-fictive"> </a><a name="example-organization-fictive-fr-FR"> </a><p><b>identifier</b>: Identification nationale de structure définie par l’ANS dans le CI_SIS/1458174839 (use: official, ), FINESS d'entité géographique/458174839</p><p><b>active</b>: true</p><p><b>name</b>: Hôpital fictif</p><p><b>alias</b>: Hôpital fictif pour le guide d'implémentation de l'annuaire</p><p><b>telecom</b>: ph: 0248391028, fax: 0248391029, <a href="mailto:direction@hopital-fictif.fr">direction@hopital-fictif.fr</a></p><p><b>address</b>: R DE LA LIBERTE, 18000 BOURGES BOURGES 18000 </p></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"/>
+        <code value="IDNST"/>
+      </coding>
+    </type>
+    <system value="urn:oid:1.2.250.1.71.4.2.2"/>
+    <value value="1458174839"/>
+  </identifier>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"/>
+        <code value="FINEG"/>
+      </coding>
+    </type>
+    <system value="https://finess.esante.gouv.fr"/>
+    <value value="458174839"/>
+  </identifier>
+  <active value="true"/>
+  <name value="Hôpital fictif"/>
+  <alias value="Hôpital fictif pour le guide d'implémentation de l'annuaire"/>
+  <telecom>
+    <system value="phone"/>
+    <value value="0248391028"/>
+    <rank value="1"/>
+  </telecom>
+  <telecom>
+    <system value="fax"/>
+    <value value="0248391029"/>
+  </telecom>
+  <telecom>
+    <system value="email"/>
+    <value value="direction@hopital-fictif.fr"/>
+  </telecom>
+  <address>
+    <extension url="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code">
+      <valueCoding>
+        <system value="https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune"/>
+        <code value="18000"/>
+      </valueCoding>
+    </extension>
+    <line value="R DE LA LIBERTE, 18000 BOURGES">
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType">
+        <valueString value="R"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase">
+        <valueString value="DE LA LIBERTE"/>
+      </extension>
+    </line>
+    <city value="BOURGES"/>
+    <district value="18"/>
+    <postalCode value="18000"/>
+  </address>
+</Organization>
