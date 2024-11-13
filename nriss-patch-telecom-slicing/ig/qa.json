@@ -6,8 +6,8 @@
   "status" : "active",
   "package-id" : "ans.fhir.fr.annuaire",
   "ig-ver" : "1.1.0-snapshot-4",
-  "date" : "Wed, 13 Nov, 2024 08:40:33 +0000",
-  "dateISO8601" : "2024-11-13T08:40:33+00:00",
+  "date" : "Wed, 13 Nov, 2024 08:49:07 +0000",
+  "dateISO8601" : "2024-11-13T08:49:07+00:00",
   "errs" : 26,
   "warnings" : 121,
   "hints" : 81,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 3927407616
+  "maxMemory" : 3212742736
 }

@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AsDrPractitionerProfile"] ; # 
   fhir:title [ fhir:v "AS Donnée Restreinte Practitioner Profile"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-11-13T08:40:33+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-13T08:49:07+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -7017,7 +7017,10 @@
        fhir:slicing [
          fhir:discriminator ( [
            fhir:type [ fhir:v "pattern" ] ;
-           fhir:path [ fhir:v "$this" ]
+           fhir:path [ fhir:v "system" ]
+         ] [
+           fhir:type [ fhir:v "exists" ] ;
+           fhir:path [ fhir:v "extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type')" ]
          ] ) ;
          fhir:rules [ fhir:v "open" ]
        ] ;
