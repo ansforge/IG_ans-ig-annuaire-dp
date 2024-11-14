@@ -1,0 +1,70 @@
+{
+  "id": "f18f250f4e870da1f8c4dc7682e3041202ed2861a0bfaf12f9d1b8945232f84a",
+  "url": "https://github.com/fhir-crucible/testscript-generator/f18f250f4e870da1f8c4dc7682e3041202ed2861a0bfaf12f9d1b8945232f84a",
+  "version": "0.0",
+  "name": "PackageAsDrOrganizationProfileMustSupportElementOrganizationExtensionAsExtOrganizationPricingModel",
+  "title": "IG: package; Profile: AsDrOrganizationProfile; Case: Must Support Element; Element: Organization.extension:as-ext-organization-pricing-model",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-11-14T08:33:17+00:00",
+  "publisher": "The MITRE Corporation",
+  "profile": [
+    {
+      "id": "targetProfileAsDrOrganizationProfile",
+      "reference": "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-organization"
+    }
+  ],
+  "variable": [
+    {
+      "name": "targetResourceIdAsDrOrganizationProfile",
+      "defaultValue": "example",
+      "description": "Enter a known instance id on the destination system. Will be checked for conformance against profile AsDrOrganizationProfile.",
+      "hint": "[resource.id]"
+    }
+  ],
+  "test": [
+    {
+      "name": "Validate the identified resource conforms to the AsDrOrganizationProfile profile",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "read"
+            },
+            "resource": "Organization",
+            "label": "Read_Organization_Instance",
+            "description": "Read Organization Instance",
+            "encodeRequestUrl": false,
+            "params": "/${targetResourceIdAsDrOrganizationProfile}",
+            "responseId": "targetInstance"
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Response_OK",
+            "response": "okay",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Organization_Returned",
+            "description": "Assert Organization Returned",
+            "resource": "Organization",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Instance_Conforms_to_AsDrOrganizationProfile_Profile",
+            "description": "Assert returned instance conforms to the AsDrOrganizationProfile Profile",
+            "validateProfileId": "targetProfileAsDrOrganizationProfile",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

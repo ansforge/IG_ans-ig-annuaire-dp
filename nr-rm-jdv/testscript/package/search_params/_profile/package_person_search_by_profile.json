@@ -1,0 +1,80 @@
+{
+  "id": "Package-Person-Search_by-Profile",
+  "url": "https://github.com/fhir-crucible/testscript-generator",
+  "version": "0.0",
+  "name": "Package_Person_Search_by_Profile",
+  "title": "package person search_by profile",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-11-14T08:33:17+00:00",
+  "publisher": "The MITRE Corporation",
+  "fixture": [
+    {
+      "id": "example_person",
+      "autocreate": false,
+      "autodelete": false,
+      "resource": {
+        "reference": "fixtures/example_person.json"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "name": "bSck4Cfg4at0GCei",
+      "expression": "Person.meta.profile",
+      "sourceId": "82UqDnAndKdof9tt"
+    }
+  ],
+  "setup": {
+    "action": [
+      {
+        "operation": {
+          "type": {
+            "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+            "code": "create"
+          },
+          "label": "Operation_1",
+          "encodeRequestUrl": false,
+          "responseId": "82UqDnAndKdof9tt",
+          "sourceId": "example_person"
+        }
+      }
+    ]
+  },
+  "test": [
+    {
+      "name": "Test_1",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "search"
+            },
+            "resource": "Person",
+            "label": "Operation_2",
+            "encodeRequestUrl": false,
+            "params": "?_profile=${bSck4Cfg4at0GCei}"
+          }
+        }
+      ]
+    }
+  ],
+  "teardown": {
+    "action": [
+      {
+        "operation": {
+          "type": {
+            "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+            "code": "delete"
+          },
+          "resource": "Person",
+          "label": "Operation_3",
+          "encodeRequestUrl": false,
+          "params": "/${bSck4Cfg4at0GCei}"
+        }
+      }
+    ]
+  },
+  "resourceType": "TestScript"
+}

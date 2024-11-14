@@ -1,0 +1,401 @@
+AnnuaireSante : Validation Results
+=========================================
+
+err = 39, warn = 110, info = 67
+$--
+Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
+ Build Errors : 2 / 24 / 0
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CapabilityStatement-AsServerCapabilityStatement : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-intern-id-systems : 0 / 2 / 2
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-organization-types : 0 / 2 / 2
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-type-etablissement : 0 / 1 / 2
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-type-systeme-information : 0 / 1 / 2
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.annuaire : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-158480 : 3 / 1 / 9
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-158480DP : 5 / 1 / 9
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-481677 : 0 / 0 / 8
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-481677DP : 0 / 0 / 6
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-548812 : 0 / 0 / 6
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-548812DP : 0 / 0 / 6
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-fictive : 3 / 1 / 5
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Organization-example-organization-nancy : 3 / 1 / 5
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Person-pp16dr-person : 1 / 1 / 4
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Person-pp19dr-person : 1 / 1 / 4
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-334081 : 4 / 1 / 10
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-334081DP : 2 / 0 / 5
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-3719500 : 3 / 1 / 11
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/Practitioner-3719500DP : 2 / 0 / 5
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/PractitionerRole-1578230 : 0 / 0 / 6
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/PractitionerRole-1578230DP : 0 / 0 / 6
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/PractitionerRole-1738459 : 0 / 0 / 6
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/PractitionerRole-1738459DP : 0 / 0 / 6
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/PractitionerRole-5015602 : 0 / 0 / 6
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/PractitionerRole-5015602DP : 0 / 0 / 6
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/SearchParameter-as-sp-data-information-system : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/SearchParameter-as-sp-data-registration-authority : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/SearchParameter-as-sp-insee-code : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/SearchParameter-as-sp-mailbox-mss : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/SearchParameter-as-sp-number-smartcard : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/SearchParameter-as-sp-pharmacy-licence : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/SearchParameter-as-sp-qualification-code : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/SearchParameter-as-sp-type-smartcard : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-address-extended : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-codeableconcept-timed : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-device : 0 / 3 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dp-device : 0 / 2 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dp-healthcareservice-healthcare-activity : 0 / 3 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dp-healthcareservice-social-equipment : 0 / 3 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dp-organization : 1 / 2 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dp-practitioner : 1 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dp-practitionerrole : 1 / 2 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dr-device : 0 / 2 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dr-healthcareservice-healthcare-activity : 0 / 3 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dr-healthcareservice-social-equipment : 0 / 3 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dr-organization : 1 / 2 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dr-person : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dr-practitioner : 1 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-dr-practitionerrole : 1 / 2 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-authorization : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-codeableconcept-timed-metadata : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-data-trace : 0 / 2 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-digital-certificate : 0 / 1 / 3
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-education-level : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-installation : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-lieu-dit : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-mailbox-mss-metadata : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-organization-authorization-deadline : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-organization-budget-type : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-organization-closing-type : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-organization-pharmacy-licence : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-organization-pricing-model : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-organization-types : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-patient-type : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-person-birth-place : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-person-deceased-date-time : 3 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-person-nationality : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-practitioner-authorization : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-practitionerrole-contracted : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-practitionerrole-hascas : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-practitionerrole-vitale-accepted : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-registration : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-smartcard : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-supported-capacity : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-healthcareservice-healthcare-activity : 0 / 5 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-healthcareservice-social-equipment : 0 / 5 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-location : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-mailbox-mss : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-organization : 1 / 2 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-person : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-practitioner : 1 / 2 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-practitionerrole : 1 / 5 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-as-vs-intern-id-systems : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-as-vs-organization-types : 0 / 1 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-as-vs-type-etablissement : 0 / 0 / 1
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-as-vs-type-systeme-information : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CapabilityStatement/AsServerCapabilityStatement.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/example-organization-fictive.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/example-organization-nancy.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/481677DP.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/3719500DP.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/5015602DP.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/481677.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Person/pp16dr-person.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/3719500.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/5015602.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/158480DP.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/548812DP.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/334081DP.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/1738459DP.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/1578230DP.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/158480.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/548812.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Person/pp19dr-person.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/334081.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/1738459.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/1578230.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/Practitioner-334081.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 216, column 2257: The link 'Organization/u33' for "Organization/u33" cannot be resolved
+ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/Practitioner-3719500.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 216, column 2198: The link 'Organization/u63' for "Organization/u63" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CapabilityStatement-AsServerCapabilityStatement.json ==
+== fsh-generated/resources/CodeSystem-as-cs-intern-id-systems.json ==
+INFORMATION: CodeSystem/as-cs-intern-id-systems: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/as-cs-intern-id-systems: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/as-cs-intern-id-systems: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-as-cs-organization-types.json ==
+INFORMATION: CodeSystem/as-cs-organization-types: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/as-cs-organization-types: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/as-cs-organization-types: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-as-cs-type-etablissement.json ==
+INFORMATION: CodeSystem/as-cs-type-etablissement: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/as-cs-type-etablissement: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-as-cs-type-systeme-information.json ==
+INFORMATION: CodeSystem/as-cs-type-systeme-information: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/as-cs-type-systeme-information: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-ans.fhir.fr.annuaire.json ==
+== fsh-generated/resources/Organization-158480.json ==
+INFORMATION: Organization/158480: Organization.type[0]: Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307|2.1.0
+ERROR: Organization/158480: Organization.telecom[0].system: Value is 'phone' but is fixed to 'email' in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss|1.1.0-snapshot-4#ContactPoint.system
+ERROR: Organization/158480: Organization.telecom[1].system: Value is 'fax' but is fixed to 'email' in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss|1.1.0-snapshot-4#ContactPoint.system
+WARNING: Organization/158480: Organization.address[0].extension[0].value.ofType(Coding).system: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+ERROR: Organization/158480: Organization.address[0].extension[0].value.ofType(Coding): The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#75114) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated; The provided code 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#75114' was not found in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0'
+INFORMATION: Organization/158480: Organization.address[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+INFORMATION: Organization/158480: Organization.address[0].line[0].extension[1].value.ofType(string): Reference to retired CodeSystem https://mos.esante.gouv.fr/NOS/TRE_R35-TypeVoie/FHIR/TRE-R35-TypeVoie|1.4.0
+INFORMATION: Organization/158480: Organization.type[2]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Organization/158480: Organization.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/Organization-158480DP.json ==
+INFORMATION: Organization/158480DP: Organization.type[0]: Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307|2.1.0
+ERROR: Organization/158480DP: Organization.telecom[0].system: Value is 'phone' but is fixed to 'email' in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss|1.1.0-snapshot-4#ContactPoint.system
+ERROR: Organization/158480DP: Organization.telecom[0].system: Value is 'phone' but is fixed to 'email' in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-organization|1.1.0-snapshot-4#Organization.telecom:mailbox-mss.system
+ERROR: Organization/158480DP: Organization.telecom[1].system: Value is 'fax' but is fixed to 'email' in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss|1.1.0-snapshot-4#ContactPoint.system
+ERROR: Organization/158480DP: Organization.telecom[1].system: Value is 'fax' but is fixed to 'email' in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-organization|1.1.0-snapshot-4#Organization.telecom:mailbox-mss.system
+WARNING: Organization/158480DP: Organization.address[0].extension[0].value.ofType(Coding).system: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+ERROR: Organization/158480DP: Organization.address[0].extension[0].value.ofType(Coding): The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#75114) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated; The provided code 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#75114' was not found in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0'
+INFORMATION: Organization/158480DP: Organization.address[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+INFORMATION: Organization/158480DP: Organization.address[0].line[0].extension[1].value.ofType(string): Reference to retired CodeSystem https://mos.esante.gouv.fr/NOS/TRE_R35-TypeVoie/FHIR/TRE-R35-TypeVoie|1.4.0
+INFORMATION: Organization/158480DP: Organization.type[2]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Organization/158480DP: Organization.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/Organization-481677.json ==
+INFORMATION: Organization/481677: Organization.type[0]: Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307|2.1.0
+INFORMATION: Organization/481677: Organization.telecom[0].extension[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Organization/481677: Organization.telecom[0].extension[1]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Organization/481677: Organization.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/Organization-481677DP.json ==
+INFORMATION: Organization/481677DP: Organization.type[0]: Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307|2.1.0
+INFORMATION: Organization/481677DP: Organization.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/Organization-548812.json ==
+INFORMATION: Organization/548812: Organization.type[0]: Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307|2.1.0
+INFORMATION: Organization/548812: Organization.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/Organization-548812DP.json ==
+INFORMATION: Organization/548812DP: Organization.type[0]: Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307|2.1.0
+INFORMATION: Organization/548812DP: Organization.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/Organization-example-organization-fictive.json ==
+INFORMATION: Organization/example-organization-fictive: Organization.meta.profile[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Organization/example-organization-fictive: Organization.telecom[0].system: Value is 'phone' but is fixed to 'email' in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss|1.1.0-snapshot-4#ContactPoint.system
+ERROR: Organization/example-organization-fictive: Organization.telecom[1].system: Value is 'fax' but is fixed to 'email' in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss|1.1.0-snapshot-4#ContactPoint.system
+WARNING: Organization/example-organization-fictive: Organization.address[0].extension[0].value.ofType(Coding).system: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+ERROR: Organization/example-organization-fictive: Organization.address[0].extension[0].value.ofType(Coding): The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#18000) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated; The provided code 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#18000' was not found in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0'
+INFORMATION: Organization/example-organization-fictive: Organization.address[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+INFORMATION: Organization/example-organization-fictive: Organization.address[0].line[0].extension[0].value.ofType(string): Reference to retired CodeSystem https://mos.esante.gouv.fr/NOS/TRE_R35-TypeVoie/FHIR/TRE-R35-TypeVoie|1.4.0
+INFORMATION: Organization/example-organization-fictive: Organization.address[0].district: Reference to retired ValueSet https://mos.esante.gouv.fr/NOS/JDV_J84-DepartementOM-RASS/FHIR/JDV-J84-DepartementOM-RASS|1.4.0
+== fsh-generated/resources/Organization-example-organization-nancy.json ==
+INFORMATION: Organization/example-organization-nancy: Organization.meta.profile[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Organization/example-organization-nancy: Organization.telecom[0].system: Value is 'phone' but is fixed to 'email' in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss|1.1.0-snapshot-4#ContactPoint.system
+ERROR: Organization/example-organization-nancy: Organization.telecom[1].system: Value is 'fax' but is fixed to 'email' in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss|1.1.0-snapshot-4#ContactPoint.system
+WARNING: Organization/example-organization-nancy: Organization.address[0].extension[0].value.ofType(Coding).system: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+ERROR: Organization/example-organization-nancy: Organization.address[0].extension[0].value.ofType(Coding): The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#54547) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated; The provided code 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#54547' was not found in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0'
+INFORMATION: Organization/example-organization-nancy: Organization.address[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+INFORMATION: Organization/example-organization-nancy: Organization.address[0].line[0].extension[0].value.ofType(string): Reference to retired CodeSystem https://mos.esante.gouv.fr/NOS/TRE_R35-TypeVoie/FHIR/TRE-R35-TypeVoie|1.4.0
+INFORMATION: Organization/example-organization-nancy: Organization.address[0].district: Reference to retired ValueSet https://mos.esante.gouv.fr/NOS/JDV_J84-DepartementOM-RASS/FHIR/JDV-J84-DepartementOM-RASS|1.4.0
+== fsh-generated/resources/Person-pp16dr-person.json ==
+INFORMATION: Person/pp16dr-person: Person.extension[0].extension[0].value.ofType(CodeableConcept): Reference to retired ValueSet https://mos.esante.gouv.fr/NOS/JDV_J74-Pays-RASS/FHIR/JDV-J74-Pays-RASS|1.4.0
+WARNING: Person/pp16dr-person: Person.extension[1].value.ofType(Address).extension[0].value.ofType(Coding).system: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+ERROR: Person/pp16dr-person: Person.extension[1].value.ofType(Address).extension[0].value.ofType(Coding): The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#58086) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated; The provided code 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#58086' was not found in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0'
+INFORMATION: Person/pp16dr-person: Person.extension[1].value.ofType(Address).extension[0].value.ofType(Coding): A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+INFORMATION: Person/pp16dr-person: Person.extension[1].value.ofType(Address).country: Reference to retired ValueSet https://mos.esante.gouv.fr/NOS/JDV_J74-Pays-RASS/FHIR/JDV-J74-Pays-RASS|1.4.0
+== fsh-generated/resources/Person-pp19dr-person.json ==
+INFORMATION: Person/pp19dr-person: Person.extension[0].extension[0].value.ofType(CodeableConcept): Reference to retired ValueSet https://mos.esante.gouv.fr/NOS/JDV_J74-Pays-RASS/FHIR/JDV-J74-Pays-RASS|1.4.0
+WARNING: Person/pp19dr-person: Person.extension[1].value.ofType(Address).extension[0].value.ofType(Coding).system: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+ERROR: Person/pp19dr-person: Person.extension[1].value.ofType(Address).extension[0].value.ofType(Coding): The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#44109) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated; The provided code 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#44109' was not found in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0'
+INFORMATION: Person/pp19dr-person: Person.extension[1].value.ofType(Address).extension[0].value.ofType(Coding): A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+INFORMATION: Person/pp19dr-person: Person.extension[1].value.ofType(Address).country: Reference to retired ValueSet https://mos.esante.gouv.fr/NOS/JDV_J74-Pays-RASS/FHIR/JDV-J74-Pays-RASS|1.4.0
+== fsh-generated/resources/Practitioner-334081.json ==
+ERROR: Practitioner/334081: Practitioner.telecom[0].system: Value is 'phone' but is fixed to 'email' in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss|1.1.0-snapshot-4#ContactPoint.system
+WARNING: Practitioner/334081: Practitioner.address[0].extension[0].value.ofType(Coding).system: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+ERROR: Practitioner/334081: Practitioner.address[0].extension[0].value.ofType(Coding): The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#92023) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated; The provided code 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#92023' was not found in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0'
+INFORMATION: Practitioner/334081: Practitioner.address[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+INFORMATION: Practitioner/334081: Practitioner.address[0].line[0].extension[1].value.ofType(string): Reference to retired CodeSystem https://mos.esante.gouv.fr/NOS/TRE_R35-TypeVoie/FHIR/TRE-R35-TypeVoie|1.4.0
+INFORMATION: Practitioner/334081: Practitioner.address[0].country: Reference to retired ValueSet https://mos.esante.gouv.fr/NOS/JDV_J74-Pays-RASS/FHIR/JDV-J74-Pays-RASS|1.4.0
+ERROR: Practitioner/334081: Practitioner.qualification[0].issuer: Unable to resolve resource with reference 'Organization/u33'
+INFORMATION: Practitioner/334081: Practitioner.extension[0]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Practitioner/334081: Practitioner.extension[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Practitioner/334081: Practitioner.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Practitioner.text.div: Hyperlink 'Organization/u33' at 'div/blockquote/p/a' for 'Organization/u33' does not resolve
+== fsh-generated/resources/Practitioner-334081DP.json ==
+ERROR: Practitioner/334081DP: Practitioner.telecom[0].system: Value is 'phone' but is fixed to 'email' in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss|1.1.0-snapshot-4#ContactPoint.system
+ERROR: Practitioner/334081DP: Practitioner.telecom[0].system: Value is 'phone' but is fixed to 'email' in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-practitioner|1.1.0-snapshot-4#Practitioner.telecom:mailbox-mss.system
+INFORMATION: Practitioner/334081DP: Practitioner.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/Practitioner-3719500.json ==
+INFORMATION: Practitioner/3719500: Practitioner.telecom[0].extension[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Practitioner/3719500: Practitioner.telecom[0].extension[1]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-practitioner|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
+WARNING: Practitioner/3719500: Practitioner.address[0].extension[0].value.ofType(Coding).system: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+ERROR: Practitioner/3719500: Practitioner.address[0].extension[0].value.ofType(Coding): The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#58059) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated; The provided code 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#58059' was not found in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0'
+INFORMATION: Practitioner/3719500: Practitioner.address[0].extension[0].value.ofType(Coding): A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+INFORMATION: Practitioner/3719500: Practitioner.address[0].line[0].extension[1].value.ofType(string): Reference to retired CodeSystem https://mos.esante.gouv.fr/NOS/TRE_R35-TypeVoie/FHIR/TRE-R35-TypeVoie|1.4.0
+INFORMATION: Practitioner/3719500: Practitioner.address[0].country: Reference to retired ValueSet https://mos.esante.gouv.fr/NOS/JDV_J74-Pays-RASS/FHIR/JDV-J74-Pays-RASS|1.4.0
+ERROR: Practitioner/3719500: Practitioner.qualification[0].issuer: Unable to resolve resource with reference 'Organization/u63'
+INFORMATION: Practitioner/3719500: Practitioner.extension[0]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Practitioner/3719500: Practitioner.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Practitioner.text.div: Hyperlink 'Organization/u63' at 'div/blockquote/p/a' for 'Organization/u63' does not resolve
+== fsh-generated/resources/Practitioner-3719500DP.json ==
+ERROR: Practitioner/3719500DP: Practitioner.telecom[0].system: Value is 'phone' but is fixed to 'email' in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss|1.1.0-snapshot-4#ContactPoint.system
+ERROR: Practitioner/3719500DP: Practitioner.telecom[0].system: Value is 'phone' but is fixed to 'email' in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-practitioner|1.1.0-snapshot-4#Practitioner.telecom:mailbox-mss.system
+INFORMATION: Practitioner/3719500DP: Practitioner.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/PractitionerRole-1578230.json ==
+INFORMATION: PractitionerRole/1578230: PractitionerRole.identifier[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-practitionerrole|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: PractitionerRole/1578230: PractitionerRole.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-role|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/PractitionerRole-1578230DP.json ==
+INFORMATION: PractitionerRole/1578230DP: PractitionerRole.identifier[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-practitionerrole|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: PractitionerRole/1578230DP: PractitionerRole.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-role|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/PractitionerRole-1738459.json ==
+INFORMATION: PractitionerRole/1738459: PractitionerRole.identifier[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-practitionerrole|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: PractitionerRole/1738459: PractitionerRole.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-role|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/PractitionerRole-1738459DP.json ==
+INFORMATION: PractitionerRole/1738459DP: PractitionerRole.identifier[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-practitionerrole|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: PractitionerRole/1738459DP: PractitionerRole.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-role|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/PractitionerRole-5015602.json ==
+INFORMATION: PractitionerRole/5015602: PractitionerRole.identifier[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-practitionerrole|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: PractitionerRole/5015602: PractitionerRole.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-role|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/PractitionerRole-5015602DP.json ==
+INFORMATION: PractitionerRole/5015602DP: PractitionerRole.identifier[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-practitionerrole|1.1.0-snapshot-4 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: PractitionerRole/5015602DP: PractitionerRole.meta.profile[1]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-role|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/SearchParameter-as-sp-data-information-system.json ==
+== fsh-generated/resources/SearchParameter-as-sp-data-registration-authority.json ==
+== fsh-generated/resources/SearchParameter-as-sp-insee-code.json ==
+== fsh-generated/resources/SearchParameter-as-sp-mailbox-mss.json ==
+== fsh-generated/resources/SearchParameter-as-sp-number-smartcard.json ==
+== fsh-generated/resources/SearchParameter-as-sp-pharmacy-licence.json ==
+== fsh-generated/resources/SearchParameter-as-sp-qualification-code.json ==
+== fsh-generated/resources/SearchParameter-as-sp-type-smartcard.json ==
+== fsh-generated/resources/StructureDefinition-as-address-extended.json ==
+== fsh-generated/resources/StructureDefinition-as-codeableconcept-timed.json ==
+== fsh-generated/resources/StructureDefinition-as-device.json ==
+WARNING: StructureDefinition/as-device: StructureDefinition.differential.element[4].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-device: StructureDefinition.snapshot.element[19].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-device'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-as-dp-device.json ==
+WARNING: StructureDefinition/as-dp-device: StructureDefinition.snapshot.element[20].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-device'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-as-dp-healthcareservice-healthcare-activity.json ==
+WARNING: StructureDefinition/as-dp-healthcareservice-healthcare-activity: StructureDefinition.snapshot.element[39].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-dp-healthcareservice-healthcare-activity: StructureDefinition.snapshot.element[52].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-healthcareservice-healthcare-activity'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-as-dp-healthcareservice-social-equipment.json ==
+WARNING: StructureDefinition/as-dp-healthcareservice-social-equipment: StructureDefinition.snapshot.element[141].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-dp-healthcareservice-social-equipment: StructureDefinition.snapshot.element[154].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-healthcareservice-social-equipment'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-as-dp-organization.json ==
+WARNING: StructureDefinition/as-dp-organization: StructureDefinition.snapshot.element[37].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-dp-organization: StructureDefinition.snapshot.element[121].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+ERROR: StructureDefinition/as-dp-organization: StructureDefinition.snapshot.element[210].slicing.discriminator[0]: The discriminator path '$this.resolve()' does not appear to be valid for the element that is being sliced 'Organization.telecom': Error evaluating FHIRPath expression: The function resolve can only be used on ordered string, uri, canonical or Reference but found [http://hl7.org/fhir/StructureDefinition/ContactPoint] (@char 1)
+== fsh-generated/resources/StructureDefinition-as-dp-practitioner.json ==
+WARNING: StructureDefinition/as-dp-practitioner: StructureDefinition.snapshot.element[91].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+ERROR: StructureDefinition/as-dp-practitioner: StructureDefinition.snapshot.element[159].slicing.discriminator[0]: The discriminator path '$this.resolve()' does not appear to be valid for the element that is being sliced 'Practitioner.telecom': Error evaluating FHIRPath expression: The function resolve can only be used on ordered string, uri, canonical or Reference but found [http://hl7.org/fhir/StructureDefinition/ContactPoint] (@char 1)
+== fsh-generated/resources/StructureDefinition-as-dp-practitionerrole.json ==
+WARNING: StructureDefinition/as-dp-practitionerrole: StructureDefinition.snapshot.element[24].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-dp-practitionerrole: StructureDefinition.snapshot.element[51].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+ERROR: StructureDefinition/as-dp-practitionerrole: StructureDefinition.snapshot.element[62].slicing.discriminator[0]: The discriminator path '$this.resolve()' does not appear to be valid for the element that is being sliced 'PractitionerRole.telecom': Error evaluating FHIRPath expression: The function resolve can only be used on ordered string, uri, canonical or Reference but found [http://hl7.org/fhir/StructureDefinition/ContactPoint] (@char 1)
+== fsh-generated/resources/StructureDefinition-as-dr-device.json ==
+WARNING: StructureDefinition/as-dr-device: StructureDefinition.snapshot.element[20].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-device'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-as-dr-healthcareservice-healthcare-activity.json ==
+WARNING: StructureDefinition/as-dr-healthcareservice-healthcare-activity: StructureDefinition.snapshot.element[39].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-dr-healthcareservice-healthcare-activity: StructureDefinition.snapshot.element[52].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-healthcareservice-healthcare-activity'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-as-dr-healthcareservice-social-equipment.json ==
+WARNING: StructureDefinition/as-dr-healthcareservice-social-equipment: StructureDefinition.snapshot.element[141].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-dr-healthcareservice-social-equipment: StructureDefinition.snapshot.element[154].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-healthcareservice-social-equipment'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-as-dr-organization.json ==
+WARNING: StructureDefinition/as-dr-organization: StructureDefinition.snapshot.element[37].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-dr-organization: StructureDefinition.snapshot.element[104].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+ERROR: StructureDefinition/as-dr-organization: StructureDefinition.snapshot.element[193].slicing.discriminator[0]: The discriminator path '$this.resolve()' does not appear to be valid for the element that is being sliced 'Organization.telecom': Error evaluating FHIRPath expression: The function resolve can only be used on ordered string, uri, canonical or Reference but found [http://hl7.org/fhir/StructureDefinition/ContactPoint] (@char 1)
+== fsh-generated/resources/StructureDefinition-as-dr-person.json ==
+== fsh-generated/resources/StructureDefinition-as-dr-practitioner.json ==
+WARNING: StructureDefinition/as-dr-practitioner: StructureDefinition.snapshot.element[134].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+ERROR: StructureDefinition/as-dr-practitioner: StructureDefinition.snapshot.element[174].slicing.discriminator[0]: The discriminator path '$this.resolve()' does not appear to be valid for the element that is being sliced 'Practitioner.telecom': Error evaluating FHIRPath expression: The function resolve can only be used on ordered string, uri, canonical or Reference but found [http://hl7.org/fhir/StructureDefinition/ContactPoint] (@char 1)
+== fsh-generated/resources/StructureDefinition-as-dr-practitionerrole.json ==
+WARNING: StructureDefinition/as-dr-practitionerrole: StructureDefinition.snapshot.element[24].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-dr-practitionerrole: StructureDefinition.snapshot.element[51].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+ERROR: StructureDefinition/as-dr-practitionerrole: StructureDefinition.snapshot.element[62].slicing.discriminator[0]: The discriminator path '$this.resolve()' does not appear to be valid for the element that is being sliced 'PractitionerRole.telecom': Error evaluating FHIRPath expression: The function resolve can only be used on ordered string, uri, canonical or Reference but found [http://hl7.org/fhir/StructureDefinition/ContactPoint] (@char 1)
+== fsh-generated/resources/StructureDefinition-as-ext-authorization.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-authorization'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-codeableconcept-timed-metadata.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-codeableconcept-timed-metadata'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-data-trace.json ==
+WARNING: StructureDefinition/as-ext-data-trace: StructureDefinition.context[0]: Review the extension type for as-ext-data-trace: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-data-trace'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-digital-certificate.json ==
+INFORMATION: StructureDefinition/as-ext-digital-certificate: StructureDefinition.snapshot.element[27].short: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/as-ext-digital-certificate: StructureDefinition.differential.element[19].short: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-digital-certificate'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-education-level.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-education-level'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-installation.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-installation'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-lieu-dit.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-lieu-dit'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-mailbox-mss-metadata.json ==
+== fsh-generated/resources/StructureDefinition-as-ext-organization-authorization-deadline.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-authorization-deadline'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-organization-budget-type.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-budget-type'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-organization-closing-type.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-closing-type'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-organization-pharmacy-licence.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-pharmacy-licence'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-organization-pricing-model.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-pricing-model'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-organization-types.json ==
+== fsh-generated/resources/StructureDefinition-as-ext-patient-type.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-patient-type'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-person-birth-place.json ==
+== fsh-generated/resources/StructureDefinition-as-ext-person-deceased-date-time.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.deceasedDateTime'): Conformance resource /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-person-deceased-date-time.json - the canonical URL (https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-person-deceased-date-time) does not match the URL (http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.deceasedDateTime)
+ERROR: StructureDefinition/as-ext-person-deceased-date-time: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.deceasedDateTime'): The Implementation Guide contains no examples for this extension
+ERROR: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-ext-person-deceased-date-time: URL Mismatch https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-person-deceased-date-time vs http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.deceasedDateTime
+== fsh-generated/resources/StructureDefinition-as-ext-person-nationality.json ==
+== fsh-generated/resources/StructureDefinition-as-ext-practitioner-authorization.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-practitioner-authorization'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-practitionerrole-contracted.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-practitionerrole-contracted'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-practitionerrole-hascas.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-practitionerrole-hascas'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-practitionerrole-vitale-accepted.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-practitionerrole-vitale-accepted'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-registration.json ==
+== fsh-generated/resources/StructureDefinition-as-ext-smartcard.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-smartcard'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-ext-supported-capacity.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-supported-capacity'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-as-healthcareservice-healthcare-activity.json ==
+WARNING: StructureDefinition/as-healthcareservice-healthcare-activity: StructureDefinition.differential.element[5].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-healthcareservice-healthcare-activity: StructureDefinition.differential.element[10].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-healthcareservice-healthcare-activity: StructureDefinition.snapshot.element[38].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-healthcareservice-healthcare-activity: StructureDefinition.snapshot.element[51].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-healthcareservice-healthcare-activity'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-as-healthcareservice-social-equipment.json ==
+WARNING: StructureDefinition/as-healthcareservice-social-equipment: StructureDefinition.differential.element[25].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-healthcareservice-social-equipment: StructureDefinition.differential.element[29].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-healthcareservice-social-equipment: StructureDefinition.snapshot.element[140].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-healthcareservice-social-equipment: StructureDefinition.snapshot.element[153].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-healthcareservice-social-equipment'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-as-location.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-location'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-as-mailbox-mss.json ==
+== fsh-generated/resources/StructureDefinition-as-organization.json ==
+WARNING: StructureDefinition/as-organization: StructureDefinition.snapshot.element[36].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-organization: StructureDefinition.snapshot.element[103].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+ERROR: StructureDefinition/as-organization: StructureDefinition.snapshot.element[192].slicing.discriminator[0]: The discriminator path '$this.resolve()' does not appear to be valid for the element that is being sliced 'Organization.telecom': Error evaluating FHIRPath expression: The function resolve can only be used on ordered string, uri, canonical or Reference but found [http://hl7.org/fhir/StructureDefinition/ContactPoint] (@char 1)
+== fsh-generated/resources/StructureDefinition-as-person.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-person'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-as-practitioner.json ==
+WARNING: StructureDefinition/as-practitioner: StructureDefinition.snapshot.element[90].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+ERROR: StructureDefinition/as-practitioner: StructureDefinition.snapshot.element[149].slicing.discriminator[0]: The discriminator path '$this.resolve()' does not appear to be valid for the element that is being sliced 'Practitioner.telecom': Error evaluating FHIRPath expression: The function resolve can only be used on ordered string, uri, canonical or Reference but found [http://hl7.org/fhir/StructureDefinition/ContactPoint] (@char 1)
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-practitioner'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-as-practitionerrole.json ==
+WARNING: StructureDefinition/as-practitionerrole: StructureDefinition.differential.element[5].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-practitionerrole: StructureDefinition.differential.element[16].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-practitionerrole: StructureDefinition.snapshot.element[23].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/as-practitionerrole: StructureDefinition.snapshot.element[50].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+ERROR: StructureDefinition/as-practitionerrole: StructureDefinition.snapshot.element[61].slicing.discriminator[0]: The discriminator path '$this.resolve()' does not appear to be valid for the element that is being sliced 'PractitionerRole.telecom': Error evaluating FHIRPath expression: The function resolve can only be used on ordered string, uri, canonical or Reference but found [http://hl7.org/fhir/StructureDefinition/ContactPoint] (@char 1)
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-practitionerrole'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-as-vs-intern-id-systems.json ==
+== fsh-generated/resources/ValueSet-as-vs-organization-types.json ==
+WARNING: ValueSet/as-vs-organization-types: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-as-vs-type-etablissement.json ==
+== fsh-generated/resources/ValueSet-as-vs-type-systeme-information.json ==

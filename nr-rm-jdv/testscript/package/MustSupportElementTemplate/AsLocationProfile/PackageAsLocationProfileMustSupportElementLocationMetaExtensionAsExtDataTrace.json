@@ -1,0 +1,26 @@
+{
+  "id": "2eac5473d68a3b410a4e09adfe67b308879e1b5302205c3469cd6ca7782c4dba",
+  "url": "https://github.com/fhir-crucible/testscript-generator/2eac5473d68a3b410a4e09adfe67b308879e1b5302205c3469cd6ca7782c4dba",
+  "version": "0.0",
+  "name": "PackageAsLocationProfileMustSupportElementLocationMetaExtensionAsExtDataTrace",
+  "title": "IG: package; Profile: AsLocationProfile; Case: Must Support Element; Element: Location.meta.extension:as-ext-data-trace",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-11-14T08:33:17+00:00",
+  "publisher": "The MITRE Corporation",
+  "test": [
+    {
+      "name": "Generation Feature Not Implemented",
+      "action": [
+        {
+          "assert": {
+            "label": "Fail - not implemented in generator: no placeholder for key ancestor-checks",
+            "expression": "1!=1",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

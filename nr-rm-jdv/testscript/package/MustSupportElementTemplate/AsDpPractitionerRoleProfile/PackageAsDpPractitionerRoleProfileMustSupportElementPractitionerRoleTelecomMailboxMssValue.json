@@ -1,0 +1,26 @@
+{
+  "id": "ca0f20acdaf59ff42de89f68d6756fac7734aeec40a45d044c6a3b58f3bc5962",
+  "url": "https://github.com/fhir-crucible/testscript-generator/ca0f20acdaf59ff42de89f68d6756fac7734aeec40a45d044c6a3b58f3bc5962",
+  "version": "0.0",
+  "name": "PackageAsDpPractitionerRoleProfileMustSupportElementPractitionerRoleTelecomMailboxMssValue",
+  "title": "IG: package; Profile: AsDpPractitionerRoleProfile; Case: Must Support Element; Element: PractitionerRole.telecom:mailbox-mss.value",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-11-14T08:33:17+00:00",
+  "publisher": "The MITRE Corporation",
+  "test": [
+    {
+      "name": "Generation Feature Not Implemented",
+      "action": [
+        {
+          "assert": {
+            "label": "Fail - not implemented in generator: profile discriminator type needs looping in TestScript",
+            "expression": "1!=1",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

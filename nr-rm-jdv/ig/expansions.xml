@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="68d75ed3-c662-4b27-be24-1f2047677628"/>
+  <meta>
+    <lastUpdated value="2024-11-14T08:29:56.943+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-intern-id-systems"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-as-cs-intern-id-systems.html">codesystem AS CodeSystem Internal Identifier Systems v1.1.0-snapshot-4 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems-finess.interne.esante.gouv.fr"> </a>  
+                  <a href="CodeSystem-as-cs-intern-id-systems.html#as-cs-intern-id-systems-finess.46interne.46esante.46gouv.46fr">finess.interne.esante.gouv.fr</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems</td>
+                <td>Système de l'identifiant interne basé sur l'identifiant de la structure FINESS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems-siren.interne.esante.gouv.fr"> </a>  
+                  <a href="CodeSystem-as-cs-intern-id-systems.html#as-cs-intern-id-systems-siren.46interne.46esante.46gouv.46fr">siren.interne.esante.gouv.fr</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems</td>
+                <td>Système de l'identifiant interne basé sur l'identifiant de la structure SIREN</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems-siret.interne.esante.gouv.fr"> </a>  
+                  <a href="CodeSystem-as-cs-intern-id-systems.html#as-cs-intern-id-systems-siret.46interne.46esante.46gouv.46fr">siret.interne.esante.gouv.fr</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems</td>
+                <td>Système de l'identifiant interne basé sur l'identifiant de la structure SIRET</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems-rpps.interne.esante.gouv.fr"> </a>  
+                  <a href="CodeSystem-as-cs-intern-id-systems.html#as-cs-intern-id-systems-rpps.46interne.46esante.46gouv.46fr">rpps.interne.esante.gouv.fr</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems</td>
+                <td>Système de l'identifiant interne basé sur l'identifiant du cabinet RPPS</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-intern-id-systems"/>
+        <version value="1.1.0-snapshot-4"/>
+        <name value="AsVSInterneIdSystems"/>
+        <title value="AS ValueSet Internal Identifier Systems"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2024-11-14T08:29:56+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:5f9d17f0-18a1-4f57-a83b-f1b1b32a67fc"/>
+          <timestamp value="2024-11-14T08:31:07+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems|1.1.0-snapshot-4"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems"/>
+            <code value="finess.interne.esante.gouv.fr"/>
+            <display value="Système de l'identifiant interne basé sur l'identifiant de la structure FINESS"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems"/>
+            <code value="siren.interne.esante.gouv.fr"/>
+            <display value="Système de l'identifiant interne basé sur l'identifiant de la structure SIREN"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems"/>
+            <code value="siret.interne.esante.gouv.fr"/>
+            <display value="Système de l'identifiant interne basé sur l'identifiant de la structure SIRET"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-intern-id-systems"/>
+            <code value="rpps.interne.esante.gouv.fr"/>
+            <display value="Système de l'identifiant interne basé sur l'identifiant du cabinet RPPS"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-organization-types"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-as-cs-organization-types.html">codesystem AS CodeSystem OrganizationTypes v1.1.0-snapshot-4 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 6 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types-organizationType"> </a>  
+                  <a href="CodeSystem-as-cs-organization-types.html#as-cs-organization-types-organizationType">organizationType</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types</td>
+                <td>Type d'organisation</td>
+                <td>
+                  <div>
+                    <p>Type d'organisation</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types-activiteINSEE"> </a>  
+                  <a href="CodeSystem-as-cs-organization-types.html#as-cs-organization-types-activiteINSEE">activiteINSEE</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types</td>
+                <td>Activité INSEE</td>
+                <td>
+                  <div>
+                    <p>Activité INSEE</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types-statutJuridiqueINSEE"> </a>  
+                  <a href="CodeSystem-as-cs-organization-types.html#as-cs-organization-types-statutJuridiqueINSEE">statutJuridiqueINSEE</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types</td>
+                <td>Statut Juridique INSEE</td>
+                <td>
+                  <div>
+                    <p>Statut Juridique INSEE</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types-sphParticipation"> </a>  
+                  <a href="CodeSystem-as-cs-organization-types.html#as-cs-organization-types-sphParticipation">sphParticipation</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types</td>
+                <td>sph Participation</td>
+                <td>
+                  <div>
+                    <p>Participation au service public hospitalier</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types-typeEtablissement"> </a>  
+                  <a href="CodeSystem-as-cs-organization-types.html#as-cs-organization-types-typeEtablissement">typeEtablissement</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types</td>
+                <td>Type d'établissement</td>
+                <td>
+                  <div>
+                    <p>Type d'établissement</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types-secteurActiviteRASS"> </a>  
+                  <a href="CodeSystem-as-cs-organization-types.html#as-cs-organization-types-secteurActiviteRASS">secteurActiviteRASS</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types</td>
+                <td>Secteur d'activité RASS</td>
+                <td>
+                  <div>
+                    <p>Secteur d'activité RASS</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-organization-types"/>
+        <version value="1.1.0-snapshot-4"/>
+        <name value="AsVsOrganizationTypes"/>
+        <title value="AS ValueSet OrganizationTypes"/>
+        <status value="active"/>
+        <date value="2024-11-14T08:29:56+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:a075e2fd-1fd9-496c-9a84-c8ed92df7c79"/>
+          <timestamp value="2024-11-14T08:31:07+00:00"/>
+          <total value="6"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types|1.1.0-snapshot-4"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types"/>
+            <code value="organizationType"/>
+            <display value="Type d'organisation"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types"/>
+            <code value="activiteINSEE"/>
+            <display value="Activité INSEE"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types"/>
+            <code value="statutJuridiqueINSEE"/>
+            <display value="Statut Juridique INSEE"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types"/>
+            <code value="sphParticipation"/>
+            <display value="sph Participation"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types"/>
+            <code value="typeEtablissement"/>
+            <display value="Type d'établissement"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types"/>
+            <code value="secteurActiviteRASS"/>
+            <display value="Secteur d'activité RASS"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-etablissement"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-as-cs-type-etablissement.html">codesystem AS CodeSystem Type Etablissement v1.1.0-snapshot-4 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement-P"> </a>  
+                  <a href="CodeSystem-as-cs-type-etablissement.html#as-cs-type-etablissement-P">P</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement</td>
+                <td>Principal</td>
+                <td>
+                  <div>
+                    <p>Etablissement principal</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement-S"> </a>  
+                  <a href="CodeSystem-as-cs-type-etablissement.html#as-cs-type-etablissement-S">S</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement</td>
+                <td>Secondaire</td>
+                <td>
+                  <div>
+                    <p>Etablissement secondaire</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-etablissement"/>
+        <version value="1.1.0-snapshot-4"/>
+        <name value="AsVsTypeEtablissement"/>
+        <title value="AS ValueSet type Etablissement"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2024-11-14T08:29:56+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:827a7352-ecd9-4621-a736-d685a4a63138"/>
+          <timestamp value="2024-11-14T08:31:07+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement|1.1.0-snapshot-4"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement"/>
+            <code value="P"/>
+            <display value="Principal"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement"/>
+            <code value="S"/>
+            <display value="Secondaire"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-systeme-information"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-as-cs-type-systeme-information.html">codesystem AS CodeSystem type de système d'information v1.1.0-snapshot-4 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information-RPPS"> </a>  
+                  <a href="CodeSystem-as-cs-type-systeme-information.html#as-cs-type-systeme-information-RPPS">RPPS</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information</td>
+                <td>Répertoire partagé des professionnels de santé</td>
+                <td>
+                  <div>
+                    <p>Répertoire partagé des professionnels de santé</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information-FINESS"> </a>  
+                  <a href="CodeSystem-as-cs-type-systeme-information.html#as-cs-type-systeme-information-FINESS">FINESS</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information</td>
+                <td>Fichier national des établissements sanitaires et sociaux</td>
+                <td>
+                  <div>
+                    <p>FINESS (Fichier National des Etablissements Sanitaires et Sociaux) est le répertoire national de référence des personnes morales intervenant dans les domaines sanitaire, médico-social et social et de l’enseignement des professions sanitaires et sociales.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information-CG"> </a>  
+                  <a href="CodeSystem-as-cs-type-systeme-information.html#as-cs-type-systeme-information-CG">CG</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information</td>
+                <td>CG</td>
+                <td>
+                  <div>
+                    <p>SI CPS</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-systeme-information"/>
+        <version value="1.1.0-snapshot-4"/>
+        <name value="AsVsTypeSystemeInformationVS"/>
+        <title value="AS ValueSet type de système d'information"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2024-11-14T08:29:56+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:5d93d4ff-02f6-4aa3-ba07-14ce3e7299be"/>
+          <timestamp value="2024-11-14T08:31:07+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information|1.1.0-snapshot-4"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information"/>
+            <code value="RPPS"/>
+            <display value="Répertoire partagé des professionnels de santé"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information"/>
+            <code value="FINESS"/>
+            <display value="Fichier national des établissements sanitaires et sociaux"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-systeme-information"/>
+            <code value="CG"/>
+            <display value="CG"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

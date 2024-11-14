@@ -1,0 +1,80 @@
+{
+  "id": "Package-Contactpoint-Search_by-Type",
+  "url": "https://github.com/fhir-crucible/testscript-generator",
+  "version": "0.0",
+  "name": "Package_Contactpoint_Search_by_Type",
+  "title": "package contactpoint search_by type",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-11-14T08:33:17+00:00",
+  "publisher": "The MITRE Corporation",
+  "fixture": [
+    {
+      "id": "example_contactpoint",
+      "autocreate": false,
+      "autodelete": false,
+      "resource": {
+        "reference": "fixtures/example_contactpoint.json"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "name": "BNIpw2MhyDghS8UZ",
+      "expression": "ContactPoint.id",
+      "sourceId": "gaQB5OPMHPXiysbU"
+    }
+  ],
+  "setup": {
+    "action": [
+      {
+        "operation": {
+          "type": {
+            "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+            "code": "create"
+          },
+          "label": "Operation_1",
+          "encodeRequestUrl": false,
+          "responseId": "gaQB5OPMHPXiysbU",
+          "sourceId": "example_contactpoint"
+        }
+      }
+    ]
+  },
+  "test": [
+    {
+      "name": "Test_1",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "search"
+            },
+            "resource": "ContactPoint",
+            "label": "Operation_2",
+            "encodeRequestUrl": false,
+            "params": "?_type"
+          }
+        }
+      ]
+    }
+  ],
+  "teardown": {
+    "action": [
+      {
+        "operation": {
+          "type": {
+            "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+            "code": "delete"
+          },
+          "resource": "ContactPoint",
+          "label": "Operation_3",
+          "encodeRequestUrl": false,
+          "params": "/${BNIpw2MhyDghS8UZ}"
+        }
+      }
+    ]
+  },
+  "resourceType": "TestScript"
+}
