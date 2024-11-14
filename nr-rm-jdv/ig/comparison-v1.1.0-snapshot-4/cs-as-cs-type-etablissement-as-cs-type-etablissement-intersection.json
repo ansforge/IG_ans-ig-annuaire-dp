@@ -1,0 +1,26 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "6953d1a9-a125-4753-b2be-3c2952eba9fe-9",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/6953d1a9-a125-4753-b2be-3c2952eba9fe-9",
+  "name" : "IntersectionAsCsTypeEtablissementAndAsCsTypeEtablissement",
+  "title" : "Intersection of AS CodeSystem Type Etablissement And AS CodeSystem Type Etablissement",
+  "status" : "active",
+  "date" : "2024-11-14T08:38:34+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "concept" : [{
+    "code" : "P",
+    "display" : "Principal",
+    "definition" : "Etablissement principal"
+  },
+  {
+    "code" : "S",
+    "display" : "Secondaire",
+    "definition" : "Etablissement secondaire"
+  }]
+}

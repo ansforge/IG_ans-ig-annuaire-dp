@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fhir.fr.annuaire</b></p><a name=\"ans.fhir.fr.annuaire\"> </a><a name=\"hcans.fhir.fr.annuaire\"> </a><a name=\"ans.fhir.fr.annuaire-fr-FR\"> </a><h2>AnnuaireSante</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/annuaire/ImplementationGuide/ans.fhir.fr.annuaire</pre><div><p>Ressources de conformité basées sur le modèle d'exposition de l'Annuaire Santé.</p>\n</div></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ImplementationGuide/ans.fhir.fr.annuaire",
-  "version" : "1.1.0-snapshot-4",
+  "version" : "1.1.0",
   "name" : "AnnuaireSante",
   "title" : "Annuaire Santé",
   "status" : "active",
-  "date" : "2024-11-14T08:29:56+00:00",
+  "date" : "2024-11-14T08:38:10+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -81,7 +81,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "qa-preview"
+        "valueString" : "final-text"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -371,7 +371,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "qa-preview"
+        "valueString" : "final-text"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

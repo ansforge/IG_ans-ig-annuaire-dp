@@ -6,7 +6,7 @@
   "title": "IG: package; Profile: AsDpOrganizationProfile; Case: Must Support Element; Element: Organization.extension:as-ext-organization-closing-type",
   "status": "draft",
   "experimental": true,
-  "date": "2024-11-14T08:33:17+00:00",
+  "date": "2024-11-14T08:41:31+00:00",
   "publisher": "The MITRE Corporation",
   "profile": [
     {

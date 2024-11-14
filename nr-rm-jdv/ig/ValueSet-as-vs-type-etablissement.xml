@@ -9,12 +9,12 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet as-vs-type-etablissement</b></p><a name="as-vs-type-etablissement"> </a><a name="hcas-vs-type-etablissement"> </a><a name="as-vs-type-etablissement-fr-FR"> </a><ul><li>Include all codes defined in <a href="CodeSystem-as-cs-type-etablissement.html"><code>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-type-etablissement</code></a></li></ul></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-etablissement"/>
-  <version value="1.1.0-snapshot-4"/>
+  <version value="1.1.0"/>
   <name value="AsVsTypeEtablissement"/>
   <title value="AS ValueSet type Etablissement"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-11-14T08:29:56+00:00"/>
+  <date value="2024-11-14T08:38:10+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
