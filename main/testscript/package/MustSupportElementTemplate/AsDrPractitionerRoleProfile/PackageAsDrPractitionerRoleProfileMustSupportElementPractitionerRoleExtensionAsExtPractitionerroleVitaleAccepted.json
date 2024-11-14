@@ -6,7 +6,7 @@
   "title": "IG: package; Profile: AsDrPractitionerRoleProfile; Case: Must Support Element; Element: PractitionerRole.extension:as-ext-practitionerrole-vitale-accepted",
   "status": "draft",
   "experimental": true,
-  "date": "2024-11-13T21:38:39+00:00",
+  "date": "2024-11-14T08:25:31+00:00",
   "publisher": "The MITRE Corporation",
   "profile": [
     {

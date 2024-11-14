@@ -384,7 +384,7 @@ Les codes ADELI, RPPS et IDNPS proviennent du system  https://hl7.fr/ig/fhir/cor
 "Practitioner.identifier:idNatPs.assigner","Practitioner.identifier.assigner","","","",0,0,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
 ","Organization that issued id (may be just text)","Organization that issued/manages the identifier.","The Identifier.assigner may omit the .reference element and only contain a .display element reflecting the name or other textual information about the assigning organization.","","","","","","","","",,,,,"",,,,"Identifier.assigner",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","CX.4 / (CX.4,CX.9,CX.10)","II.assigningAuthorityName but note that this is an improper use by the definition of the field.  Also Role.scoper","./IdentifierIssuingAuthority"
-"Practitioner.identifier:rpps","Practitioner.identifier","rpps","","",1,1,"","","Y","Identifier {[]} {[]}
+"Practitioner.identifier:rpps","Practitioner.identifier","rpps","","",1,1,"Y","","Y","Identifier {[]} {[]}
 ","Numéro RPPS (11 chiffres)","An identifier that applies to this person in this role.","","Often, specific identities are assigned for the agent.","","","","","","","",,,,,"",,,,"Practitioner.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","PRD-7 (or XCN.1)","./id","./Identifiers","FiveWs.identifier"
 "Practitioner.identifier:rpps.id","Practitioner.identifier.id","","","",0,1,"","","","string {[]} {[]}

@@ -6,7 +6,7 @@
   "title": "package person search_by list",
   "status": "draft",
   "experimental": true,
-  "date": "2024-11-13T21:38:39+00:00",
+  "date": "2024-11-14T08:25:31+00:00",
   "publisher": "The MITRE Corporation",
   "fixture": [
     {
@@ -20,9 +20,9 @@
   ],
   "variable": [
     {
-      "name": "del01Z1ppoH3kl31",
+      "name": "FEMHa8n5tU8tpgdu",
       "expression": "Person.id",
-      "sourceId": "CH6zGfeyfp14OBd6"
+      "sourceId": "MFRjUuJ1d6MYbaFh"
     }
   ],
   "setup": {
@@ -35,7 +35,7 @@
           },
           "label": "Operation_1",
           "encodeRequestUrl": false,
-          "responseId": "CH6zGfeyfp14OBd6",
+          "responseId": "MFRjUuJ1d6MYbaFh",
           "sourceId": "example_person"
         }
       }
@@ -71,7 +71,7 @@
           "resource": "Person",
           "label": "Operation_3",
           "encodeRequestUrl": false,
-          "params": "/${del01Z1ppoH3kl31}"
+          "params": "/${FEMHa8n5tU8tpgdu}"
         }
       }
     ]
