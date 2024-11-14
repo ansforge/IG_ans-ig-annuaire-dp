@@ -1,0 +1,67 @@
+{
+  "resourceType" : "Organization",
+  "id" : "548812",
+  "meta" : {
+    "versionId" : "0.1",
+    "lastUpdated" : "2019-09-01T01:00:00.000+01:00",
+    "source" : "https://annuaire.sante.fr",
+    "profile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization",
+    "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-organization"]
+  },
+  "language" : "fr",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr\" lang=\"fr\"><p class=\"res-header-id\"><b>Generated Narrative: Organization 548812</b></p><a name=\"548812\"> </a><a name=\"hc548812\"> </a><a name=\"548812-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0.1; Last updated: 2019-09-01 01:00:00+0100; Language: fr; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://annuaire.sante.fr\">https://annuaire.sante.fr</a></p><p style=\"margin-bottom: 0px\">Profiles: <a href=\"https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-organization.html\">FR Core Organization Profile</a>, <a href=\"StructureDefinition-as-dr-organization.html\">AS Donnée Restreinte Organization Profile</a></p></div><p><b>Organization Period</b>: 2019-04-01 --&gt; (ongoing)</p><p><b>identifier</b>: Identification nationale de structure définie par l’ANS dans le CI_SIS/410005531586003\u00a0(use:\u00a0official,\u00a0), Identifiant interne/REJ10000000800887\u00a0(use:\u00a0official,\u00a0)</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307 LEGAL-ENTITY}\">Entité légale</span>, <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite SA08}\">Cabinet de groupe</span></p><p><b>name</b>: CABINET SAINT ANTOINE</p><p><b>alias</b>: CABINET DE GROUPE</p></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/organization-period",
+    "valuePeriod" : {
+      "start" : "2019-04-01"
+    }
+  }],
+  "identifier" : [{
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203",
+        "code" : "IDNST"
+      }]
+    },
+    "system" : "urn:oid:1.2.250.1.71.4.2.2",
+    "value" : "410005531586003"
+  },
+  {
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203",
+        "code" : "INTRN"
+      }]
+    },
+    "system" : "https://rppsrang.esante.gouv.fr",
+    "value" : "REJ10000000800887"
+  }],
+  "active" : true,
+  "type" : [{
+    "extension" : [{
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-types",
+      "valueCode" : "organizationType"
+    }],
+    "coding" : [{
+      "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307",
+      "code" : "LEGAL-ENTITY"
+    }]
+  },
+  {
+    "extension" : [{
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-types",
+      "valueCode" : "secteurActiviteRASS"
+    }],
+    "coding" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
+      "code" : "SA08"
+    }]
+  }],
+  "name" : "CABINET SAINT ANTOINE",
+  "alias" : ["CABINET DE GROUPE"]
+}

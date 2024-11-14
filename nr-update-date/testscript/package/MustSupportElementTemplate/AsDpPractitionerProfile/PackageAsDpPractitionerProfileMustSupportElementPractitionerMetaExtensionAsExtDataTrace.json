@@ -1,0 +1,26 @@
+{
+  "id": "b97b68c33d2673add88dd19ebccfd7e55e435af9ca32847a7ae73c40623f6d9b",
+  "url": "https://github.com/fhir-crucible/testscript-generator/b97b68c33d2673add88dd19ebccfd7e55e435af9ca32847a7ae73c40623f6d9b",
+  "version": "0.0",
+  "name": "PackageAsDpPractitionerProfileMustSupportElementPractitionerMetaExtensionAsExtDataTrace",
+  "title": "IG: package; Profile: AsDpPractitionerProfile; Case: Must Support Element; Element: Practitioner.meta.extension:as-ext-data-trace",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-11-14T17:26:33+00:00",
+  "publisher": "The MITRE Corporation",
+  "test": [
+    {
+      "name": "Generation Feature Not Implemented",
+      "action": [
+        {
+          "assert": {
+            "label": "Fail - not implemented in generator: no placeholder for key ancestor-checks",
+            "expression": "1!=1",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

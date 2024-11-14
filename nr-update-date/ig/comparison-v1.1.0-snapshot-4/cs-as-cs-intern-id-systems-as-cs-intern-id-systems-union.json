@@ -1,0 +1,32 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "fa46666c-8930-4d86-8be6-a06de835051a-2",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/fa46666c-8930-4d86-8be6-a06de835051a-2",
+  "name" : "UnionAsCSInterneIdSystemsAndAsCSInterneIdSystems",
+  "title" : "Union of AS CodeSystem Internal Identifier Systems And AS CodeSystem Internal Identifier Systems",
+  "status" : "active",
+  "date" : "2024-11-14T17:23:40+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "concept" : [{
+    "code" : "finess.interne.esante.gouv.fr",
+    "display" : "Système de l'identifiant interne basé sur l'identifiant de la structure FINESS"
+  },
+  {
+    "code" : "siren.interne.esante.gouv.fr",
+    "display" : "Système de l'identifiant interne basé sur l'identifiant de la structure SIREN"
+  },
+  {
+    "code" : "siret.interne.esante.gouv.fr",
+    "display" : "Système de l'identifiant interne basé sur l'identifiant de la structure SIRET"
+  },
+  {
+    "code" : "rpps.interne.esante.gouv.fr",
+    "display" : "Système de l'identifiant interne basé sur l'identifiant du cabinet RPPS"
+  }]
+}

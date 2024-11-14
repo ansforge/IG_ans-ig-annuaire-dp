@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "fa46666c-8930-4d86-8be6-a06de835051a-174",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/fa46666c-8930-4d86-8be6-a06de835051a-174",
+  "name" : "IntersectionVS_TRE_R301_SourceInformationInstallationAndVS_TRE_R301_SourceInformationInstallation",
+  "title" : "Intersection of ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation And ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
+  "status" : "active",
+  "date" : "2024-11-14T17:23:41+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }]
+}

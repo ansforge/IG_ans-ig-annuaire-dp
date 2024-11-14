@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "as-vs-organization-types",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet as-vs-organization-types</b></p><a name=\"as-vs-organization-types\"> </a><a name=\"hcas-vs-organization-types\"> </a><a name=\"as-vs-organization-types-fr-FR\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-as-cs-organization-types.html\"><code>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types</code></a></li></ul></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-organization-types",
+  "version" : "1.1.0",
+  "name" : "AsVsOrganizationTypes",
+  "title" : "AS ValueSet OrganizationTypes",
+  "status" : "active",
+  "date" : "2024-11-14T17:23:16+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "contact" : [{
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    },
+    {
+      "system" : "email",
+      "value" : "monserviceclient.annuaire@esante.gouv.fr"
+    }]
+  }],
+  "description" : "ValueSet définissant les types d'organisation",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types"
+    }]
+  }
+}

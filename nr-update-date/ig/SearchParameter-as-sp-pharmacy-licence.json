@@ -1,0 +1,37 @@
+{
+  "resourceType" : "SearchParameter",
+  "id" : "as-sp-pharmacy-licence",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: SearchParameter as-sp-pharmacy-licence</b></p><a name=\"as-sp-pharmacy-licence\"> </a><a name=\"hcas-sp-pharmacy-licence\"> </a><a name=\"as-sp-pharmacy-licence-fr-FR\"> </a><h2>AsPharmacyLicenceSearchParameter</h2><p>Parameter <code>pharmacy-licence</code>:<code>string</code></p><div><p>Paramètre de recherche pour récupérer une pharmacie par son numéro de licence.</p>\n</div><table class=\"grid\"><tr><td>Resource</td><td><a href=\"http://hl7.org/fhir/R4/organization.html\">Organization</a></td></tr><tr><td>Expression</td><td><code>extension.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-pharmacy-licence').value</code></td></tr><tr><td>Multiples</td><td><ul><li>multipleAnd: It's up to the server whether the parameter may repeat in order to specify multiple values that must all be true</li><li>multipleOr: It's up to the server whether the parameter can have multiple values (separated by comma) where at least one must be true</li></ul></td></tr></table></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/SearchParameter/as-sp-pharmacy-licence",
+  "version" : "1.1.0",
+  "name" : "AsPharmacyLicenceSearchParameter",
+  "status" : "active",
+  "date" : "2024-11-14T17:23:16+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "contact" : [{
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    },
+    {
+      "system" : "email",
+      "value" : "monserviceclient.annuaire@esante.gouv.fr"
+    }]
+  }],
+  "description" : "Paramètre de recherche pour récupérer une pharmacie par son numéro de licence.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "code" : "pharmacy-licence",
+  "base" : ["Organization"],
+  "type" : "string",
+  "expression" : "extension.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-pharmacy-licence').value"
+}

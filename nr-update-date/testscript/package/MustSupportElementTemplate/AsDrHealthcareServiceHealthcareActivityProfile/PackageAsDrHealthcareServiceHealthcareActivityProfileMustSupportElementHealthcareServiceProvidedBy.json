@@ -1,0 +1,104 @@
+{
+  "id": "40b7e35af16501d306edbc071a5a57244448ff20a8aae7cca89cda52d3db80dd",
+  "url": "https://github.com/fhir-crucible/testscript-generator/40b7e35af16501d306edbc071a5a57244448ff20a8aae7cca89cda52d3db80dd",
+  "version": "0.0",
+  "name": "PackageAsDrHealthcareServiceHealthcareActivityProfileMustSupportElementHealthcareServiceProvidedBy",
+  "title": "IG: package; Profile: AsDrHealthcareServiceHealthcareActivityProfile; Case: Must Support Element; Element: HealthcareService.providedBy",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-11-14T17:26:33+00:00",
+  "publisher": "The MITRE Corporation",
+  "profile": [
+    {
+      "id": "targetProfileAsDrHealthcareServiceHealthcareActivityProfile",
+      "reference": "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-healthcareservice-healthcare-activity"
+    }
+  ],
+  "variable": [
+    {
+      "name": "targetResourceIdAsDrHealthcareServiceHealthcareActivityProfile",
+      "defaultValue": "example",
+      "description": "Enter a known instance id on the destination system. Will be checked for conformance against profile AsDrHealthcareServiceHealthcareActivityProfile.",
+      "hint": "[resource.id]"
+    },
+    {
+      "name": "referencedInstanceRef",
+      "expression": "HealthcareService.providedBy.reference",
+      "sourceId": "targetInstance"
+    }
+  ],
+  "test": [
+    {
+      "name": "Validate the identified resource conforms to the AsDrHealthcareServiceHealthcareActivityProfile profile",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "read"
+            },
+            "resource": "HealthcareService",
+            "label": "Read_HealthcareService_Instance",
+            "description": "Read HealthcareService Instance",
+            "encodeRequestUrl": false,
+            "params": "/${targetResourceIdAsDrHealthcareServiceHealthcareActivityProfile}",
+            "responseId": "targetInstance"
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Response_OK",
+            "response": "okay",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_HealthcareService_Returned",
+            "description": "Assert HealthcareService Returned",
+            "resource": "HealthcareService",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Instance_Conforms_to_AsDrHealthcareServiceHealthcareActivityProfile_Profile",
+            "description": "Assert returned instance conforms to the AsDrHealthcareServiceHealthcareActivityProfile Profile",
+            "validateProfileId": "targetProfileAsDrHealthcareServiceHealthcareActivityProfile",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "resolved_path_contains_reference_element",
+            "description": "resolved path contains reference element",
+            "expression": "HealthcareService.providedBy.reference.hasValue()",
+            "warningOnly": false
+          }
+        },
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "read"
+            },
+            "label": "Read_referenced_instance",
+            "description": "Read referenced instance",
+            "encodeRequestUrl": false,
+            "responseId": "referencedInstance",
+            "url": "/${referencedInstanceRef}"
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Reference_Read_Response_OK",
+            "description": "Assert Reference Read Response OK",
+            "response": "okay",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}
