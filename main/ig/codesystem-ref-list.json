@@ -354,7 +354,7 @@
       "oids" : ["1.2.250.1.213.1.6.1.136"],
       "uses" : {
       },
-      "ValueSet-VS-TRE-R286-TypeFermeture.html" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J260-TypeFermeture-RASS.html" : "JDV_J260-TypeFermeture-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession",
@@ -378,7 +378,7 @@
       "oids" : ["1.2.250.1.213.1.6.1.208"],
       "uses" : {
       },
-      "ValueSet-VS-TRE-R301-SourceInformationInstallation.html" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation"
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J261-SourceInformationInstallation-RASS.html" : "JDV_J261-SourceInformationInstallation-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R32-StatutHospitalier/FHIR/TRE-R32-StatutHospitalier",
@@ -474,7 +474,7 @@
       "oids" : ["1.2.250.1.213.1.6.1.46"],
       "uses" : {
       },
-      "ValueSet-VS-TRE-R74-ModeFixationTarifaire.html" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire"
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J259-ModeFixationTarifaire-RASS.html" : "JDV_J259-ModeFixationTarifaire-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5",

@@ -1,39 +1,6 @@
 {
   "codeSystems" : [
     {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R286-TypeFermeture",
-      "version" : "1.1.0",
-      "status" : "active",
-      "name" : "VS_TRE_R286_TypeFermeture",
-      "title" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-      "description" : "JDV des NOS contenant l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
-      ]
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R301-SourceInformationInstallation",
-      "version" : "1.1.0",
-      "status" : "active",
-      "name" : "VS_TRE_R301_SourceInformationInstallation",
-      "title" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-      "description" : "JDV des NOS contenant l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation"
-      ]
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R74-ModeFixationTarifaire",
-      "version" : "1.1.0",
-      "status" : "active",
-      "name" : "VS_TRE_R74_ModeFixationTarifaire",
-      "title" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-      "description" : "JDV des NOS contenant l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire"
-      ]
-    },
-    {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-intern-id-systems",
       "version" : "1.1.0",
       "status" : "active",

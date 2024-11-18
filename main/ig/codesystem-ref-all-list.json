@@ -321,8 +321,8 @@
       "oids" : ["2.16.840.1.113883.18.108"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-identifier-type.html" : "IdentifierType",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-identifier-type.html" : "FR Core ValueSet Practitioner identifier type"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-identifier-type.html" : "FR Core ValueSet Practitioner identifier type",
+      "http://hl7.org/fhir/R4/valueset-identifier-type.html" : "IdentifierType"
     },
     {
       "url" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-location-identifier-type",
@@ -445,8 +445,8 @@
       "oids" : ["1.2.250.1.71.4.2.6"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J73-MetierPharmacien-RASS.html" : "JDV_J73-MetierPharmacien-RASS",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J73-MetierPharmacien-RASS.html" : "JDV_J73-MetierPharmacien-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne",
@@ -530,8 +530,8 @@
       "oids" : ["1.2.250.1.213.2.37"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J73-MetierPharmacien-RASS.html" : "JDV_J73-MetierPharmacien-RASS",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J73-MetierPharmacien-RASS.html" : "JDV_J73-MetierPharmacien-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle",
@@ -701,8 +701,8 @@
       "oids" : ["1.2.250.1.213.1.6.1.18"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J95-ModeExercice-RASS.html" : "JDV_J95-ModeExercice-RASS",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J95-ModeExercice-RASS.html" : "JDV_J95-ModeExercice-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R24-TypeActiviteLiberale/FHIR/TRE-R24-TypeActiviteLiberale",
@@ -714,8 +714,8 @@
       "oids" : ["1.2.250.1.213.1.6.1.22"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J96-TypeActiviteLiberale-RASS.html" : "JDV_J96-TypeActiviteLiberale-RASS",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J96-TypeActiviteLiberale-RASS.html" : "JDV_J96-TypeActiviteLiberale-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R256-TypeMessagerie/FHIR/TRE-R256-TypeMessagerie",
@@ -847,7 +847,7 @@
       "oids" : ["1.2.250.1.213.1.6.1.136"],
       "uses" : {
       },
-      "ValueSet-VS-TRE-R286-TypeFermeture.html" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J260-TypeFermeture-RASS.html" : "JDV_J260-TypeFermeture-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession",
@@ -871,7 +871,7 @@
       "oids" : ["1.2.250.1.213.1.6.1.208"],
       "uses" : {
       },
-      "ValueSet-VS-TRE-R301-SourceInformationInstallation.html" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation"
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J261-SourceInformationInstallation-RASS.html" : "JDV_J261-SourceInformationInstallation-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R32-StatutHospitalier/FHIR/TRE-R32-StatutHospitalier",
@@ -968,8 +968,8 @@
       "oids" : ["1.2.250.1.213.2.28"],
       "uses" : {
       },
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-specialty.html" : "FR Core ValueSet Practitioner specialty",
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J107-EnsembleSavoirFaire-RASS.html" : "JDV_J107-EnsembleSavoirFaire-RASS"
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J107-EnsembleSavoirFaire-RASS.html" : "JDV_J107-EnsembleSavoirFaire-RASS",
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-specialty.html" : "FR Core ValueSet Practitioner specialty"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R39-Competence/FHIR/TRE-R39-Competence",
@@ -1233,7 +1233,7 @@
       "oids" : ["1.2.250.1.213.1.6.1.46"],
       "uses" : {
       },
-      "ValueSet-VS-TRE-R74-ModeFixationTarifaire.html" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire"
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J259-ModeFixationTarifaire-RASS.html" : "JDV_J259-ModeFixationTarifaire-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5",

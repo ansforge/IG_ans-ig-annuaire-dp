@@ -88,9 +88,6 @@ Generated $--. FHIR version $-- for ans.fhir.fr.annuaire#$-- (canonical = https:
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-person : 0 / 1 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-practitioner : 0 / 4 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-practitionerrole : 0 / 3 / 1
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-VS-TRE-R286-TypeFermeture : 0 / 0 / 1
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-VS-TRE-R301-SourceInformationInstallation : 0 / 0 / 1
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-VS-TRE-R74-ModeFixationTarifaire : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-as-vs-intern-id-systems : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-as-vs-organization-types : 0 / 1 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/ValueSet-as-vs-type-etablissement : 0 / 0 / 1
@@ -368,9 +365,6 @@ WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir
 WARNING: StructureDefinition/as-practitionerrole: StructureDefinition.differential.element[26].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 WARNING: StructureDefinition/as-practitionerrole: StructureDefinition.snapshot.element[61].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-practitionerrole'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/ValueSet-VS-TRE-R286-TypeFermeture.json ==
-== fsh-generated/resources/ValueSet-VS-TRE-R301-SourceInformationInstallation.json ==
-== fsh-generated/resources/ValueSet-VS-TRE-R74-ModeFixationTarifaire.json ==
 == fsh-generated/resources/ValueSet-as-vs-intern-id-systems.json ==
 == fsh-generated/resources/ValueSet-as-vs-organization-types.json ==
 WARNING: ValueSet/as-vs-organization-types: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

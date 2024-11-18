@@ -1,0 +1,80 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5d6ba1b0-ea81-4686-a5de-3b8449599237-110",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5d6ba1b0-ea81-4686-a5de-3b8449599237-110",
+  "name" : "UnionVS_TRE_R286_TypeFermetureAndJDV_J260-TypeFermeture-RASS",
+  "title" : "Union of ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture And null",
+  "status" : "active",
+  "date" : "2024-11-18T16:16:17+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DEF",
+        "display" : "Définitive",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.136"
+        }]
+      },
+      {
+        "code" : "ERR",
+        "display" : "Erreur",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.136"
+        }]
+      },
+      {
+        "code" : "NDI",
+        "display" : "Non défini",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.136"
+        }]
+      },
+      {
+        "code" : "CHP",
+        "display" : "Sortie du champ FINESS",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.136"
+        }]
+      },
+      {
+        "code" : "EML",
+        "display" : "Ancienne autorisation fonctionnement EML",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.136"
+        }]
+      },
+      {
+        "code" : "PRO",
+        "display" : "Provisoire",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.136"
+        }]
+      }]
+    }]
+  }
+}

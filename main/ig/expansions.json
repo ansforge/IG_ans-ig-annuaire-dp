@@ -1,498 +1,11 @@
 {
   "resourceType" : "Bundle",
-  "id" : "ec2ca48a-b2c4-4bf1-b1ab-92d4270856de",
+  "id" : "7f5e60d7-286b-41e6-a32e-d483d8e24656",
   "meta" : {
-    "lastUpdated" : "2024-11-14T08:22:05.679+00:00"
+    "lastUpdated" : "2024-11-18T16:15:50.444+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R286-TypeFermeture",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "meta" : {
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R286-TypeFermeture.html\">codesystem TRE_R286-TypeFermeture v1.4.0 (CodeSystem)</a></p><p>This value set contains 6 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture-DEF\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R286-TypeFermeture.html#TRE-R286-TypeFermeture-DEF\">DEF</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture</td><td>Définitive</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture-ERR\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R286-TypeFermeture.html#TRE-R286-TypeFermeture-ERR\">ERR</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture</td><td>Erreur</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture-NDI\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R286-TypeFermeture.html#TRE-R286-TypeFermeture-NDI\">NDI</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture</td><td>Non défini</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture-CHP\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R286-TypeFermeture.html#TRE-R286-TypeFermeture-CHP\">CHP</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture</td><td>Sortie du champ FINESS</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture-EML\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R286-TypeFermeture.html#TRE-R286-TypeFermeture-EML\">EML</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture</td><td>Ancienne autorisation fonctionnement EML</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture-PRO\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R286-TypeFermeture.html#TRE-R286-TypeFermeture-PRO\">PRO</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture</td><td>Provisoire</td></tr></table></div>"
-      },
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R286-TypeFermeture",
-      "version" : "1.1.0",
-      "name" : "VS_TRE_R286_TypeFermeture",
-      "title" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2024-11-14T08:22:05+00:00",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:320cce04-9f39-4e72-8a30-a38725746370",
-        "timestamp" : "2024-11-14T08:23:21+00:00",
-        "total" : 6,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture|1.4.0"
-        }],
-        "contains" : [{
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-          "code" : "DEF",
-          "display" : "Définitive"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-          "code" : "ERR",
-          "display" : "Erreur"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-          "code" : "NDI",
-          "display" : "Non défini"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-          "code" : "CHP",
-          "display" : "Sortie du champ FINESS"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-          "code" : "EML",
-          "display" : "Ancienne autorisation fonctionnement EML"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-          "code" : "PRO",
-          "display" : "Provisoire"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R301-SourceInformationInstallation",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "meta" : {
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R301-SourceInformationInstallation.html\">codesystem TRE_R301-SourceInformationInstallation v1.4.0 (CodeSystem)</a></p><p>This value set contains 10 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation-V\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-V\">V</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation</td><td>Visite de conformité</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation-E\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-E\">E</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation</td><td>Enquête statistique</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation-I\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-I\">I</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation</td><td>Interrogation de l'ET</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation-D\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-D\">D</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation</td><td>Document de tarification</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation-S\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-S\">S</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation</td><td>Inspection</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation-C\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-C\">C</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation</td><td>Convention</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation-L\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-L\">L</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation</td><td>Labellisation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation-A\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-A\">A</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation</td><td>Autre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation-R\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-R\">R</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation</td><td>Arrêté</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation-9\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-9\">9</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation</td><td>Indéterminée</td></tr></table></div>"
-      },
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R301-SourceInformationInstallation",
-      "version" : "1.1.0",
-      "name" : "VS_TRE_R301_SourceInformationInstallation",
-      "title" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2024-11-14T08:22:05+00:00",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:c480c262-81eb-4242-a9ef-f07fe571edc4",
-        "timestamp" : "2024-11-14T08:23:21+00:00",
-        "total" : 10,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation|1.4.0"
-        }],
-        "contains" : [{
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-          "code" : "V",
-          "display" : "Visite de conformité"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-          "code" : "E",
-          "display" : "Enquête statistique"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-          "code" : "I",
-          "display" : "Interrogation de l'ET"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-          "code" : "D",
-          "display" : "Document de tarification"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-          "code" : "S",
-          "display" : "Inspection"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-          "code" : "C",
-          "display" : "Convention"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-          "code" : "L",
-          "display" : "Labellisation"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-          "code" : "A",
-          "display" : "Autre"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-          "code" : "R",
-          "display" : "Arrêté"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-          "code" : "9",
-          "display" : "Indéterminée"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R74-ModeFixationTarifaire",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "meta" : {
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html\">codesystem TRE_R74-ModeFixationTarifaire v1.4.0 (CodeSystem)</a></p><p>This value set contains 52 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-01\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-01\">01</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Etablissement Tarif Libre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-02\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-02\">02</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Autorité Ministérielle</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-03\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-03\">03</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS établissements Publics de santé dotation globale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-04\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-04\">04</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS établissements PSPH dotation globale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-05\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-05\">05</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS établissements médico-soc. non financés dotation globale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-06\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-06\">06</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Tarif d'autorité</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-07\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-07\">07</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS établissements de santé non financés dotation globale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-08\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-08\">08</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Président du Conseil Départemental ou métropole</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-09\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-09\">09</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS PCD mixte (2 arrêtés), habilité aide sociale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-10\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-10\">10</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Autorité Conjointe Préfet ou ARS/PCD ou métropole (1 arrêté)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-11\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-11\">11</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Tarifs ARS, PCD, hébergt libre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-14\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-14\">14</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Organismes Nationaux de Sécurité Sociale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-15\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-15\">15</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS privé hors PSPH sous dotation globale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-16\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-16\">16</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>CRAM homologué préfet de région</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-17\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-17\">17</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Autorité mixte ARS PCD dotation globale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-18\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-18\">18</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Autorité mixte ARS PCG Etab long séjour conv tripartite</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-19\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-19\">19</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Autorité mixte préfet dpt PCG EHPA conv tripartite</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-20\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-20\">20</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS PCG mixte, Accueil de jour PA, HAS</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-21\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-21\">21</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS PCD mixte, Accueil de jour PA, HAS</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-22\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-22\">22</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Autorité mixte ARS PCD ESLD tripartite DG global</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-23\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-23\">23</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Autorité mixte ARS PCD ESLD tripartite DG partielle</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-24\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-24\">24</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS PCG mixte, Accueil de jour PA, nHAS, hébergement libre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-25\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-25\">25</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS PCD mixte, Accueil de jour PA, nHAS, hébergement libre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-26\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-26\">26</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Logement Foyer convention partielle PAP (conv. EHPAD part.)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-30\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-30\">30</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Préfet de région établissements et services sociaux</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-31\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-31\">31</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Pdt Conseil Départemental-Subvention</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-32\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-32\">32</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Echelle tarifaire publique</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-33\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-33\">33</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Echelle tarifaire privée</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-34\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-34\">34</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS - DG dotation globale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-35\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-35\">35</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Préfet de département Subvention</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-36\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-36\">36</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Tarifs conventionnels assurance maladie</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-38\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-38\">38</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Régime spécial de prévoyance</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-40\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-40\">40</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS-PCD, Tarif global, habilité aide sociale, recours PUI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-41\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-41\">41</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS-PCD, Tarif global, habilité aide sociale sans PUI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-42\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-42\">42</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS-PCD, Tarif global, non hab.aide sociale, recours PUI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-43\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-43\">43</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS-PCD, Tarif global, non habilité aide sociale sans PUI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-44\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-44\">44</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS-PCD, Tarif partiel, habilité aide sociale, recours PUI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-45\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-45\">45</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS-PCD, Tarif partiel, habilité aide sociale sans PUI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-46\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-46\">46</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS-PCD, Tarif partiel, non hab.aide sociale, recours PUI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-47\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-47\">47</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS-PCD, Tarif partiel, non habilité aide sociale sans PUI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-48\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-48\">48</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS-PCD, EHPA, dot globale de soins, habilité aide sociale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-49\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-49\">49</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS-PCD, EHPA, dot globale soins, non habilité aide sociale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-50\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-50\">50</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS-PCD, PUV, forfait soins, habilité aide sociale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-51\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-51\">51</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS-PCD, PUV, forfait soins, non habilité aide sociale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-52\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-52\">52</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS-PCD, LF, forfait soins, habilité aide sociale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-53\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-53\">53</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS-PCD, LF, forfait soins, non habilité aide sociale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-54\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-54\">54</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Tarif AM - Services de Soins Infirmiers A Domicile</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-55\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-55\">55</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS-PCD, PUV, convention SSIAD, non habilité à l'aide social</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-56\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-56\">56</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS-PCD, PUV, convention SSIAD, habilité à l'aide sociale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-57\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-57\">57</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS /ARS PCD Dotation forfait ou prix de journée globalisés (CPOM)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-58\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-58\">58</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>ARS dotation forfait ou prix de journée globalisé hors CPOM</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire-99\"> </a>\u00a0\u00a0<a href=\"https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html#TRE-R74-ModeFixationTarifaire-99\">99</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</td><td>Indéterminé</td></tr></table></div>"
-      },
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R74-ModeFixationTarifaire",
-      "version" : "1.1.0",
-      "name" : "VS_TRE_R74_ModeFixationTarifaire",
-      "title" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2024-11-14T08:22:05+00:00",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:ca883ae8-7db0-47dd-a826-2a88d015a581",
-        "timestamp" : "2024-11-14T08:23:21+00:00",
-        "total" : 52,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire|1.4.0"
-        }],
-        "contains" : [{
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "01",
-          "display" : "Etablissement Tarif Libre"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "02",
-          "display" : "Autorité Ministérielle"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "03",
-          "display" : "ARS établissements Publics de santé dotation globale"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "04",
-          "display" : "ARS établissements PSPH dotation globale"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "05",
-          "display" : "ARS établissements médico-soc. non financés dotation globale"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "06",
-          "display" : "Tarif d'autorité"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "07",
-          "display" : "ARS établissements de santé non financés dotation globale"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "08",
-          "display" : "Président du Conseil Départemental ou métropole"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "09",
-          "display" : "ARS PCD mixte (2 arrêtés), habilité aide sociale"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "10",
-          "display" : "Autorité Conjointe Préfet ou ARS/PCD ou métropole (1 arrêté)"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "11",
-          "display" : "Tarifs ARS, PCD, hébergt libre"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "14",
-          "display" : "Organismes Nationaux de Sécurité Sociale"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "15",
-          "display" : "ARS privé hors PSPH sous dotation globale"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "16",
-          "display" : "CRAM homologué préfet de région"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "17",
-          "display" : "Autorité mixte ARS PCD dotation globale"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "18",
-          "display" : "Autorité mixte ARS PCG Etab long séjour conv tripartite"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "19",
-          "display" : "Autorité mixte préfet dpt PCG EHPA conv tripartite"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "20",
-          "display" : "ARS PCG mixte, Accueil de jour PA, HAS"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "21",
-          "display" : "ARS PCD mixte, Accueil de jour PA, HAS"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "22",
-          "display" : "Autorité mixte ARS PCD ESLD tripartite DG global"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "23",
-          "display" : "Autorité mixte ARS PCD ESLD tripartite DG partielle"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "24",
-          "display" : "ARS PCG mixte, Accueil de jour PA, nHAS, hébergement libre"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "25",
-          "display" : "ARS PCD mixte, Accueil de jour PA, nHAS, hébergement libre"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "26",
-          "display" : "Logement Foyer convention partielle PAP (conv. EHPAD part.)"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "30",
-          "display" : "Préfet de région établissements et services sociaux"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "31",
-          "display" : "Pdt Conseil Départemental-Subvention"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "32",
-          "display" : "Echelle tarifaire publique"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "33",
-          "display" : "Echelle tarifaire privée"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "34",
-          "display" : "ARS - DG dotation globale"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "35",
-          "display" : "Préfet de département Subvention"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "36",
-          "display" : "Tarifs conventionnels assurance maladie"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "38",
-          "display" : "Régime spécial de prévoyance"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "40",
-          "display" : "ARS-PCD, Tarif global, habilité aide sociale, recours PUI"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "41",
-          "display" : "ARS-PCD, Tarif global, habilité aide sociale sans PUI"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "42",
-          "display" : "ARS-PCD, Tarif global, non hab.aide sociale, recours PUI"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "43",
-          "display" : "ARS-PCD, Tarif global, non habilité aide sociale sans PUI"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "44",
-          "display" : "ARS-PCD, Tarif partiel, habilité aide sociale, recours PUI"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "45",
-          "display" : "ARS-PCD, Tarif partiel, habilité aide sociale sans PUI"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "46",
-          "display" : "ARS-PCD, Tarif partiel, non hab.aide sociale, recours PUI"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "47",
-          "display" : "ARS-PCD, Tarif partiel, non habilité aide sociale sans PUI"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "48",
-          "display" : "ARS-PCD, EHPA, dot globale de soins, habilité aide sociale"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "49",
-          "display" : "ARS-PCD, EHPA, dot globale soins, non habilité aide sociale"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "50",
-          "display" : "ARS-PCD, PUV, forfait soins, habilité aide sociale"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "51",
-          "display" : "ARS-PCD, PUV, forfait soins, non habilité aide sociale"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "52",
-          "display" : "ARS-PCD, LF, forfait soins, habilité aide sociale"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "53",
-          "display" : "ARS-PCD, LF, forfait soins, non habilité aide sociale"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "54",
-          "display" : "Tarif AM - Services de Soins Infirmiers A Domicile"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "55",
-          "display" : "ARS-PCD, PUV, convention SSIAD, non habilité à l'aide social"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "56",
-          "display" : "ARS-PCD, PUV, convention SSIAD, habilité à l'aide sociale"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "57",
-          "display" : "ARS /ARS PCD Dotation forfait ou prix de journée globalisés (CPOM)"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "58",
-          "display" : "ARS dotation forfait ou prix de journée globalisé hors CPOM"
-        },
-        {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-          "code" : "99",
-          "display" : "Indéterminé"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-intern-id-systems",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -509,7 +22,7 @@
       "title" : "AS ValueSet Internal Identifier Systems",
       "status" : "active",
       "experimental" : false,
-      "date" : "2024-11-14T08:22:05+00:00",
+      "date" : "2024-11-18T16:15:50+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -518,8 +31,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3e2b4323-45a0-48f8-ab36-5c41e82f7a0e",
-        "timestamp" : "2024-11-14T08:23:21+00:00",
+        "identifier" : "urn:uuid:949bc54f-5bc9-49d9-a434-225c56bdde39",
+        "timestamp" : "2024-11-18T16:17:12+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -574,7 +87,7 @@
       "name" : "AsVsOrganizationTypes",
       "title" : "AS ValueSet OrganizationTypes",
       "status" : "active",
-      "date" : "2024-11-14T08:22:05+00:00",
+      "date" : "2024-11-18T16:15:50+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -583,8 +96,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7852036e-cb7a-4cc7-ad43-bdd216809d33",
-        "timestamp" : "2024-11-14T08:23:21+00:00",
+        "identifier" : "urn:uuid:2089a296-69ec-4334-af44-c99ed0c68511",
+        "timestamp" : "2024-11-18T16:17:12+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -653,7 +166,7 @@
       "title" : "AS ValueSet type Etablissement",
       "status" : "active",
       "experimental" : false,
-      "date" : "2024-11-14T08:22:05+00:00",
+      "date" : "2024-11-18T16:15:50+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -662,8 +175,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:cb5de116-adf4-43dc-9b51-0be5222dc3a2",
-        "timestamp" : "2024-11-14T08:23:21+00:00",
+        "identifier" : "urn:uuid:d1358a97-cde4-449e-8bd0-885659054a1b",
+        "timestamp" : "2024-11-18T16:17:12+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -712,7 +225,7 @@
       "title" : "AS ValueSet type de système d'information",
       "status" : "active",
       "experimental" : false,
-      "date" : "2024-11-14T08:22:05+00:00",
+      "date" : "2024-11-18T16:15:50+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -721,8 +234,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:edaec39d-dff7-48df-88f2-fc374daf0e41",
-        "timestamp" : "2024-11-14T08:23:21+00:00",
+        "identifier" : "urn:uuid:88465e0d-67db-4752-965f-763791b5b666",
+        "timestamp" : "2024-11-18T16:17:12+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{

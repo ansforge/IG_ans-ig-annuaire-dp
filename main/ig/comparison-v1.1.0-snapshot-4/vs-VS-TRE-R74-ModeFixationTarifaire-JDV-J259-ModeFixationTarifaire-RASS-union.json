@@ -1,0 +1,480 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5d6ba1b0-ea81-4686-a5de-3b8449599237-119",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5d6ba1b0-ea81-4686-a5de-3b8449599237-119",
+  "name" : "UnionVS_TRE_R74_ModeFixationTarifaireAndJDV_J259-ModeFixationTarifaire-RASS",
+  "title" : "Union of ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire And null",
+  "status" : "active",
+  "date" : "2024-11-18T16:16:17+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Etablissement Tarif Libre",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "02",
+        "display" : "Autorité Ministérielle",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "03",
+        "display" : "ARS établissements publics de santé dotation globale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "04",
+        "display" : "ARS établissements PSPH dotation globale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "05",
+        "display" : "ARS établissements médico-sociaux non financés par dotation globale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "06",
+        "display" : "Tarif d'autorité",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "07",
+        "display" : "ARS établissements de santé non financés par dotation globale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "08",
+        "display" : "Président du Conseil Départemental ou métropole",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "09",
+        "display" : "ARS PCD mixte (2 arrêtés), habilité aide sociale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "10",
+        "display" : "Autorité Conjointe Préfet ou ARS/PCD ou métropole (1 arrêté)",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "11",
+        "display" : "Tarifs ARS, PCD, hébergement libre",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "14",
+        "display" : "Organismes Nationaux de Sécurité Sociale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "15",
+        "display" : "ARS privé hors PSPH sous dotation globale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "17",
+        "display" : "Autorité mixte ARS PCD dotation globale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "21",
+        "display" : "ARS PCD mixte, Accueil de jour PA, HAS",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "22",
+        "display" : "Autorité mixte ARS PCD ESLD tripartite DG global",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "23",
+        "display" : "Autorité mixte ARS PCD ESLD tripartite DG partielle",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "25",
+        "display" : "ARS PCD mixte, Accueil de jour PA, nHAS, hébergement libre",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "30",
+        "display" : "Préfet de région établissements et services sociaux",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "31",
+        "display" : "Président Conseil Départemental-Subvention",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "32",
+        "display" : "Echelle tarifaire publique",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "33",
+        "display" : "Echelle tarifaire privée",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "34",
+        "display" : "ARS - DG dotation globale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "35",
+        "display" : "Préfet de département Subvention",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "36",
+        "display" : "Tarifs conventionnels assurance maladie",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "38",
+        "display" : "Régime spécial de prévoyance",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "40",
+        "display" : "ARS-PCD, Tarif global, habilité aide sociale, recours PUI",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "41",
+        "display" : "ARS-PCD, Tarif global, habilité aide sociale sans PUI",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "42",
+        "display" : "ARS-PCD, Tarif global, non habilité aide sociale, recours PUI",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "43",
+        "display" : "ARS-PCD, Tarif global, non habilité aide sociale sans PUI",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "44",
+        "display" : "ARS-PCD, Tarif partiel, habilité aide sociale, recours PUI",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "45",
+        "display" : "ARS-PCD, Tarif partiel, habilité aide sociale sans PUI",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "46",
+        "display" : "ARS-PCD, Tarif partiel, non habilité aide sociale, recours PUI",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "47",
+        "display" : "ARS-PCD, Tarif partiel, non habilité aide sociale sans PUI",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "48",
+        "display" : "ARS-PCD, EHPA, dotation globale de soins, habilité aide sociale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "49",
+        "display" : "ARS-PCD, EHPA, dotation globale de soins, non habilité aide sociale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "50",
+        "display" : "ARS-PCD, PUV, forfait soins, habilité aide sociale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "51",
+        "display" : "ARS-PCD, PUV, forfait soins, non habilité aide sociale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "52",
+        "display" : "ARS-PCD, LF, forfait soins, habilité aide sociale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "53",
+        "display" : "ARS-PCD, LF, forfait soins, non habilité aide sociale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "54",
+        "display" : "Tarif AM - Services de Soins Infirmiers A Domicile",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "55",
+        "display" : "ARS-PCD, PUV, convention SSIAD, non habilité à l'aide social",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "56",
+        "display" : "ARS-PCD, PUV, convention SSIAD, habilité à l'aide sociale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "57",
+        "display" : "ARS /ARS PCD Dotation forfait ou prix de journée globalisés (CPOM)",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "58",
+        "display" : "ARS dotation forfait ou prix de journée globalisé hors CPOM",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      },
+      {
+        "code" : "99",
+        "display" : "Indéterminé",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
+        }]
+      }]
+    }]
+  }
+}

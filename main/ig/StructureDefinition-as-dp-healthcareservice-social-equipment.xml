@@ -38,7 +38,7 @@
   <name value="AsDpHealthcareServiceSocialEquipmentProfile"/>
   <title value="AS Donnée Publique HealthcareService Social Equipment Profile"/>
   <status value="active"/>
-  <date value="2024-11-14T08:22:05+00:00"/>
+  <date value="2024-11-18T16:15:50+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -2507,7 +2507,7 @@
       <isSummary value="false"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R301-SourceInformationInstallation"/>
+        <valueSet value="https://mos.esante.gouv.fr/NOS/JDV_J261-SourceInformationInstallation-RASS/FHIR/JDV-J261-SourceInformationInstallation-RASS"/>
       </binding>
       <mapping>
         <identity value="rim"/>

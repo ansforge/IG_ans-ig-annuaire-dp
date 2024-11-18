@@ -1,48 +1,6 @@
 {
   "codeSystems" : [
     {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R286-TypeFermeture",
-      "version" : "1.1.0",
-      "status" : "active",
-      "name" : "VS_TRE_R286_TypeFermeture",
-      "title" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-      "description" : "JDV des NOS contenant l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-as-ext-organization-closing-type.html" : "AS Organization Closing Type Extension"
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R301-SourceInformationInstallation",
-      "version" : "1.1.0",
-      "status" : "active",
-      "name" : "VS_TRE_R301_SourceInformationInstallation",
-      "title" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-      "description" : "JDV des NOS contenant l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-as-ext-installation.html" : "AS Installation Extension"
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/VS-TRE-R74-ModeFixationTarifaire",
-      "version" : "1.1.0",
-      "status" : "active",
-      "name" : "VS_TRE_R74_ModeFixationTarifaire",
-      "title" : "ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-      "description" : "JDV des NOS contenant l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-as-ext-organization-pricing-model.html" : "AS Organization Pricing Model Extension"
-    },
-    {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-intern-id-systems",
       "version" : "1.1.0",
       "status" : "active",
@@ -358,6 +316,54 @@
       "uses" : {
       },
       "StructureDefinition-as-organization.html" : "AS Organization Profile"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J259-ModeFixationTarifaire-RASS/FHIR/JDV-J259-ModeFixationTarifaire-RASS",
+      "version" : "1.4.0",
+      "status" : "active",
+      "name" : "JDV_J259-ModeFixationTarifaire-RASS",
+      "title" : null,
+      "description" : "Mode de fixation tarifaire du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.283"],
+      "sources" : ["1.2.250.1.213.1.6.1.283"],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-organization-pricing-model.html" : "AS Organization Pricing Model Extension"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J260-TypeFermeture-RASS/FHIR/JDV-J260-TypeFermeture-RASS",
+      "version" : "1.4.0",
+      "status" : "active",
+      "name" : "JDV_J260-TypeFermeture-RASS",
+      "title" : null,
+      "description" : "Type de fermeture, codes provenant du FINESS pour les EJ et EG pour le RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.284"],
+      "sources" : ["1.2.250.1.213.1.6.1.284"],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-organization-closing-type.html" : "AS Organization Closing Type Extension"
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J261-SourceInformationInstallation-RASS/FHIR/JDV-J261-SourceInformationInstallation-RASS",
+      "version" : "1.4.0",
+      "status" : "active",
+      "name" : "JDV_J261-SourceInformationInstallation-RASS",
+      "title" : null,
+      "description" : "Sources d'information possible concernant l'installation de l'activité sociale du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.285"],
+      "sources" : ["1.2.250.1.213.1.6.1.285"],
+      "uses" : {
+      },
+      "StructureDefinition-as-ext-installation.html" : "AS Installation Extension"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J73-MetierPharmacien-RASS/FHIR/JDV-J73-MetierPharmacien-RASS",

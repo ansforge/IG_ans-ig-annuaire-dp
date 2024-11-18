@@ -1052,18 +1052,6 @@ package IG #DDDDDD{
 
      AsDataTraceExtension -[#black,dotted,thickness=2]-> AsVsTypeSystemeInformationVS
 
-        class VS_TRE_R301_SourceInformationInstallation  
-
-     AsInstallationExtension -[#black,dotted,thickness=2]-> VS_TRE_R301_SourceInformationInstallation
-
-        class VS_TRE_R286_TypeFermeture  
-
-     AsOrganizationClosingTypeExtension -[#black,dotted,thickness=2]-> VS_TRE_R286_TypeFermeture
-
-        class VS_TRE_R74_ModeFixationTarifaire  
-
-     AsOrganizationPricingModelExtension -[#black,dotted,thickness=2]-> VS_TRE_R74_ModeFixationTarifaire
-
         class AsVsOrganizationTypes  
 
      AsOrganizationTypes -[#black,dotted,thickness=2]-> AsVsOrganizationTypes

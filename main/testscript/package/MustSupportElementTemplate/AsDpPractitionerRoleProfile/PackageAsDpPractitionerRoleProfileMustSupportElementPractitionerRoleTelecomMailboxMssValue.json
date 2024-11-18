@@ -6,7 +6,7 @@
   "title": "IG: package; Profile: AsDpPractitionerRoleProfile; Case: Must Support Element; Element: PractitionerRole.telecom:mailbox-mss.value",
   "status": "draft",
   "experimental": true,
-  "date": "2024-11-14T08:25:31+00:00",
+  "date": "2024-11-18T16:19:18+00:00",
   "publisher": "The MITRE Corporation",
   "test": [
     {
