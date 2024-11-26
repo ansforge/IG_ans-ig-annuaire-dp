@@ -1,0 +1,26 @@
+{
+  "id": "6c21be2e7ad6f55c4205b800192ebe8ce8dc8aa96a11b6472ddb9aebf121c358",
+  "url": "https://github.com/fhir-crucible/testscript-generator/6c21be2e7ad6f55c4205b800192ebe8ce8dc8aa96a11b6472ddb9aebf121c358",
+  "version": "0.0",
+  "name": "PackageAsDpPractitionerProfileMustSupportElementPractitionerIdentifierIdentifiantInterne",
+  "title": "IG: package; Profile: AsDpPractitionerProfile; Case: Must Support Element; Element: Practitioner.identifier:identifiantInterne",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-11-26T17:27:52+00:00",
+  "publisher": "The MITRE Corporation",
+  "test": [
+    {
+      "name": "Generation Feature Not Implemented",
+      "action": [
+        {
+          "assert": {
+            "label": "Fail - not implemented in generator: no discriminator value found for uri",
+            "expression": "1!=1",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

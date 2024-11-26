@@ -1,0 +1,104 @@
+{
+  "id": "4801f5dd137a7a9c2cfafe489d59103f7aa3a6dfaaa79bd34b8d4c24e100d459",
+  "url": "https://github.com/fhir-crucible/testscript-generator/4801f5dd137a7a9c2cfafe489d59103f7aa3a6dfaaa79bd34b8d4c24e100d459",
+  "version": "0.0",
+  "name": "PackageAsDeviceProfileMustSupportElementDeviceOwner",
+  "title": "IG: package; Profile: AsDeviceProfile; Case: Must Support Element; Element: Device.owner",
+  "status": "draft",
+  "experimental": true,
+  "date": "2024-11-26T17:27:52+00:00",
+  "publisher": "The MITRE Corporation",
+  "profile": [
+    {
+      "id": "targetProfileAsDeviceProfile",
+      "reference": "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-device"
+    }
+  ],
+  "variable": [
+    {
+      "name": "targetResourceIdAsDeviceProfile",
+      "defaultValue": "example",
+      "description": "Enter a known instance id on the destination system. Will be checked for conformance against profile AsDeviceProfile.",
+      "hint": "[resource.id]"
+    },
+    {
+      "name": "referencedInstanceRef",
+      "expression": "Device.owner.reference",
+      "sourceId": "targetInstance"
+    }
+  ],
+  "test": [
+    {
+      "name": "Validate the identified resource conforms to the AsDeviceProfile profile",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "read"
+            },
+            "resource": "Device",
+            "label": "Read_Device_Instance",
+            "description": "Read Device Instance",
+            "encodeRequestUrl": false,
+            "params": "/${targetResourceIdAsDeviceProfile}",
+            "responseId": "targetInstance"
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Response_OK",
+            "response": "okay",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Device_Returned",
+            "description": "Assert Device Returned",
+            "resource": "Device",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Instance_Conforms_to_AsDeviceProfile_Profile",
+            "description": "Assert returned instance conforms to the AsDeviceProfile Profile",
+            "validateProfileId": "targetProfileAsDeviceProfile",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "resolved_path_contains_reference_element",
+            "description": "resolved path contains reference element",
+            "expression": "Device.owner.reference.hasValue()",
+            "warningOnly": false
+          }
+        },
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "read"
+            },
+            "label": "Read_referenced_instance",
+            "description": "Read referenced instance",
+            "encodeRequestUrl": false,
+            "responseId": "referencedInstance",
+            "url": "/${referencedInstanceRef}"
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Reference_Read_Response_OK",
+            "description": "Assert Reference Read Response OK",
+            "response": "okay",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

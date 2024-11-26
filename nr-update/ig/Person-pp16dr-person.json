@@ -1,0 +1,48 @@
+{
+  "resourceType" : "Person",
+  "id" : "pp16dr-person",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-person"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Person pp16dr-person</b></p><a name=\"pp16dr-person\"> </a><a name=\"hcpp16dr-person\"> </a><a name=\"pp16dr-person-fr-FR\"> </a><blockquote><p><b>AS Person Nationality Extension</b></p><ul><li>code: <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays 99100}\">République française</span></li></ul></blockquote><p><b>AS Person Birth Place Extension</b>: COSNE-COURS-SUR-LOIRE</p><p><b>name</b>: David CHATELIER (Official)</p><h3>Links</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Target</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-3719500DP.html\">Practitioner David CHATELIER </a></td></tr></table></div>"
+  },
+  "extension" : [{
+    "extension" : [{
+      "url" : "code",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
+          "code" : "99100"
+        }]
+      }
+    }],
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-person-nationality"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-person-birth-place",
+    "valueAddress" : {
+      "extension" : [{
+        "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code",
+        "valueCoding" : {
+          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune",
+          "code" : "58086"
+        }
+      }],
+      "text" : "COSNE-COURS-SUR-LOIRE",
+      "country" : "99100"
+    }
+  }],
+  "name" : [{
+    "use" : "official",
+    "family" : "CHATELIER",
+    "given" : ["David"],
+    "prefix" : ["M"]
+  }],
+  "link" : [{
+    "target" : {
+      "reference" : "Practitioner/3719500DP"
+    }
+  }]
+}
