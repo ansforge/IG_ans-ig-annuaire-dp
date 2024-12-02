@@ -11,7 +11,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for AnnuaireSante</h1>
- <p>Generated Sat Nov 02 11:36:39 UTC 2024, FHIR version 4.0.1 for ans.fhir.fr.annuaire#1.1.0-snapshot-4 (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/annuaire">https://interop.esante.gouv.fr/ig/fhir/annuaire</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/annuaire/history.html">history</a>))</p>
+ <p>Generated Mon Dec 02 15:14:20 UTC 2024, FHIR version 4.0.1 for ans.fhir.fr.annuaire#1.1.0-snapshot-4 (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/annuaire">https://interop.esante.gouv.fr/ig/fhir/annuaire</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/annuaire/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -43,6 +43,20 @@
     <td>System not handled by any servers. Using primary server</td>
     <td>http://tx.fhir.org/r4</td>
     <td>null</td>
+    <td>http://hl7.org/fhir/fhir-types</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/fhir-types</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
     <td>https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5/</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -63,7 +77,7 @@
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
-    <td>urn:uuid:c60e1b61-cbd2-4cb2-9461-6ba672ba324c</td>
+    <td>urn:uuid:b7323f1d-3ff4-4b2f-8d3b-8f4b3a0300ec</td>
     <td>urn:ietf:bcp:13</td>
     <td>auth = , candidates=http://tx.fhir.org/r4</td>
   </tr>
@@ -77,7 +91,7 @@
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
-    <td>urn:uuid:112f3b33-f81b-4d34-a08d-aaef588e8096</td>
+    <td>urn:uuid:fa64dc0d-3e4a-44a3-9468-2850b3bc851f</td>
     <td>urn:ietf:bcp:13</td>
     <td>auth = , candidates=http://tx.fhir.org/r4</td>
   </tr>
@@ -91,7 +105,7 @@
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
-    <td>urn:uuid:d68804aa-0ea2-4162-b091-817de524f76d</td>
+    <td>urn:uuid:b16e5afa-3f92-4eed-8f92-47a8eaf760b9</td>
     <td>urn:ietf:bcp:13</td>
     <td>auth = , candidates=http://tx.fhir.org/r4</td>
   </tr>
@@ -105,7 +119,7 @@
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
-    <td>urn:uuid:147e92d4-f031-45fd-a04a-4d935d9c4767</td>
+    <td>urn:uuid:f0de549e-6e8d-4855-8235-9900a7f830da</td>
     <td>urn:ietf:bcp:13</td>
     <td>auth = , candidates=http://tx.fhir.org/r4</td>
   </tr>
@@ -128,49 +142,49 @@
     <td>http://tx.fhir.org/r4</td>
     <td>https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0</td>
     <td>[https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM, https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune]</td>
-    <td>[auth = , candidates=, auth = , candidates=]</td>
+    <td>[auth = , candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>http://tx.fhir.org/r4</td>
     <td>https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0</td>
     <td>[https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM, https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune]</td>
-    <td>[auth = , candidates=, auth = , candidates=]</td>
+    <td>[auth = , candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>http://tx.fhir.org/r4</td>
     <td>https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0</td>
     <td>[https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM, https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune]</td>
-    <td>[auth = , candidates=, auth = , candidates=]</td>
+    <td>[auth = , candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>http://tx.fhir.org/r4</td>
     <td>https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0</td>
     <td>[https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM, https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune]</td>
-    <td>[auth = , candidates=, auth = , candidates=]</td>
+    <td>[auth = , candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>http://tx.fhir.org/r4</td>
     <td>https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0</td>
     <td>[https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM, https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune]</td>
-    <td>[auth = , candidates=, auth = , candidates=]</td>
+    <td>[auth = , candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>http://tx.fhir.org/r4</td>
     <td>https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0</td>
     <td>[https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM, https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune]</td>
-    <td>[auth = , candidates=, auth = , candidates=]</td>
+    <td>[auth = , candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>http://tx.fhir.org/r4</td>
     <td>https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0</td>
     <td>[https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM, https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune]</td>
-    <td>[auth = , candidates=, auth = , candidates=]</td>
+    <td>[auth = , candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -210,7 +224,7 @@
 </table>
 <h2>Primary Server: http://tx.fhir.org/r4</h2>
 <a href="http://tx.fhir.org/r4"></a>
-<p>Use Count: 23. Code Systems used: </p>
+<p>Use Count: 24. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -225,6 +239,12 @@
     <th>
       <b>Details</b>
     </th>
+  </tr>
+  <tr>
+    <td>http://hl7.org/fhir/fhir-types</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
   </tr>
   <tr>
     <td>http://unstats.un.org/unsd/methods/m49/m49.htm</td>
