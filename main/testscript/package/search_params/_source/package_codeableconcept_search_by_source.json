@@ -6,7 +6,7 @@
   "title": "package codeableconcept search_by source",
   "status": "draft",
   "experimental": true,
-  "date": "2024-11-18T16:19:17+00:00",
+  "date": "2024-12-02T14:09:04+00:00",
   "publisher": "The MITRE Corporation",
   "fixture": [
     {
@@ -20,9 +20,9 @@
   ],
   "variable": [
     {
-      "name": "1TqUnhHMAeYClUhH",
+      "name": "7rsbNHsCiT1F3OnA",
       "expression": "CodeableConcept.meta.source",
-      "sourceId": "lVhljMYjYDhlFhrp"
+      "sourceId": "6Vp2u0z37ajeEk0D"
     }
   ],
   "setup": {
@@ -35,7 +35,7 @@
           },
           "label": "Operation_1",
           "encodeRequestUrl": false,
-          "responseId": "lVhljMYjYDhlFhrp",
+          "responseId": "6Vp2u0z37ajeEk0D",
           "sourceId": "example_codeableconcept"
         }
       }
@@ -54,7 +54,7 @@
             "resource": "CodeableConcept",
             "label": "Operation_2",
             "encodeRequestUrl": false,
-            "params": "?_source=${1TqUnhHMAeYClUhH}"
+            "params": "?_source=${7rsbNHsCiT1F3OnA}"
           }
         }
       ]
@@ -71,7 +71,7 @@
           "resource": "CodeableConcept",
           "label": "Operation_3",
           "encodeRequestUrl": false,
-          "params": "/${1TqUnhHMAeYClUhH}"
+          "params": "/${7rsbNHsCiT1F3OnA}"
         }
       }
     ]

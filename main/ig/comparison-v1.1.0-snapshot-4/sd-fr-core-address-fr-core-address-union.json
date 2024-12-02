@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "5d6ba1b0-ea81-4686-a5de-3b8449599237-38",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5d6ba1b0-ea81-4686-a5de-3b8449599237-38",
+  "id" : "f8271faf-7aa2-4a0c-bb5a-167e6955282e-38",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f8271faf-7aa2-4a0c-bb5a-167e6955282e-38",
   "name" : "UnionFRCoreAddressProfileAndFRCoreAddressProfile",
   "title" : "Union of FR Core Address Profile And FR Core Address Profile",
   "status" : "active",
-  "date" : "2024-11-18T16:16:17+00:00",
+  "date" : "2024-12-02T14:06:04+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

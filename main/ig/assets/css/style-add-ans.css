@@ -2,6 +2,10 @@ p, li, td {
     color: #343548;
 }
 
+pre {
+    width: 100%
+}
+
 #segment-header {
     background-color: white;
 }

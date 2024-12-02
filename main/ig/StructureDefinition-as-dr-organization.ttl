@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AsDrOrganizationProfile"] ; # 
   fhir:title [ fhir:v "AS Donnée Restreinte Organization Profile"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-11-18T16:15:50+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-02T14:05:36+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
