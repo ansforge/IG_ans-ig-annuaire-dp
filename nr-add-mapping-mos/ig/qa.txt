@@ -1,9 +1,9 @@
 AnnuaireSante : Validation Results
 =========================================
 
-err = 11, warn = 74, info = 105
+err = 11, warn = 75, info = 105
 IG Publisher Version: 1.8.4
-Generated Thu Jan 02 10:59:52 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.annuaire#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
+Generated Thu Jan 02 15:59:01 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.annuaire#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
  Build Errors : 0 / 25 / 0
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CapabilityStatement-AsServerCapabilityStatement : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-intern-id-systems : 0 / 2 / 2
@@ -84,7 +84,7 @@ Generated Thu Jan 02 10:59:52 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.annua
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-healthcareservice-social-equipment : 0 / 1 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-location : 0 / 1 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-mailbox-mss : 0 / 0 / 1
- /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-organization : 0 / 0 / 5
+ /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-organization : 0 / 1 / 5
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-person : 0 / 1 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-practitioner : 0 / 1 / 4
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/StructureDefinition-as-practitionerrole : 0 / 1 / 3
@@ -351,7 +351,8 @@ WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-location'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-as-mailbox-mss.json ==
 == fsh-generated/resources/StructureDefinition-as-organization.json ==
-INFORMATION: StructureDefinition/as-organization: StructureDefinition.differential.element[42].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/as-organization: StructureDefinition.differential.element[27].mapping[0].map: value should not start or finish with whitespace 'EntiteGeographique.categorieEtablissement  '
+INFORMATION: StructureDefinition/as-organization: StructureDefinition.differential.element[46].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/as-organization: StructureDefinition.snapshot.element[36].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/as-organization: StructureDefinition.snapshot.element[103].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/as-organization: StructureDefinition.snapshot.element[192].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)

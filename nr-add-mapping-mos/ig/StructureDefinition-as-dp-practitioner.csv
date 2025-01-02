@@ -639,7 +639,7 @@ ele-1:All FHIR elements must have a @value or children {hasValue() or (children(
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Practitioner.telecom:mailbox-mss.extension:emailType","Practitioner.telecom.extension","emailType","","",1,1,"","","","Extension {[CanonicalType[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type]]} {[]}
 ","Type of email | type de messagerie électronique","Extension on the ContactPoint datatype. This extension allows to specify the type of mail used to contact the person (MSSsanté|Apicrypt|OSM|Autre).","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","ExerciceProfessionnel.boiteLettresMSS.typeBAL"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Practitioner.telecom:mailbox-mss.extension:emailType.id","Practitioner.telecom.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Practitioner.telecom:mailbox-mss.extension:emailType.extension","Practitioner.telecom.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
@@ -684,7 +684,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:description","Practitioner.telecom.extension.extension","description","","",0,1,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","ExerciceProfessionnel.boiteLettresMSS.description"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:description.id","Practitioner.telecom.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:description.extension","Practitioner.telecom.extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
@@ -712,7 +712,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:service","Practitioner.telecom.extension.extension","service","","",0,1,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","ExerciceProfessionnel.BoiteLettreMSS.serviceRattachement"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:service.id","Practitioner.telecom.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:service.extension","Practitioner.telecom.extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
@@ -740,7 +740,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:digitization","Practitioner.telecom.extension.extension","digitization","","",0,1,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","ExerciceProfessionnel.BoiteLettreMSS.dematerialisation"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:digitization.id","Practitioner.telecom.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:digitization.extension","Practitioner.telecom.extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
@@ -754,7 +754,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:listeRouge","Practitioner.telecom.extension.extension","listeRouge","","",0,1,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","ExerciceProfessionnel.BoiteLettreMSS.listeRouge"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:listeRouge.id","Practitioner.telecom.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:listeRouge.extension","Practitioner.telecom.extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
@@ -777,7 +777,7 @@ boolean {[]} {[]}canonical {[]} {[]}code {[]} {[]}date {[]} {[]}dateTime {[]} {[
 ","XTN.3","./scheme","./ContactPointType"
 "Practitioner.telecom:mailbox-mss.value","Practitioner.telecom.value","","","",1,1,"Y","","Y","string {[]} {[]}
 ","Boîte Aux Lettres (BAL) MSS","The actual contact point details, in a form that is meaningful to the designated communication system (i.e. phone number or email address).","Additional text data such as phone extension numbers, or notes about use of the contact are sometimes included in the value.","Need to support legacy numbers that are not in a tightly controlled format.","","","","","","","",,,,,"",,,,"ContactPoint.value",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","ExerciceProfessionnel.boiteLettresMSS.adresseMSS","XTN.1 (or XTN.12)","./url","./Value"
+","XTN.1 (or XTN.12)","./url","./Value"
 "Practitioner.telecom:mailbox-mss.use","Practitioner.telecom.use","","","",0,1,"","Y","Y","code {[]} {[]}
 ","home | work | temp | old | mobile - purpose of this contact point","Identifies the purpose for the contact point.","Applications can assume that a contact is current unless it explicitly says that it is temporary or old.","Need to track the way a person uses this contact, so a user can choose which is appropriate for their purpose.","","","","","","","",,"required","Use of contact point.","http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1","",,,,"ContactPoint.use",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","XTN.2 - but often indicated by field","unique(./use)","./ContactPointPurpose"

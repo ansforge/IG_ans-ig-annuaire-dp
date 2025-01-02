@@ -117,7 +117,9 @@
       "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
       "StructureDefinition-as-dr-organization.html" : "AS Donnée Restreinte Organization Profile",
       "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
-      "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile"
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
+      "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
+      "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
@@ -140,7 +142,9 @@
       "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
       "StructureDefinition-as-dr-organization.html" : "AS Donnée Restreinte Organization Profile",
       "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
-      "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile"
+      "StructureDefinition-as-practitionerrole.html" : "AS PractitionerRole Profile",
+      "StructureDefinition-as-dr-person.html" : "AS Donnée Restreinte Person Profile",
+      "StructureDefinition-as-dr-practitionerrole.html" : "AS Donnée Restreinte PractitionerRole Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
@@ -609,12 +613,10 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
       "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile",
       "StructureDefinition-as-mailbox-mss.html" : "AS Mailbox MSS Datatype Profile",
       "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
-      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
-      "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile"
+      "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile"
     },
     {
       "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-location-identifier-type",
@@ -1156,11 +1158,10 @@
       "sources" : ["1.2.250.1.213.1.6.1.225"],
       "uses" : {
       },
-      "StructureDefinition-as-practitioner.html" : "AS Practitioner Profile",
       "StructureDefinition-as-dp-organization.html" : "AS Donnée Publique Organization Profile",
+      "StructureDefinition-as-mailbox-mss.html" : "AS Mailbox MSS Datatype Profile",
       "StructureDefinition-as-dp-practitioner.html" : "AS Donnée Publique Practitioner Profile",
       "StructureDefinition-as-dp-practitionerrole.html" : "AS Donnée Publique PractitionerRole Profile",
-      "StructureDefinition-as-dr-practitioner.html" : "AS Donnée Restreinte Practitioner Profile",
       "StructureDefinition-as-ext-mailbox-mss-metadata.html" : "AS Mailbox Metadata"
     },
     {

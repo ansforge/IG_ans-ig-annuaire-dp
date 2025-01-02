@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AsDrOrganizationProfile"] ; # 
   fhir:title [ fhir:v "AS Donnée Restreinte Organization Profile"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-01-02T10:57:32+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-01-02T15:56:45+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -1515,7 +1515,11 @@
        ] ) ;
        fhir:mustSupport [ fhir:v "true"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "as-organization-to-mos-eg" ] ;
+         fhir:map [ fhir:v "EntiteGeographique.dateAutorisation" ]
+       ] )
      ] [
        fhir:id [ fhir:v "Organization.modifierExtension" ] ;
        fhir:path [ fhir:v "Organization.modifierExtension" ] ;
@@ -2456,6 +2460,9 @@
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
+         fhir:identity [ fhir:v "as-organization-to-mos-eg" ] ;
+         fhir:map [ fhir:v "EntiteGeographique.numSiret" ]
+       ] [
          fhir:identity [ fhir:v "w5" ] ;
          fhir:map [ fhir:v "FiveWs.identifier" ]
        ] [
@@ -3691,6 +3698,12 @@
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
+         fhir:identity [ fhir:v "as-organization-to-mos-ej" ] ;
+         fhir:map [ fhir:v "EntiteGeographique.identifiantEJ" ]
+       ] [
+         fhir:identity [ fhir:v "as-organization-to-mos-eg" ] ;
+         fhir:map [ fhir:v "EntiteGeographique.identifiantEG" ]
+       ] [
          fhir:identity [ fhir:v "w5" ] ;
          fhir:map [ fhir:v "FiveWs.identifier" ]
        ] [
@@ -4088,6 +4101,12 @@
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
+         fhir:identity [ fhir:v "as-organization-to-mos-ej" ] ;
+         fhir:map [ fhir:v "EntiteGeographique.identifiantEJ" ]
+       ] [
+         fhir:identity [ fhir:v "as-organization-to-mos-eg" ] ;
+         fhir:map [ fhir:v "EntiteGeographique.identifiantEG" ]
+       ] [
          fhir:identity [ fhir:v "w5" ] ;
          fhir:map [ fhir:v "FiveWs.identifier" ]
        ] [
@@ -4487,6 +4506,9 @@
        fhir:isModifierReason [ fhir:v "This element is labelled as a modifier because it is a status element that can indicate that a record should not be treated as valid" ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
+         fhir:identity [ fhir:v "as-organization-to-mos-eg" ] ;
+         fhir:map [ fhir:v "EntiteGeographique.actof" ]
+       ] [
          fhir:identity [ fhir:v "as-organization-to-mos-eg" ] ;
          fhir:map [ fhir:v "EntiteGeographique.actif" ]
        ] [
@@ -5273,6 +5295,9 @@
          ]
        ] ;
        fhir:mapping ( [
+         fhir:identity [ fhir:v "as-organization-to-mos-eg" ] ;
+         fhir:map [ fhir:v "EntiteGeographique.secteurActivite" ]
+       ] [
          fhir:identity [ fhir:v "w5" ] ;
          fhir:map [ fhir:v "FiveWs.class" ]
        ] [
@@ -5942,6 +5967,9 @@
          ]
        ] ;
        fhir:mapping ( [
+         fhir:identity [ fhir:v "as-organization-to-mos-eg" ] ;
+         fhir:map [ fhir:v "EntiteGeographique.categorieEtablissement" ]
+       ] [
          fhir:identity [ fhir:v "w5" ] ;
          fhir:map [ fhir:v "FiveWs.class" ]
        ] [
@@ -6833,6 +6861,9 @@
          fhir:identity [ fhir:v "as-organization-to-mos-ej" ] ;
          fhir:map [ fhir:v "EntiteJuridique.statutJuridique" ]
        ] [
+         fhir:identity [ fhir:v "as-organization-to-mos-eg" ] ;
+         fhir:map [ fhir:v "EntiteGeographique.statutJuridique" ]
+       ] [
          fhir:identity [ fhir:v "w5" ] ;
          fhir:map [ fhir:v "FiveWs.class" ]
        ] [
@@ -7224,7 +7255,7 @@
        ] ;
        fhir:mapping ( [
          fhir:identity [ fhir:v "as-organization-to-mos-eg" ] ;
-         fhir:map [ fhir:v "EntiteGeographique.codeAPET" ]
+         fhir:map [ fhir:v "EntiteGeographique.modaliteParticipationSPH" ]
        ] [
          fhir:identity [ fhir:v "w5" ] ;
          fhir:map [ fhir:v "FiveWs.class" ]
@@ -7616,6 +7647,9 @@
          ]
        ] ;
        fhir:mapping ( [
+         fhir:identity [ fhir:v "as-organization-to-mos-eg" ] ;
+         fhir:map [ fhir:v "EntiteGeographique.typeEtablissement" ]
+       ] [
          fhir:identity [ fhir:v "w5" ] ;
          fhir:map [ fhir:v "FiveWs.class" ]
        ] [
@@ -8539,7 +8573,7 @@
          fhir:map [ fhir:v "EntiteJuridique.boiteLettreMSS" ]
        ] [
          fhir:identity [ fhir:v "as-organization-to-mos-eg" ] ;
-         fhir:map [ fhir:v "EntiteGeographique.boiteLettreMSS" ]
+         fhir:map [ fhir:v "EntiteJuridique.boiteLettreMSS" ]
        ] [
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v "n/a" ]
@@ -8658,6 +8692,9 @@
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
+         fhir:identity [ fhir:v "as-organization-to-mos-eg" ] ;
+         fhir:map [ fhir:v "EntiteGeographique.EntiteJuridique" ]
+       ] [
          fhir:identity [ fhir:v "v2" ] ;
          fhir:map [ fhir:v "No equivalent in HL7 v2" ]
        ] [

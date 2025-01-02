@@ -10,7 +10,7 @@
   "name" : "AsDpOrganizationProfile",
   "title" : "AS Donnée Publique Organization Profile",
   "status" : "active",
-  "date" : "2025-01-02T10:57:32+00:00",
+  "date" : "2025-01-02T15:56:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -1382,7 +1382,11 @@
       }],
       "mustSupport" : true,
       "isModifier" : false,
-      "isSummary" : false
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.dateAutorisation"
+      }]
     },
     {
       "id" : "Organization.modifierExtension",
@@ -2630,6 +2634,10 @@
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.numSiret"
+      },
+      {
         "identity" : "w5",
         "map" : "FiveWs.identifier"
       },
@@ -3838,6 +3846,14 @@
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "as-organization-to-mos-ej",
+        "map" : "EntiteGeographique.identifiantEJ"
+      },
+      {
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.identifiantEG"
+      },
+      {
         "identity" : "w5",
         "map" : "FiveWs.identifier"
       },
@@ -4222,6 +4238,14 @@
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "as-organization-to-mos-ej",
+        "map" : "EntiteGeographique.identifiantEJ"
+      },
+      {
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.identifiantEG"
+      },
+      {
         "identity" : "w5",
         "map" : "FiveWs.identifier"
       },
@@ -4994,6 +5018,10 @@
       "isSummary" : true,
       "mapping" : [{
         "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.actof"
+      },
+      {
+        "identity" : "as-organization-to-mos-eg",
         "map" : "EntiteGeographique.actif"
       },
       {
@@ -5755,6 +5783,10 @@
         "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J101-SecteurActivite-RASS/FHIR/JDV-J101-SecteurActivite-RASS"
       },
       "mapping" : [{
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.secteurActivite"
+      },
+      {
         "identity" : "w5",
         "map" : "FiveWs.class"
       },
@@ -6403,6 +6435,10 @@
         "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J129-CategorieEtablissement-RASS/FHIR/JDV-J129-CategorieEtablissement-RASS"
       },
       "mapping" : [{
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.categorieEtablissement"
+      },
+      {
         "identity" : "w5",
         "map" : "FiveWs.class"
       },
@@ -7272,6 +7308,10 @@
         "map" : "EntiteJuridique.statutJuridique"
       },
       {
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.statutJuridique"
+      },
+      {
         "identity" : "w5",
         "map" : "FiveWs.class"
       },
@@ -7644,7 +7684,7 @@
       },
       "mapping" : [{
         "identity" : "as-organization-to-mos-eg",
-        "map" : "EntiteGeographique.codeAPET"
+        "map" : "EntiteGeographique.modaliteParticipationSPH"
       },
       {
         "identity" : "w5",
@@ -8018,6 +8058,10 @@
         "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-etablissement"
       },
       "mapping" : [{
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.typeEtablissement"
+      },
+      {
         "identity" : "w5",
         "map" : "FiveWs.class"
       },
@@ -8902,7 +8946,7 @@
       },
       {
         "identity" : "as-organization-to-mos-eg",
-        "map" : "EntiteGeographique.boiteLettreMSS"
+        "map" : "EntiteJuridique.boiteLettreMSS"
       },
       {
         "identity" : "rim",
@@ -9024,7 +9068,11 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "isModifier" : false,
-      "isSummary" : false
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "as-mailbox-mss-to-mos-exercice-professionnel",
+        "map" : "boiteLettresMSS.typeBAL"
+      }]
     },
     {
       "id" : "Organization.telecom:mailbox-mss.extension:emailType.id",
@@ -9445,7 +9493,7 @@
       "id" : "Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:description",
       "path" : "Organization.telecom.extension.extension",
       "sliceName" : "description",
-      "short" : "description : Description fonctionnelle de la boîte aux lettres.",
+      "short" : "Extension",
       "definition" : "An Extension",
       "min" : 0,
       "max" : "1",
@@ -9474,7 +9522,11 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "isModifier" : false,
-      "isSummary" : false
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "as-mailbox-mss-to-mos-exercice-professionnel",
+        "map" : "boiteLettresMSS.description"
+      }]
     },
     {
       "id" : "Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:description.id",
@@ -9771,7 +9823,7 @@
       "id" : "Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:service",
       "path" : "Organization.telecom.extension.extension",
       "sliceName" : "service",
-      "short" : "serviceRattachement : Nom et description du service de rattachement de l’utilisateur de la boîte aux lettres dans l’organisation.",
+      "short" : "Extension",
       "definition" : "An Extension",
       "min" : 0,
       "max" : "1",
@@ -9800,7 +9852,11 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "isModifier" : false,
-      "isSummary" : false
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "as-mailbox-mss-to-mos-exercice-professionnel",
+        "map" : "BoiteLettreMSS.serviceRattachement"
+      }]
     },
     {
       "id" : "Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:service.id",
@@ -10097,7 +10153,7 @@
       "id" : "Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:digitization",
       "path" : "Organization.telecom.extension.extension",
       "sliceName" : "digitization",
-      "short" : "dematerialisation : Indicateur d’acceptation de la dématérialisation (ou « Zéro papier »). - \"true\" : Dématérialisation acceptée \r\n- \"false\" : Dématérialisation refusée.",
+      "short" : "Extension",
       "definition" : "An Extension",
       "min" : 0,
       "max" : "1",
@@ -10126,7 +10182,11 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "isModifier" : false,
-      "isSummary" : false
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "as-mailbox-mss-to-mos-exercice-professionnel",
+        "map" : "BoiteLettreMSS.dematerialisation"
+      }]
     },
     {
       "id" : "Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:digitization.id",
@@ -10260,7 +10320,7 @@
       "id" : "Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:listeRouge",
       "path" : "Organization.telecom.extension.extension",
       "sliceName" : "listeRouge",
-      "short" : "listeRouge : Indicateur liste rouge. \"true\": Boîte aux lettres en liste rouge;\r\n\"false\": La boîte aux lettres peut être publiée",
+      "short" : "Extension",
       "definition" : "An Extension",
       "min" : 0,
       "max" : "1",
@@ -10289,7 +10349,11 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "isModifier" : false,
-      "isSummary" : false
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "as-mailbox-mss-to-mos-exercice-professionnel",
+        "map" : "BoiteLettreMSS.listeRouge"
+      }]
     },
     {
       "id" : "Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:listeRouge.id",
@@ -10703,6 +10767,10 @@
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "as-mailbox-mss-to-mos-exercice-professionnel",
+        "map" : "boiteLettresMSS.adresseMSS"
+      },
+      {
         "identity" : "v2",
         "map" : "XTN.1 (or XTN.12)"
       },
@@ -10933,6 +11001,10 @@
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.EntiteJuridique"
+      },
+      {
         "identity" : "v2",
         "map" : "No equivalent in HL7 v2"
       },

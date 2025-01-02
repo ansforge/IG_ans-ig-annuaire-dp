@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "fe33dd5b-f410-4884-aa96-9994115987c1-47",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fe33dd5b-f410-4884-aa96-9994115987c1-47",
+  "id" : "52a4cf3a-4698-4090-b45d-0160e69f6e07-47",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/52a4cf3a-4698-4090-b45d-0160e69f6e07-47",
   "name" : "UnionAsDpPractitionerRoleProfileAndAsDpPractitionerRoleProfile",
   "title" : "Union of AS Donnée Publique PractitionerRole Profile And AS Donnée Publique PractitionerRole Profile",
   "status" : "active",
-  "date" : "2025-01-02T10:57:59+00:00",
+  "date" : "2025-01-02T15:57:09+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

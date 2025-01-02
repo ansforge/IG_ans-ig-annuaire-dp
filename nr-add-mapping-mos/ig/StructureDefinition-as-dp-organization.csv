@@ -117,7 +117,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","EntiteGeographique.natureEtablissement"
 "Organization.extension:as-ext-organization-authorization-deadline","Organization.extension","as-ext-organization-authorization-deadline","","",0,1,"Y","","","Extension {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-authorization-deadline]]} {[]}
 ","AS Organization Authorization Deadline Extension","Extension créée dans le cadre de l'Annuaire Santé pour prise en compte de la caducité de l'autorisation sanitaire.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","EntiteGeographique.dateAutorisation"
 "Organization.modifierExtension","Organization.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
 ","Extensions that cannot be ignored","May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -225,7 +225,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Organization.identifier:siret","Organization.identifier","siret","","",0,*,"","","Y","Identifier {[]} {[]}
 ","Identifiant SIRET (14 chiffres)","Identifier for the organization that is used to identify the organization across multiple disparate systems.","","Organizations are known by a variety of ids. Some institutions maintain several, and most collect identifiers for exchange with other organizations concerning the organization.","","","","","","","",,,,,"",,,,"Organization.identifier",0,*,"org-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","XON.10 / XON.3",".scopes[Role](classCode=IDENT)","./Identifiers","FiveWs.identifier"
+","EntiteGeographique.numSiret","XON.10 / XON.3",".scopes[Role](classCode=IDENT)","./Identifiers","FiveWs.identifier"
 "Organization.identifier:siret.id","Organization.identifier.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Organization.identifier:siret.extension","Organization.identifier.extension","","extensions
@@ -323,7 +323,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Organization.identifier:adeliRang","Organization.identifier","adeliRang","","",0,*,"","","Y","Identifier {[]} {[]}
 ","Identifiant ADELI rang (9 chiffres ADELI + 2 chiffres RANG)","Identifier for the organization that is used to identify the organization across multiple disparate systems.","","Organizations are known by a variety of ids. Some institutions maintain several, and most collect identifiers for exchange with other organizations concerning the organization.","","","","","","","",,,,,"",,,,"Organization.identifier",0,*,"org-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","XON.10 / XON.3",".scopes[Role](classCode=IDENT)","./Identifiers","FiveWs.identifier"
+","EntiteGeographique.identifiantEJ","EntiteGeographique.identifiantEG","XON.10 / XON.3",".scopes[Role](classCode=IDENT)","./Identifiers","FiveWs.identifier"
 "Organization.identifier:adeliRang.id","Organization.identifier.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Organization.identifier:adeliRang.extension","Organization.identifier.extension","","extensions
@@ -357,7 +357,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Organization.identifier:rppsRang","Organization.identifier","rppsRang","","",0,*,"","","Y","Identifier {[]} {[]}
 ","RPPS rang (11 chiffres RPPS + 2 chiffres RANG)","Identifier for the organization that is used to identify the organization across multiple disparate systems.","","Organizations are known by a variety of ids. Some institutions maintain several, and most collect identifiers for exchange with other organizations concerning the organization.","","","","","","","",,,,,"",,,,"Organization.identifier",0,*,"org-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","XON.10 / XON.3",".scopes[Role](classCode=IDENT)","./Identifiers","FiveWs.identifier"
+","EntiteGeographique.identifiantEJ","EntiteGeographique.identifiantEG","XON.10 / XON.3",".scopes[Role](classCode=IDENT)","./Identifiers","FiveWs.identifier"
 "Organization.identifier:rppsRang.id","Organization.identifier.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Organization.identifier:rppsRang.extension","Organization.identifier.extension","","extensions
@@ -428,7 +428,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","La ressource est-elle active? (active | inactive). true par défaut; false pour les structures supprimées.","Whether the organization's record is still in active use.","This active flag is not intended to be used to mark an organization as temporarily closed or under construction. Instead the Location(s) within the Organization should have the suspended status. If further details of the reason for the suspension are required, then an extension on this element should be used.
 
 This element is labeled as a modifier because it may be used to mark that the resource was created in error.","Need a flag to indicate a record is no longer to be used and should generally be hidden for the user in the UI.","","This resource is generally assumed to be active if no value is provided for the active element","","","","","",,,,,"",,,,"Organization.active",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","EntiteGeographique.actif","No equivalent in HL7 v2",".status","./Status (however this concept in ServD more covers why the organization is active or not, could be delisted, deregistered, not operational yet) this could alternatively be derived from ./StartDate and ./EndDate and given a context date.","FiveWs.status"
+","EntiteGeographique.actof","EntiteGeographique.actif","No equivalent in HL7 v2",".status","./Status (however this concept in ServD more covers why the organization is active or not, could be delisted, deregistered, not operational yet) this could alternatively be derived from ./StartDate and ./EndDate and given a context date.","FiveWs.status"
 "Organization.type","Organization.type","","","",0,*,"Y","","Y","CodeableConcept {[]} {[]}
 ","Kind of organization","The kind(s) of organization that this is.","Organizations can be corporations, wards, sections, clinical teams, government departments, etc. Note that code is generally a classifier of the type of organization; in many applications, codes are used to identity a particular organization (say, ward) as opposed to another of the same type - these are identifiers, not codes
 
@@ -500,7 +500,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 When considering if multiple types are appropriate, you should evaluate if child organizations would be a more appropriate use of the concept, as different types likely are in different sub-areas of the organization. This is most likely to be used where type values have orthogonal values, such as a religious, academic and medical center.
 
 We expect that some jurisdictions will profile this optionality to be a single cardinality.","Need to be able to track the kind of organization that this is - different organization types have different uses.","","","","","","","",,"required","","https://mos.esante.gouv.fr/NOS/JDV_J101-SecteurActivite-RASS/FHIR/JDV-J101-SecteurActivite-RASS","",,,,"Organization.type",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","No equivalent in v2",".code","n/a","FiveWs.class"
+","EntiteGeographique.secteurActivite","No equivalent in v2",".code","n/a","FiveWs.class"
 "Organization.type:secteurActiviteRASS.id","Organization.type.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Organization.type:secteurActiviteRASS.extension","Organization.type.extension","","","",1,*,"","","","Extension {[]} {[]}
@@ -555,7 +555,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 When considering if multiple types are appropriate, you should evaluate if child organizations would be a more appropriate use of the concept, as different types likely are in different sub-areas of the organization. This is most likely to be used where type values have orthogonal values, such as a religious, academic and medical center.
 
 We expect that some jurisdictions will profile this optionality to be a single cardinality.","Need to be able to track the kind of organization that this is - different organization types have different uses.","","","","","","","",,"required","","https://mos.esante.gouv.fr/NOS/JDV_J129-CategorieEtablissement-RASS/FHIR/JDV-J129-CategorieEtablissement-RASS","",,,,"Organization.type",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","No equivalent in v2",".code","n/a","FiveWs.class"
+","EntiteGeographique.categorieEtablissement","No equivalent in v2",".code","n/a","FiveWs.class"
 "Organization.type:categorieEtablissementRASS.id","Organization.type.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Organization.type:categorieEtablissementRASS.extension","Organization.type.extension","","extensions
@@ -631,7 +631,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 When considering if multiple types are appropriate, you should evaluate if child organizations would be a more appropriate use of the concept, as different types likely are in different sub-areas of the organization. This is most likely to be used where type values have orthogonal values, such as a religious, academic and medical center.
 
 We expect that some jurisdictions will profile this optionality to be a single cardinality.","Need to be able to track the kind of organization that this is - different organization types have different uses.","","","","","","","",,"required","","https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS","",,,,"Organization.type",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","EntiteJuridique.statutJuridique","No equivalent in v2",".code","n/a","FiveWs.class"
+","EntiteJuridique.statutJuridique","EntiteGeographique.statutJuridique","No equivalent in v2",".code","n/a","FiveWs.class"
 "Organization.type:statutJuridiqueINSEE.id","Organization.type.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Organization.type:statutJuridiqueINSEE.extension","Organization.type.extension","","","",1,*,"","","","Extension {[]} {[]}
@@ -664,7 +664,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 When considering if multiple types are appropriate, you should evaluate if child organizations would be a more appropriate use of the concept, as different types likely are in different sub-areas of the organization. This is most likely to be used where type values have orthogonal values, such as a religious, academic and medical center.
 
 We expect that some jurisdictions will profile this optionality to be a single cardinality.","Need to be able to track the kind of organization that this is - different organization types have different uses.","","","","","","","",,"required","","https://mos.esante.gouv.fr/NOS/JDV_J162-ESPIC-RASS/FHIR/JDV-J162-ESPIC-RASS","",,,,"Organization.type",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","EntiteGeographique.codeAPET","No equivalent in v2",".code","n/a","FiveWs.class"
+","EntiteGeographique.modaliteParticipationSPH","No equivalent in v2",".code","n/a","FiveWs.class"
 "Organization.type:sphParticipation.id","Organization.type.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Organization.type:sphParticipation.extension","Organization.type.extension","","","",1,*,"","","","Extension {[]} {[]}
@@ -697,7 +697,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 When considering if multiple types are appropriate, you should evaluate if child organizations would be a more appropriate use of the concept, as different types likely are in different sub-areas of the organization. This is most likely to be used where type values have orthogonal values, such as a religious, academic and medical center.
 
 We expect that some jurisdictions will profile this optionality to be a single cardinality.","Need to be able to track the kind of organization that this is - different organization types have different uses.","","","","","","","",,"required","","https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-etablissement","",,,,"Organization.type",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","No equivalent in v2",".code","n/a","FiveWs.class"
+","EntiteGeographique.typeEtablissement","No equivalent in v2",".code","n/a","FiveWs.class"
 "Organization.type:typeEtablissement.id","Organization.type.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Organization.type:typeEtablissement.extension","Organization.type.extension","","","",1,*,"","","","Extension {[]} {[]}
@@ -767,7 +767,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Organization.telecom:mailbox-mss","Organization.telecom","mailbox-mss","","",0,*,"","","","ContactPoint {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss]]} {[]}
 ","Les BALs MSS de type ORG ou APP rattachées à une personne morale responsable de l’accès et de l’usage de la BAL (boiteLettreMSS).","Details for all kinds of technology mediated contact points for a person or organization, including telephone, email, etc.","The use code 'home' is not to be used. Note that these contacts are not the contact details of people who are employed by or represent the organization, but official contacts for the organization itself.","Human contact for the organization.","","","","","","","",,,,,"",,,,"Organization.telecom",0,*,"ele-1
 ","cpt-2:A system is required if a value is provided. {value.empty() or system.exists()}
-ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}org-3:The telecom of an organization can never be of use 'home' {where(use = 'home').empty()}","EntiteJuridique.boiteLettreMSS","EntiteGeographique.boiteLettreMSS","XTN","n/a","TEL","ContactPoint"
+ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}org-3:The telecom of an organization can never be of use 'home' {where(use = 'home').empty()}","EntiteJuridique.boiteLettreMSS","EntiteJuridique.boiteLettreMSS","XTN","n/a","TEL","ContactPoint"
 "Organization.telecom:mailbox-mss.id","Organization.telecom.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Organization.telecom:mailbox-mss.extension","Organization.telecom.extension","","","",1,*,"","","","Extension {[]} {[]}
@@ -820,7 +820,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,"required","","https://mos.esante.gouv.fr/NOS/JDV_J139-TypeBAL-RASS/FHIR/JDV-J139-TypeBAL-RASS","",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:description","Organization.telecom.extension.extension","description","","",0,1,"","","","Extension {[]} {[]}
-","description : Description fonctionnelle de la boîte aux lettres.","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:description.id","Organization.telecom.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -848,7 +848,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:service","Organization.telecom.extension.extension","service","","",0,1,"","","","Extension {[]} {[]}
-","serviceRattachement : Nom et description du service de rattachement de l’utilisateur de la boîte aux lettres dans l’organisation.","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:service.id","Organization.telecom.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -876,8 +876,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:digitization","Organization.telecom.extension.extension","digitization","","",0,1,"","","","Extension {[]} {[]}
-","dematerialisation : Indicateur d’acceptation de la dématérialisation (ou « Zéro papier »). - ""true"" : Dématérialisation acceptée 
-- ""false"" : Dématérialisation refusée.","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:digitization.id","Organization.telecom.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -891,8 +890,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:listeRouge","Organization.telecom.extension.extension","listeRouge","","",0,1,"","","","Extension {[]} {[]}
-","listeRouge : Indicateur liste rouge. ""true"": Boîte aux lettres en liste rouge;
-""false"": La boîte aux lettres peut être publiée","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:listeRouge.id","Organization.telecom.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -932,7 +930,7 @@ boolean {[]} {[]}canonical {[]} {[]}code {[]} {[]}date {[]} {[]}dateTime {[]} {[
 org-2:An address of an organization can never be of use 'home' {where(use = 'home').empty()}","EntiteJuridique.adresseEJ","EntiteGeographique.adresseEG","XAD","n/a","AD","Address"
 "Organization.partOf","Organization.partOf","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization], CanonicalType[https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization]]}
 ","Référence vers la structure de rattachement (lien EG/ EJ). Chaque entité geographique et ratachée à une entité juridique. C'est l'id de la ressource de l'entité juridique à laquelle est ratachée la structure qui est remontée dans l'element de référence partOf de l'entité géographique.","The organization of which this organization forms a part.","","Need to be able to track the hierarchy of organizations within an organization.","","","","","","","",,,,,"",,,,"Organization.partOf",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","No equivalent in HL7 v2",".playedBy[classCode=Part].scoper","n/a"
+","EntiteGeographique.EntiteJuridique","No equivalent in HL7 v2",".playedBy[classCode=Part].scoper","n/a"
 "Organization.partOf.id","Organization.partOf.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Organization.partOf.extension","Organization.partOf.extension","","extensions

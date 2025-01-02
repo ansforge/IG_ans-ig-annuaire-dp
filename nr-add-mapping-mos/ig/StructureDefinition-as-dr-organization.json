@@ -10,7 +10,7 @@
   "name" : "AsDrOrganizationProfile",
   "title" : "AS Donnée Restreinte Organization Profile",
   "status" : "active",
-  "date" : "2025-01-02T10:57:32+00:00",
+  "date" : "2025-01-02T15:56:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -1382,7 +1382,11 @@
       }],
       "mustSupport" : true,
       "isModifier" : false,
-      "isSummary" : false
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.dateAutorisation"
+      }]
     },
     {
       "id" : "Organization.modifierExtension",
@@ -2298,6 +2302,10 @@
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.numSiret"
+      },
+      {
         "identity" : "w5",
         "map" : "FiveWs.identifier"
       },
@@ -3506,6 +3514,14 @@
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "as-organization-to-mos-ej",
+        "map" : "EntiteGeographique.identifiantEJ"
+      },
+      {
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.identifiantEG"
+      },
+      {
         "identity" : "w5",
         "map" : "FiveWs.identifier"
       },
@@ -3890,6 +3906,14 @@
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "as-organization-to-mos-ej",
+        "map" : "EntiteGeographique.identifiantEJ"
+      },
+      {
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.identifiantEG"
+      },
+      {
         "identity" : "w5",
         "map" : "FiveWs.identifier"
       },
@@ -4276,6 +4300,10 @@
       "isModifierReason" : "This element is labelled as a modifier because it is a status element that can indicate that a record should not be treated as valid",
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.actof"
+      },
+      {
         "identity" : "as-organization-to-mos-eg",
         "map" : "EntiteGeographique.actif"
       },
@@ -5038,6 +5066,10 @@
         "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J101-SecteurActivite-RASS/FHIR/JDV-J101-SecteurActivite-RASS"
       },
       "mapping" : [{
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.secteurActivite"
+      },
+      {
         "identity" : "w5",
         "map" : "FiveWs.class"
       },
@@ -5686,6 +5718,10 @@
         "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J129-CategorieEtablissement-RASS/FHIR/JDV-J129-CategorieEtablissement-RASS"
       },
       "mapping" : [{
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.categorieEtablissement"
+      },
+      {
         "identity" : "w5",
         "map" : "FiveWs.class"
       },
@@ -6555,6 +6591,10 @@
         "map" : "EntiteJuridique.statutJuridique"
       },
       {
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.statutJuridique"
+      },
+      {
         "identity" : "w5",
         "map" : "FiveWs.class"
       },
@@ -6927,7 +6967,7 @@
       },
       "mapping" : [{
         "identity" : "as-organization-to-mos-eg",
-        "map" : "EntiteGeographique.codeAPET"
+        "map" : "EntiteGeographique.modaliteParticipationSPH"
       },
       {
         "identity" : "w5",
@@ -7301,6 +7341,10 @@
         "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-etablissement"
       },
       "mapping" : [{
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.typeEtablissement"
+      },
+      {
         "identity" : "w5",
         "map" : "FiveWs.class"
       },
@@ -8185,7 +8229,7 @@
       },
       {
         "identity" : "as-organization-to-mos-eg",
-        "map" : "EntiteGeographique.boiteLettreMSS"
+        "map" : "EntiteJuridique.boiteLettreMSS"
       },
       {
         "identity" : "rim",
@@ -8299,6 +8343,10 @@
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.EntiteJuridique"
+      },
+      {
         "identity" : "v2",
         "map" : "No equivalent in HL7 v2"
       },

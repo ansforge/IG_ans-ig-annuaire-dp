@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "fe33dd5b-f410-4884-aa96-9994115987c1-14",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fe33dd5b-f410-4884-aa96-9994115987c1-14",
+  "id" : "52a4cf3a-4698-4090-b45d-0160e69f6e07-14",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/52a4cf3a-4698-4090-b45d-0160e69f6e07-14",
   "name" : "UnionAsAddressExtendedProfileAndAsAddressExtendedProfile",
   "title" : "Union of AS Address Extended Datatype Profile And AS Address Extended Datatype Profile",
   "status" : "active",
-  "date" : "2025-01-02T10:57:59+00:00",
+  "date" : "2025-01-02T15:57:09+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -50,6 +50,10 @@
       {
         "identity" : "servd",
         "map" : "Address"
+      },
+      {
+        "identity" : "as-address-extended-to-mos-exercice-professionnel",
+        "map" : "Adresse"
       }]
     },
     {
@@ -414,6 +418,10 @@
       {
         "identity" : "servd",
         "map" : "./Jurisdiction"
+      },
+      {
+        "identity" : "as-address-extended-to-mos-exercice-professionnel",
+        "map" : "Adresse.localite"
       }]
     },
     {
@@ -543,6 +551,10 @@
       {
         "identity" : "servd",
         "map" : "./PostalIdentificationCode"
+      },
+      {
+        "identity" : "as-address-extended-to-mos-exercice-professionnel",
+        "map" : "Adresse.codePostal"
       }]
     },
     {

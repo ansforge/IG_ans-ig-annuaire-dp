@@ -1,8 +1,8 @@
-"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: HL7 v2 Mapping","Mapping: RIM Mapping","Mapping: ServD","Mapping: vCard Mapping"
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: AsAddressExtendedProfile to MOS - Adresse","Mapping: HL7 v2 Mapping","Mapping: RIM Mapping","Mapping: ServD","Mapping: vCard Mapping"
 "Address","Address","","","",0,*,"","","","null {[]} {[]}
 ","An address expressed using postal conventions (as opposed to GPS or other location definition formats)","An address expressed using postal conventions (as opposed to GPS or other location definition formats).  This data type may be used to convey addresses for use in delivering mail as well as for visiting locations which might not be valid for mail delivery.  There are a variety of postal address formats defined around the world.","Note: address is intended to describe postal addresses for administrative purposes, not to describe absolute geographical coordinates.  Postal addresses are often used as proxies for physical locations (also see the [Location](http://hl7.org/fhir/R4/location.html#) resource).","","","","","","","","",,,,,"",,,,"Address",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","XAD","n/a","AD","Address"
+","Adresse","XAD","n/a","AD","Address"
 "Address.id","Address.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Address.extension","Address.extension","","extensions
@@ -11,8 +11,8 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Address.extension:inseeCode","Address.extension","inseeCode","","",0,1,"","","","Extension {[CanonicalType[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code]]} {[]}
-","Code COG de la ville","This extension adds the insee code (5 digits) to the address | Ajout du code insee (5 chiffres) à l'adresse postale","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+","FR Core Address Insee Code Extension","This extension adds the insee code (5 digits) to the address | Ajout du code insee (5 chiffres) à l'adresse postale","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","Adresse.COGCommune"
 "Address.use","Address.use","","","",0,1,"","Y","Y","code {[]} {[]}
 ","home | work | temp | old | billing - purpose of this address","The purpose of this address.","Applications can assume that an address is current unless it explicitly says that it is temporary or old.","Allows an appropriate address to be chosen from a list of many.","","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""home""/>","","",,"required","The use of an address.","http://hl7.org/fhir/ValueSet/address-use|4.0.1","",,,,"Address.use",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","XAD.7","unique(./use)","./AddressPurpose"
@@ -33,19 +33,19 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Address.line.extension:careOf","Address.line.extension","careOf","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-careOf]]} {[]}
 ","pointRemise (Adresse)","The name of the party who will take receipt at the specified address, and will take on responsibility for ensuring delivery to the target recipient.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","ADXP[partType=CAR]"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","Adresse.complementPointGeographique","ADXP[partType=CAR]"
 "Address.line.extension:additionalLocator","Address.line.extension","additionalLocator","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator]]} {[]}
 ","complementPointGeographique (Adresse)","This can be a unit designator, such as apartment number, suite number, or floor. There may be several unit designators in an address (e.g., ""3rd floor, Appt. 342""). This can also be a designator pointing away from the location, rather than specifying a smaller location within some larger one (e.g., Dutch ""t.o."" means ""opposite to"" for house boats located across the street facing houses).","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","ADXP[partType=ADL]"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","Adresse.complementPointGeographique","ADXP[partType=ADL]"
 "Address.line.extension:houseNumber","Address.line.extension","houseNumber","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber]]} {[]}
 ","numeroVoie(Adresse)","The number of a building, house or lot alongside the street. Also known as ""primary street number"". This does not number the street but rather the building.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","ADXP[partType=BNR]"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","Adresse.numeroVoie","ADXP[partType=BNR]"
 "Address.line.extension:buildingNumberSuffix","Address.line.extension","buildingNumberSuffix","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-buildingNumberSuffix]]} {[]}
 ","(Adresse)","Any alphabetic character, fraction or other text that may appear after the numeric portion of a building number.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","ADXP[partType=BNS]"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","Adresse.extension","ADXP[partType=BNS]"
 "Address.line.extension:streetNameType","Address.line.extension","streetNameType","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType]]} {[]}
 ","typeVoie (Adresse)","The designation given to the street. (e.g. Street, Avenue, Crescent, etc.).","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","ADXP[partType=STTYP]"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","Adresse.typeVoie","ADXP[partType=STTYP]"
 "Address.line.extension:streetNameType.id","Address.line.extension.id","","","",0,1,"","","","id {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
 ","","n/a"
@@ -64,17 +64,17 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","ADXP[partType=POB]"
 "Address.line.extension:streetNameBase","Address.line.extension","streetNameBase","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase]]} {[]}
 ","libelleVoie (Adresse)","The base name of a roadway or artery recognized by a municipality (excluding street type and direction).","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","ADXP[partType=STB]"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","Adresse.libelleVoie","ADXP[partType=STB]"
 "Address.line.extension:lieuDit","Address.line.extension","lieuDit","","",0,1,"","","","Extension {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-lieu-dit]]} {[]}
 ","lieuDit (Adresse) : Lieu qui porte un nom rappelant une particularité topographique ou historique.","Extension créée dans le cadre de l'Annuaire Santé pour indiquer le lieu dit","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","Adresse.lieuDit"
 "Address.line.value","Address.line.value","","","",0,1,"","","","string {[]} {[]}
 ","Primitive value for string","The actual value","","","","","","","","","",1048576,,,,"",,,,"string.value",0,1,"",""
 "Address.city","Address.city","","Municpality
 ","",0,1,"","","Y","string {[]} {[]}
 ","Les communes existantes sont définies ici : https://public.opendatasoft.com/explore/dataset/correspondance-code-insee-code-postal/table.","The name of the city, town, suburb, village or other community or delivery center.","","","","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""Erewhon""/>","","",,,,,"",,,,"Address.city",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","XAD.3","AD.part[parttype = CTY]","./Jurisdiction","locality"
+","Adresse.localite","XAD.3","AD.part[parttype = CTY]","./Jurisdiction","locality"
 "Address.district","Address.district","","County
 ","",0,1,"Y","","Y","string {[]} {[]}
 ","District name (aka county)","The name of the administrative area (county).","District is sometimes known as county, but in some regions 'county' is used in place of city (municipality), so county name should be conveyed in city instead.","","","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""Madison""/>","","",,"required","","https://mos.esante.gouv.fr/NOS/JDV_J84-DepartementOM-RASS/FHIR/JDV-J84-DepartementOM-RASS","",,,,"Address.district",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -86,7 +86,7 @@ Territory","",0,1,"","","Y","string {[]} {[]}
 "Address.postalCode","Address.postalCode","","Zip
 ","",0,1,"","","Y","string {[]} {[]}
 ","Postal code for area","A postal code designating a region defined by the postal service.","","","","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""9132""/>","","",,,,,"",,,,"Address.postalCode",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","XAD.5","AD.part[parttype = ZIP]","./PostalIdentificationCode","code"
+","Adresse.codePostal","XAD.5","AD.part[parttype = ZIP]","./PostalIdentificationCode","code"
 "Address.country","Address.country","","","",0,1,"Y","","Y","string {[]} {[]}
 ","Country (will be ISO 3166 3 letter code; code=FRA for France)","Country - a nation as commonly understood or generally accepted.","ISO 3166 3 letter codes can be used in place of a human readable country name.","","","","","","","","",,"required","","https://mos.esante.gouv.fr/NOS/JDV_J74-Pays-RASS/FHIR/JDV-J74-Pays-RASS","",,,,"Address.country",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","XAD.6","AD.part[parttype = CNT]","./Country","country"

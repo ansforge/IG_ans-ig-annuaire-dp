@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AsDpPractitionerProfile"] ; # 
   fhir:title [ fhir:v "AS Donnée Publique Practitioner Profile"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-01-02T10:57:32+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-01-02T15:56:45+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -8248,8 +8248,8 @@
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
-         fhir:identity [ fhir:v "as-practitioner-role-to-mos-exercice-professionnel" ] ;
-         fhir:map [ fhir:v "ExerciceProfessionnel.boiteLettresMSS.typeBAL" ]
+         fhir:identity [ fhir:v "as-mailbox-mss-to-mos-exercice-professionnel" ] ;
+         fhir:map [ fhir:v "boiteLettresMSS.typeBAL" ]
        ] )
      ] [
        fhir:id [ fhir:v "Practitioner.telecom:mailbox-mss.extension:emailType.id" ] ;
@@ -8734,8 +8734,8 @@
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
-         fhir:identity [ fhir:v "as-practitioner-role-to-mos-exercice-professionnel" ] ;
-         fhir:map [ fhir:v "ExerciceProfessionnel.boiteLettresMSS.description" ]
+         fhir:identity [ fhir:v "as-mailbox-mss-to-mos-exercice-professionnel" ] ;
+         fhir:map [ fhir:v "boiteLettresMSS.description" ]
        ] )
      ] [
        fhir:id [ fhir:v "Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:description.id" ] ;
@@ -9080,8 +9080,8 @@
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
-         fhir:identity [ fhir:v "as-practitioner-role-to-mos-exercice-professionnel" ] ;
-         fhir:map [ fhir:v "ExerciceProfessionnel.BoiteLettreMSS.serviceRattachement" ]
+         fhir:identity [ fhir:v "as-mailbox-mss-to-mos-exercice-professionnel" ] ;
+         fhir:map [ fhir:v "BoiteLettreMSS.serviceRattachement" ]
        ] )
      ] [
        fhir:id [ fhir:v "Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:service.id" ] ;
@@ -9426,8 +9426,8 @@
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
-         fhir:identity [ fhir:v "as-practitioner-role-to-mos-exercice-professionnel" ] ;
-         fhir:map [ fhir:v "ExerciceProfessionnel.BoiteLettreMSS.dematerialisation" ]
+         fhir:identity [ fhir:v "as-mailbox-mss-to-mos-exercice-professionnel" ] ;
+         fhir:map [ fhir:v "BoiteLettreMSS.dematerialisation" ]
        ] )
      ] [
        fhir:id [ fhir:v "Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:digitization.id" ] ;
@@ -9601,8 +9601,8 @@
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
-         fhir:identity [ fhir:v "as-practitioner-role-to-mos-exercice-professionnel" ] ;
-         fhir:map [ fhir:v "ExerciceProfessionnel.BoiteLettreMSS.listeRouge" ]
+         fhir:identity [ fhir:v "as-mailbox-mss-to-mos-exercice-professionnel" ] ;
+         fhir:map [ fhir:v "BoiteLettreMSS.listeRouge" ]
        ] )
      ] [
        fhir:id [ fhir:v "Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:listeRouge.id" ] ;
@@ -9978,8 +9978,8 @@
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
-         fhir:identity [ fhir:v "as-practitioner-role-to-mos-exercice-professionnel" ] ;
-         fhir:map [ fhir:v "ExerciceProfessionnel.boiteLettresMSS.adresseMSS" ]
+         fhir:identity [ fhir:v "as-mailbox-mss-to-mos-exercice-professionnel" ] ;
+         fhir:map [ fhir:v "boiteLettresMSS.adresseMSS" ]
        ] [
          fhir:identity [ fhir:v "v2" ] ;
          fhir:map [ fhir:v "XTN.1 (or XTN.12)" ]

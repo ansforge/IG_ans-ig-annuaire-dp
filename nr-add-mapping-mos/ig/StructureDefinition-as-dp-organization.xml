@@ -61,7 +61,7 @@ Il s’agit généralement de structures enregistrées temporairement par les or
   <name value="AsDpOrganizationProfile"/>
   <title value="AS Donnée Publique Organization Profile"/>
   <status value="active"/>
-  <date value="2025-01-02T10:57:32+00:00"/>
+  <date value="2025-01-02T15:56:45+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -1387,6 +1387,10 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
+      <mapping>
+        <identity value="as-organization-to-mos-eg"/>
+        <map value="EntiteGeographique.dateAutorisation"/>
+      </mapping>
     </element>
     <element id="Organization.modifierExtension">
       <path value="Organization.modifierExtension"/>
@@ -2596,6 +2600,10 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       <isModifier value="false"/>
       <isSummary value="true"/>
       <mapping>
+        <identity value="as-organization-to-mos-eg"/>
+        <map value="EntiteGeographique.numSiret"/>
+      </mapping>
+      <mapping>
         <identity value="w5"/>
         <map value="FiveWs.identifier"/>
       </mapping>
@@ -3765,6 +3773,14 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       <isModifier value="false"/>
       <isSummary value="true"/>
       <mapping>
+        <identity value="as-organization-to-mos-ej"/>
+        <map value="EntiteGeographique.identifiantEJ"/>
+      </mapping>
+      <mapping>
+        <identity value="as-organization-to-mos-eg"/>
+        <map value="EntiteGeographique.identifiantEG"/>
+      </mapping>
+      <mapping>
         <identity value="w5"/>
         <map value="FiveWs.identifier"/>
       </mapping>
@@ -4136,6 +4152,14 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       </constraint>
       <isModifier value="false"/>
       <isSummary value="true"/>
+      <mapping>
+        <identity value="as-organization-to-mos-ej"/>
+        <map value="EntiteGeographique.identifiantEJ"/>
+      </mapping>
+      <mapping>
+        <identity value="as-organization-to-mos-eg"/>
+        <map value="EntiteGeographique.identifiantEG"/>
+      </mapping>
       <mapping>
         <identity value="w5"/>
         <map value="FiveWs.identifier"/>
@@ -4885,6 +4909,10 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       <isSummary value="true"/>
       <mapping>
         <identity value="as-organization-to-mos-eg"/>
+        <map value="EntiteGeographique.actof"/>
+      </mapping>
+      <mapping>
+        <identity value="as-organization-to-mos-eg"/>
         <map value="EntiteGeographique.actif"/>
       </mapping>
       <mapping>
@@ -5620,6 +5648,10 @@ Il s’agit généralement de structures enregistrées temporairement par les or
         <valueSet value="https://mos.esante.gouv.fr/NOS/JDV_J101-SecteurActivite-RASS/FHIR/JDV-J101-SecteurActivite-RASS"/>
       </binding>
       <mapping>
+        <identity value="as-organization-to-mos-eg"/>
+        <map value="EntiteGeographique.secteurActivite"/>
+      </mapping>
+      <mapping>
         <identity value="w5"/>
         <map value="FiveWs.class"/>
       </mapping>
@@ -6244,6 +6276,10 @@ Il s’agit généralement de structures enregistrées temporairement par les or
         <strength value="required"/>
         <valueSet value="https://mos.esante.gouv.fr/NOS/JDV_J129-CategorieEtablissement-RASS/FHIR/JDV-J129-CategorieEtablissement-RASS"/>
       </binding>
+      <mapping>
+        <identity value="as-organization-to-mos-eg"/>
+        <map value="EntiteGeographique.categorieEtablissement"/>
+      </mapping>
       <mapping>
         <identity value="w5"/>
         <map value="FiveWs.class"/>
@@ -7084,6 +7120,10 @@ Il s’agit généralement de structures enregistrées temporairement par les or
         <map value="EntiteJuridique.statutJuridique"/>
       </mapping>
       <mapping>
+        <identity value="as-organization-to-mos-eg"/>
+        <map value="EntiteGeographique.statutJuridique"/>
+      </mapping>
+      <mapping>
         <identity value="w5"/>
         <map value="FiveWs.class"/>
       </mapping>
@@ -7442,7 +7482,7 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       </binding>
       <mapping>
         <identity value="as-organization-to-mos-eg"/>
-        <map value="EntiteGeographique.codeAPET"/>
+        <map value="EntiteGeographique.modaliteParticipationSPH"/>
       </mapping>
       <mapping>
         <identity value="w5"/>
@@ -7801,6 +7841,10 @@ Il s’agit généralement de structures enregistrées temporairement par les or
         <strength value="required"/>
         <valueSet value="https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-type-etablissement"/>
       </binding>
+      <mapping>
+        <identity value="as-organization-to-mos-eg"/>
+        <map value="EntiteGeographique.typeEtablissement"/>
+      </mapping>
       <mapping>
         <identity value="w5"/>
         <map value="FiveWs.class"/>
@@ -8658,7 +8702,7 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       </mapping>
       <mapping>
         <identity value="as-organization-to-mos-eg"/>
-        <map value="EntiteGeographique.boiteLettreMSS"/>
+        <map value="EntiteJuridique.boiteLettreMSS"/>
       </mapping>
       <mapping>
         <identity value="rim"/>
@@ -8777,6 +8821,10 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       </constraint>
       <isModifier value="false"/>
       <isSummary value="false"/>
+      <mapping>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="boiteLettresMSS.typeBAL"/>
+      </mapping>
     </element>
     <element id="Organization.telecom:mailbox-mss.extension:emailType.id">
       <path value="Organization.telecom.extension.id"/>
@@ -9179,7 +9227,7 @@ Il s’agit généralement de structures enregistrées temporairement par les or
     <element id="Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:description">
       <path value="Organization.telecom.extension.extension"/>
       <sliceName value="description"/>
-      <short value="description : Description fonctionnelle de la boîte aux lettres."/>
+      <short value="Extension"/>
       <definition value="An Extension"/>
       <min value="0"/>
       <max value="1"/>
@@ -9209,6 +9257,10 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       </constraint>
       <isModifier value="false"/>
       <isSummary value="false"/>
+      <mapping>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="boiteLettresMSS.description"/>
+      </mapping>
     </element>
     <element id="Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:description.id">
       <path value="Organization.telecom.extension.extension.id"/>
@@ -9491,7 +9543,7 @@ Il s’agit généralement de structures enregistrées temporairement par les or
     <element id="Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:service">
       <path value="Organization.telecom.extension.extension"/>
       <sliceName value="service"/>
-      <short value="serviceRattachement : Nom et description du service de rattachement de l’utilisateur de la boîte aux lettres dans l’organisation."/>
+      <short value="Extension"/>
       <definition value="An Extension"/>
       <min value="0"/>
       <max value="1"/>
@@ -9521,6 +9573,10 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       </constraint>
       <isModifier value="false"/>
       <isSummary value="false"/>
+      <mapping>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="BoiteLettreMSS.serviceRattachement"/>
+      </mapping>
     </element>
     <element id="Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:service.id">
       <path value="Organization.telecom.extension.extension.id"/>
@@ -9803,7 +9859,7 @@ Il s’agit généralement de structures enregistrées temporairement par les or
     <element id="Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:digitization">
       <path value="Organization.telecom.extension.extension"/>
       <sliceName value="digitization"/>
-      <short value="dematerialisation : Indicateur d’acceptation de la dématérialisation (ou « Zéro papier »). - &quot;true&quot; : Dématérialisation acceptée &#xD;&#xA;- &quot;false&quot; : Dématérialisation refusée."/>
+      <short value="Extension"/>
       <definition value="An Extension"/>
       <min value="0"/>
       <max value="1"/>
@@ -9833,6 +9889,10 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       </constraint>
       <isModifier value="false"/>
       <isSummary value="false"/>
+      <mapping>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="BoiteLettreMSS.dematerialisation"/>
+      </mapping>
     </element>
     <element id="Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:digitization.id">
       <path value="Organization.telecom.extension.extension.id"/>
@@ -9959,7 +10019,7 @@ Il s’agit généralement de structures enregistrées temporairement par les or
     <element id="Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:listeRouge">
       <path value="Organization.telecom.extension.extension"/>
       <sliceName value="listeRouge"/>
-      <short value="listeRouge : Indicateur liste rouge. &quot;true&quot;: Boîte aux lettres en liste rouge;&#xD;&#xA;&quot;false&quot;: La boîte aux lettres peut être publiée"/>
+      <short value="Extension"/>
       <definition value="An Extension"/>
       <min value="0"/>
       <max value="1"/>
@@ -9989,6 +10049,10 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       </constraint>
       <isModifier value="false"/>
       <isSummary value="false"/>
+      <mapping>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="BoiteLettreMSS.listeRouge"/>
+      </mapping>
     </element>
     <element id="Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:listeRouge.id">
       <path value="Organization.telecom.extension.extension.id"/>
@@ -10390,6 +10454,10 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       <isModifier value="false"/>
       <isSummary value="true"/>
       <mapping>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="boiteLettresMSS.adresseMSS"/>
+      </mapping>
+      <mapping>
         <identity value="v2"/>
         <map value="XTN.1 (or XTN.12)"/>
       </mapping>
@@ -10612,6 +10680,10 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       </constraint>
       <isModifier value="false"/>
       <isSummary value="true"/>
+      <mapping>
+        <identity value="as-organization-to-mos-eg"/>
+        <map value="EntiteGeographique.EntiteJuridique"/>
+      </mapping>
       <mapping>
         <identity value="v2"/>
         <map value="No equivalent in HL7 v2"/>

@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "fe33dd5b-f410-4884-aa96-9994115987c1-119",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/fe33dd5b-f410-4884-aa96-9994115987c1-119",
+  "id" : "52a4cf3a-4698-4090-b45d-0160e69f6e07-119",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/52a4cf3a-4698-4090-b45d-0160e69f6e07-119",
   "name" : "UnionVS_TRE_R74_ModeFixationTarifaireAndJDV_J259-ModeFixationTarifaire-RASS",
   "title" : "Union of ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire And null",
   "status" : "active",
-  "date" : "2025-01-02T10:57:59+00:00",
+  "date" : "2025-01-02T15:57:10+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

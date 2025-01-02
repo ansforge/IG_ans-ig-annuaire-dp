@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "fe33dd5b-f410-4884-aa96-9994115987c1-54",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fe33dd5b-f410-4884-aa96-9994115987c1-54",
+  "id" : "52a4cf3a-4698-4090-b45d-0160e69f6e07-54",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/52a4cf3a-4698-4090-b45d-0160e69f6e07-54",
   "name" : "IntersectionAsOrganizationProfileAndAsOrganizationProfile",
   "title" : "Intersection of AS Organization Profile And AS Organization Profile",
   "status" : "active",
-  "date" : "2025-01-02T10:57:59+00:00",
+  "date" : "2025-01-02T15:57:09+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -674,6 +674,10 @@
       {
         "identity" : "servd",
         "map" : "./Status (however this concept in ServD more covers why the organization is active or not, could be delisted, deregistered, not operational yet) this could alternatively be derived from ./StartDate and ./EndDate and given a context date."
+      },
+      {
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.actof"
       }]
     },
     {
@@ -1244,6 +1248,10 @@
       {
         "identity" : "servd",
         "map" : "n/a"
+      },
+      {
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.EntiteJuridique"
       }]
     },
     {

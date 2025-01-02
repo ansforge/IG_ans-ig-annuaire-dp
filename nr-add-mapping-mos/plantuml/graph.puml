@@ -10,6 +10,7 @@ package IG #DDDDDD{
         class AsAddressExtendedProfile{
 
              Address => [None..None]
+             Address.extension:inseeCode => <&plus>[None..None]
              Address.line.extension => [None..None]
              Address.line.extension:careOf => <&plus>[0..1]
              Address.line.extension:additionalLocator => <&plus>[0..1]
@@ -20,7 +21,9 @@ package IG #DDDDDD{
              Address.line.extension:postBox => <&plus>[0..1]
              Address.line.extension:streetNameBase => <&plus>[0..1]
              Address.line.extension:lieuDit => <&plus>[0..1]
+             Address.city => [None..None]
              Address.district => [None..None]
+             Address.postalCode => [None..None]
              Address.country => [None..None]
         } 
 
@@ -437,10 +440,15 @@ package IG #DDDDDD{
 
         class AsMailboxMSSProfile{
 
+             ContactPoint => [None..None]
              ContactPoint.extension => [1..None]
              ContactPoint.extension:emailType => <&plus>[1..None]
              ContactPoint.extension:emailType.value[x] => <&plus>[None..None]
              ContactPoint.extension:as-mailbox-mss-metadata => <&plus>[0..1]
+             ContactPoint.extension:as-mailbox-mss-metadata.extension:description => <&plus>[None..None]
+             ContactPoint.extension:as-mailbox-mss-metadata.extension:service => <&plus>[None..None]
+             ContactPoint.extension:as-mailbox-mss-metadata.extension:digitization => <&plus>[None..None]
+             ContactPoint.extension:as-mailbox-mss-metadata.extension:listeRouge => <&plus>[None..None]
              ContactPoint.system => [None..None]
              ContactPoint.value => [None..None]
         } 
@@ -460,7 +468,10 @@ package IG #DDDDDD{
              Organization.extension:as-ext-organization-authorization-deadline => <&plus>[0..1]
              Organization.identifier:idNatSt => [None..None]
              Organization.identifier:siren => [None..None]
+             Organization.identifier:siret => [None..None]
              Organization.identifier:finess => [None..None]
+             Organization.identifier:adeliRang => [None..None]
+             Organization.identifier:rppsRang => [None..None]
              Organization.active => [None..None]
              Organization.type => [None..None]
              Organization.type:organizationType => [None..None]
@@ -471,6 +482,7 @@ package IG #DDDDDD{
              Organization.type:secteurActiviteRASS.extension => [1..None]
              Organization.type:secteurActiviteRASS.extension:as-ext-organization-types => <&plus>[1..1]
              Organization.type:secteurActiviteRASS.extension:as-ext-organization-types.value[x] => <&plus>[None..None]
+             Organization.type:categorieEtablissementRASS => [None..None]
              Organization.type:activiteINSEE => [0..1]
              Organization.type:activiteINSEE.extension => [1..None]
              Organization.type:activiteINSEE.extension:as-ext-organization-types => <&plus>[1..1]
@@ -560,13 +572,6 @@ package IG #DDDDDD{
              Practitioner.telecom.system => [None..None]
              Practitioner.telecom.use => [None..None]
              Practitioner.telecom:mailbox-mss => [0..*]
-             Practitioner.telecom:mailbox-mss.extension:emailType => <&plus>[None..None]
-             Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata => <&plus>[None..None]
-             Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:description => <&plus>[None..None]
-             Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:service => <&plus>[None..None]
-             Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:digitization => <&plus>[None..None]
-             Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:listeRouge => <&plus>[None..None]
-             Practitioner.telecom:mailbox-mss.value => [None..None]
              Practitioner.address => [None..None]
              Practitioner.qualification => [None..None]
              Practitioner.qualification.identifier => [None..None]
@@ -627,6 +632,9 @@ package IG #DDDDDD{
              PractitionerRole.location => [None..None]
              PractitionerRole.healthcareService => [None..None]
              PractitionerRole.telecom => [None..None]
+             PractitionerRole.telecom.system => [None..None]
+             PractitionerRole.telecom.value => [None..None]
+             PractitionerRole.telecom.use => [None..None]
              PractitionerRole.telecom:mailbox-mss => [0..*]
              PractitionerRole.availableTime => [None..None]
              PractitionerRole.notAvailable => [None..None]

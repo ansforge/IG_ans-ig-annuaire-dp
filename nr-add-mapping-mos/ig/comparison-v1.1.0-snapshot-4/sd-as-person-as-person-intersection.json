@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "fe33dd5b-f410-4884-aa96-9994115987c1-171",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fe33dd5b-f410-4884-aa96-9994115987c1-171",
+  "id" : "52a4cf3a-4698-4090-b45d-0160e69f6e07-171",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/52a4cf3a-4698-4090-b45d-0160e69f6e07-171",
   "name" : "IntersectionAsPersonProfileAndAsPersonProfile",
   "title" : "Intersection of AS Person Profile And AS Person Profile",
   "status" : "active",
-  "date" : "2025-01-02T10:57:59+00:00",
+  "date" : "2025-01-02T15:57:10+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -66,7 +66,7 @@ true  par défaut; false pour  indiquer que la ressource a été supprimés</spa
   <name value="AsDpPractitionerProfile"/>
   <title value="AS Donnée Publique Practitioner Profile"/>
   <status value="active"/>
-  <date value="2025-01-02T10:57:32+00:00"/>
+  <date value="2025-01-02T15:56:45+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -7883,8 +7883,8 @@ true  par défaut; false pour  indiquer que la ressource a été supprimés</spa
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
-        <identity value="as-practitioner-role-to-mos-exercice-professionnel"/>
-        <map value="ExerciceProfessionnel.boiteLettresMSS.typeBAL"/>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="boiteLettresMSS.typeBAL"/>
       </mapping>
     </element>
     <element id="Practitioner.telecom:mailbox-mss.extension:emailType.id">
@@ -8319,8 +8319,8 @@ true  par défaut; false pour  indiquer que la ressource a été supprimés</spa
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
-        <identity value="as-practitioner-role-to-mos-exercice-professionnel"/>
-        <map value="ExerciceProfessionnel.boiteLettresMSS.description"/>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="boiteLettresMSS.description"/>
       </mapping>
     </element>
     <element id="Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:description.id">
@@ -8635,8 +8635,8 @@ true  par défaut; false pour  indiquer que la ressource a été supprimés</spa
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
-        <identity value="as-practitioner-role-to-mos-exercice-professionnel"/>
-        <map value="ExerciceProfessionnel.BoiteLettreMSS.serviceRattachement"/>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="BoiteLettreMSS.serviceRattachement"/>
       </mapping>
     </element>
     <element id="Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:service.id">
@@ -8951,8 +8951,8 @@ true  par défaut; false pour  indiquer que la ressource a été supprimés</spa
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
-        <identity value="as-practitioner-role-to-mos-exercice-professionnel"/>
-        <map value="ExerciceProfessionnel.BoiteLettreMSS.dematerialisation"/>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="BoiteLettreMSS.dematerialisation"/>
       </mapping>
     </element>
     <element id="Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:digitization.id">
@@ -9111,8 +9111,8 @@ true  par défaut; false pour  indiquer que la ressource a été supprimés</spa
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
-        <identity value="as-practitioner-role-to-mos-exercice-professionnel"/>
-        <map value="ExerciceProfessionnel.BoiteLettreMSS.listeRouge"/>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="BoiteLettreMSS.listeRouge"/>
       </mapping>
     </element>
     <element id="Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:listeRouge.id">
@@ -9515,8 +9515,8 @@ true  par défaut; false pour  indiquer que la ressource a été supprimés</spa
       <isModifier value="false"/>
       <isSummary value="true"/>
       <mapping>
-        <identity value="as-practitioner-role-to-mos-exercice-professionnel"/>
-        <map value="ExerciceProfessionnel.boiteLettresMSS.adresseMSS"/>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="boiteLettresMSS.adresseMSS"/>
       </mapping>
       <mapping>
         <identity value="v2"/>

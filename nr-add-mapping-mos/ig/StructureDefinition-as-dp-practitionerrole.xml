@@ -41,7 +41,7 @@ true par défaut; false pour les situations d’exercices supprimées</span></td
   <name value="AsDpPractitionerRoleProfile"/>
   <title value="AS Donnée Publique PractitionerRole Profile"/>
   <status value="active"/>
-  <date value="2025-01-02T10:57:32+00:00"/>
+  <date value="2025-01-02T15:56:45+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -2731,6 +2731,10 @@ true par défaut; false pour les situations d’exercices supprimées</span></td
       </constraint>
       <isModifier value="false"/>
       <isSummary value="false"/>
+      <mapping>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="boiteLettresMSS.typeBAL"/>
+      </mapping>
     </element>
     <element id="PractitionerRole.telecom:mailbox-mss.extension:emailType.id">
       <path value="PractitionerRole.telecom.extension.id"/>
@@ -3133,7 +3137,7 @@ true par défaut; false pour les situations d’exercices supprimées</span></td
     <element id="PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:description">
       <path value="PractitionerRole.telecom.extension.extension"/>
       <sliceName value="description"/>
-      <short value="description : Description fonctionnelle de la boîte aux lettres."/>
+      <short value="Extension"/>
       <definition value="An Extension"/>
       <min value="0"/>
       <max value="1"/>
@@ -3163,6 +3167,10 @@ true par défaut; false pour les situations d’exercices supprimées</span></td
       </constraint>
       <isModifier value="false"/>
       <isSummary value="false"/>
+      <mapping>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="boiteLettresMSS.description"/>
+      </mapping>
     </element>
     <element id="PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:description.id">
       <path value="PractitionerRole.telecom.extension.extension.id"/>
@@ -3445,7 +3453,7 @@ true par défaut; false pour les situations d’exercices supprimées</span></td
     <element id="PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:service">
       <path value="PractitionerRole.telecom.extension.extension"/>
       <sliceName value="service"/>
-      <short value="serviceRattachement : Nom et description du service de rattachement de l’utilisateur de la boîte aux lettres dans l’organisation."/>
+      <short value="Extension"/>
       <definition value="An Extension"/>
       <min value="0"/>
       <max value="1"/>
@@ -3475,6 +3483,10 @@ true par défaut; false pour les situations d’exercices supprimées</span></td
       </constraint>
       <isModifier value="false"/>
       <isSummary value="false"/>
+      <mapping>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="BoiteLettreMSS.serviceRattachement"/>
+      </mapping>
     </element>
     <element id="PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:service.id">
       <path value="PractitionerRole.telecom.extension.extension.id"/>
@@ -3757,7 +3769,7 @@ true par défaut; false pour les situations d’exercices supprimées</span></td
     <element id="PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:digitization">
       <path value="PractitionerRole.telecom.extension.extension"/>
       <sliceName value="digitization"/>
-      <short value="dematerialisation : Indicateur d’acceptation de la dématérialisation (ou « Zéro papier »). - &quot;true&quot; : Dématérialisation acceptée &#xD;&#xA;- &quot;false&quot; : Dématérialisation refusée."/>
+      <short value="Extension"/>
       <definition value="An Extension"/>
       <min value="0"/>
       <max value="1"/>
@@ -3787,6 +3799,10 @@ true par défaut; false pour les situations d’exercices supprimées</span></td
       </constraint>
       <isModifier value="false"/>
       <isSummary value="false"/>
+      <mapping>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="BoiteLettreMSS.dematerialisation"/>
+      </mapping>
     </element>
     <element id="PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:digitization.id">
       <path value="PractitionerRole.telecom.extension.extension.id"/>
@@ -3913,7 +3929,7 @@ true par défaut; false pour les situations d’exercices supprimées</span></td
     <element id="PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:listeRouge">
       <path value="PractitionerRole.telecom.extension.extension"/>
       <sliceName value="listeRouge"/>
-      <short value="listeRouge : Indicateur liste rouge. &quot;true&quot;: Boîte aux lettres en liste rouge;&#xD;&#xA;&quot;false&quot;: La boîte aux lettres peut être publiée"/>
+      <short value="Extension"/>
       <definition value="An Extension"/>
       <min value="0"/>
       <max value="1"/>
@@ -3943,6 +3959,10 @@ true par défaut; false pour les situations d’exercices supprimées</span></td
       </constraint>
       <isModifier value="false"/>
       <isSummary value="false"/>
+      <mapping>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="BoiteLettreMSS.listeRouge"/>
+      </mapping>
     </element>
     <element id="PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:listeRouge.id">
       <path value="PractitionerRole.telecom.extension.extension.id"/>
@@ -4343,6 +4363,10 @@ true par défaut; false pour les situations d’exercices supprimées</span></td
       <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
+      <mapping>
+        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
+        <map value="boiteLettresMSS.adresseMSS"/>
+      </mapping>
       <mapping>
         <identity value="v2"/>
         <map value="XTN.1 (or XTN.12)"/>

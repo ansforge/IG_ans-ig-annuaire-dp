@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "fe33dd5b-f410-4884-aa96-9994115987c1-11",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/fe33dd5b-f410-4884-aa96-9994115987c1-11",
+  "id" : "52a4cf3a-4698-4090-b45d-0160e69f6e07-11",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/52a4cf3a-4698-4090-b45d-0160e69f6e07-11",
   "name" : "UnionAsCsTypeSystemeInformationAndAsCsTypeSystemeInformation",
   "title" : "Union of AS CodeSystem type de système d'information And AS CodeSystem type de système d'information",
   "status" : "active",
-  "date" : "2025-01-02T10:57:59+00:00",
+  "date" : "2025-01-02T15:57:09+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
