@@ -1,0 +1,26 @@
+{
+  "id": "865cef6382f78f4e7766d443b341e534a0a24405f4cb30f68ccdd58677087244",
+  "url": "https://github.com/fhir-crucible/testscript-generator/865cef6382f78f4e7766d443b341e534a0a24405f4cb30f68ccdd58677087244",
+  "version": "0.0",
+  "name": "PackageAsDpPractitionerProfileMustSupportElementPractitionerNameGiven",
+  "title": "IG: package; Profile: AsDpPractitionerProfile; Case: Must Support Element; Element: Practitioner.name.given",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-01-02T11:01:05+00:00",
+  "publisher": "The MITRE Corporation",
+  "test": [
+    {
+      "name": "Generation Feature Not Implemented",
+      "action": [
+        {
+          "assert": {
+            "label": "Fail - not implemented in generator: no placeholder for key ancestor-checks",
+            "expression": "1!=1",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "68f0bdf7b2b38d5bf5f21967c427866c457677d45cf6513d263a71f26eaf942c",
+  "url": "https://github.com/fhir-crucible/testscript-generator/68f0bdf7b2b38d5bf5f21967c427866c457677d45cf6513d263a71f26eaf942c",
+  "version": "0.0",
+  "name": "PackageAsOrganizationProfileMustSupportElementOrganizationIdentifierIdNatSt",
+  "title": "IG: package; Profile: AsOrganizationProfile; Case: Must Support Element; Element: Organization.identifier:idNatSt",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-01-02T11:01:05+00:00",
+  "publisher": "The MITRE Corporation",
+  "test": [
+    {
+      "name": "Generation Feature Not Implemented",
+      "action": [
+        {
+          "assert": {
+            "label": "Fail - not implemented in generator: multiple discriminators",
+            "expression": "1!=1",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

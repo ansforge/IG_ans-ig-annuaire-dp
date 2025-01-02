@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "fe33dd5b-f410-4884-aa96-9994115987c1-182",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/fe33dd5b-f410-4884-aa96-9994115987c1-182",
+  "name" : "UnionAsVsTypeEtablissementAndAsVsTypeEtablissement",
+  "title" : "Union of AS ValueSet type Etablissement And AS ValueSet type Etablissement",
+  "status" : "active",
+  "date" : "2025-01-02T10:57:59+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }]
+}

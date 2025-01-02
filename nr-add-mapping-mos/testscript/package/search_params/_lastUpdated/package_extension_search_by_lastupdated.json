@@ -1,0 +1,80 @@
+{
+  "id": "Package-Extension-Search_by-Lastupdated",
+  "url": "https://github.com/fhir-crucible/testscript-generator",
+  "version": "0.0",
+  "name": "Package_Extension_Search_by_Lastupdated",
+  "title": "package extension search_by lastupdated",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-01-02T11:01:05+00:00",
+  "publisher": "The MITRE Corporation",
+  "fixture": [
+    {
+      "id": "example_extension",
+      "autocreate": false,
+      "autodelete": false,
+      "resource": {
+        "reference": "fixtures/example_extension.json"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "name": "Q7AcUHARu8rSN7Bx",
+      "expression": "Extension.meta.lastUpdated",
+      "sourceId": "QTWS4tdUeE9V7RJ6"
+    }
+  ],
+  "setup": {
+    "action": [
+      {
+        "operation": {
+          "type": {
+            "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+            "code": "create"
+          },
+          "label": "Operation_1",
+          "encodeRequestUrl": false,
+          "responseId": "QTWS4tdUeE9V7RJ6",
+          "sourceId": "example_extension"
+        }
+      }
+    ]
+  },
+  "test": [
+    {
+      "name": "Test_1",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "search"
+            },
+            "resource": "Extension",
+            "label": "Operation_2",
+            "encodeRequestUrl": false,
+            "params": "?_lastUpdated=${Q7AcUHARu8rSN7Bx}"
+          }
+        }
+      ]
+    }
+  ],
+  "teardown": {
+    "action": [
+      {
+        "operation": {
+          "type": {
+            "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+            "code": "delete"
+          },
+          "resource": "Extension",
+          "label": "Operation_3",
+          "encodeRequestUrl": false,
+          "params": "/${Q7AcUHARu8rSN7Bx}"
+        }
+      }
+    ]
+  },
+  "resourceType": "TestScript"
+}

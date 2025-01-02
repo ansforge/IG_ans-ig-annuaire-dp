@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "fe33dd5b-f410-4884-aa96-9994115987c1-120",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/fe33dd5b-f410-4884-aa96-9994115987c1-120",
+  "name" : "IntersectionVS_TRE_R74_ModeFixationTarifaireAndJDV_J259-ModeFixationTarifaire-RASS",
+  "title" : "Intersection of ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire And null",
+  "status" : "active",
+  "date" : "2025-01-02T10:57:59+00:00"
+}

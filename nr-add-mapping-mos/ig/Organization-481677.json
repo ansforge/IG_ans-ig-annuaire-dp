@@ -1,0 +1,100 @@
+{
+  "resourceType" : "Organization",
+  "id" : "481677",
+  "meta" : {
+    "versionId" : "0.1",
+    "lastUpdated" : "2019-09-02T01:00:00.000+01:00",
+    "source" : "https://annuaire.sante.fr",
+    "profile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization",
+    "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-organization"]
+  },
+  "language" : "fr",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr\" lang=\"fr\"><p class=\"res-header-id\"><b>Generated Narrative: Organization 481677</b></p><a name=\"481677\"> </a><a name=\"hc481677\"> </a><a name=\"481677-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0.1; Last updated: 2019-09-02 01:00:00+0100; Language: fr; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://annuaire.sante.fr\">https://annuaire.sante.fr</a></p><p style=\"margin-bottom: 0px\">Profiles: <a href=\"https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-organization.html\">FR Core Organization Profile</a>, <a href=\"StructureDefinition-as-dr-organization.html\">AS Donnée Restreinte Organization Profile</a></p></div><p><b>Organization Period</b>: 2019-09-02 --&gt; (ongoing)</p><p><b>identifier</b>: Identification nationale de structure définie par l’ANS dans le CI_SIS/1580008803\u00a0(use:\u00a0official,\u00a0), FINESS d'entité juridique/580008803\u00a0(use:\u00a0official,\u00a0), Identifiant interne/F58000880311022013\u00a0(use:\u00a0official,\u00a0)</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307 LEGAL-ENTITY}\">Entité légale</span>, <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite SA33}\">Pharmacie d'officine</span></p><p><b>name</b>: PHARMACIE NOLOT</p><p><b>telecom</b>: <a href=\"mailto:xxxx@xxxxx.mssante.fr\">xxxx@xxxxx.mssante.fr</a></p></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/organization-period",
+    "valuePeriod" : {
+      "start" : "2019-09-02"
+    }
+  }],
+  "identifier" : [{
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203",
+        "code" : "IDNST"
+      }]
+    },
+    "system" : "urn:oid:1.2.250.1.71.4.2.2",
+    "value" : "1580008803"
+  },
+  {
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203",
+        "code" : "FINEJ"
+      }]
+    },
+    "system" : "https://finess.esante.gouv.fr",
+    "value" : "580008803"
+  },
+  {
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203",
+        "code" : "INTRN"
+      }]
+    },
+    "system" : "https://rppsrang.esante.gouv.fr",
+    "value" : "F58000880311022013"
+  }],
+  "active" : true,
+  "type" : [{
+    "extension" : [{
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-types",
+      "valueCode" : "organizationType"
+    }],
+    "coding" : [{
+      "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307",
+      "code" : "LEGAL-ENTITY"
+    }]
+  },
+  {
+    "extension" : [{
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-types",
+      "valueCode" : "secteurActiviteRASS"
+    }],
+    "coding" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
+      "code" : "SA33"
+    }]
+  }],
+  "name" : "PHARMACIE NOLOT",
+  "telecom" : [{
+    "extension" : [{
+      "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R256-TypeMessagerie/FHIR/TRE-R256-TypeMessagerie",
+        "code" : "MSSANTE"
+      }
+    },
+    {
+      "extension" : [{
+        "url" : "type",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "https://mos.esante.gouv.fr/NOS/TRE_R257-TypeBAL/FHIR/TRE-R257-TypeBAL",
+            "code" : "ORG"
+          }]
+        }
+      }],
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-mailbox-mss-metadata"
+    }],
+    "system" : "email",
+    "value" : "xxxx@xxxxx.mssante.fr"
+  }]
+}

@@ -1,0 +1,48 @@
+{
+  "resourceType" : "Person",
+  "id" : "pp19dr-person",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-person"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Person pp19dr-person</b></p><a name=\"pp19dr-person\"> </a><a name=\"hcpp19dr-person\"> </a><a name=\"pp19dr-person-fr-FR\"> </a><blockquote><p><b>AS Person Nationality Extension</b></p><ul><li>code: <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays 99100}\">République française</span></li></ul></blockquote><p><b>AS Person Birth Place Extension</b>: NANTES</p><p><b>name</b>: Artus Saucier (Official)</p><h3>Links</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Target</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-334081DP.html\">Practitioner Arthur Saucier </a></td></tr></table></div>"
+  },
+  "extension" : [{
+    "extension" : [{
+      "url" : "code",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
+          "code" : "99100"
+        }]
+      }
+    }],
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-person-nationality"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-person-birth-place",
+    "valueAddress" : {
+      "extension" : [{
+        "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code",
+        "valueCoding" : {
+          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune",
+          "code" : "44109"
+        }
+      }],
+      "text" : "NANTES",
+      "country" : "99100"
+    }
+  }],
+  "name" : [{
+    "use" : "official",
+    "family" : "Saucier",
+    "given" : ["Artus"],
+    "prefix" : ["M"]
+  }],
+  "link" : [{
+    "target" : {
+      "reference" : "Practitioner/334081DP"
+    }
+  }]
+}

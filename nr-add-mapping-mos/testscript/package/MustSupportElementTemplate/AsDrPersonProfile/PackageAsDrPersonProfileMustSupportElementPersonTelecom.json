@@ -1,0 +1,70 @@
+{
+  "id": "597c8ee9aae8fefe3344df3fc3714c839d235b9c83a50346a6cd03bbf5eeb647",
+  "url": "https://github.com/fhir-crucible/testscript-generator/597c8ee9aae8fefe3344df3fc3714c839d235b9c83a50346a6cd03bbf5eeb647",
+  "version": "0.0",
+  "name": "PackageAsDrPersonProfileMustSupportElementPersonTelecom",
+  "title": "IG: package; Profile: AsDrPersonProfile; Case: Must Support Element; Element: Person.telecom",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-01-02T11:01:05+00:00",
+  "publisher": "The MITRE Corporation",
+  "profile": [
+    {
+      "id": "targetProfileAsDrPersonProfile",
+      "reference": "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dr-person"
+    }
+  ],
+  "variable": [
+    {
+      "name": "targetResourceIdAsDrPersonProfile",
+      "defaultValue": "example",
+      "description": "Enter a known instance id on the destination system. Will be checked for conformance against profile AsDrPersonProfile.",
+      "hint": "[resource.id]"
+    }
+  ],
+  "test": [
+    {
+      "name": "Validate the identified resource conforms to the AsDrPersonProfile profile",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "read"
+            },
+            "resource": "Person",
+            "label": "Read_Person_Instance",
+            "description": "Read Person Instance",
+            "encodeRequestUrl": false,
+            "params": "/${targetResourceIdAsDrPersonProfile}",
+            "responseId": "targetInstance"
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Response_OK",
+            "response": "okay",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Person_Returned",
+            "description": "Assert Person Returned",
+            "resource": "Person",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Instance_Conforms_to_AsDrPersonProfile_Profile",
+            "description": "Assert returned instance conforms to the AsDrPersonProfile Profile",
+            "validateProfileId": "targetProfileAsDrPersonProfile",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}
