@@ -61,7 +61,7 @@ Il s’agit généralement de structures enregistrées temporairement par les or
   <name value="AsDpOrganizationProfile"/>
   <title value="AS Donnée Publique Organization Profile"/>
   <status value="active"/>
-  <date value="2025-01-02T15:56:45+00:00"/>
+  <date value="2025-01-03T12:38:00+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -8264,7 +8264,7 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       <path value="Organization.telecom"/>
       <slicing>
         <discriminator>
-          <type value="pattern"/>
+          <type value="value"/>
           <path value="system"/>
         </discriminator>
         <discriminator>
@@ -10453,10 +10453,6 @@ Il s’agit généralement de structures enregistrées temporairement par les or
       <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
-      <mapping>
-        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
-        <map value="boiteLettresMSS.adresseMSS"/>
-      </mapping>
       <mapping>
         <identity value="v2"/>
         <map value="XTN.1 (or XTN.12)"/>

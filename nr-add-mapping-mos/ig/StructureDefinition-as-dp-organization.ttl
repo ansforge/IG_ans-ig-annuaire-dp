@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AsDpOrganizationProfile"] ; # 
   fhir:title [ fhir:v "AS Donnée Publique Organization Profile"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-01-02T15:56:45+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-01-03T12:38:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -8838,7 +8838,7 @@
        fhir:path [ fhir:v "Organization.telecom" ] ;
        fhir:slicing [
          fhir:discriminator ( [
-           fhir:type [ fhir:v "pattern" ] ;
+           fhir:type [ fhir:v "value" ] ;
            fhir:path [ fhir:v "system" ]
          ] [
            fhir:type [ fhir:v "exists" ] ;
@@ -11176,9 +11176,6 @@
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
-         fhir:identity [ fhir:v "as-mailbox-mss-to-mos-exercice-professionnel" ] ;
-         fhir:map [ fhir:v "boiteLettresMSS.adresseMSS" ]
-       ] [
          fhir:identity [ fhir:v "v2" ] ;
          fhir:map [ fhir:v "XTN.1 (or XTN.12)" ]
        ] [

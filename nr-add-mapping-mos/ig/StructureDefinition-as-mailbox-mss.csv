@@ -149,7 +149,7 @@ boolean {[]} {[]}canonical {[]} {[]}code {[]} {[]}date {[]} {[]}dateTime {[]} {[
 ","XTN.3","./scheme","./ContactPointType"
 "ContactPoint.value","ContactPoint.value","","","",1,1,"Y","","Y","string {[]} {[]}
 ","Boîte Aux Lettres (BAL) MSS","The actual contact point details, in a form that is meaningful to the designated communication system (i.e. phone number or email address).","Additional text data such as phone extension numbers, or notes about use of the contact are sometimes included in the value.","Need to support legacy numbers that are not in a tightly controlled format.","","","","","","","",,,,,"",,,,"ContactPoint.value",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","boiteLettresMSS.adresseMSS","XTN.1 (or XTN.12)","./url","./Value"
+","XTN.1 (or XTN.12)","./url","./Value"
 "ContactPoint.use","ContactPoint.use","","","",0,1,"","Y","Y","code {[]} {[]}
 ","home | work | temp | old | mobile - purpose of this contact point","Identifies the purpose for the contact point.","Applications can assume that a contact is current unless it explicitly says that it is temporary or old.","Need to track the way a person uses this contact, so a user can choose which is appropriate for their purpose.","","","","","","","",,"required","Use of contact point.","http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1","",,,,"ContactPoint.use",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","XTN.2 - but often indicated by field","unique(./use)","./ContactPointPurpose"

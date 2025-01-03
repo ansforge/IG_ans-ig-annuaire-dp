@@ -25,7 +25,7 @@
   <name value="AsMailboxMSSProfile"/>
   <title value="AS Mailbox MSS Datatype Profile"/>
   <status value="active"/>
-  <date value="2025-01-02T15:56:45+00:00"/>
+  <date value="2025-01-03T12:38:00+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -1856,10 +1856,6 @@
       <isModifier value="false"/>
       <isSummary value="true"/>
       <mapping>
-        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
-        <map value="boiteLettresMSS.adresseMSS"/>
-      </mapping>
-      <mapping>
         <identity value="v2"/>
         <map value="XTN.1 (or XTN.12)"/>
       </mapping>
@@ -2071,10 +2067,6 @@
       <path value="ContactPoint.value"/>
       <short value="Boîte Aux Lettres (BAL) MSS"/>
       <mustSupport value="true"/>
-      <mapping>
-        <identity value="as-mailbox-mss-to-mos-exercice-professionnel"/>
-        <map value="boiteLettresMSS.adresseMSS"/>
-      </mapping>
     </element>
   </differential>
 </StructureDefinition>

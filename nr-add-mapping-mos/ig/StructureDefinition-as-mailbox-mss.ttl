@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AsMailboxMSSProfile"] ; # 
   fhir:title [ fhir:v "AS Mailbox MSS Datatype Profile"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-01-02T15:56:45+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-01-03T12:38:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -1961,9 +1961,6 @@
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
-         fhir:identity [ fhir:v "as-mailbox-mss-to-mos-exercice-professionnel" ] ;
-         fhir:map [ fhir:v "boiteLettresMSS.adresseMSS" ]
-       ] [
          fhir:identity [ fhir:v "v2" ] ;
          fhir:map [ fhir:v "XTN.1 (or XTN.12)" ]
        ] [
@@ -2185,11 +2182,7 @@
        fhir:id [ fhir:v "ContactPoint.value" ] ;
        fhir:path [ fhir:v "ContactPoint.value" ] ;
        fhir:short [ fhir:v "Boîte Aux Lettres (BAL) MSS" ] ;
-       fhir:mustSupport [ fhir:v "true"^^xsd:boolean ] ;
-       fhir:mapping ( [
-         fhir:identity [ fhir:v "as-mailbox-mss-to-mos-exercice-professionnel" ] ;
-         fhir:map [ fhir:v "boiteLettresMSS.adresseMSS" ]
-       ] )
+       fhir:mustSupport [ fhir:v "true"^^xsd:boolean ]
      ] )
   ] . # 
 

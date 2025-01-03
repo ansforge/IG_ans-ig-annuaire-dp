@@ -10,7 +10,7 @@
   "name" : "AsMailboxMSSProfile",
   "title" : "AS Mailbox MSS Datatype Profile",
   "status" : "active",
-  "date" : "2025-01-02T15:56:45+00:00",
+  "date" : "2025-01-03T12:38:00+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -1911,10 +1911,6 @@
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
-        "identity" : "as-mailbox-mss-to-mos-exercice-professionnel",
-        "map" : "boiteLettresMSS.adresseMSS"
-      },
-      {
         "identity" : "v2",
         "map" : "XTN.1 (or XTN.12)"
       },
@@ -2140,11 +2136,7 @@
       "id" : "ContactPoint.value",
       "path" : "ContactPoint.value",
       "short" : "Boîte Aux Lettres (BAL) MSS",
-      "mustSupport" : true,
-      "mapping" : [{
-        "identity" : "as-mailbox-mss-to-mos-exercice-professionnel",
-        "map" : "boiteLettresMSS.adresseMSS"
-      }]
+      "mustSupport" : true
     }]
   }
 }

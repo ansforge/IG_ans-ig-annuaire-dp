@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "52a4cf3a-4698-4090-b45d-0160e69f6e07-90",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/52a4cf3a-4698-4090-b45d-0160e69f6e07-90",
+  "id" : "3d73170b-0b17-4467-8b56-05d8ed801f56-90",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3d73170b-0b17-4467-8b56-05d8ed801f56-90",
   "name" : "IntersectionAsEducationLevelExtensionAndAsEducationLevelExtension",
   "title" : "Intersection of AS Education Level Extension And AS Education Level Extension",
   "status" : "active",
-  "date" : "2025-01-02T15:57:10+00:00",
+  "date" : "2025-01-03T12:38:28+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
