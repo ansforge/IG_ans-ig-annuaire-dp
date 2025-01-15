@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "f8271faf-7aa2-4a0c-bb5a-167e6955282e-183",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/f8271faf-7aa2-4a0c-bb5a-167e6955282e-183",
+  "id" : "acc8866e-1788-480a-b00a-5f92d8be657d-183",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/acc8866e-1788-480a-b00a-5f92d8be657d-183",
   "name" : "IntersectionAsVsTypeEtablissementAndAsVsTypeEtablissement",
   "title" : "Intersection of AS ValueSet type Etablissement And AS ValueSet type Etablissement",
   "status" : "active",
-  "date" : "2024-12-02T14:06:04+00:00",
+  "date" : "2025-01-15T07:48:17+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

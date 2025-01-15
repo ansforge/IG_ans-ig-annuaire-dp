@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f8271faf-7aa2-4a0c-bb5a-167e6955282e-32",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f8271faf-7aa2-4a0c-bb5a-167e6955282e-32",
+  "id" : "acc8866e-1788-480a-b00a-5f92d8be657d-32",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/acc8866e-1788-480a-b00a-5f92d8be657d-32",
   "name" : "UnionAsDpOrganizationProfileAndAsDpOrganizationProfile",
   "title" : "Union of AS Donnée Publique Organization Profile And AS Donnée Publique Organization Profile",
   "status" : "active",
-  "date" : "2024-12-02T14:06:04+00:00",
+  "date" : "2025-01-15T07:48:16+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -961,6 +961,10 @@
       {
         "identity" : "servd",
         "map" : "./Status (however this concept in ServD more covers why the organization is active or not, could be delisted, deregistered, not operational yet) this could alternatively be derived from ./StartDate and ./EndDate and given a context date."
+      },
+      {
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.actof"
       }]
     },
     {
@@ -1525,6 +1529,10 @@
       {
         "identity" : "servd",
         "map" : "n/a"
+      },
+      {
+        "identity" : "as-organization-to-mos-eg",
+        "map" : "EntiteGeographique.EntiteJuridique"
       }]
     },
     {

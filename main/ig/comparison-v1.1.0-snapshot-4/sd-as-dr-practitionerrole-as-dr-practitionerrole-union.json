@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f8271faf-7aa2-4a0c-bb5a-167e6955282e-74",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f8271faf-7aa2-4a0c-bb5a-167e6955282e-74",
+  "id" : "acc8866e-1788-480a-b00a-5f92d8be657d-74",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/acc8866e-1788-480a-b00a-5f92d8be657d-74",
   "name" : "UnionAsDrPractitionerRoleProfileAndAsDrPractitionerRoleProfile",
   "title" : "Union of AS Donnée Restreinte PractitionerRole Profile And AS Donnée Restreinte PractitionerRole Profile",
   "status" : "active",
-  "date" : "2024-12-02T14:06:04+00:00",
+  "date" : "2025-01-15T07:48:17+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -1088,6 +1088,326 @@
       {
         "identity" : "servd",
         "map" : "ContactPoint"
+      }]
+    },
+    {
+      "id" : "PractitionerRole.telecom.id",
+      "path" : "PractitionerRole.telecom.id",
+      "representation" : ["xmlAttr"],
+      "short" : "Unique id for inter-element referencing",
+      "definition" : "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Element.id",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
+          "valueUrl" : "string"
+        }],
+        "code" : "http://hl7.org/fhirpath/System.String"
+      }],
+      "isModifier" : false,
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
+    },
+    {
+      "id" : "PractitionerRole.telecom.extension",
+      "path" : "PractitionerRole.telecom.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "description" : "Extensions are always sliced by (at least) url",
+        "rules" : "open"
+      },
+      "short" : "Additional content defined by implementations",
+      "definition" : "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "alias" : ["extensions",
+      "user content"],
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Element.extension",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Extension"
+      }],
+      "constraint" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/4.0/StructureDefinition/extension-ElementDefinition.constraint.xpath",
+          "valueString" : "@value|f:*|h:div"
+        }],
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/4.0/StructureDefinition/extension-ElementDefinition.constraint.xpath",
+          "valueString" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])"
+        }],
+        "key" : "ext-1",
+        "severity" : "error",
+        "human" : "Must have either extensions or value[x], not both",
+        "expression" : "extension.exists() != value.exists()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
+      }],
+      "isModifier" : false,
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
+    },
+    {
+      "id" : "PractitionerRole.telecom.system",
+      "path" : "PractitionerRole.telecom.system",
+      "short" : "phone | fax | email | pager | url | sms | other",
+      "definition" : "Telecommunications form for contact point - what communications system is required to make use of the contact.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "ContactPoint.system",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "condition" : ["cpt-2"],
+      "constraint" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/4.0/StructureDefinition/extension-ElementDefinition.constraint.xpath",
+          "valueString" : "@value|f:*|h:div"
+        }],
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }],
+      "isModifier" : false,
+      "isSummary" : true,
+      "binding" : {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString" : "ContactPointSystem"
+        }],
+        "strength" : "required",
+        "description" : "Telecommunications form for contact point.",
+        "valueSet" : "http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1"
+      },
+      "mapping" : [{
+        "identity" : "as-practitioner-role-to-mos-situation-exercice",
+        "map" : "SituationExercice.telecommunication.canal"
+      },
+      {
+        "identity" : "v2",
+        "map" : "XTN.3"
+      },
+      {
+        "identity" : "rim",
+        "map" : "./scheme"
+      },
+      {
+        "identity" : "servd",
+        "map" : "./ContactPointType"
+      }]
+    },
+    {
+      "id" : "PractitionerRole.telecom.value",
+      "path" : "PractitionerRole.telecom.value",
+      "short" : "The actual contact point details",
+      "definition" : "The actual contact point details, in a form that is meaningful to the designated communication system (i.e. phone number or email address).",
+      "comment" : "Additional text data such as phone extension numbers, or notes about use of the contact are sometimes included in the value.",
+      "requirements" : "Need to support legacy numbers that are not in a tightly controlled format.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "ContactPoint.value",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }],
+      "constraint" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/4.0/StructureDefinition/extension-ElementDefinition.constraint.xpath",
+          "valueString" : "@value|f:*|h:div"
+        }],
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }],
+      "isModifier" : false,
+      "isSummary" : true,
+      "mapping" : [{
+        "identity" : "as-practitioner-role-to-mos-situation-exercice",
+        "map" : "SituationExercice.telecommunication.adresseTelecom"
+      },
+      {
+        "identity" : "v2",
+        "map" : "XTN.1 (or XTN.12)"
+      },
+      {
+        "identity" : "rim",
+        "map" : "./url"
+      },
+      {
+        "identity" : "servd",
+        "map" : "./Value"
+      }]
+    },
+    {
+      "id" : "PractitionerRole.telecom.use",
+      "path" : "PractitionerRole.telecom.use",
+      "short" : "home | work | temp | old | mobile - purpose of this contact point",
+      "definition" : "Identifies the purpose for the contact point.",
+      "comment" : "Applications can assume that a contact is current unless it explicitly says that it is temporary or old.",
+      "requirements" : "Need to track the way a person uses this contact, so a user can choose which is appropriate for their purpose.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "ContactPoint.use",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "constraint" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/4.0/StructureDefinition/extension-ElementDefinition.constraint.xpath",
+          "valueString" : "@value|f:*|h:div"
+        }],
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }],
+      "isModifier" : true,
+      "isModifierReason" : "This is labeled as \"Is Modifier\" because applications should not mistake a temporary or old contact etc.for a current/permanent one",
+      "isSummary" : true,
+      "binding" : {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString" : "ContactPointUse"
+        }],
+        "strength" : "required",
+        "description" : "Use of contact point.",
+        "valueSet" : "http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1"
+      },
+      "mapping" : [{
+        "identity" : "as-practitioner-role-to-mos-situation-exercice",
+        "map" : "SituationExercice.telecommunication.utilisation"
+      },
+      {
+        "identity" : "v2",
+        "map" : "XTN.2 - but often indicated by field"
+      },
+      {
+        "identity" : "rim",
+        "map" : "unique(./use)"
+      },
+      {
+        "identity" : "servd",
+        "map" : "./ContactPointPurpose"
+      }]
+    },
+    {
+      "id" : "PractitionerRole.telecom.rank",
+      "path" : "PractitionerRole.telecom.rank",
+      "short" : "Specify preferred order of use (1 = highest)",
+      "definition" : "Specifies a preferred order in which to use a set of contacts. ContactPoints with lower rank values are more preferred than those with higher rank values.",
+      "comment" : "Note that rank does not necessarily follow the order in which the contacts are represented in the instance.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "ContactPoint.rank",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "positiveInt"
+      }],
+      "constraint" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/4.0/StructureDefinition/extension-ElementDefinition.constraint.xpath",
+          "valueString" : "@value|f:*|h:div"
+        }],
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }],
+      "isModifier" : false,
+      "isSummary" : true,
+      "mapping" : [{
+        "identity" : "v2",
+        "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
+    },
+    {
+      "id" : "PractitionerRole.telecom.period",
+      "path" : "PractitionerRole.telecom.period",
+      "short" : "Time period when the contact point was/is in use",
+      "definition" : "Time period when the contact point was/is in use.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "ContactPoint.period",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Period"
+      }],
+      "constraint" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/4.0/StructureDefinition/extension-ElementDefinition.constraint.xpath",
+          "valueString" : "@value|f:*|h:div"
+        }],
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }],
+      "isModifier" : false,
+      "isSummary" : true,
+      "mapping" : [{
+        "identity" : "v2",
+        "map" : "N/A"
+      },
+      {
+        "identity" : "rim",
+        "map" : "./usablePeriod[type=\"IVL<TS>\"]"
+      },
+      {
+        "identity" : "servd",
+        "map" : "./StartDate and ./EndDate"
       }]
     },
     {

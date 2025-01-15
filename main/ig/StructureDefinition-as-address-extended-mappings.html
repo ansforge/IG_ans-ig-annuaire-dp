@@ -55,7 +55,12 @@
   </div>
   <div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
     <a id="hl7-logo" no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
+    <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
   </div>
+
+  <div id="ig-search">
+ </div>
+
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Annuaire Santé</span>
@@ -233,7 +238,7 @@
         
           Active
           
-            as of 2024-12-02
+            as of 2025-01-15
           
         
       </td>
@@ -249,7 +254,22 @@
 
 
 
-  <a name="v2"> </a><h3>Mappings for HL7 v2 Mapping (<a href="http://hl7.org/comparison-v2.html">http://hl7.org/v2</a>)</h3><table class="grid">
+  <a name="as-address-extended-to-mos-exercice-professionnel"> </a><h3>Mappings for AsAddressExtendedProfile to MOS - Adresse (https://mos.esante.gouv.fr)</h3><table class="grid">
+ <tr><td colspan="3"><b>AsAddressExtendedProfile</b></td></tr>
+ <tr><td>Address</td><td>Adresse</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (inseeCode)</td><td>Adresse.COGCommune</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;line</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (careOf)</td><td>Adresse.complementPointGeographique</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (additionalLocator)</td><td>Adresse.complementPointGeographique</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (houseNumber)</td><td>Adresse.numeroVoie</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (buildingNumberSuffix)</td><td>Adresse.extension</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (streetNameType)</td><td>Adresse.typeVoie</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (streetNameBase)</td><td>Adresse.libelleVoie</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (lieuDit)</td><td>Adresse.lieuDit</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;city</td><td>Adresse.localite</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;postalCode</td><td>Adresse.codePostal</td> </tr>
+</table>
+<a name="v2"> </a><h3>Mappings for HL7 v2 Mapping (<a href="http://hl7.org/comparison-v2.html">http://hl7.org/v2</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>AsAddressExtendedProfile</b></td></tr>
  <tr><td>Address</td><td>XAD</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;use</td><td>XAD.7</td> </tr>
@@ -360,7 +380,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.fhir.fr.annuaire#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 2, 2024 14:05+0000">2024-12-02</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.fhir.fr.annuaire#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jan 15, 2025 07:47+0000">2025-01-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f8271faf-7aa2-4a0c-bb5a-167e6955282e-72",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f8271faf-7aa2-4a0c-bb5a-167e6955282e-72",
+  "id" : "acc8866e-1788-480a-b00a-5f92d8be657d-72",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/acc8866e-1788-480a-b00a-5f92d8be657d-72",
   "name" : "IntersectionAsDrPractitionerProfileAndAsDrPractitionerProfile",
   "title" : "Intersection of AS Donnée Restreinte Practitioner Profile And AS Donnée Restreinte Practitioner Profile",
   "status" : "active",
-  "date" : "2024-12-02T14:06:04+00:00",
+  "date" : "2025-01-15T07:48:16+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -125,6 +125,10 @@
       {
         "identity" : "servd",
         "map" : "Provider"
+      },
+      {
+        "identity" : "as-practitioner-role-to-mos-carte-professionnel",
+        "map" : "CarteProfessionnel"
       }]
     },
     {
@@ -1114,6 +1118,10 @@
       {
         "identity" : "servd",
         "map" : "ContactPoint"
+      },
+      {
+        "identity" : "as-practitioner-role-to-mos-professionnel",
+        "map" : "Professionnel.telecommunication"
       }]
     },
     {
@@ -1417,6 +1425,10 @@
       {
         "identity" : "servd",
         "map" : "Address"
+      },
+      {
+        "identity" : "as-practitioner-role-to-mos-professionnel",
+        "map" : "Professionnel.adresseCorrespondance"
       }]
     },
     {
@@ -1818,8 +1830,8 @@
     {
       "path" : "Practitioner.communication",
       "short" : "Langue parlée (langueParlee).",
-      "definition" : "A concept that may be defined by a formal reference to a terminology or ontology or may be provided by text.",
-      "comment" : "Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.",
+      "definition" : "left: A concept that may be defined by a formal reference to a terminology or ontology or may be provided by text.; right: A language the practitioner can use in patient communication.",
+      "comment" : "left: Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.; right: The structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems code this but instead have it as free text. Hence CodeableConcept instead of code as the data type.",
       "requirements" : "Knowing which language a practitioner speaks can help in facilitating communication with patients.",
       "min" : 0,
       "max" : "*",
@@ -1861,6 +1873,18 @@
       {
         "identity" : "orim",
         "map" : "fhir:CodeableConcept rdfs:subClassOf dt:CD"
+      },
+      {
+        "identity" : "v2",
+        "map" : "PID-15, NK1-20, LAN-2"
+      },
+      {
+        "identity" : "rim",
+        "map" : "./languageCommunication"
+      },
+      {
+        "identity" : "servd",
+        "map" : "./Languages.LanguageSpokenCode"
       }]
     }]
   }

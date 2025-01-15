@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f8271faf-7aa2-4a0c-bb5a-167e6955282e-23",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f8271faf-7aa2-4a0c-bb5a-167e6955282e-23",
+  "id" : "acc8866e-1788-480a-b00a-5f92d8be657d-23",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/acc8866e-1788-480a-b00a-5f92d8be657d-23",
   "name" : "UnionAsDpDeviceProfileAndAsDpDeviceProfile",
   "title" : "Union of AS Donnée Publique Device Profile And AS Donnée Publique Device Profile",
   "status" : "active",
-  "date" : "2024-12-02T14:06:04+00:00",
+  "date" : "2025-01-15T07:48:16+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -93,6 +93,10 @@
       {
         "identity" : "rim",
         "map" : "Device"
+      },
+      {
+        "identity" : "as-device-to-mos-equipement-materiel-lourd",
+        "map" : "EquipementMaterielLourd"
       }]
     },
     {
@@ -1096,6 +1100,10 @@
       {
         "identity" : "udi",
         "map" : "N/A"
+      },
+      {
+        "identity" : "as-device-to-mos-equipement-materiel-lourd",
+        "map" : "EquipementMaterielLourd.marque"
       }]
     },
     {
@@ -1237,6 +1245,10 @@
       {
         "identity" : "rim",
         "map" : ".playedRole[typeCode=MANU].id"
+      },
+      {
+        "identity" : "as-device-to-mos-equipement-materiel-lourd",
+        "map" : "EquipementMaterielLourd.numeroSerie"
       }]
     },
     {
@@ -1524,7 +1536,11 @@
       "binding" : {
         "strength" : "required",
         "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J135-EquipementMaterielLourd-RASS/FHIR/JDV-J135-EquipementMaterielLourd-RASS"
-      }
+      },
+      "mapping" : [{
+        "identity" : "as-device-to-mos-equipement-materiel-lourd",
+        "map" : "EquipementMaterielLourd.equipementMaterielLourd"
+      }]
     },
     {
       "path" : "Device.specialization",

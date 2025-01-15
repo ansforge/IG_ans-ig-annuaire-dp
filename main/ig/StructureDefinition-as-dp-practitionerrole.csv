@@ -203,14 +203,14 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","The list of healthcare services that this worker provides for this role's Organization/Location(s)","The list of healthcare services that this worker provides for this role's Organization/Location(s).","","","","","","","","","",,,,,"",,,,"PractitionerRole.healthcareService",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","EDU-2 / AFF-3",".player.QualifiedEntity[@classCode = 'QUAL'].code"
 "PractitionerRole.telecom","PractitionerRole.telecom","","","",0,*,"Y","","","ContactPoint {[CanonicalType[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point]]} {[]}
-","Details of a Technology mediated contact point | Coordonnées électroniques détaillées","Details for all kinds of technology mediated contact points for a person or organization, including telephone, email, etc.","","Often practitioners have a dedicated line for each location (or service) that they work at, and need to be able to define separate contact details for each of these.","","","","","","","",,,,,"","pattern:system}
+","Details of a Technology mediated contact point | Coordonnées électroniques détaillées","Details for all kinds of technology mediated contact points for a person or organization, including telephone, email, etc.","","Often practitioners have a dedicated line for each location (or service) that they work at, and need to be able to define separate contact details for each of these.","","","","","","","",,,,,"","value:system}
 exists:extension('https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type')}","",,"closed","PractitionerRole.telecom",0,*,"ele-1
 ","cpt-2:A system is required if a value is provided. {value.empty() or system.exists()}
 ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}","SituationExercice.telecommunication","XTN","n/a","TEL","ContactPoint"
 "PractitionerRole.telecom:mailbox-mss","PractitionerRole.telecom","mailbox-mss","","",0,*,"","","","ContactPoint {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss]]} {[]}
-","Details of a Technology mediated contact point (phone, fax, email, etc.)","Details for all kinds of technology mediated contact points for a person or organization, including telephone, email, etc.","","Often practitioners have a dedicated line for each location (or service) that they work at, and need to be able to define separate contact details for each of these.","","","","","","","",,,,,"",,,,"PractitionerRole.telecom",0,*,"ele-1
+","BALs MSS de type PER rattachés à l'identifiant du professionnel de santé  ainsi qu'au lieu de sa situation d'exercice (BoiteLettreMSS).","Details for all kinds of technology mediated contact points for a person or organization, including telephone, email, etc.","","Often practitioners have a dedicated line for each location (or service) that they work at, and need to be able to define separate contact details for each of these.","","","","","","","",,,,,"",,,,"PractitionerRole.telecom",0,*,"ele-1
 ","cpt-2:A system is required if a value is provided. {value.empty() or system.exists()}
-ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}","XTN","n/a","TEL","ContactPoint"
+ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}","SituationExercice.boiteLettresMSS","XTN","n/a","TEL","ContactPoint"
 "PractitionerRole.telecom:mailbox-mss.id","PractitionerRole.telecom.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "PractitionerRole.telecom:mailbox-mss.extension","PractitionerRole.telecom.extension","","","",1,*,"","","","Extension {[]} {[]}
@@ -263,7 +263,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,"required","","https://mos.esante.gouv.fr/NOS/JDV_J139-TypeBAL-RASS/FHIR/JDV-J139-TypeBAL-RASS","",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:description","PractitionerRole.telecom.extension.extension","description","","",0,1,"","","","Extension {[]} {[]}
-","description : Description fonctionnelle de la boîte aux lettres.","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:description.id","PractitionerRole.telecom.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -291,7 +291,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:service","PractitionerRole.telecom.extension.extension","service","","",0,1,"","","","Extension {[]} {[]}
-","serviceRattachement : Nom et description du service de rattachement de l’utilisateur de la boîte aux lettres dans l’organisation.","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:service.id","PractitionerRole.telecom.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -319,8 +319,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:digitization","PractitionerRole.telecom.extension.extension","digitization","","",0,1,"","","","Extension {[]} {[]}
-","dematerialisation : Indicateur d’acceptation de la dématérialisation (ou « Zéro papier »). - ""true"" : Dématérialisation acceptée 
-- ""false"" : Dématérialisation refusée.","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:digitization.id","PractitionerRole.telecom.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -334,8 +333,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:listeRouge","PractitionerRole.telecom.extension.extension","listeRouge","","",0,1,"","","","Extension {[]} {[]}
-","listeRouge : Indicateur liste rouge. ""true"": Boîte aux lettres en liste rouge;
-""false"": La boîte aux lettres peut être publiée","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:listeRouge.id","PractitionerRole.telecom.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

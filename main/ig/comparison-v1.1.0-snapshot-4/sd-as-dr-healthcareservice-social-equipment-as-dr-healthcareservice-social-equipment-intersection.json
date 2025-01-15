@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f8271faf-7aa2-4a0c-bb5a-167e6955282e-63",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f8271faf-7aa2-4a0c-bb5a-167e6955282e-63",
+  "id" : "acc8866e-1788-480a-b00a-5f92d8be657d-63",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/acc8866e-1788-480a-b00a-5f92d8be657d-63",
   "name" : "IntersectionAsDrHealthcareServiceSocialEquipmentProfileAndAsDrHealthcareServiceSocialEquipmentProfile",
   "title" : "Intersection of AS Donnée Restreinte HealthcareService Social Equipment Profile And AS Donnée Restreinte HealthcareService Social Equipment Profile",
   "status" : "active",
-  "date" : "2024-12-02T14:06:04+00:00",
+  "date" : "2025-01-15T07:48:16+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
