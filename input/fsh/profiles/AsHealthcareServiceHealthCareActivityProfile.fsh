@@ -21,6 +21,8 @@ Description: "Profil générique créé à partir de HealthcareService dans le c
 * extension contains 
     AsAuthorizationExtension named as-ext-authorization 0..* MS 
 
+* extension[AsAuthorizationExtension].extension[dateUpdateAuthorization] 0..0
+
 /* HealthcareService.identifier */
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
