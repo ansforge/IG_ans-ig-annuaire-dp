@@ -2,6 +2,10 @@ p, li, td {
     color: #343548;
 }
 
+pre {
+    width: 100%
+}
+
 #segment-header {
     background-color: white;
 }
@@ -22,7 +26,7 @@ p, li, td {
 
 
 #hl7-search-lnk >img {
-    height: 50px;
+    height: 40px;
 }
 
 

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "1f6ecf7c-a257-4c9b-8932-5a4c47e3e454-167",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1f6ecf7c-a257-4c9b-8932-5a4c47e3e454-167",
+  "id" : "9beaa372-5194-4e2a-a7f0-f1e5a45ab4d5-167",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9beaa372-5194-4e2a-a7f0-f1e5a45ab4d5-167",
   "name" : "UnionAsPractitionerRoleProfileAndAsPractitionerRoleProfile",
   "title" : "Union of AS PractitionerRole Profile And AS PractitionerRole Profile",
   "status" : "active",
-  "date" : "2024-11-26T17:24:50+00:00",
+  "date" : "2025-01-21T08:43:12+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "1f6ecf7c-a257-4c9b-8932-5a4c47e3e454-72",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1f6ecf7c-a257-4c9b-8932-5a4c47e3e454-72",
+  "id" : "9beaa372-5194-4e2a-a7f0-f1e5a45ab4d5-72",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9beaa372-5194-4e2a-a7f0-f1e5a45ab4d5-72",
   "name" : "IntersectionAsDrPractitionerProfileAndAsDrPractitionerProfile",
   "title" : "Intersection of AS Donnée Restreinte Practitioner Profile And AS Donnée Restreinte Practitioner Profile",
   "status" : "active",
-  "date" : "2024-11-26T17:24:50+00:00",
+  "date" : "2025-01-21T08:43:12+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -1818,8 +1818,8 @@
     {
       "path" : "Practitioner.communication",
       "short" : "Langue parlée (langueParlee).",
-      "definition" : "A concept that may be defined by a formal reference to a terminology or ontology or may be provided by text.",
-      "comment" : "Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.",
+      "definition" : "left: A concept that may be defined by a formal reference to a terminology or ontology or may be provided by text.; right: A language the practitioner can use in patient communication.",
+      "comment" : "left: Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.; right: The structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems code this but instead have it as free text. Hence CodeableConcept instead of code as the data type.",
       "requirements" : "Knowing which language a practitioner speaks can help in facilitating communication with patients.",
       "min" : 0,
       "max" : "*",
@@ -1861,6 +1861,18 @@
       {
         "identity" : "orim",
         "map" : "fhir:CodeableConcept rdfs:subClassOf dt:CD"
+      },
+      {
+        "identity" : "v2",
+        "map" : "PID-15, NK1-20, LAN-2"
+      },
+      {
+        "identity" : "rim",
+        "map" : "./languageCommunication"
+      },
+      {
+        "identity" : "servd",
+        "map" : "./Languages.LanguageSpokenCode"
       }]
     }]
   }

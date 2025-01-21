@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "1f6ecf7c-a257-4c9b-8932-5a4c47e3e454-69",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1f6ecf7c-a257-4c9b-8932-5a4c47e3e454-69",
+  "id" : "9beaa372-5194-4e2a-a7f0-f1e5a45ab4d5-69",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9beaa372-5194-4e2a-a7f0-f1e5a45ab4d5-69",
   "name" : "IntersectionAsDrPersonProfileAndAsDrPersonProfile",
   "title" : "Intersection of AS Donnée Restreinte Person Profile And AS Donnée Restreinte Person Profile",
   "status" : "active",
-  "date" : "2024-11-26T17:24:50+00:00",
+  "date" : "2025-01-21T08:43:12+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -610,8 +610,8 @@
     {
       "path" : "Person.name",
       "short" : "Nom issu de l’état-civil.",
-      "definition" : "A human's name with the ability to identify parts and usage.",
-      "comment" : "Names may be changed, or repudiated, or people may have different names in different contexts. Names may be divided into parts of different type that have variable significance depending on context, though the division into parts does not always matter. With personal names, the different parts might or might not be imbued with some implicit meaning; various cultures associate different importance with the name parts and the degree to which systems must care about name parts around the world varies widely.",
+      "definition" : "left: A human's name with the ability to identify parts and usage.; right: A name associated with the person.",
+      "comment" : "left: Names may be changed, or repudiated, or people may have different names in different contexts. Names may be divided into parts of different type that have variable significance depending on context, though the division into parts does not always matter. With personal names, the different parts might or might not be imbued with some implicit meaning; various cultures associate different importance with the name parts and the degree to which systems must care about name parts around the world varies widely.; right: Person may have multiple names with different uses or applicable periods.",
       "requirements" : "Need to be able to track the person by multiple names. Examples are your official name and a partner name.",
       "min" : 0,
       "max" : "1",
@@ -649,6 +649,14 @@
       {
         "identity" : "servd",
         "map" : "ProviderName"
+      },
+      {
+        "identity" : "v2",
+        "map" : "PID-5, PID-9"
+      },
+      {
+        "identity" : "rim",
+        "map" : "./name"
       }]
     },
     {
@@ -1006,7 +1014,7 @@
     {
       "path" : "Person.telecom",
       "short" : "Différentes instances pour les téléphones, la télécopie et l’adresse mail.",
-      "definition" : "Details for all kinds of technology mediated contact points for a person or organization, including telephone, email, etc.",
+      "definition" : "left: Details for all kinds of technology mediated contact points for a person or organization, including telephone, email, etc.; right: A contact detail for the person, e.g. a telephone number or an email address.",
       "comment" : "Person may have multiple ways to be contacted with different uses or applicable periods.  May need to have options for contacting the person urgently and also to help with identification.",
       "requirements" : "People have (primary) ways to contact them in some way such as phone, email.",
       "min" : 0,
@@ -1056,6 +1064,14 @@
       {
         "identity" : "servd",
         "map" : "ContactPoint"
+      },
+      {
+        "identity" : "v2",
+        "map" : "PID-13, PID-14"
+      },
+      {
+        "identity" : "rim",
+        "map" : "./telecom"
       }]
     },
     {

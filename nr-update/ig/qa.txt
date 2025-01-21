@@ -1,10 +1,10 @@
 AnnuaireSante : Validation Results
 =========================================
 
-err = 11, warn = 73, info = 105
-IG Publisher Version: 1.7.5
-Generated Tue Nov 26 17:26:39 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.annuaire#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
- Build Errors : 0 / 24 / 0
+err = 11, warn = 74, info = 105
+IG Publisher Version: 1.8.8
+Generated Tue Jan 21 08:44:56 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.annuaire#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
+ Build Errors : 0 / 25 / 0
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CapabilityStatement-AsServerCapabilityStatement : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-intern-id-systems : 0 / 2 / 2
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-organization-types : 0 / 2 / 2
@@ -118,6 +118,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/334081.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/1738459.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/1578230.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/output/searchform.html#/html/body/div/div/div/a/img/div/a/img/div/p/img/footer/div/div/div/div/div/div/a/img/div/a/img/script at Line 255, column 7: The <script> containing the javascript '$( document ).ready('... is illegal and not allowed on the HL7 cibuild - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 cibuild
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
@@ -360,7 +361,7 @@ INFORMATION: StructureDefinition/as-organization: StructureDefinition.snapshot.e
 == fsh-generated/resources/StructureDefinition-as-person.json ==
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-person'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-as-practitioner.json ==
-INFORMATION: StructureDefinition/as-practitioner: StructureDefinition.differential.element[27].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/as-practitioner: StructureDefinition.differential.element[31].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/as-practitioner: StructureDefinition.snapshot.element[90].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/as-practitioner: StructureDefinition.snapshot.element[149].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-practitioner'): The Implementation Guide contains no examples for this profile

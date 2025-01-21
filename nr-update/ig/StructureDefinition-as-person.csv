@@ -75,10 +75,9 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Person.identifier","Person.identifier","","","",0,*,"","","","Identifier {[]} {[]}
 ","A human identifier for this person","Identifier for a person within a particular scope.","","People are known by a variety of ids. Some institutions maintain several, and most collect identifiers for exchange with other organizations concerning the person. Examples are national person identifier and local identifier.","","","","","","","",,,,,"",,,,"Person.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".plays:Role(classCode='IDENT').id","FiveWs.identifier","PID-3"
-"Person.name","Person.name","","","",0,*,"Y","","","HumanName {[CanonicalType[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-human-name]]} {[]}
-","Nom issu de l’état-civil.","A human's name with the ability to identify parts and usage.","Names may be changed, or repudiated, or people may have different names in different contexts. Names may be divided into parts of different type that have variable significance depending on context, though the division into parts does not always matter. With personal names, the different parts might or might not be imbued with some implicit meaning; various cultures associate different importance with the name parts and the degree to which systems must care about name parts around the world varies widely.","Need to be able to track the person by multiple names. Examples are your official name and a partner name.","","","","","","","",,,,,"",,,,"Person.name",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","n/a","EN (actually, PN)","XPN"
+"Person.name","Person.name","","","",0,*,"Y","","Y","HumanName {[CanonicalType[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-human-name]]} {[]}
+","Nom issu de l’état-civil.","A name associated with the person.","Person may have multiple names with different uses or applicable periods.","Need to be able to track the person by multiple names. Examples are your official name and a partner name.","","","","","","","",,,,,"",,,,"Person.name",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./name","PID-5, PID-9"
 "Person.name.id","Person.name.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Person.name.extension","Person.name.extension","","extensions
@@ -112,10 +111,9 @@ middle name","",0,*,"","","Y","string {[]} {[]}
 "Person.name.period","Person.name.period","","","",0,1,"","","Y","Period {[]} {[]}
 ","Time period when name was/is in use","Indicates the period of time when this name was valid for the named person.","","Allows names to be placed in historical context.","","","","","","","",,,,,"",,,,"HumanName.period",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./usablePeriod[type=""IVL<TS>""]","XPN.13 + XPN.14"
-"Person.telecom","Person.telecom","","","",0,*,"Y","","","ContactPoint {[CanonicalType[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point]]} {[]}
-","Différentes instances pour les téléphones, la télécopie et l’adresse mail.","Details for all kinds of technology mediated contact points for a person or organization, including telephone, email, etc.","Person may have multiple ways to be contacted with different uses or applicable periods.  May need to have options for contacting the person urgently and also to help with identification.","People have (primary) ways to contact them in some way such as phone, email.","","","","","","","",,,,,"",,,,"Person.telecom",0,*,"ele-1
-","cpt-2:A system is required if a value is provided. {value.empty() or system.exists()}
-ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}","n/a","TEL","XTN"
+"Person.telecom","Person.telecom","","","",0,*,"Y","","Y","ContactPoint {[CanonicalType[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point]]} {[]}
+","Différentes instances pour les téléphones, la télécopie et l’adresse mail.","A contact detail for the person, e.g. a telephone number or an email address.","Person may have multiple ways to be contacted with different uses or applicable periods.  May need to have options for contacting the person urgently and also to help with identification.","People have (primary) ways to contact them in some way such as phone, email.","","","","","","","",,,,,"",,,,"Person.telecom",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./telecom","PID-13, PID-14"
 "Person.telecom.id","Person.telecom.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Person.telecom.extension","Person.telecom.extension","","extensions

@@ -390,8 +390,8 @@
       "sources" : ["1.2.250.1.213.1.6.1.142"],
       "uses" : {
       },
-      "StructureDefinition-as-address-extended.html" : "AS Address Extended Datatype Profile",
-      "StructureDefinition-as-ext-person-nationality.html" : "AS Person Nationality Extension"
+      "StructureDefinition-as-ext-person-nationality.html" : "AS Person Nationality Extension",
+      "StructureDefinition-as-address-extended.html" : "AS Address Extended Datatype Profile"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J75-TypeAutorisation-RASS/FHIR/JDV-J75-TypeAutorisation-RASS",

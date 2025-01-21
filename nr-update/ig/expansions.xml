@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="bc09a204-68fa-476d-b5b2-cfef4076c745"/>
+  <id value="a60b8f77-e3ee-49fc-bf5e-96e607a53077"/>
   <meta>
-    <lastUpdated value="2024-11-26T17:24:24.309+00:00"/>
+    <lastUpdated value="2025-01-21T08:42:48.619+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -19,7 +19,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R286-TypeFermeture.html">codesystem TRE_R286-TypeFermeture v1.4.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 6 concepts</p>
@@ -92,7 +92,7 @@
         <title value="ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-26T17:24:24+00:00"/>
+        <date value="2025-01-21T08:42:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -101,8 +101,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:70b6b9c1-e7e2-4e6a-a1c8-09009ace64f1"/>
-          <timestamp value="2024-11-26T17:25:45+00:00"/>
+          <identifier value="urn:uuid:1bddb76f-e39d-4c04-a954-c0f1e8182019"/>
+          <timestamp value="2025-01-21T08:43:58+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -168,7 +168,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R301-SourceInformationInstallation.html">codesystem TRE_R301-SourceInformationInstallation v1.4.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 10 concepts</p>
@@ -273,7 +273,7 @@
         <title value="ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-26T17:24:24+00:00"/>
+        <date value="2025-01-21T08:42:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -282,8 +282,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fc34eba6-b5fc-4ac3-a3f7-269dc87f9eaa"/>
-          <timestamp value="2024-11-26T17:25:45+00:00"/>
+          <identifier value="urn:uuid:b764dd9b-9e97-4b32-b181-95de92aa3e13"/>
+          <timestamp value="2025-01-21T08:43:58+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -369,7 +369,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="https://interop.esante.gouv.fr/ig/nos/1.4.0/CodeSystem-TRE-R74-ModeFixationTarifaire.html">codesystem TRE_R74-ModeFixationTarifaire v1.4.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 52 concepts</p>
@@ -810,7 +810,7 @@
         <title value="ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-26T17:24:24+00:00"/>
+        <date value="2025-01-21T08:42:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -819,8 +819,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b4b20698-23d6-426d-a450-1c11bb06bd4f"/>
-          <timestamp value="2024-11-26T17:25:45+00:00"/>
+          <identifier value="urn:uuid:85084aba-0113-490a-aa32-1b9e87023b26"/>
+          <timestamp value="2025-01-21T08:43:59+00:00"/>
           <total value="52"/>
           <offset value="0"/>
           <parameter>
@@ -1116,7 +1116,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-as-cs-intern-id-systems.html">codesystem AS CodeSystem Internal Identifier Systems v1.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 4 concepts</p>
@@ -1173,7 +1173,7 @@
         <title value="AS ValueSet Internal Identifier Systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-26T17:24:24+00:00"/>
+        <date value="2025-01-21T08:42:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1182,8 +1182,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:544030c6-b597-4b3e-8cc2-b32142603fbe"/>
-          <timestamp value="2024-11-26T17:25:45+00:00"/>
+          <identifier value="urn:uuid:d274252b-1369-45a4-a0af-1e3385d1a664"/>
+          <timestamp value="2025-01-21T08:43:59+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -1236,7 +1236,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-as-cs-organization-types.html">codesystem AS CodeSystem OrganizationTypes v1.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 6 concepts</p>
@@ -1347,7 +1347,7 @@
         <name value="AsVsOrganizationTypes"/>
         <title value="AS ValueSet OrganizationTypes"/>
         <status value="active"/>
-        <date value="2024-11-26T17:24:24+00:00"/>
+        <date value="2025-01-21T08:42:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1356,8 +1356,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:374efa96-a0d5-40c7-bc42-053f579a81c9"/>
-          <timestamp value="2024-11-26T17:25:45+00:00"/>
+          <identifier value="urn:uuid:e61e0bcf-549b-4ca3-afca-d8c3a3819f92"/>
+          <timestamp value="2025-01-21T08:43:59+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -1423,7 +1423,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-as-cs-type-etablissement.html">codesystem AS CodeSystem Type Etablissement v1.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 2 concepts</p>
@@ -1479,7 +1479,7 @@
         <title value="AS ValueSet type Etablissement"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-26T17:24:24+00:00"/>
+        <date value="2025-01-21T08:42:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1488,8 +1488,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2ce5e28a-e976-407c-b9f3-3bed118d33cd"/>
-          <timestamp value="2024-11-26T17:25:45+00:00"/>
+          <identifier value="urn:uuid:e8842eb0-9eff-4334-b27e-411dee358e37"/>
+          <timestamp value="2025-01-21T08:43:59+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1535,7 +1535,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-as-cs-type-systeme-information.html">codesystem AS CodeSystem type de système d'information v1.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 3 concepts</p>
@@ -1605,7 +1605,7 @@
         <title value="AS ValueSet type de système d'information"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-26T17:24:24+00:00"/>
+        <date value="2025-01-21T08:42:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1614,8 +1614,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a7b7ed81-6385-493b-82ea-e721dea19179"/>
-          <timestamp value="2024-11-26T17:25:45+00:00"/>
+          <identifier value="urn:uuid:bfe68f29-5f05-417f-8e79-ece61a2b649c"/>
+          <timestamp value="2025-01-21T08:43:59+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>

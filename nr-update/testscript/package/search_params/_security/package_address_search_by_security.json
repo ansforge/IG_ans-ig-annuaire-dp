@@ -6,7 +6,7 @@
   "title": "package address search_by security",
   "status": "draft",
   "experimental": true,
-  "date": "2024-11-26T17:27:52+00:00",
+  "date": "2025-01-21T08:46:12+00:00",
   "publisher": "The MITRE Corporation",
   "fixture": [
     {
@@ -20,9 +20,9 @@
   ],
   "variable": [
     {
-      "name": "63bZbGNN0hgvceYZ",
+      "name": "OxC97HKnEMEx7oo0",
       "expression": "Address.meta.security",
-      "sourceId": "Q22C7yFU4dZkyDyh"
+      "sourceId": "s7wQ8FyhRGzFDDfF"
     }
   ],
   "setup": {
@@ -35,7 +35,7 @@
           },
           "label": "Operation_1",
           "encodeRequestUrl": false,
-          "responseId": "Q22C7yFU4dZkyDyh",
+          "responseId": "s7wQ8FyhRGzFDDfF",
           "sourceId": "example_address"
         }
       }
@@ -54,7 +54,7 @@
             "resource": "Address",
             "label": "Operation_2",
             "encodeRequestUrl": false,
-            "params": "?_security=${63bZbGNN0hgvceYZ}"
+            "params": "?_security=${OxC97HKnEMEx7oo0}"
           }
         }
       ]
@@ -71,7 +71,7 @@
           "resource": "Address",
           "label": "Operation_3",
           "encodeRequestUrl": false,
-          "params": "/${63bZbGNN0hgvceYZ}"
+          "params": "/${OxC97HKnEMEx7oo0}"
         }
       }
     ]
