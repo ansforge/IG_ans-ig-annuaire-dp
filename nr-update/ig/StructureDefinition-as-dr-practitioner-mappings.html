@@ -436,13 +436,6 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value</td><td>CX.1 / EI.1</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>CX.7 + CX.8</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>CX.4 / (CX.4,CX.9,CX.10)</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;identifier (adeli)</td><td>PRD-7 (or XCN.1)</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;use</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td>CX.5</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;system</td><td>CX.4 / EI-2-4</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value</td><td>CX.1 / EI.1</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>CX.7 + CX.8</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>CX.4 / (CX.4,CX.9,CX.10)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>XPN</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;use</td><td>XPN.7, but often indicated by which field contains the name</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text</td><td>implied by XPN.11</td> </tr>
@@ -612,15 +605,6 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value</td><td>II.extension or II.root if system indicates OID or GUID (Or Role.id.extension or root)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>Role.effectiveTime or implied by context</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>II.assigningAuthorityName but note that this is an improper use by the definition of the field.  Also Role.scoper</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;identifier (adeli)</td><td>./id</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;use</td><td>Role.code or implied by context</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td>Role.code or implied by context</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;system</td><td>II.root or Role.id.root</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value</td><td>II.extension or II.root if system indicates OID or GUID (Or Role.id.extension or root)</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>Role.effectiveTime or implied by context</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>II.assigningAuthorityName but note that this is an improper use by the definition of the field.  Also Role.scoper</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;active</td><td>./statusCode</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>n/a, EN (actually, PN)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
@@ -739,11 +723,6 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value</td><td>./Value</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>./StartDate and ./EndDate</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>./IdentifierIssuingAuthority</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;identifier (adeli)</td><td>./Identifiers</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;system</td><td>./IdentifierType</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value</td><td>./Value</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>./StartDate and ./EndDate</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>./IdentifierIssuingAuthority</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>ProviderName</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;use</td><td>./NamePurpose</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;family</td><td>./FamilyName</td> </tr>
@@ -780,7 +759,6 @@
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>FiveWs.identifier</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier (idNatPs)</td><td>FiveWs.identifier</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier (rpps)</td><td>FiveWs.identifier</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;identifier (adeli)</td><td>FiveWs.identifier</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;active</td><td>FiveWs.status</td> </tr>
 </table>
 
@@ -831,7 +809,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.fhir.fr.annuaire#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jan 21, 2025 08:42+0000">2025-01-21</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.fhir.fr.annuaire#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jan 21, 2025 08:47+0000">2025-01-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

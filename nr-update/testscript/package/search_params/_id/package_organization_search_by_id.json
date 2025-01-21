@@ -6,7 +6,7 @@
   "title": "package organization search_by id",
   "status": "draft",
   "experimental": true,
-  "date": "2025-01-21T08:46:12+00:00",
+  "date": "2025-01-21T08:51:03+00:00",
   "publisher": "The MITRE Corporation",
   "fixture": [
     {
@@ -20,9 +20,9 @@
   ],
   "variable": [
     {
-      "name": "Am4cEOcgVc6aZqSg",
+      "name": "ccc6SeIpttpsx5eO",
       "expression": "Organization.id",
-      "sourceId": "VpuCm0DqJZhCkUsA"
+      "sourceId": "5j4KL9N2TTpI9LZL"
     }
   ],
   "setup": {
@@ -35,7 +35,7 @@
           },
           "label": "Operation_1",
           "encodeRequestUrl": false,
-          "responseId": "VpuCm0DqJZhCkUsA",
+          "responseId": "5j4KL9N2TTpI9LZL",
           "sourceId": "example_organization"
         }
       }
@@ -54,7 +54,7 @@
             "resource": "Organization",
             "label": "Operation_2",
             "encodeRequestUrl": false,
-            "params": "?_id=${Am4cEOcgVc6aZqSg}"
+            "params": "?_id=${ccc6SeIpttpsx5eO}"
           }
         }
       ]
@@ -71,7 +71,7 @@
           "resource": "Organization",
           "label": "Operation_3",
           "encodeRequestUrl": false,
-          "params": "/${Am4cEOcgVc6aZqSg}"
+          "params": "/${ccc6SeIpttpsx5eO}"
         }
       }
     ]

@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "9beaa372-5194-4e2a-a7f0-f1e5a45ab4d5-179",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/9beaa372-5194-4e2a-a7f0-f1e5a45ab4d5-179",
+  "id" : "a6ad8080-c71f-4a11-8905-0c93432e0c88-179",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/a6ad8080-c71f-4a11-8905-0c93432e0c88-179",
   "name" : "UnionAsVSInterneIdSystemsAndAsVSInterneIdSystems",
   "title" : "Union of AS ValueSet Internal Identifier Systems And AS ValueSet Internal Identifier Systems",
   "status" : "active",
-  "date" : "2025-01-21T08:43:12+00:00",
+  "date" : "2025-01-21T08:48:05+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

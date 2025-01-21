@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AsDrPractitionerProfile"] ; # 
   fhir:title [ fhir:v "AS Donnée Restreinte Practitioner Profile"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-01-21T08:42:48+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-01-21T08:47:42+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -6108,7 +6108,7 @@
        fhir:definition [ fhir:v "An identifier that applies to this person in this role." ] ;
        fhir:requirements [ fhir:v "Often, specific identities are assigned for the agent." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "*" ] ;
+       fhir:max [ fhir:v "0" ] ;
        fhir:base [
          fhir:path [ fhir:v "Practitioner.identifier" ] ;
          fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -6128,7 +6128,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
-       fhir:mustSupport [ fhir:v "true"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -6279,7 +6278,7 @@
        fhir:definition [ fhir:v "A coded type for the identifier that can be used to determine which identifier to use for a specific purpose." ] ;
        fhir:comment [ fhir:v "This element deals only with general categories of identifiers.  It SHOULD not be used for codes that correspond 1..1 with the Identifier.system. Some identifiers may fall into multiple categories due to common usage.   Where the system is known, a type is unnecessary because the type is always part of the system definition. However systems often need to handle identifiers where the system is not known. There is not a 1:1 relationship between type and system, since many different systems have the same type." ] ;
        fhir:requirements [ fhir:v "Allows users to make use of identifiers when the identifier system is not known." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Identifier.type" ] ;

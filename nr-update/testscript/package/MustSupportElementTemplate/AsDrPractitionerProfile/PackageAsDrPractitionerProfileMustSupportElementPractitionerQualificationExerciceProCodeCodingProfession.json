@@ -6,7 +6,7 @@
   "title": "IG: package; Profile: AsDrPractitionerProfile; Case: Must Support Element; Element: Practitioner.qualification:exercicePro.code.coding:profession",
   "status": "draft",
   "experimental": true,
-  "date": "2025-01-21T08:46:12+00:00",
+  "date": "2025-01-21T08:51:03+00:00",
   "publisher": "The MITRE Corporation",
   "test": [
     {
