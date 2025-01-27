@@ -36,6 +36,8 @@ Description: 	"""Profil public applicatif créé à partir du profil générique
 // mailbox-mss - Donnees privees
 * telecom[mailbox-mss].extension[as-mailbox-mss-metadata].extension[responsible] 0..0
 * telecom[mailbox-mss].extension[as-mailbox-mss-metadata].extension[phone] 0..0
+// * telecom[mailbox-mss].extension[as-mailbox-mss-metadata].extension[listeRouge] 0..0 // A vérifier
+
 // adresseCorrespondance
 * address 0..0
 

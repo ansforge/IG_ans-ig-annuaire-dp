@@ -26,6 +26,12 @@ Description: 	"Profil générique créé à partir de FrPractitioner dans le con
 * identifier.type ^short = "Type d’identifiant national de la personne physique (typeIdNat_PP),\r\nLes codes RPPS et IDNPS proviennent du system  https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203 ; Les codes 1, 3, 4, 5, 6 proviennent du system : https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne"
 
 * identifier[idNatPs] MS
+* identifier[idNatPs].type 1..1 // Contrainte ajoutée dans FrCore, ligne à supprimer à la prochaine release de FrCore 
+
+* identifier[rpps] MS
+* identifier[rpps].type 1..1 // Contrainte ajoutée dans FrCore, ligne à supprimer à la prochaine release de FrCore 
+
+* identifier[adeli] 0..0 // Adeli décommissionné, ligne à supprimer au prochain héritage FrCore 
 
 // // Identifiant interne à portée nationale. Celui-ci peut aussi être inclus dans l'idNatPs.
 // * identifier[identifiantInterne] ^short = "Identifiant interne à partée nationale du practicien. L'identifiant interne est composé d'un identifiant local propre à une structure et d'un identifiant national."
