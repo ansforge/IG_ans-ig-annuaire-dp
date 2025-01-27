@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "55fc72fc-ec80-4daa-8e14-f32eb6baa3e4-164",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/55fc72fc-ec80-4daa-8e14-f32eb6baa3e4-164",
+  "id" : "17aa6d79-2773-407d-9032-75a2c63f042b-164",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/17aa6d79-2773-407d-9032-75a2c63f042b-164",
   "name" : "UnionAsLocationProfileAndAsLocationProfile",
   "title" : "Union of AS Location Profile And AS Location Profile",
   "status" : "active",
-  "date" : "2025-01-27T14:04:18+00:00",
+  "date" : "2025-01-27T16:55:27+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

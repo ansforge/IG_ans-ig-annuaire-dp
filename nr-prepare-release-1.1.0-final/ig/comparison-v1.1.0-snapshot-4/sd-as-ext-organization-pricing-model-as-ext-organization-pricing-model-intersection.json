@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "55fc72fc-ec80-4daa-8e14-f32eb6baa3e4-117",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/55fc72fc-ec80-4daa-8e14-f32eb6baa3e4-117",
+  "id" : "17aa6d79-2773-407d-9032-75a2c63f042b-117",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/17aa6d79-2773-407d-9032-75a2c63f042b-117",
   "name" : "IntersectionAsOrganizationPricingModelExtensionAndAsOrganizationPricingModelExtension",
   "title" : "Intersection of AS Organization Pricing Model Extension And AS Organization Pricing Model Extension",
   "status" : "active",
-  "date" : "2025-01-27T14:04:18+00:00",
+  "date" : "2025-01-27T16:55:27+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -151,7 +151,7 @@
       "isSummary" : false,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/55fc72fc-ec80-4daa-8e14-f32eb6baa3e4-120"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/17aa6d79-2773-407d-9032-75a2c63f042b-120"
       },
       "mapping" : [{
         "identity" : "rim",
