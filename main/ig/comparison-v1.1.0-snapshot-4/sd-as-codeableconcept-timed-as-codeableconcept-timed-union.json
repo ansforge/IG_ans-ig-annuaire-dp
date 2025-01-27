@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "9f97deda-346f-40fd-90a9-44df2195d833-17",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9f97deda-346f-40fd-90a9-44df2195d833-17",
+  "id" : "8edea334-99b0-449c-bc53-216c83ab3647-17",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/8edea334-99b0-449c-bc53-216c83ab3647-17",
   "name" : "UnionAsCodeableConceptTimedProfileAndAsCodeableConceptTimedProfile",
   "title" : "Union of AS CodeableConceptTimed Datatype Profile And AS CodeableConceptTimed Datatype Profile",
   "status" : "active",
-  "date" : "2025-01-27T16:40:51+00:00",
+  "date" : "2025-01-27T17:01:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

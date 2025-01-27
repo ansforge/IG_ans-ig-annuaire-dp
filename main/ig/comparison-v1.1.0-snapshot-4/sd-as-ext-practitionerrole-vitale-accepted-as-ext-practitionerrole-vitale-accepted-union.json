@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "9f97deda-346f-40fd-90a9-44df2195d833-146",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9f97deda-346f-40fd-90a9-44df2195d833-146",
+  "id" : "8edea334-99b0-449c-bc53-216c83ab3647-146",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/8edea334-99b0-449c-bc53-216c83ab3647-146",
   "name" : "UnionAsPractitionerRoleVitaleAcceptedAndAsPractitionerRoleVitaleAccepted",
   "title" : "Union of AS PractitionerRole Vitale Accepted And AS PractitionerRole Vitale Accepted",
   "status" : "active",
-  "date" : "2025-01-27T16:40:51+00:00",
+  "date" : "2025-01-27T17:01:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

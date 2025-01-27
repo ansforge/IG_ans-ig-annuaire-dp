@@ -6,7 +6,7 @@
   "title": "package extension search_by security",
   "status": "draft",
   "experimental": true,
-  "date": "2025-01-27T16:44:04+00:00",
+  "date": "2025-01-27T17:05:41+00:00",
   "publisher": "The MITRE Corporation",
   "fixture": [
     {
@@ -20,9 +20,9 @@
   ],
   "variable": [
     {
-      "name": "CPIlxMMvwP85RJqs",
+      "name": "lXnP5QTLuqCBpgOA",
       "expression": "Extension.meta.security",
-      "sourceId": "RwGfcYLSxc0Lizwe"
+      "sourceId": "KmkwxXHzlz3lO2PN"
     }
   ],
   "setup": {
@@ -35,7 +35,7 @@
           },
           "label": "Operation_1",
           "encodeRequestUrl": false,
-          "responseId": "RwGfcYLSxc0Lizwe",
+          "responseId": "KmkwxXHzlz3lO2PN",
           "sourceId": "example_extension"
         }
       }
@@ -54,7 +54,7 @@
             "resource": "Extension",
             "label": "Operation_2",
             "encodeRequestUrl": false,
-            "params": "?_security=${CPIlxMMvwP85RJqs}"
+            "params": "?_security=${lXnP5QTLuqCBpgOA}"
           }
         }
       ]
@@ -71,7 +71,7 @@
           "resource": "Extension",
           "label": "Operation_3",
           "encodeRequestUrl": false,
-          "params": "/${CPIlxMMvwP85RJqs}"
+          "params": "/${lXnP5QTLuqCBpgOA}"
         }
       }
     ]

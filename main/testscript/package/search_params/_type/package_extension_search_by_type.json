@@ -6,7 +6,7 @@
   "title": "package extension search_by type",
   "status": "draft",
   "experimental": true,
-  "date": "2025-01-27T16:44:04+00:00",
+  "date": "2025-01-27T17:05:41+00:00",
   "publisher": "The MITRE Corporation",
   "fixture": [
     {
@@ -20,9 +20,9 @@
   ],
   "variable": [
     {
-      "name": "VpO7tKzZ5uLn4rGw",
+      "name": "7ugbUgCLluRw0DVt",
       "expression": "Extension.id",
-      "sourceId": "4QzJHl88NdKXz9SD"
+      "sourceId": "52zHMIE43RIPbLXh"
     }
   ],
   "setup": {
@@ -35,7 +35,7 @@
           },
           "label": "Operation_1",
           "encodeRequestUrl": false,
-          "responseId": "4QzJHl88NdKXz9SD",
+          "responseId": "52zHMIE43RIPbLXh",
           "sourceId": "example_extension"
         }
       }
@@ -71,7 +71,7 @@
           "resource": "Extension",
           "label": "Operation_3",
           "encodeRequestUrl": false,
-          "params": "/${VpO7tKzZ5uLn4rGw}"
+          "params": "/${7ugbUgCLluRw0DVt}"
         }
       }
     ]

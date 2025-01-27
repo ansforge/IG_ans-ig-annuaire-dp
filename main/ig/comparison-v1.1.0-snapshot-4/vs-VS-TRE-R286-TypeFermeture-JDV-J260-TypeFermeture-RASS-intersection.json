@@ -1,9 +1,9 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "9f97deda-346f-40fd-90a9-44df2195d833-111",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/9f97deda-346f-40fd-90a9-44df2195d833-111",
+  "id" : "8edea334-99b0-449c-bc53-216c83ab3647-111",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/8edea334-99b0-449c-bc53-216c83ab3647-111",
   "name" : "IntersectionVS_TRE_R286_TypeFermetureAndJDV_J260-TypeFermeture-RASS",
   "title" : "Intersection of ValueSet pour l'ensemble des codes concepts de la TRE avec l'url : https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture And null",
   "status" : "active",
-  "date" : "2025-01-27T16:40:51+00:00"
+  "date" : "2025-01-27T17:01:29+00:00"
 }
