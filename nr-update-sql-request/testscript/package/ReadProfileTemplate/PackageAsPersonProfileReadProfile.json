@@ -1,0 +1,70 @@
+{
+  "id": "274d512d0378761c3d728856b5f882a235e66f25af7cf833e41f4bd6ec166d7c",
+  "url": "https://github.com/fhir-crucible/testscript-generator/274d512d0378761c3d728856b5f882a235e66f25af7cf833e41f4bd6ec166d7c",
+  "version": "0.0",
+  "name": "PackageAsPersonProfileReadProfile",
+  "title": "IG: package; Profile: AsPersonProfile; Case: Read Profile",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-01-27T13:13:32+00:00",
+  "publisher": "The MITRE Corporation",
+  "profile": [
+    {
+      "id": "targetProfileAsPersonProfile",
+      "reference": "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-person"
+    }
+  ],
+  "variable": [
+    {
+      "name": "targetResourceIdAsPersonProfile",
+      "defaultValue": "example",
+      "description": "Enter a known instance id on the destination system. Will be checked for conformance against profile AsPersonProfile.",
+      "hint": "[resource.id]"
+    }
+  ],
+  "test": [
+    {
+      "name": "Validate the identified resource conforms to the AsPersonProfile profile",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "read"
+            },
+            "resource": "Person",
+            "label": "Read_Person_Instance",
+            "description": "Read Person Instance",
+            "encodeRequestUrl": false,
+            "params": "/${targetResourceIdAsPersonProfile}",
+            "responseId": "targetInstance"
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Response_OK",
+            "response": "okay",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Person_Returned",
+            "description": "Assert Person Returned",
+            "resource": "Person",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Instance_Conforms_to_AsPersonProfile_Profile",
+            "description": "Assert returned instance conforms to the AsPersonProfile Profile",
+            "validateProfileId": "targetProfileAsPersonProfile",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

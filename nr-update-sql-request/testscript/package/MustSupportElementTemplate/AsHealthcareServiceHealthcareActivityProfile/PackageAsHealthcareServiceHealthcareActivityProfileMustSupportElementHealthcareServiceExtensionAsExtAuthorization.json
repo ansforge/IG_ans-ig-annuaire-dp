@@ -1,0 +1,70 @@
+{
+  "id": "d43f33408e61605ecc1aa125a860f839929045304407de45776f8a3c17416d65",
+  "url": "https://github.com/fhir-crucible/testscript-generator/d43f33408e61605ecc1aa125a860f839929045304407de45776f8a3c17416d65",
+  "version": "0.0",
+  "name": "PackageAsHealthcareServiceHealthcareActivityProfileMustSupportElementHealthcareServiceExtensionAsExtAuthorization",
+  "title": "IG: package; Profile: AsHealthcareServiceHealthcareActivityProfile; Case: Must Support Element; Element: HealthcareService.extension:as-ext-authorization",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-01-27T13:13:32+00:00",
+  "publisher": "The MITRE Corporation",
+  "profile": [
+    {
+      "id": "targetProfileAsHealthcareServiceHealthcareActivityProfile",
+      "reference": "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-healthcareservice-healthcare-activity"
+    }
+  ],
+  "variable": [
+    {
+      "name": "targetResourceIdAsHealthcareServiceHealthcareActivityProfile",
+      "defaultValue": "example",
+      "description": "Enter a known instance id on the destination system. Will be checked for conformance against profile AsHealthcareServiceHealthcareActivityProfile.",
+      "hint": "[resource.id]"
+    }
+  ],
+  "test": [
+    {
+      "name": "Validate the identified resource conforms to the AsHealthcareServiceHealthcareActivityProfile profile",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "read"
+            },
+            "resource": "HealthcareService",
+            "label": "Read_HealthcareService_Instance",
+            "description": "Read HealthcareService Instance",
+            "encodeRequestUrl": false,
+            "params": "/${targetResourceIdAsHealthcareServiceHealthcareActivityProfile}",
+            "responseId": "targetInstance"
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Response_OK",
+            "response": "okay",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_HealthcareService_Returned",
+            "description": "Assert HealthcareService Returned",
+            "resource": "HealthcareService",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Instance_Conforms_to_AsHealthcareServiceHealthcareActivityProfile_Profile",
+            "description": "Assert returned instance conforms to the AsHealthcareServiceHealthcareActivityProfile Profile",
+            "validateProfileId": "targetProfileAsHealthcareServiceHealthcareActivityProfile",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

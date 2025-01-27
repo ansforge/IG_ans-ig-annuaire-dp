@@ -1,0 +1,26 @@
+{
+  "id": "c44225d403cfb96a325f92966580ab10775a4848d0f7eb3c146f2f7ae3a2bd66",
+  "url": "https://github.com/fhir-crucible/testscript-generator/c44225d403cfb96a325f92966580ab10775a4848d0f7eb3c146f2f7ae3a2bd66",
+  "version": "0.0",
+  "name": "PackageAsDrPersonProfileMustSupportElementPersonLinkAsPractitionerExerciceProfessionnel",
+  "title": "IG: package; Profile: AsDrPersonProfile; Case: Must Support Element; Element: Person.link:as-practitioner-exercice-professionnel",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-01-27T13:13:32+00:00",
+  "publisher": "The MITRE Corporation",
+  "test": [
+    {
+      "name": "Generation Feature Not Implemented",
+      "action": [
+        {
+          "assert": {
+            "label": "Fail - not implemented in generator: profile discriminator type needs looping in TestScript",
+            "expression": "1!=1",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

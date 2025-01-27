@@ -1,0 +1,70 @@
+{
+  "id": "c47788554793e103e011c19928eeab90d4040280d1e96f863aff3abe99777484",
+  "url": "https://github.com/fhir-crucible/testscript-generator/c47788554793e103e011c19928eeab90d4040280d1e96f863aff3abe99777484",
+  "version": "0.0",
+  "name": "PackageAsDpOrganizationProfileMustSupportElementOrganizationType",
+  "title": "IG: package; Profile: AsDpOrganizationProfile; Case: Must Support Element; Element: Organization.type",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-01-27T13:13:32+00:00",
+  "publisher": "The MITRE Corporation",
+  "profile": [
+    {
+      "id": "targetProfileAsDpOrganizationProfile",
+      "reference": "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-dp-organization"
+    }
+  ],
+  "variable": [
+    {
+      "name": "targetResourceIdAsDpOrganizationProfile",
+      "defaultValue": "example",
+      "description": "Enter a known instance id on the destination system. Will be checked for conformance against profile AsDpOrganizationProfile.",
+      "hint": "[resource.id]"
+    }
+  ],
+  "test": [
+    {
+      "name": "Validate the identified resource conforms to the AsDpOrganizationProfile profile",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "read"
+            },
+            "resource": "Organization",
+            "label": "Read_Organization_Instance",
+            "description": "Read Organization Instance",
+            "encodeRequestUrl": false,
+            "params": "/${targetResourceIdAsDpOrganizationProfile}",
+            "responseId": "targetInstance"
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Response_OK",
+            "response": "okay",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Organization_Returned",
+            "description": "Assert Organization Returned",
+            "resource": "Organization",
+            "warningOnly": false
+          }
+        },
+        {
+          "assert": {
+            "label": "Assert_Instance_Conforms_to_AsDpOrganizationProfile_Profile",
+            "description": "Assert returned instance conforms to the AsDpOrganizationProfile Profile",
+            "validateProfileId": "targetProfileAsDpOrganizationProfile",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

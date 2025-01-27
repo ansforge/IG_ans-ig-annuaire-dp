@@ -1,0 +1,26 @@
+{
+  "id": "d1d595080871e7ef28c227dda5e8403f31f4d3c423dc559c4fb29cf41d5b0a87",
+  "url": "https://github.com/fhir-crucible/testscript-generator/d1d595080871e7ef28c227dda5e8403f31f4d3c423dc559c4fb29cf41d5b0a87",
+  "version": "0.0",
+  "name": "PackageAsDpOrganizationProfileMustSupportElementOrganizationTelecomMailboxMssValue",
+  "title": "IG: package; Profile: AsDpOrganizationProfile; Case: Must Support Element; Element: Organization.telecom:mailbox-mss.value",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-01-27T13:13:32+00:00",
+  "publisher": "The MITRE Corporation",
+  "test": [
+    {
+      "name": "Generation Feature Not Implemented",
+      "action": [
+        {
+          "assert": {
+            "label": "Fail - not implemented in generator: multiple discriminators",
+            "expression": "1!=1",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}

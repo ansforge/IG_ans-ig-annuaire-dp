@@ -1,0 +1,1189 @@
+@startuml
+set namespaceSeparator ?
+hide circle
+hide class fields
+
+package IG #DDDDDD{
+
+     package Profiles #DDDDDD{
+
+        class AsAddressExtendedProfile{
+
+             Address => [None..None]
+             Address.extension:inseeCode => <&plus>[None..None]
+             Address.line.extension => [None..None]
+             Address.line.extension:careOf => <&plus>[0..1]
+             Address.line.extension:additionalLocator => <&plus>[0..1]
+             Address.line.extension:houseNumber => <&plus>[0..1]
+             Address.line.extension:buildingNumberSuffix => <&plus>[0..1]
+             Address.line.extension:streetNameType => <&plus>[0..1]
+             Address.line.extension:streetNameType.value[x] => <&plus>[None..None]
+             Address.line.extension:postBox => <&plus>[0..1]
+             Address.line.extension:streetNameBase => <&plus>[0..1]
+             Address.line.extension:lieuDit => <&plus>[0..1]
+             Address.city => [None..None]
+             Address.district => [None..None]
+             Address.postalCode => [None..None]
+             Address.country => [None..None]
+        } 
+
+        class AsCodeableConceptTimedProfile{
+
+             CodeableConcept.extension:as-codeableconcept-timed-metadata => <&plus>[0..*]
+        } 
+
+        class AsDeviceProfile{
+
+             Device.meta.extension:as-ext-data-trace => <&plus>[0..1]
+             Device.extension => [None..None]
+             Device.extension:as-ext-authorization => <&plus>[0..1]
+             Device.extension:as-ext-authorization.extension:dateAuthorization => <&plus>[None..None]
+             Device.extension:as-ext-authorization.extension:periodAuthorization => <&plus>[None..None]
+             Device.extension:as-ext-authorization.extension:periodAuthorization.value[x].start => <&plus>[None..None]
+             Device.extension:as-ext-authorization.extension:periodAuthorization.value[x].end => <&plus>[None..None]
+             Device.identifier => [None..None]
+             Device.identifier:numAutorisationArhgos => [0..1]
+             Device.identifier:numAutorisationArhgos.system => [1..None]
+             Device.identifier:numAutorisationArhgos.value => [None..None]
+             Device.status => [None..None]
+             Device.manufacturer => [None..None]
+             Device.serialNumber => [None..None]
+             Device.type => [None..None]
+             Device.owner => [None..None]
+        } 
+
+        class AsDpDeviceProfile{
+
+             Device => [None..None]
+             Device.meta.profile => [1..None]
+             Device.meta.profile:as-dp-canonical => [1..1]
+             Device.definition => [None..0]
+             Device.udiCarrier => [None..0]
+             Device.status => [1..None]
+             Device.statusReason => [None..0]
+             Device.distinctIdentifier => [None..0]
+             Device.manufactureDate => [None..0]
+             Device.expirationDate => [None..0]
+             Device.lotNumber => [None..0]
+             Device.deviceName => [None..0]
+             Device.modelNumber => [None..0]
+             Device.partNumber => [None..0]
+             Device.specialization => [None..0]
+             Device.version => [None..0]
+             Device.property => [None..0]
+             Device.patient => [None..0]
+             Device.contact => [None..0]
+             Device.location => [None..0]
+             Device.url => [None..0]
+             Device.note => [None..0]
+             Device.safety => [None..0]
+             Device.parent => [None..0]
+        } 
+
+        class AsDpHealthcareServiceHealthcareActivityProfile{
+
+             HealthcareService => [None..None]
+             HealthcareService.meta.profile => [1..None]
+             HealthcareService.meta.profile:as-dp-canonical => [1..1]
+             HealthcareService.active => [1..None]
+             HealthcareService.specialty => [None..0]
+             HealthcareService.location => [None..0]
+             HealthcareService.name => [None..0]
+             HealthcareService.comment => [None..0]
+             HealthcareService.extraDetails => [None..0]
+             HealthcareService.photo => [None..0]
+             HealthcareService.telecom => [None..0]
+             HealthcareService.coverageArea => [None..0]
+             HealthcareService.serviceProvisionCode => [None..0]
+             HealthcareService.eligibility => [None..0]
+             HealthcareService.program => [None..0]
+             HealthcareService.communication => [None..0]
+             HealthcareService.referralMethod => [None..0]
+             HealthcareService.appointmentRequired => [None..0]
+             HealthcareService.availableTime => [None..0]
+             HealthcareService.notAvailable => [None..0]
+             HealthcareService.availabilityExceptions => [None..0]
+             HealthcareService.endpoint => [None..0]
+        } 
+
+        class AsDpHealthcareServiceSocialEquipmentProfile{
+
+             HealthcareService => [None..None]
+             HealthcareService.meta.profile => [1..None]
+             HealthcareService.meta.profile:as-dp-canonical => [1..1]
+             HealthcareService.identifier => [None..0]
+             HealthcareService.identifier:numAutorisationArhgos => [None..0]
+             HealthcareService.active => [1..None]
+             HealthcareService.category => [None..0]
+             HealthcareService.specialty => [None..0]
+             HealthcareService.location => [None..0]
+             HealthcareService.name => [None..0]
+             HealthcareService.comment => [None..0]
+             HealthcareService.extraDetails => [None..0]
+             HealthcareService.photo => [None..0]
+             HealthcareService.telecom => [None..0]
+             HealthcareService.coverageArea => [None..0]
+             HealthcareService.serviceProvisionCode => [None..0]
+             HealthcareService.eligibility.comment => [None..0]
+             HealthcareService.program => [None..0]
+             HealthcareService.communication => [None..0]
+             HealthcareService.referralMethod => [None..0]
+             HealthcareService.appointmentRequired => [None..0]
+             HealthcareService.availableTime => [None..0]
+             HealthcareService.notAvailable => [None..0]
+             HealthcareService.availabilityExceptions => [None..0]
+             HealthcareService.endpoint => [None..0]
+        } 
+
+        class AsDpOrganizationProfile{
+
+             Organization => [None..None]
+             Organization.meta.profile => [2..None]
+             Organization.meta.profile:fr-canonical => [1..None]
+             Organization.meta.profile:as-dp-canonical => [1..1]
+             Organization.extension:as-ext-digital-certificate => <&plus>[None..0]
+             Organization.identifier => [None..None]
+             Organization.identifier.period => [None..0]
+             Organization.identifier.assigner => [None..0]
+             Organization.identifier:idNatSt => [None..None]
+             Organization.identifier:idNatSt.period => [None..0]
+             Organization.identifier:idNatSt.assigner => [None..0]
+             Organization.identifier:siren => [None..None]
+             Organization.identifier:siren.period => [None..0]
+             Organization.identifier:siren.assigner => [None..0]
+             Organization.identifier:siret => [None..None]
+             Organization.identifier:siret.period => [None..0]
+             Organization.identifier:siret.assigner => [None..0]
+             Organization.identifier:finess => [None..None]
+             Organization.identifier:finess.period => [None..0]
+             Organization.identifier:finess.assigner => [None..0]
+             Organization.identifier:adeliRang => [None..None]
+             Organization.identifier:adeliRang.period => [None..0]
+             Organization.identifier:adeliRang.assigner => [None..0]
+             Organization.identifier:rppsRang => [None..None]
+             Organization.identifier:rppsRang.period => [None..0]
+             Organization.identifier:rppsRang.assigner => [None..0]
+             Organization.identifier:identifiantInterne => [0..1]
+             Organization.identifier:identifiantInterne.type => [1..None]
+             Organization.identifier:identifiantInterne.system => [None..None]
+             Organization.active => [1..None]
+             Organization.telecom => [None..None]
+             Organization.telecom.period => [None..0]
+             Organization.telecom:mailbox-mss => [None..None]
+             Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata => <&plus>[None..None]
+             Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:responsible => <&plus>[None..0]
+             Organization.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:phone => <&plus>[None..0]
+             Organization.telecom:mailbox-mss.period => [None..0]
+             Organization.contact => [None..0]
+             Organization.endpoint => [None..0]
+        } 
+
+        class AsDpPractitionerProfile{
+
+             Practitioner => [None..None]
+             Practitioner.meta.profile => [2..None]
+             Practitioner.meta.profile:fr-canonical => [1..None]
+             Practitioner.meta.profile:as-dp-canonical => [1..1]
+             Practitioner.extension:as-ext-registration => <&plus>[None..0]
+             Practitioner.extension:as-ext-frpractitioner-authorization => <&plus>[None..0]
+             Practitioner.extension:as-ext-smartcard => <&plus>[None..1]
+             Practitioner.extension:as-ext-digital-certificate => <&plus>[None..0]
+             Practitioner.identifier => [2..None]
+             Practitioner.identifier.period => [None..0]
+             Practitioner.identifier.assigner => [None..0]
+             Practitioner.identifier:idNatPs => [1..None]
+             Practitioner.identifier:idNatPs.period => [None..0]
+             Practitioner.identifier:idNatPs.assigner => [None..0]
+             Practitioner.identifier:rpps => [1..1]
+             Practitioner.identifier:rpps.period => [None..0]
+             Practitioner.identifier:rpps.assigner => [None..0]
+             Practitioner.identifier:adeli => [None..None]
+             Practitioner.identifier:adeli.period => [None..0]
+             Practitioner.identifier:adeli.assigner => [None..0]
+             Practitioner.identifier:identifiantInterne => [0..1]
+             Practitioner.identifier:identifiantInterne.type => [None..None]
+             Practitioner.identifier:identifiantInterne.system => [None..None]
+             Practitioner.identifier:identifiantInterne.value => [None..None]
+             Practitioner.active => [1..None]
+             Practitioner.name => [None..1]
+             Practitioner.telecom => [None..None]
+             Practitioner.telecom:mailbox-mss => [None..None]
+             Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata => <&plus>[None..None]
+             Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:responsible => <&plus>[None..0]
+             Practitioner.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:phone => <&plus>[None..0]
+             Practitioner.address => [None..0]
+             Practitioner.qualification => [None..None]
+             Practitioner.qualification.period => [None..0]
+             Practitioner.qualification:degree => [None..None]
+             Practitioner.qualification:degree.extension:as-ext-education-level => <&plus>[None..0]
+             Practitioner.qualification:degree.period => [None..0]
+             Practitioner.qualification:degree.issuer => [None..0]
+             Practitioner.qualification:exercicePro => [None..None]
+             Practitioner.qualification:exercicePro.period => [None..0]
+             Practitioner.qualification:savoirFaire => [None..None]
+             Practitioner.qualification:savoirFaire.period => [None..0]
+             Practitioner.communication => [None..0]
+        } 
+
+        class AsDpPractitionerRoleProfile{
+
+             PractitionerRole => [None..None]
+             PractitionerRole.meta.profile => [2..None]
+             PractitionerRole.meta.profile:fr-canonical => [1..None]
+             PractitionerRole.meta.profile:as-dp-canonical => [1..1]
+             PractitionerRole.extension:as-ext-practitionerrole-contracted => <&plus>[None..0]
+             PractitionerRole.extension:as-ext-practitionerrole-hascas => <&plus>[None..0]
+             PractitionerRole.extension:as-ext-practitionerrole-vitale-accepted => <&plus>[None..0]
+             PractitionerRole.identifier:idSituationExercice => [None..1]
+             PractitionerRole.identifier:numeroAm => [None..0]
+             PractitionerRole.active => [1..None]
+             PractitionerRole.period => [None..0]
+             PractitionerRole.practitioner => [1..None]
+             PractitionerRole.specialty => [None..0]
+             PractitionerRole.location => [None..0]
+             PractitionerRole.healthcareService => [None..0]
+             PractitionerRole.telecom => [None..None]
+             PractitionerRole.telecom:mailbox-mss => [None..None]
+             PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata => <&plus>[None..None]
+             PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:responsible => <&plus>[None..0]
+             PractitionerRole.telecom:mailbox-mss.extension:as-mailbox-mss-metadata.extension:phone => <&plus>[None..0]
+             PractitionerRole.availableTime => [None..0]
+             PractitionerRole.notAvailable => [None..0]
+             PractitionerRole.availabilityExceptions => [None..0]
+             PractitionerRole.endpoint => [None..0]
+        } 
+
+        class AsDrDeviceProfile{
+
+             Device => [None..None]
+             Device.meta.profile => [1..None]
+             Device.meta.profile:as-dr-canonical => [1..1]
+             Device.definition => [None..0]
+             Device.udiCarrier => [None..0]
+             Device.statusReason => [None..0]
+             Device.distinctIdentifier => [None..0]
+             Device.manufactureDate => [None..0]
+             Device.expirationDate => [None..0]
+             Device.lotNumber => [None..0]
+             Device.deviceName => [None..0]
+             Device.modelNumber => [None..0]
+             Device.partNumber => [None..0]
+             Device.specialization => [None..0]
+             Device.version => [None..0]
+             Device.property => [None..0]
+             Device.patient => [None..0]
+             Device.contact => [None..0]
+             Device.location => [None..0]
+             Device.url => [None..0]
+             Device.note => [None..0]
+             Device.safety => [None..0]
+             Device.parent => [None..0]
+        } 
+
+        class AsDrHealthcareServiceHealthcareActivityProfile{
+
+             HealthcareService => [None..None]
+             HealthcareService.meta.profile => [1..None]
+             HealthcareService.meta.profile:as-dr-canonical => [1..1]
+             HealthcareService.specialty => [None..0]
+             HealthcareService.location => [None..0]
+             HealthcareService.name => [None..0]
+             HealthcareService.comment => [None..0]
+             HealthcareService.extraDetails => [None..0]
+             HealthcareService.photo => [None..0]
+             HealthcareService.telecom => [None..0]
+             HealthcareService.coverageArea => [None..0]
+             HealthcareService.serviceProvisionCode => [None..0]
+             HealthcareService.eligibility => [None..0]
+             HealthcareService.program => [None..0]
+             HealthcareService.communication => [None..0]
+             HealthcareService.referralMethod => [None..0]
+             HealthcareService.appointmentRequired => [None..0]
+             HealthcareService.availableTime => [None..0]
+             HealthcareService.notAvailable => [None..0]
+             HealthcareService.availabilityExceptions => [None..0]
+             HealthcareService.endpoint => [None..0]
+        } 
+
+        class AsDrHealthcareServiceSocialEquipmentProfile{
+
+             HealthcareService => [None..None]
+             HealthcareService.meta.profile => [1..None]
+             HealthcareService.meta.profile:as-dr-canonical => [1..1]
+             HealthcareService.identifier => [None..0]
+             HealthcareService.identifier:numAutorisationArhgos => [None..0]
+             HealthcareService.category => [None..0]
+             HealthcareService.specialty => [None..0]
+             HealthcareService.location => [None..0]
+             HealthcareService.name => [None..0]
+             HealthcareService.comment => [None..0]
+             HealthcareService.extraDetails => [None..0]
+             HealthcareService.photo => [None..0]
+             HealthcareService.telecom => [None..0]
+             HealthcareService.coverageArea => [None..0]
+             HealthcareService.serviceProvisionCode => [None..0]
+             HealthcareService.eligibility.comment => [None..0]
+             HealthcareService.program => [None..0]
+             HealthcareService.communication => [None..0]
+             HealthcareService.referralMethod => [None..0]
+             HealthcareService.appointmentRequired => [None..0]
+             HealthcareService.availableTime => [None..0]
+             HealthcareService.notAvailable => [None..0]
+             HealthcareService.availabilityExceptions => [None..0]
+             HealthcareService.endpoint => [None..0]
+        } 
+
+        class AsDrOrganizationProfile{
+
+             Organization => [None..None]
+             Organization.meta.profile => [2..None]
+             Organization.meta.profile:fr-canonical => [1..None]
+             Organization.meta.profile:as-dr-canonical => [1..1]
+        } 
+
+        class AsDrPersonProfile{
+
+             Person => [None..None]
+             Person.meta.profile => [1..None]
+             Person.meta.profile:as-dr-canonical => [1..1]
+             Person.name => [None..1]
+             Person.photo => [None..0]
+        } 
+
+        class AsDrPractitionerProfile{
+
+             Practitioner => [None..None]
+             Practitioner.meta.profile => [2..None]
+             Practitioner.meta.profile:fr-canonical => [1..None]
+             Practitioner.meta.profile:as-dr-canonical => [1..1]
+             Practitioner.extension:as-ext-digital-certificate => <&plus>[None..None]
+             Practitioner.extension:as-ext-digital-certificate.extension:domain => <&plus>[None..0]
+             Practitioner.identifier => [2..None]
+             Practitioner.identifier:idNatPs => [1..None]
+             Practitioner.identifier:rpps => [1..1]
+             Practitioner.name => [None..1]
+        } 
+
+        class AsDrPractitionerRoleProfile{
+
+             PractitionerRole => [None..None]
+             PractitionerRole.meta.profile => [2..None]
+             PractitionerRole.meta.profile:fr-canonical => [1..None]
+             PractitionerRole.meta.profile:as-dr-canonical => [1..1]
+             PractitionerRole.identifier:idSituationExercice => [None..1]
+             PractitionerRole.identifier:numeroAm => [None..1]
+             PractitionerRole.practitioner => [1..None]
+             PractitionerRole.specialty => [None..0]
+             PractitionerRole.healthcareService => [None..0]
+             PractitionerRole.availableTime => [None..0]
+             PractitionerRole.notAvailable => [None..0]
+             PractitionerRole.availabilityExceptions => [None..0]
+             PractitionerRole.endpoint => [None..0]
+        } 
+
+        class AsHealthcareServiceHealthcareActivityProfile{
+
+             HealthcareService.meta.extension:as-ext-data-trace => <&plus>[0..1]
+             HealthcareService.meta.extension:as-ext-data-trace.extension:date-maj-ae => <&plus>[None..None]
+             HealthcareService.extension => [None..None]
+             HealthcareService.extension:as-ext-authorization => <&plus>[0..*]
+             HealthcareService.identifier => [None..None]
+             HealthcareService.identifier:numAutorisationArhgos => [0..1]
+             HealthcareService.identifier:numAutorisationArhgos.system => [1..None]
+             HealthcareService.providedBy => [None..None]
+             HealthcareService.category => [None..None]
+             HealthcareService.type => [None..None]
+             HealthcareService.type:category => [0..1]
+             HealthcareService.type:activity => [0..1]
+             HealthcareService.specialty => [None..None]
+             HealthcareService.characteristic => [None..None]
+        } 
+
+        class AsHealthcareServiceSocialEquipmentProfile{
+
+             HealthcareService.meta.extension:as-ext-data-trace => <&plus>[0..1]
+             HealthcareService.extension => [None..None]
+             HealthcareService.extension:as-ext-authorization => <&plus>[0..*]
+             HealthcareService.extension:as-ext-authorization.extension:dateAuthorization => <&plus>[None..None]
+             HealthcareService.extension:as-ext-authorization.extension:deletedAuthorization => <&plus>[None..None]
+             HealthcareService.extension:as-ext-installation => <&plus>[0..*]
+             HealthcareService.extension:as-ext-installation.extension:dateFirstInstallation => <&plus>[None..None]
+             HealthcareService.extension:as-ext-installation.extension:deletedInstallation => <&plus>[None..None]
+             HealthcareService.extension:as-ext-patient-type => <&plus>[0..*]
+             HealthcareService.extension:as-ext-patient-type.extension:authorizedAgeRange => <&plus>[None..None]
+             HealthcareService.extension:as-ext-patient-type.extension:authorizedAgeRange.value[x].low => <&plus>[None..None]
+             HealthcareService.extension:as-ext-patient-type.extension:authorizedAgeRange.value[x].high => <&plus>[None..None]
+             HealthcareService.extension:as-ext-patient-type.extension:installedAgeRange => <&plus>[None..None]
+             HealthcareService.extension:as-ext-patient-type.extension:installedAgeRange.value[x].low => <&plus>[None..None]
+             HealthcareService.extension:as-ext-patient-type.extension:installedAgeRange.value[x].high => <&plus>[None..None]
+             HealthcareService.extension:as-ext-supported-capacity => <&plus>[0..*]
+             HealthcareService.extension:as-ext-supported-capacity.extension:capacityAvailable => <&plus>[None..None]
+             HealthcareService.extension:as-ext-supported-capacity.extension:femaleCapacityAvailable => <&plus>[None..None]
+             HealthcareService.extension:as-ext-supported-capacity.extension:maleCapacityAvailable => <&plus>[None..None]
+             HealthcareService.extension:as-ext-supported-capacity.extension:socialAssistanceCapacityAvailable => <&plus>[None..None]
+             HealthcareService.extension:as-ext-supported-capacity.extension:installedCapacity => <&plus>[None..None]
+             HealthcareService.extension:as-ext-supported-capacity.extension:femaleInstalledCapacity => <&plus>[None..None]
+             HealthcareService.extension:as-ext-supported-capacity.extension:maleInstalledCapacity => <&plus>[None..None]
+             HealthcareService.extension:as-ext-supported-capacity.extension:socialAssistanceInstalledCapacity => <&plus>[None..None]
+             HealthcareService.identifier => [None..None]
+             HealthcareService.identifier:numAutorisationArhgos => [0..1]
+             HealthcareService.identifier:numAutorisationArhgos.system => [1..None]
+             HealthcareService.providedBy => [None..None]
+             HealthcareService.type => [None..None]
+             HealthcareService.type:category => [0..1]
+             HealthcareService.eligibility => [None..None]
+             HealthcareService.eligibility.code => [None..None]
+             HealthcareService.characteristic => [None..None]
+        } 
+
+        class AsLocationProfile{
+
+             Location => [None..None]
+             Location.meta.extension:as-ext-data-trace => <&plus>[0..1]
+             Location.address => [None..None]
+        } 
+
+        class AsMailboxMSSProfile{
+
+             ContactPoint => [None..None]
+             ContactPoint.extension => [1..None]
+             ContactPoint.extension:emailType => <&plus>[1..None]
+             ContactPoint.extension:emailType.value[x] => <&plus>[None..None]
+             ContactPoint.extension:as-mailbox-mss-metadata => <&plus>[0..1]
+             ContactPoint.extension:as-mailbox-mss-metadata.extension:description => <&plus>[None..None]
+             ContactPoint.extension:as-mailbox-mss-metadata.extension:service => <&plus>[None..None]
+             ContactPoint.extension:as-mailbox-mss-metadata.extension:digitization => <&plus>[None..None]
+             ContactPoint.extension:as-mailbox-mss-metadata.extension:listeRouge => <&plus>[None..None]
+             ContactPoint.system => [None..None]
+             ContactPoint.value => [None..None]
+        } 
+
+        class AsOrganizationProfile{
+
+             Organization => [None..None]
+             Organization.meta.extension:as-ext-data-trace => <&plus>[0..1]
+             Organization.extension:usePeriod => <&plus>[None..None]
+             Organization.extension:usePeriod.value[x].start => <&plus>[None..None]
+             Organization.extension:usePeriod.value[x].end => <&plus>[None..None]
+             Organization.extension:as-ext-digital-certificate => <&plus>[0..1]
+             Organization.extension:as-ext-organization-pharmacy-licence => <&plus>[0..*]
+             Organization.extension:as-ext-organization-pricing-model => <&plus>[0..1]
+             Organization.extension:as-ext-organization-closing-type => <&plus>[0..1]
+             Organization.extension:as-ext-organization-budget-type => <&plus>[0..1]
+             Organization.extension:as-ext-organization-authorization-deadline => <&plus>[0..1]
+             Organization.identifier:idNatSt => [None..None]
+             Organization.identifier:siren => [None..None]
+             Organization.identifier:siret => [None..None]
+             Organization.identifier:finess => [None..None]
+             Organization.identifier:adeliRang => [None..None]
+             Organization.identifier:rppsRang => [None..None]
+             Organization.active => [None..None]
+             Organization.type => [None..None]
+             Organization.type:organizationType => [None..None]
+             Organization.type:organizationType.extension => [1..None]
+             Organization.type:organizationType.extension:as-ext-organization-types => <&plus>[1..1]
+             Organization.type:organizationType.extension:as-ext-organization-types.value[x] => <&plus>[None..None]
+             Organization.type:secteurActiviteRASS => [None..None]
+             Organization.type:secteurActiviteRASS.extension => [1..None]
+             Organization.type:secteurActiviteRASS.extension:as-ext-organization-types => <&plus>[1..1]
+             Organization.type:secteurActiviteRASS.extension:as-ext-organization-types.value[x] => <&plus>[None..None]
+             Organization.type:categorieEtablissementRASS => [None..None]
+             Organization.type:activiteINSEE => [0..1]
+             Organization.type:activiteINSEE.extension => [1..None]
+             Organization.type:activiteINSEE.extension:as-ext-organization-types => <&plus>[1..1]
+             Organization.type:activiteINSEE.extension:as-ext-organization-types.value[x] => <&plus>[None..None]
+             Organization.type:statutJuridiqueINSEE => [0..1]
+             Organization.type:statutJuridiqueINSEE.extension => [1..None]
+             Organization.type:statutJuridiqueINSEE.extension:as-ext-organization-types => <&plus>[1..1]
+             Organization.type:statutJuridiqueINSEE.extension:as-ext-organization-types.value[x] => <&plus>[None..None]
+             Organization.type:sphParticipation => [0..1]
+             Organization.type:sphParticipation.extension => [1..None]
+             Organization.type:sphParticipation.extension:as-ext-organization-types => <&plus>[1..1]
+             Organization.type:sphParticipation.extension:as-ext-organization-types.value[x] => <&plus>[None..None]
+             Organization.type:typeEtablissement => [0..1]
+             Organization.type:typeEtablissement.extension => [1..None]
+             Organization.type:typeEtablissement.extension:as-ext-organization-types => <&plus>[1..1]
+             Organization.type:typeEtablissement.extension:as-ext-organization-types.value[x] => <&plus>[None..None]
+             Organization.name => [None..None]
+             Organization.alias => [None..None]
+             Organization.telecom => [None..None]
+             Organization.telecom.use => [None..None]
+             Organization.telecom:mailbox-mss => [0..*]
+             Organization.address => [None..None]
+             Organization.partOf => [None..None]
+             Organization.endpoint => [None..None]
+        } 
+
+        class AsPersonProfile{
+
+             Person.meta.extension:as-ext-data-trace => <&plus>[0..1]
+             Person.language => [None..None]
+             Person.extension => [None..None]
+             Person.extension:as-ext-person-nationality => <&plus>[0..*]
+             Person.extension:as-ext-person-birth-place => <&plus>[0..1]
+             Person.extension:as-ext-person-deceased-date-time => <&plus>[0..1]
+             Person.name => [None..None]
+             Person.name.family => [None..None]
+             Person.name.given => [None..None]
+             Person.name.prefix => [None..None]
+             Person.telecom => [None..None]
+             Person.telecom.system => [None..None]
+             Person.telecom.use => [None..None]
+             Person.gender => [None..None]
+             Person.birthDate => [None..None]
+             Person.photo => [None..None]
+             Person.active => [None..None]
+             Person.link => [None..None]
+             Person.link:as-practitioner-exercice-professionnel => [0..*]
+             Person.link:as-practitioner-exercice-professionnel.target => [None..None]
+        } 
+
+        class AsPractitionerProfile{
+
+             Practitioner => [None..None]
+             Practitioner.meta.extension:as-ext-data-trace => <&plus>[0..1]
+             Practitioner.extension:as-ext-registration => <&plus>[0..*]
+             Practitioner.extension:as-ext-registration.extension:registeringOrganization => <&plus>[None..None]
+             Practitioner.extension:as-ext-registration.extension:period => <&plus>[None..None]
+             Practitioner.extension:as-ext-registration.extension:period.value[x].start => <&plus>[None..None]
+             Practitioner.extension:as-ext-registration.extension:period.value[x].end => <&plus>[None..None]
+             Practitioner.extension:as-ext-registration.extension:status => <&plus>[None..None]
+             Practitioner.extension:as-ext-registration.extension:hostingDepartment => <&plus>[None..None]
+             Practitioner.extension:as-ext-frpractitioner-authorization => <&plus>[0..*]
+             Practitioner.extension:as-ext-frpractitioner-authorization.extension:type => <&plus>[None..None]
+             Practitioner.extension:as-ext-frpractitioner-authorization.extension:period => <&plus>[None..None]
+             Practitioner.extension:as-ext-frpractitioner-authorization.extension:period.value[x].start => <&plus>[None..None]
+             Practitioner.extension:as-ext-frpractitioner-authorization.extension:period.value[x].end => <&plus>[None..None]
+             Practitioner.extension:as-ext-frpractitioner-authorization.extension:field => <&plus>[None..None]
+             Practitioner.extension:as-ext-frpractitioner-authorization.extension:profession => <&plus>[None..None]
+             Practitioner.extension:as-ext-smartcard => <&plus>[0..*]
+             Practitioner.extension:as-ext-smartcard.extension:type => <&plus>[None..None]
+             Practitioner.extension:as-ext-smartcard.extension:number => <&plus>[None..None]
+             Practitioner.extension:as-ext-smartcard.extension:period => <&plus>[None..None]
+             Practitioner.extension:as-ext-smartcard.extension:period.value[x].start => <&plus>[None..None]
+             Practitioner.extension:as-ext-smartcard.extension:period.value[x].end => <&plus>[None..None]
+             Practitioner.extension:as-ext-smartcard.extension:cancellationDate => <&plus>[None..None]
+             Practitioner.extension:as-ext-digital-certificate => <&plus>[0..*]
+             Practitioner.identifier => [None..None]
+             Practitioner.identifier.type => [None..None]
+             Practitioner.identifier:idNatPs => [None..None]
+             Practitioner.identifier:rpps => [None..None]
+             Practitioner.active => [None..None]
+             Practitioner.name => [None..None]
+             Practitioner.name.family => [None..None]
+             Practitioner.name.given => [None..None]
+             Practitioner.name.suffix => [None..None]
+             Practitioner.telecom => [None..None]
+             Practitioner.telecom.system => [None..None]
+             Practitioner.telecom.use => [None..None]
+             Practitioner.telecom:mailbox-mss => [0..*]
+             Practitioner.address => [None..None]
+             Practitioner.qualification => [None..None]
+             Practitioner.qualification.identifier => [None..None]
+             Practitioner.qualification.code => [None..None]
+             Practitioner.qualification:degree => [None..None]
+             Practitioner.qualification:degree.extension => [None..None]
+             Practitioner.qualification:degree.extension:as-ext-education-level => <&plus>[0..*]
+             Practitioner.qualification:degree.extension:as-ext-education-level.extension:academicDegree => <&plus>[None..None]
+             Practitioner.qualification:degree.extension:as-ext-education-level.extension:achievedLevel => <&plus>[None..None]
+             Practitioner.qualification:degree.extension:as-ext-education-level.extension:academicYear => <&plus>[None..None]
+             Practitioner.qualification:degree.code.coding:degreeType => [None..None]
+             Practitioner.qualification:degree.code.coding:degree => [None..None]
+             Practitioner.qualification:degree.period => [None..None]
+             Practitioner.qualification:degree.period.start => [None..None]
+             Practitioner.qualification:degree.period.end => [None..None]
+             Practitioner.qualification:degree.issuer => [None..None]
+             Practitioner.qualification:exercicePro => [None..None]
+             Practitioner.qualification:exercicePro.code.coding:categorieProfession => [None..None]
+             Practitioner.qualification:exercicePro.code.coding:profession => [None..None]
+             Practitioner.qualification:exercicePro.period => [None..None]
+             Practitioner.qualification:exercicePro.period.start => [None..None]
+             Practitioner.qualification:exercicePro.period.end => [None..None]
+             Practitioner.qualification:savoirFaire => [None..None]
+             Practitioner.qualification:savoirFaire.code => [None..None]
+             Practitioner.qualification:savoirFaire.code.coding:typeSavoirFaire => [None..None]
+             Practitioner.qualification:savoirFaire.code.coding:savoirFaire => [None..None]
+             Practitioner.qualification:savoirFaire.period.start => [None..None]
+             Practitioner.qualification:savoirFaire.period.end => [None..None]
+             Practitioner.communication => [None..None]
+        } 
+
+        class AsPractitionerRoleProfile{
+
+             PractitionerRole => [None..None]
+             PractitionerRole.meta.extension:as-ext-data-trace => <&plus>[0..1]
+             PractitionerRole.extension:as-ext-practitionerrole-contracted => <&plus>[0..1]
+             PractitionerRole.extension:as-ext-practitionerrole-hascas => <&plus>[0..1]
+             PractitionerRole.extension:as-ext-practitionerrole-vitale-accepted => <&plus>[0..1]
+             PractitionerRole.identifier => [None..None]
+             PractitionerRole.identifier:idSituationExercice => [0..*]
+             PractitionerRole.identifier:idSituationExercice.system => [1..None]
+             PractitionerRole.identifier:numeroAm => [0..*]
+             PractitionerRole.identifier:numeroAm.system => [1..None]
+             PractitionerRole.active => [None..None]
+             PractitionerRole.period => [None..None]
+             PractitionerRole.period.start => [None..None]
+             PractitionerRole.period.end => [None..None]
+             PractitionerRole.practitioner => [None..None]
+             PractitionerRole.organization => [None..None]
+             PractitionerRole.code => [None..None]
+             PractitionerRole.code:genreActivite => [0..1]
+             PractitionerRole.code:modeExercice => [0..1]
+             PractitionerRole.code:typeActiviteLiberale => [0..1]
+             PractitionerRole.code:statutProfessionnelSSA => [0..1]
+             PractitionerRole.code:statutHospitalier => [0..1]
+             PractitionerRole.code:fonction => [0..1]
+             PractitionerRole.code:metierPharmacien => [0..*]
+             PractitionerRole.location => [None..None]
+             PractitionerRole.healthcareService => [None..None]
+             PractitionerRole.telecom => [None..None]
+             PractitionerRole.telecom.system => [None..None]
+             PractitionerRole.telecom.value => [None..None]
+             PractitionerRole.telecom.use => [None..None]
+             PractitionerRole.telecom:mailbox-mss => [0..*]
+             PractitionerRole.availableTime => [None..None]
+             PractitionerRole.notAvailable => [None..None]
+             PractitionerRole.availabilityExceptions => [None..None]
+             PractitionerRole.endpoint => [None..None]
+         }
+
+     }
+     package extension #paleturquoise {
+
+     AsAddressExtendedProfile -[#black,dashed,thickness=2]-> AsLieuDit
+     AsCodeableConceptTimedProfile -[#black,dashed,thickness=2]-> AsCodeableConceptPeriodMetadataExtension
+     AsDeviceProfile -[#black,dashed,thickness=2]-> AsDataTraceExtension
+     AsDeviceProfile -[#black,dashed,thickness=2]-> AsAuthorizationExtension
+     AsHealthcareServiceHealthcareActivityProfile -[#black,dashed,thickness=2]-> AsDataTraceExtension
+     AsHealthcareServiceHealthcareActivityProfile -[#black,dashed,thickness=2]-> AsAuthorizationExtension
+     AsHealthcareServiceSocialEquipmentProfile -[#black,dashed,thickness=2]-> AsDataTraceExtension
+     AsHealthcareServiceSocialEquipmentProfile -[#black,dashed,thickness=2]-> AsAuthorizationExtension
+     AsHealthcareServiceSocialEquipmentProfile -[#black,dashed,thickness=2]-> AsInstallationExtension
+     AsHealthcareServiceSocialEquipmentProfile -[#black,dashed,thickness=2]-> AsPatientTypeExtension
+     AsHealthcareServiceSocialEquipmentProfile -[#black,dashed,thickness=2]-> AsSupportedCapacityExtension
+     AsLocationProfile -[#black,dashed,thickness=2]-> AsDataTraceExtension
+     AsMailboxMSSProfile -[#black,dashed,thickness=2]-> AsMailboxMSSMetadataExtension
+     AsOrganizationProfile -[#black,dashed,thickness=2]-> AsDataTraceExtension
+     AsOrganizationProfile -[#black,dashed,thickness=2]-> AsDigitalCertificateExtension
+     AsOrganizationProfile -[#black,dashed,thickness=2]-> AsOrganizationPharmacyLicenceExtension
+     AsOrganizationProfile -[#black,dashed,thickness=2]-> AsOrganizationPricingModelExtension
+     AsOrganizationProfile -[#black,dashed,thickness=2]-> AsOrganizationClosingTypeExtension
+     AsOrganizationProfile -[#black,dashed,thickness=2]-> AsOrganizationBudgetTypeExtension
+     AsOrganizationProfile -[#black,dashed,thickness=2]-> AsOrganizationAuthorizationDeadlineExtension
+     AsOrganizationProfile -[#black,dashed,thickness=2]-> AsOrganizationTypes
+     AsOrganizationProfile -[#black,dashed,thickness=2]-> AsOrganizationTypes
+     AsOrganizationProfile -[#black,dashed,thickness=2]-> AsOrganizationTypes
+     AsOrganizationProfile -[#black,dashed,thickness=2]-> AsOrganizationTypes
+     AsOrganizationProfile -[#black,dashed,thickness=2]-> AsOrganizationTypes
+     AsOrganizationProfile -[#black,dashed,thickness=2]-> AsOrganizationTypes
+     AsPersonProfile -[#black,dashed,thickness=2]-> AsDataTraceExtension
+     AsPersonProfile -[#black,dashed,thickness=2]-> AsPersonNationalityExtension
+     AsPersonProfile -[#black,dashed,thickness=2]-> AsPersonBirthPlaceExtension
+     AsPersonProfile -[#black,dashed,thickness=2]-> AsPersonDeceasedDateTimeExtension
+     AsPractitionerProfile -[#black,dashed,thickness=2]-> AsDataTraceExtension
+     AsPractitionerProfile -[#black,dashed,thickness=2]-> AsRegistrationExtension
+     AsPractitionerProfile -[#black,dashed,thickness=2]-> AsPractitionerAuthorizationExtension
+     AsPractitionerProfile -[#black,dashed,thickness=2]-> AsSmartCardExtension
+     AsPractitionerProfile -[#black,dashed,thickness=2]-> AsDigitalCertificateExtension
+     AsPractitionerProfile -[#black,dashed,thickness=2]-> AsEducationLevelExtension
+     AsPractitionerRoleProfile -[#black,dashed,thickness=2]-> AsDataTraceExtension
+     AsPractitionerRoleProfile -[#black,dashed,thickness=2]-> AsPractitionerRoleContracted
+     AsPractitionerRoleProfile -[#black,dashed,thickness=2]-> AsPractitionerRoleHasCas
+     AsPractitionerRoleProfile -[#black,dashed,thickness=2]-> AsPractitionerRoleVitaleAccepted
+
+        class AsAuthorizationExtension{
+
+          Extension.extension:dateAuthorization => [0..1]
+          Extension.extension:dateAuthorization.extension => [None..0]
+          Extension.extension:dateAuthorization.url => [None..None]
+          Extension.extension:dateAuthorization.value[x] => [None..None]
+          Extension.extension:periodAuthorization => [0..1]
+          Extension.extension:periodAuthorization.extension => [None..0]
+          Extension.extension:periodAuthorization.url => [None..None]
+          Extension.extension:periodAuthorization.value[x] => [None..None]
+          Extension.extension:periodAuthorization.value[x].start => [None..None]
+          Extension.extension:periodAuthorization.value[x].end => [None..None]
+          Extension.extension:dateUpdateAuthorization => [0..1]
+          Extension.extension:dateUpdateAuthorization.extension => [None..0]
+          Extension.extension:dateUpdateAuthorization.url => [None..None]
+          Extension.extension:dateUpdateAuthorization.value[x] => [None..None]
+          Extension.extension:deletedAuthorization => [0..1]
+          Extension.extension:deletedAuthorization.extension => [None..0]
+          Extension.extension:deletedAuthorization.url => [None..None]
+          Extension.extension:deletedAuthorization.value[x] => [None..None]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..0]
+        } 
+        class AsCodeableConceptPeriodMetadataExtension{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+          Extension.value[x].start => [None..None]
+          Extension.value[x].end => [None..None]
+        } 
+        class AsDataTraceExtension{
+
+          Extension.extension:autorite-enregistrement => [0..1]
+          Extension.extension:autorite-enregistrement.extension => [None..0]
+          Extension.extension:autorite-enregistrement.url => [None..None]
+          Extension.extension:autorite-enregistrement.value[x] => [None..None]
+          Extension.extension:systeme-information => [0..1]
+          Extension.extension:systeme-information.extension => [None..0]
+          Extension.extension:systeme-information.url => [None..None]
+          Extension.extension:systeme-information.value[x] => [None..None]
+          Extension.extension:date-maj-ae => [0..1]
+          Extension.extension:date-maj-ae.extension => [None..0]
+          Extension.extension:date-maj-ae.url => [None..None]
+          Extension.extension:date-maj-ae.value[x] => [None..None]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..0]
+        } 
+        class AsDigitalCertificateExtension{
+
+          Extension.extension:serialNumber => [0..1]
+          Extension.extension:serialNumber.extension => [None..0]
+          Extension.extension:serialNumber.url => [None..None]
+          Extension.extension:serialNumber.value[x] => [None..None]
+          Extension.extension:issuer => [0..1]
+          Extension.extension:issuer.extension => [None..0]
+          Extension.extension:issuer.url => [None..None]
+          Extension.extension:issuer.value[x] => [None..None]
+          Extension.extension:subject => [0..1]
+          Extension.extension:subject.extension => [None..0]
+          Extension.extension:subject.url => [None..None]
+          Extension.extension:subject.value[x] => [None..None]
+          Extension.extension:validity => [0..1]
+          Extension.extension:validity.extension => [None..0]
+          Extension.extension:validity.url => [None..None]
+          Extension.extension:validity.value[x] => [None..None]
+          Extension.extension:validity.value[x].start => [None..None]
+          Extension.extension:validity.value[x].end => [None..None]
+          Extension.extension:domain => [0..1]
+          Extension.extension:domain.extension => [None..0]
+          Extension.extension:domain.url => [None..None]
+          Extension.extension:domain.value[x] => [None..None]
+          Extension.extension:keyUsage => [0..1]
+          Extension.extension:keyUsage.extension => [None..0]
+          Extension.extension:keyUsage.url => [None..None]
+          Extension.extension:keyUsage.value[x] => [None..None]
+          Extension.extension:value => [0..1]
+          Extension.extension:value.extension => [None..0]
+          Extension.extension:value.url => [None..None]
+          Extension.extension:value.value[x] => [None..None]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..0]
+        } 
+        class AsEducationLevelExtension{
+
+          Extension.extension:academicDegree => [0..1]
+          Extension.extension:academicDegree.extension => [None..0]
+          Extension.extension:academicDegree.url => [None..None]
+          Extension.extension:academicDegree.value[x] => [None..None]
+          Extension.extension:achievedLevel => [0..1]
+          Extension.extension:achievedLevel.extension => [None..0]
+          Extension.extension:achievedLevel.url => [None..None]
+          Extension.extension:achievedLevel.value[x] => [None..None]
+          Extension.extension:academicYear => [0..1]
+          Extension.extension:academicYear.extension => [None..0]
+          Extension.extension:academicYear.url => [None..None]
+          Extension.extension:academicYear.value[x] => [None..None]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..0]
+        } 
+        class AsInstallationExtension{
+
+          Extension.extension:dateFirstInstallation => [0..1]
+          Extension.extension:dateFirstInstallation.extension => [None..0]
+          Extension.extension:dateFirstInstallation.url => [None..None]
+          Extension.extension:dateFirstInstallation.value[x] => [None..None]
+          Extension.extension:dateLastInstallation => [0..1]
+          Extension.extension:dateLastInstallation.extension => [None..0]
+          Extension.extension:dateLastInstallation.url => [None..None]
+          Extension.extension:dateLastInstallation.value[x] => [None..None]
+          Extension.extension:deletedInstallation => [0..1]
+          Extension.extension:deletedInstallation.extension => [None..0]
+          Extension.extension:deletedInstallation.url => [None..None]
+          Extension.extension:deletedInstallation.value[x] => [None..None]
+          Extension.extension:sourceReportInstallation => [0..1]
+          Extension.extension:sourceReportInstallation.extension => [None..0]
+          Extension.extension:sourceReportInstallation.url => [None..None]
+          Extension.extension:sourceReportInstallation.value[x] => [None..None]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..0]
+        } 
+        class AsLieuDit{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+        } 
+        class AsMailboxMSSMetadataExtension{
+
+          Extension.extension:type => [0..1]
+          Extension.extension:type.extension => [None..0]
+          Extension.extension:type.url => [None..None]
+          Extension.extension:type.value[x] => [None..None]
+          Extension.extension:description => [0..1]
+          Extension.extension:description.extension => [None..0]
+          Extension.extension:description.url => [None..None]
+          Extension.extension:description.value[x] => [None..None]
+          Extension.extension:responsible => [0..1]
+          Extension.extension:responsible.extension => [None..0]
+          Extension.extension:responsible.url => [None..None]
+          Extension.extension:responsible.value[x] => [None..None]
+          Extension.extension:service => [0..1]
+          Extension.extension:service.extension => [None..0]
+          Extension.extension:service.url => [None..None]
+          Extension.extension:service.value[x] => [None..None]
+          Extension.extension:phone => [0..1]
+          Extension.extension:phone.extension => [None..0]
+          Extension.extension:phone.url => [None..None]
+          Extension.extension:phone.value[x] => [None..None]
+          Extension.extension:digitization => [0..1]
+          Extension.extension:digitization.extension => [None..0]
+          Extension.extension:digitization.url => [None..None]
+          Extension.extension:digitization.value[x] => [None..None]
+          Extension.extension:listeRouge => [0..1]
+          Extension.extension:listeRouge.extension => [None..0]
+          Extension.extension:listeRouge.url => [None..None]
+          Extension.extension:listeRouge.value[x] => [None..None]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..0]
+        } 
+        class AsOrganizationAuthorizationDeadlineExtension{
+
+          Extension.extension:endDate => [0..1]
+          Extension.extension:endDate.extension => [None..0]
+          Extension.extension:endDate.url => [None..None]
+          Extension.extension:endDate.value[x] => [None..None]
+          Extension.extension:indicator => [0..1]
+          Extension.extension:indicator.extension => [None..0]
+          Extension.extension:indicator.url => [None..None]
+          Extension.extension:indicator.value[x] => [None..None]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..0]
+        } 
+        class AsOrganizationBudgetTypeExtension{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+        } 
+        class AsOrganizationClosingTypeExtension{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+        } 
+        class AsOrganizationPharmacyLicenceExtension{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+        } 
+        class AsOrganizationPricingModelExtension{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+        } 
+        class AsOrganizationTypes{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+        } 
+        class AsPatientTypeExtension{
+
+          Extension.extension:authorizedAgeRange => [0..1]
+          Extension.extension:authorizedAgeRange.extension => [None..0]
+          Extension.extension:authorizedAgeRange.url => [None..None]
+          Extension.extension:authorizedAgeRange.value[x] => [None..None]
+          Extension.extension:installedAgeRange => [0..1]
+          Extension.extension:installedAgeRange.extension => [None..0]
+          Extension.extension:installedAgeRange.url => [None..None]
+          Extension.extension:installedAgeRange.value[x] => [None..None]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..0]
+        } 
+        class AsPersonBirthPlaceExtension{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+          Extension.value[x]:valueAddress => [0..1]
+        } 
+        class AsPersonDeceasedDateTimeExtension{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+          Extension.value[x]:valueDateTime => [0..1]
+        } 
+        class AsPersonNationalityExtension{
+
+          Extension.extension:code => [0..1]
+          Extension.extension:code.extension => [None..0]
+          Extension.extension:code.url => [None..None]
+          Extension.extension:code.value[x] => [None..None]
+          Extension.extension:period => [0..1]
+          Extension.extension:period.extension => [None..0]
+          Extension.extension:period.url => [None..None]
+          Extension.extension:period.value[x] => [None..None]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..0]
+        } 
+        class AsPractitionerAuthorizationExtension{
+
+          Extension.extension:type => [0..1]
+          Extension.extension:type.extension => [None..0]
+          Extension.extension:type.url => [None..None]
+          Extension.extension:type.value[x] => [None..None]
+          Extension.extension:period => [0..1]
+          Extension.extension:period.extension => [None..0]
+          Extension.extension:period.url => [None..None]
+          Extension.extension:period.value[x] => [None..None]
+          Extension.extension:period.value[x].start => [None..None]
+          Extension.extension:period.value[x].end => [None..None]
+          Extension.extension:field => [0..1]
+          Extension.extension:field.extension => [None..0]
+          Extension.extension:field.url => [None..None]
+          Extension.extension:field.value[x] => [None..None]
+          Extension.extension:profession => [0..1]
+          Extension.extension:profession.extension => [None..0]
+          Extension.extension:profession.url => [None..None]
+          Extension.extension:profession.value[x] => [None..None]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..0]
+        } 
+        class AsPractitionerRoleContracted{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+        } 
+        class AsPractitionerRoleHasCas{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+        } 
+        class AsPractitionerRoleVitaleAccepted{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+        } 
+        class AsRegistrationExtension{
+
+          Extension.extension:registeringOrganization => [0..1]
+          Extension.extension:registeringOrganization.extension => [None..0]
+          Extension.extension:registeringOrganization.url => [None..None]
+          Extension.extension:registeringOrganization.value[x] => [None..None]
+          Extension.extension:registeringOrganizationDetail => [0..1]
+          Extension.extension:registeringOrganizationDetail.extension => [None..0]
+          Extension.extension:registeringOrganizationDetail.url => [None..None]
+          Extension.extension:registeringOrganizationDetail.value[x] => [None..None]
+          Extension.extension:period => [0..1]
+          Extension.extension:period.extension => [None..0]
+          Extension.extension:period.url => [None..None]
+          Extension.extension:period.value[x] => [None..None]
+          Extension.extension:period.value[x].start => [None..None]
+          Extension.extension:period.value[x].end => [None..None]
+          Extension.extension:status => [0..1]
+          Extension.extension:status.extension => [None..0]
+          Extension.extension:status.url => [None..None]
+          Extension.extension:status.value[x] => [None..None]
+          Extension.extension:hostingDepartment => [0..1]
+          Extension.extension:hostingDepartment.extension => [None..0]
+          Extension.extension:hostingDepartment.url => [None..None]
+          Extension.extension:hostingDepartment.value[x] => [None..None]
+          Extension.extension:isFirst => [0..1]
+          Extension.extension:isFirst.extension => [None..0]
+          Extension.extension:isFirst.url => [None..None]
+          Extension.extension:isFirst.value[x] => [None..None]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..0]
+        } 
+        class AsSmartCardExtension{
+
+          Extension.extension:type => [0..1]
+          Extension.extension:type.extension => [None..0]
+          Extension.extension:type.url => [None..None]
+          Extension.extension:type.value[x] => [None..None]
+          Extension.extension:number => [0..1]
+          Extension.extension:number.extension => [None..0]
+          Extension.extension:number.url => [None..None]
+          Extension.extension:number.value[x] => [None..None]
+          Extension.extension:period => [0..1]
+          Extension.extension:period.extension => [None..0]
+          Extension.extension:period.url => [None..None]
+          Extension.extension:period.value[x] => [None..None]
+          Extension.extension:period.value[x].start => [None..None]
+          Extension.extension:period.value[x].end => [None..None]
+          Extension.extension:cancellationDate => [0..1]
+          Extension.extension:cancellationDate.extension => [None..0]
+          Extension.extension:cancellationDate.url => [None..None]
+          Extension.extension:cancellationDate.value[x] => [None..None]
+          Extension.extension:date => [0..*]
+          Extension.extension:date.url => [None..None]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..0]
+        } 
+        class AsSupportedCapacityExtension{
+
+          Extension.extension:capacityAvailable => [0..1]
+          Extension.extension:capacityAvailable.extension => [None..0]
+          Extension.extension:capacityAvailable.url => [None..None]
+          Extension.extension:capacityAvailable.value[x] => [None..None]
+          Extension.extension:femaleCapacityAvailable => [0..1]
+          Extension.extension:femaleCapacityAvailable.extension => [None..0]
+          Extension.extension:femaleCapacityAvailable.url => [None..None]
+          Extension.extension:femaleCapacityAvailable.value[x] => [None..None]
+          Extension.extension:maleCapacityAvailable => [0..1]
+          Extension.extension:maleCapacityAvailable.extension => [None..0]
+          Extension.extension:maleCapacityAvailable.url => [None..None]
+          Extension.extension:maleCapacityAvailable.value[x] => [None..None]
+          Extension.extension:socialAssistanceCapacityAvailable => [0..1]
+          Extension.extension:socialAssistanceCapacityAvailable.extension => [None..0]
+          Extension.extension:socialAssistanceCapacityAvailable.url => [None..None]
+          Extension.extension:socialAssistanceCapacityAvailable.value[x] => [None..None]
+          Extension.extension:installedCapacity => [0..1]
+          Extension.extension:installedCapacity.extension => [None..0]
+          Extension.extension:installedCapacity.url => [None..None]
+          Extension.extension:installedCapacity.value[x] => [None..None]
+          Extension.extension:femaleInstalledCapacity => [0..1]
+          Extension.extension:femaleInstalledCapacity.extension => [None..0]
+          Extension.extension:femaleInstalledCapacity.url => [None..None]
+          Extension.extension:femaleInstalledCapacity.value[x] => [None..None]
+          Extension.extension:maleInstalledCapacity => [0..1]
+          Extension.extension:maleInstalledCapacity.extension => [None..0]
+          Extension.extension:maleInstalledCapacity.url => [None..None]
+          Extension.extension:maleInstalledCapacity.value[x] => [None..None]
+          Extension.extension:socialAssistanceInstalledCapacity => [0..1]
+          Extension.extension:socialAssistanceInstalledCapacity.extension => [None..0]
+          Extension.extension:socialAssistanceInstalledCapacity.url => [None..None]
+          Extension.extension:socialAssistanceInstalledCapacity.value[x] => [None..None]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..0]
+         }
+     }
+     package valueset #PaleVioletRed{
+
+        class AsVSInterneIdSystems  
+
+     AsDpPractitionerProfile -[#black,dotted,thickness=2]-> AsVSInterneIdSystems
+
+        class AsVsTypeSystemeInformationVS  
+
+     AsDataTraceExtension -[#black,dotted,thickness=2]-> AsVsTypeSystemeInformationVS
+
+        class AsVsOrganizationTypes  
+
+     AsOrganizationTypes -[#black,dotted,thickness=2]-> AsVsOrganizationTypes
+
+        class AsVsTypeEtablissement  
+
+     AsOrganizationProfile -[#black,dotted,thickness=2]-> AsVsTypeEtablissement
+       }
+
+package "Ressources de base" #palegreen {
+
+ class "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address" as  class02bd19ba761f85d7bc96fe05a09e62dc 
+
+    class02bd19ba761f85d7bc96fe05a09e62dc --> AsAddressExtendedProfile
+
+ class "CodeableConcept" as  class3521d6f1ff87d9b962b1c77766470bb9 
+
+    class3521d6f1ff87d9b962b1c77766470bb9 --> AsCodeableConceptTimedProfile
+
+ class "Device" as  classe0ac20adce6ffee48c7151b070aa5737 
+
+    classe0ac20adce6ffee48c7151b070aa5737 --> AsDeviceProfile
+
+ class "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-device" as  class258a7cfbd366b829153b76133f2929f3 
+
+    class258a7cfbd366b829153b76133f2929f3 --> AsDpDeviceProfile
+
+ class "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-healthcareservice-healthcare-activity" as  classc6773332487706db995815d48bf4eaa3 
+
+    classc6773332487706db995815d48bf4eaa3 --> AsDpHealthcareServiceHealthcareActivityProfile
+
+ class "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-healthcareservice-social-equipment" as  class4d06710bf15dd52545aaad528646cea2 
+
+    class4d06710bf15dd52545aaad528646cea2 --> AsDpHealthcareServiceSocialEquipmentProfile
+
+ class "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization" as  class02104d9d29574b85b8bdd491de969f0d 
+
+    class02104d9d29574b85b8bdd491de969f0d --> AsDpOrganizationProfile
+
+ class "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-practitioner" as  class8e95a74d3099b6c1bdd4ef690920bb75 
+
+    class8e95a74d3099b6c1bdd4ef690920bb75 --> AsDpPractitionerProfile
+
+ class "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-practitionerrole" as  class409d7284b1fcd82a5ca90685afaba163 
+
+    class409d7284b1fcd82a5ca90685afaba163 --> AsDpPractitionerRoleProfile
+
+ class "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-device" as  class258a7cfbd366b829153b76133f2929f3 
+
+    class258a7cfbd366b829153b76133f2929f3 --> AsDrDeviceProfile
+
+ class "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-healthcareservice-healthcare-activity" as  classc6773332487706db995815d48bf4eaa3 
+
+    classc6773332487706db995815d48bf4eaa3 --> AsDrHealthcareServiceHealthcareActivityProfile
+
+ class "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-healthcareservice-social-equipment" as  class4d06710bf15dd52545aaad528646cea2 
+
+    class4d06710bf15dd52545aaad528646cea2 --> AsDrHealthcareServiceSocialEquipmentProfile
+
+ class "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization" as  class02104d9d29574b85b8bdd491de969f0d 
+
+    class02104d9d29574b85b8bdd491de969f0d --> AsDrOrganizationProfile
+
+ class "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-person" as  class5ff15367ec74891982b2b77a33df8e26 
+
+    class5ff15367ec74891982b2b77a33df8e26 --> AsDrPersonProfile
+
+ class "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-practitioner" as  class8e95a74d3099b6c1bdd4ef690920bb75 
+
+    class8e95a74d3099b6c1bdd4ef690920bb75 --> AsDrPractitionerProfile
+
+ class "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-practitionerrole" as  class409d7284b1fcd82a5ca90685afaba163 
+
+    class409d7284b1fcd82a5ca90685afaba163 --> AsDrPractitionerRoleProfile
+
+ class "HealthcareService" as  classccfbac0a7f2dd501f3a20274066b28a3 
+
+    classccfbac0a7f2dd501f3a20274066b28a3 --> AsHealthcareServiceHealthcareActivityProfile
+
+ class "HealthcareService" as  classccfbac0a7f2dd501f3a20274066b28a3 
+
+    classccfbac0a7f2dd501f3a20274066b28a3 --> AsHealthcareServiceSocialEquipmentProfile
+
+ class "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location" as  class505b865d93b3b02ed3aff95e782d498a 
+
+    class505b865d93b3b02ed3aff95e782d498a --> AsLocationProfile
+
+ class "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point" as  classf60483b0623e1893e0fa6d23ce4ea871 
+
+    classf60483b0623e1893e0fa6d23ce4ea871 --> AsMailboxMSSProfile
+
+ class "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization" as  class7273115ddeceb35c4c7044f07f832f67 
+
+    class7273115ddeceb35c4c7044f07f832f67 --> AsOrganizationProfile
+
+ class "Person" as  class40bed7cf9b3d4bb3a3d7a7e3eb18c5eb 
+
+    class40bed7cf9b3d4bb3a3d7a7e3eb18c5eb --> AsPersonProfile
+
+ class "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner" as  class722d091912544e694771fe1d2c6739cb 
+
+    class722d091912544e694771fe1d2c6739cb --> AsPractitionerProfile
+
+ class "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-role" as  class32e744761be9cc693fcaf56d8ca68b99 
+
+    class32e744761be9cc693fcaf56d8ca68b99 --> AsPractitionerRoleProfile
+}
+@enduml

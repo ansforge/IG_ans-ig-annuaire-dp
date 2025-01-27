@@ -1,0 +1,26 @@
+{
+  "id": "c3677fc567f44d4ed2a806010e010e966f232d07ae0bd130f64c40caa215b5a1",
+  "url": "https://github.com/fhir-crucible/testscript-generator/c3677fc567f44d4ed2a806010e010e966f232d07ae0bd130f64c40caa215b5a1",
+  "version": "0.0",
+  "name": "PackageAsDpOrganizationProfileMustSupportElementOrganizationEndpoint",
+  "title": "IG: package; Profile: AsDpOrganizationProfile; Case: Must Support Element; Element: Organization.endpoint",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-01-27T13:13:32+00:00",
+  "publisher": "The MITRE Corporation",
+  "test": [
+    {
+      "name": "Generation Feature Not Implemented",
+      "action": [
+        {
+          "assert": {
+            "label": "Fail - not implemented in generator: Multiple Response Reference Elements",
+            "expression": "1!=1",
+            "warningOnly": false
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "TestScript"
+}
