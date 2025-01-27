@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "06d13bde-133f-4bf5-a03b-f72b805279a7-87",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/06d13bde-133f-4bf5-a03b-f72b805279a7-87",
+  "id" : "55fc72fc-ec80-4daa-8e14-f32eb6baa3e4-87",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/55fc72fc-ec80-4daa-8e14-f32eb6baa3e4-87",
   "name" : "IntersectionAsDigitalCertificateExtensionAndAsDigitalCertificateExtension",
   "title" : "Intersection of AS Digital Certificate Extension And AS Digital Certificate Extension",
   "status" : "active",
-  "date" : "2025-01-27T13:44:46+00:00",
+  "date" : "2025-01-27T14:04:18+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

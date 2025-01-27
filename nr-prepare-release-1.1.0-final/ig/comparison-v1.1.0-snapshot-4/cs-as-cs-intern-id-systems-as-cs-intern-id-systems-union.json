@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "06d13bde-133f-4bf5-a03b-f72b805279a7-2",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/06d13bde-133f-4bf5-a03b-f72b805279a7-2",
+  "id" : "55fc72fc-ec80-4daa-8e14-f32eb6baa3e4-2",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/55fc72fc-ec80-4daa-8e14-f32eb6baa3e4-2",
   "name" : "UnionAsCSInterneIdSystemsAndAsCSInterneIdSystems",
   "title" : "Union of AS CodeSystem Internal Identifier Systems And AS CodeSystem Internal Identifier Systems",
   "status" : "active",
-  "date" : "2025-01-27T13:44:46+00:00",
+  "date" : "2025-01-27T14:04:18+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
