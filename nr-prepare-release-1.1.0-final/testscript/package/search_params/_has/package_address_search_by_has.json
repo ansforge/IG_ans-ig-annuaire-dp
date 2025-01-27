@@ -1,0 +1,80 @@
+{
+  "id": "Package-Address-Search_by-Has",
+  "url": "https://github.com/fhir-crucible/testscript-generator",
+  "version": "0.0",
+  "name": "Package_Address_Search_by_Has",
+  "title": "package address search_by has",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-01-27T13:47:56+00:00",
+  "publisher": "The MITRE Corporation",
+  "fixture": [
+    {
+      "id": "example_address",
+      "autocreate": false,
+      "autodelete": false,
+      "resource": {
+        "reference": "fixtures/example_address.json"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "name": "OEMhFpyFWLD5Enog",
+      "expression": "Address.id",
+      "sourceId": "L7wvftKQ1zpKrPLd"
+    }
+  ],
+  "setup": {
+    "action": [
+      {
+        "operation": {
+          "type": {
+            "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+            "code": "create"
+          },
+          "label": "Operation_1",
+          "encodeRequestUrl": false,
+          "responseId": "L7wvftKQ1zpKrPLd",
+          "sourceId": "example_address"
+        }
+      }
+    ]
+  },
+  "test": [
+    {
+      "name": "Test_1",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "search"
+            },
+            "resource": "Address",
+            "label": "Operation_2",
+            "encodeRequestUrl": false,
+            "params": "?_has"
+          }
+        }
+      ]
+    }
+  ],
+  "teardown": {
+    "action": [
+      {
+        "operation": {
+          "type": {
+            "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+            "code": "delete"
+          },
+          "resource": "Address",
+          "label": "Operation_3",
+          "encodeRequestUrl": false,
+          "params": "/${OEMhFpyFWLD5Enog}"
+        }
+      }
+    ]
+  },
+  "resourceType": "TestScript"
+}

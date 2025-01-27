@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "06d13bde-133f-4bf5-a03b-f72b805279a7-5",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/06d13bde-133f-4bf5-a03b-f72b805279a7-5",
+  "name" : "UnionAsCsOrganizationTypesAndAsCsOrganizationTypes",
+  "title" : "Union of AS CodeSystem OrganizationTypes And AS CodeSystem OrganizationTypes",
+  "status" : "active",
+  "date" : "2025-01-27T13:44:46+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "concept" : [{
+    "code" : "organizationType",
+    "display" : "Type d'organisation",
+    "definition" : "Type d'organisation"
+  },
+  {
+    "code" : "activiteINSEE",
+    "display" : "Activité INSEE",
+    "definition" : "Activité INSEE"
+  },
+  {
+    "code" : "statutJuridiqueINSEE",
+    "display" : "Statut Juridique INSEE",
+    "definition" : "Statut Juridique INSEE"
+  },
+  {
+    "code" : "sphParticipation",
+    "display" : "sph Participation",
+    "definition" : "Participation au service public hospitalier"
+  },
+  {
+    "code" : "typeEtablissement",
+    "display" : "Type d'établissement",
+    "definition" : "Type d'établissement"
+  },
+  {
+    "code" : "secteurActiviteRASS",
+    "display" : "Secteur d'activité RASS",
+    "definition" : "Secteur d'activité RASS"
+  }]
+}

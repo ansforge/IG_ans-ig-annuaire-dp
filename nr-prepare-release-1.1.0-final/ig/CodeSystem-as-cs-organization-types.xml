@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="as-cs-organization-types"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem as-cs-organization-types</b></p><a name="as-cs-organization-types"> </a><a name="hcas-cs-organization-types"> </a><a name="as-cs-organization-types-fr-FR"> </a><p>This  code system <code>https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">organizationType<a name="as-cs-organization-types-organizationType"> </a></td><td>Type d'organisation</td><td>Type d'organisation</td></tr><tr><td style="white-space:nowrap">activiteINSEE<a name="as-cs-organization-types-activiteINSEE"> </a></td><td>Activité INSEE</td><td>Activité INSEE</td></tr><tr><td style="white-space:nowrap">statutJuridiqueINSEE<a name="as-cs-organization-types-statutJuridiqueINSEE"> </a></td><td>Statut Juridique INSEE</td><td>Statut Juridique INSEE</td></tr><tr><td style="white-space:nowrap">sphParticipation<a name="as-cs-organization-types-sphParticipation"> </a></td><td>sph Participation</td><td>Participation au service public hospitalier</td></tr><tr><td style="white-space:nowrap">typeEtablissement<a name="as-cs-organization-types-typeEtablissement"> </a></td><td>Type d'établissement</td><td>Type d'établissement</td></tr><tr><td style="white-space:nowrap">secteurActiviteRASS<a name="as-cs-organization-types-secteurActiviteRASS"> </a></td><td>Secteur d'activité RASS</td><td>Secteur d'activité RASS</td></tr></table></div>
+  </text>
+  <url value="https://interop.esante.gouv.fr/ig/fhir/annuaire/CodeSystem/as-cs-organization-types"/>
+  <version value="1.1.0"/>
+  <name value="AsCsOrganizationTypes"/>
+  <title value="AS CodeSystem OrganizationTypes"/>
+  <status value="active"/>
+  <date value="2025-01-27T13:44:16+00:00"/>
+  <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+  <contact>
+    <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="monserviceclient.annuaire@esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="CodeSystem définissant les types d'organisation"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="FRANCE"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="organizationType"/>
+    <display value="Type d'organisation"/>
+    <definition value="Type d'organisation"/>
+  </concept>
+  <concept>
+    <code value="activiteINSEE"/>
+    <display value="Activité INSEE"/>
+    <definition value="Activité INSEE"/>
+  </concept>
+  <concept>
+    <code value="statutJuridiqueINSEE"/>
+    <display value="Statut Juridique INSEE"/>
+    <definition value="Statut Juridique INSEE"/>
+  </concept>
+  <concept>
+    <code value="sphParticipation"/>
+    <display value="sph Participation"/>
+    <definition value="Participation au service public hospitalier"/>
+  </concept>
+  <concept>
+    <code value="typeEtablissement"/>
+    <display value="Type d'établissement"/>
+    <definition value="Type d'établissement"/>
+  </concept>
+  <concept>
+    <code value="secteurActiviteRASS"/>
+    <display value="Secteur d'activité RASS"/>
+    <definition value="Secteur d'activité RASS"/>
+  </concept>
+</CodeSystem>

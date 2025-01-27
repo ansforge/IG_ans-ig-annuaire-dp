@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "06d13bde-133f-4bf5-a03b-f72b805279a7-180",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/06d13bde-133f-4bf5-a03b-f72b805279a7-180",
+  "name" : "IntersectionAsVsOrganizationTypesAndAsVsOrganizationTypes",
+  "title" : "Intersection of AS ValueSet OrganizationTypes And AS ValueSet OrganizationTypes",
+  "status" : "active",
+  "date" : "2025-01-27T13:44:46+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }]
+}

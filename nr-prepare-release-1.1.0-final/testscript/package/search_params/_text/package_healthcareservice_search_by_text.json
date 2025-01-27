@@ -1,0 +1,80 @@
+{
+  "id": "Package-Healthcareservice-Search_by-Text",
+  "url": "https://github.com/fhir-crucible/testscript-generator",
+  "version": "0.0",
+  "name": "Package_Healthcareservice_Search_by_Text",
+  "title": "package healthcareservice search_by text",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-01-27T13:47:56+00:00",
+  "publisher": "The MITRE Corporation",
+  "fixture": [
+    {
+      "id": "example_healthcareservice",
+      "autocreate": false,
+      "autodelete": false,
+      "resource": {
+        "reference": "fixtures/example_healthcareservice.json"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "name": "3GO73yukdoxk2isW",
+      "expression": "HealthcareService.id",
+      "sourceId": "d7gYyfPlXE1xvCr2"
+    }
+  ],
+  "setup": {
+    "action": [
+      {
+        "operation": {
+          "type": {
+            "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+            "code": "create"
+          },
+          "label": "Operation_1",
+          "encodeRequestUrl": false,
+          "responseId": "d7gYyfPlXE1xvCr2",
+          "sourceId": "example_healthcareservice"
+        }
+      }
+    ]
+  },
+  "test": [
+    {
+      "name": "Test_1",
+      "action": [
+        {
+          "operation": {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+              "code": "search"
+            },
+            "resource": "HealthcareService",
+            "label": "Operation_2",
+            "encodeRequestUrl": false,
+            "params": "?_text"
+          }
+        }
+      ]
+    }
+  ],
+  "teardown": {
+    "action": [
+      {
+        "operation": {
+          "type": {
+            "system": "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+            "code": "delete"
+          },
+          "resource": "HealthcareService",
+          "label": "Operation_3",
+          "encodeRequestUrl": false,
+          "params": "/${3GO73yukdoxk2isW}"
+        }
+      }
+    ]
+  },
+  "resourceType": "TestScript"
+}
