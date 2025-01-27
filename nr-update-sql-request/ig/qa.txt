@@ -3,7 +3,7 @@ AnnuaireSante : Validation Results
 
 err = 11, warn = 72, info = 89
 IG Publisher Version: 1.8.9
-Generated Mon Jan 27 13:12:02 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.annuaire#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
+Generated Mon Jan 27 13:21:40 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.annuaire#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/annuaire)
  Build Errors : 0 / 25 / 0
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CapabilityStatement-AsServerCapabilityStatement : 0 / 0 / 1
  /home/runner/work/IG-fhir-annuaire/IG-fhir-annuaire/igSource/fsh-generated/resources/CodeSystem-as-cs-intern-id-systems : 0 / 2 / 2

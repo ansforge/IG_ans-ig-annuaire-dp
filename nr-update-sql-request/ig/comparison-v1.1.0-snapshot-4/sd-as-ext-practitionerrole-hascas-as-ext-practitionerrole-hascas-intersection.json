@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3460a84f-db5f-4763-83a6-28b52fe04f12-144",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3460a84f-db5f-4763-83a6-28b52fe04f12-144",
+  "id" : "d5ded784-e783-4c0d-bf58-b7dbef55f3cd-144",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/d5ded784-e783-4c0d-bf58-b7dbef55f3cd-144",
   "name" : "IntersectionAsPractitionerRoleHasCasAndAsPractitionerRoleHasCas",
   "title" : "Intersection of AS PractitionerRole Has CAS And AS PractitionerRole Has CAS",
   "status" : "active",
-  "date" : "2025-01-27T13:09:58+00:00",
+  "date" : "2025-01-27T13:20:01+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

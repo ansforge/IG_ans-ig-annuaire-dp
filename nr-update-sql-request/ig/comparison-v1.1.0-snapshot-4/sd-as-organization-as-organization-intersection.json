@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3460a84f-db5f-4763-83a6-28b52fe04f12-54",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3460a84f-db5f-4763-83a6-28b52fe04f12-54",
+  "id" : "d5ded784-e783-4c0d-bf58-b7dbef55f3cd-54",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/d5ded784-e783-4c0d-bf58-b7dbef55f3cd-54",
   "name" : "IntersectionAsOrganizationProfileAndAsOrganizationProfile",
   "title" : "Intersection of AS Organization Profile And AS Organization Profile",
   "status" : "active",
-  "date" : "2025-01-27T13:09:57+00:00",
+  "date" : "2025-01-27T13:20:00+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

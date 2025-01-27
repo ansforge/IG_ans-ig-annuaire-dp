@@ -6,7 +6,7 @@
   "title": "package organization search_by security",
   "status": "draft",
   "experimental": true,
-  "date": "2025-01-27T13:13:31+00:00",
+  "date": "2025-01-27T13:22:56+00:00",
   "publisher": "The MITRE Corporation",
   "fixture": [
     {
@@ -20,9 +20,9 @@
   ],
   "variable": [
     {
-      "name": "u0vchdqaehlsiTW6",
+      "name": "MV0HBB7m2Qp377ZP",
       "expression": "Organization.meta.security",
-      "sourceId": "88Z2UxUDaZZaiqQP"
+      "sourceId": "zpdR0Q4zSCveCxph"
     }
   ],
   "setup": {
@@ -35,7 +35,7 @@
           },
           "label": "Operation_1",
           "encodeRequestUrl": false,
-          "responseId": "88Z2UxUDaZZaiqQP",
+          "responseId": "zpdR0Q4zSCveCxph",
           "sourceId": "example_organization"
         }
       }
@@ -54,7 +54,7 @@
             "resource": "Organization",
             "label": "Operation_2",
             "encodeRequestUrl": false,
-            "params": "?_security=${u0vchdqaehlsiTW6}"
+            "params": "?_security=${MV0HBB7m2Qp377ZP}"
           }
         }
       ]
@@ -71,7 +71,7 @@
           "resource": "Organization",
           "label": "Operation_3",
           "encodeRequestUrl": false,
-          "params": "/${u0vchdqaehlsiTW6}"
+          "params": "/${MV0HBB7m2Qp377ZP}"
         }
       }
     ]

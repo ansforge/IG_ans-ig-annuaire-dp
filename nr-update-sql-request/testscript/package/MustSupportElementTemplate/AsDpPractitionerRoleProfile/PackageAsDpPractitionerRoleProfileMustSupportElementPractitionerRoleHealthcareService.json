@@ -6,7 +6,7 @@
   "title": "IG: package; Profile: AsDpPractitionerRoleProfile; Case: Must Support Element; Element: PractitionerRole.healthcareService",
   "status": "draft",
   "experimental": true,
-  "date": "2025-01-27T13:13:32+00:00",
+  "date": "2025-01-27T13:22:57+00:00",
   "publisher": "The MITRE Corporation",
   "test": [
     {
