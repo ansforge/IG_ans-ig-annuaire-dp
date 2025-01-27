@@ -6,7 +6,7 @@
   "title": "package contactpoint search_by lastupdated",
   "status": "draft",
   "experimental": true,
-  "date": "2025-01-15T07:51:20+00:00",
+  "date": "2025-01-27T16:44:04+00:00",
   "publisher": "The MITRE Corporation",
   "fixture": [
     {
@@ -20,9 +20,9 @@
   ],
   "variable": [
     {
-      "name": "MIavNKXPhPDP3FYI",
+      "name": "A1xq5sHOR8zggJHl",
       "expression": "ContactPoint.meta.lastUpdated",
-      "sourceId": "yxB2OVBS1JkC2d8u"
+      "sourceId": "S4zogPf6avc40zO7"
     }
   ],
   "setup": {
@@ -35,7 +35,7 @@
           },
           "label": "Operation_1",
           "encodeRequestUrl": false,
-          "responseId": "yxB2OVBS1JkC2d8u",
+          "responseId": "S4zogPf6avc40zO7",
           "sourceId": "example_contactpoint"
         }
       }
@@ -54,7 +54,7 @@
             "resource": "ContactPoint",
             "label": "Operation_2",
             "encodeRequestUrl": false,
-            "params": "?_lastUpdated=${MIavNKXPhPDP3FYI}"
+            "params": "?_lastUpdated=${A1xq5sHOR8zggJHl}"
           }
         }
       ]
@@ -71,7 +71,7 @@
           "resource": "ContactPoint",
           "label": "Operation_3",
           "encodeRequestUrl": false,
-          "params": "/${MIavNKXPhPDP3FYI}"
+          "params": "/${A1xq5sHOR8zggJHl}"
         }
       }
     ]

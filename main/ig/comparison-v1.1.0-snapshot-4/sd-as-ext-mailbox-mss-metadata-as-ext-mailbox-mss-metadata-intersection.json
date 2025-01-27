@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "acc8866e-1788-480a-b00a-5f92d8be657d-99",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/acc8866e-1788-480a-b00a-5f92d8be657d-99",
+  "id" : "9f97deda-346f-40fd-90a9-44df2195d833-99",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9f97deda-346f-40fd-90a9-44df2195d833-99",
   "name" : "IntersectionAsMailboxMSSMetadataExtensionAndAsMailboxMSSMetadataExtension",
   "title" : "Intersection of AS Mailbox Metadata And AS Mailbox Metadata",
   "status" : "active",
-  "date" : "2025-01-15T07:48:17+00:00",
+  "date" : "2025-01-27T16:40:51+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -627,8 +627,8 @@
       "oids" : ["1.2.250.1.213.1.6.1.17"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J108-EnsembleFonction-RASS.html" : "JDV_J108-EnsembleFonction-RASS",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J108-EnsembleFonction-RASS.html" : "JDV_J108-EnsembleFonction-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite",
@@ -714,8 +714,8 @@
       "oids" : ["1.2.250.1.213.1.6.1.22"],
       "uses" : {
       },
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J96-TypeActiviteLiberale-RASS.html" : "JDV_J96-TypeActiviteLiberale-RASS"
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J96-TypeActiviteLiberale-RASS.html" : "JDV_J96-TypeActiviteLiberale-RASS",
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R256-TypeMessagerie/FHIR/TRE-R256-TypeMessagerie",
@@ -968,8 +968,8 @@
       "oids" : ["1.2.250.1.213.2.28"],
       "uses" : {
       },
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-specialty.html" : "FR Core ValueSet Practitioner specialty",
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J107-EnsembleSavoirFaire-RASS.html" : "JDV_J107-EnsembleSavoirFaire-RASS"
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J107-EnsembleSavoirFaire-RASS.html" : "JDV_J107-EnsembleSavoirFaire-RASS",
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-specialty.html" : "FR Core ValueSet Practitioner specialty"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R39-Competence/FHIR/TRE-R39-Competence",
@@ -1269,8 +1269,8 @@
       "oids" : ["1.2.250.1.213.1.6.1.107"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J108-EnsembleFonction-RASS.html" : "JDV_J108-EnsembleFonction-RASS",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J108-EnsembleFonction-RASS.html" : "JDV_J108-EnsembleFonction-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R87-TypeCarte/FHIR/TRE-R87-TypeCarte",
@@ -1318,8 +1318,8 @@
       "oids" : ["1.2.250.1.213.1.6.1.110"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J108-EnsembleFonction-RASS.html" : "JDV_J108-EnsembleFonction-RASS",
-      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice"
+      "https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-role-exercice.html" : "FR Core ValueSet PractitionerRole Exercice",
+      "https://interop.esante.gouv.fr/ig/nos/1.4.0/ValueSet-JDV-J108-EnsembleFonction-RASS.html" : "JDV_J108-EnsembleFonction-RASS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R97-DroitExerciceCompl/FHIR/TRE-R97-DroitExerciceCompl",

@@ -6,7 +6,7 @@
   "title": "IG: package; Profile: AsDpPractitionerProfile; Case: Must Support Element; Element: Practitioner.extension:as-ext-smartcard",
   "status": "draft",
   "experimental": true,
-  "date": "2025-01-15T07:51:20+00:00",
+  "date": "2025-01-27T16:44:04+00:00",
   "publisher": "The MITRE Corporation",
   "profile": [
     {

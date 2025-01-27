@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="4910547a-761e-46e5-9c6c-3dfa158c6e9f"/>
+  <id value="4aa2e9ed-dc78-4518-a6fd-a17a26a3afa6"/>
   <meta>
-    <lastUpdated value="2025-01-15T07:47:50.339+00:00"/>
+    <lastUpdated value="2025-01-27T16:40:24.152+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -19,7 +19,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-as-cs-intern-id-systems.html">codesystem AS CodeSystem Internal Identifier Systems v1.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 4 concepts</p>
@@ -76,7 +76,7 @@
         <title value="AS ValueSet Internal Identifier Systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-01-15T07:47:50+00:00"/>
+        <date value="2025-01-27T16:40:24+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -85,8 +85,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d3e9512f-6259-4c2b-ba42-3e481423589c"/>
-          <timestamp value="2025-01-15T07:49:04+00:00"/>
+          <identifier value="urn:uuid:dc9aab89-fc8e-474b-93b9-f48893bd7f74"/>
+          <timestamp value="2025-01-27T16:41:42+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -139,7 +139,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-as-cs-organization-types.html">codesystem AS CodeSystem OrganizationTypes v1.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 6 concepts</p>
@@ -250,7 +250,7 @@
         <name value="AsVsOrganizationTypes"/>
         <title value="AS ValueSet OrganizationTypes"/>
         <status value="active"/>
-        <date value="2025-01-15T07:47:50+00:00"/>
+        <date value="2025-01-27T16:40:24+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -259,8 +259,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c0441ceb-4cf3-4d2b-8c9f-bc81c4ac8f93"/>
-          <timestamp value="2025-01-15T07:49:04+00:00"/>
+          <identifier value="urn:uuid:03bb31ce-ca9d-4a77-b306-a2ebecd30889"/>
+          <timestamp value="2025-01-27T16:41:42+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -326,7 +326,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-as-cs-type-etablissement.html">codesystem AS CodeSystem Type Etablissement v1.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 2 concepts</p>
@@ -382,7 +382,7 @@
         <title value="AS ValueSet type Etablissement"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-01-15T07:47:50+00:00"/>
+        <date value="2025-01-27T16:40:24+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -391,8 +391,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4721df2b-e97a-4136-9ae4-2b0581fe7881"/>
-          <timestamp value="2025-01-15T07:49:04+00:00"/>
+          <identifier value="urn:uuid:9f8b7aed-a8ff-4e8d-b555-09ca68cd85b1"/>
+          <timestamp value="2025-01-27T16:41:42+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -438,7 +438,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-as-cs-type-systeme-information.html">codesystem AS CodeSystem type de système d'information v1.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 3 concepts</p>
@@ -508,7 +508,7 @@
         <title value="AS ValueSet type de système d'information"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-01-15T07:47:50+00:00"/>
+        <date value="2025-01-27T16:40:24+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -517,8 +517,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:55bb16ba-edb0-4bd5-b7a5-1087a7cb99d6"/>
-          <timestamp value="2025-01-15T07:49:05+00:00"/>
+          <identifier value="urn:uuid:3734ad6e-cbc3-4d89-a913-8bfe72713270"/>
+          <timestamp value="2025-01-27T16:41:43+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
